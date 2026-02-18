@@ -1,8 +1,15 @@
 import { SiteFooter } from "@/components/SiteFooter";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 
 export default function EnterprisePage() {
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Enterprise", href: "/enterprise" },
+        ]}
+      />
       <section className="px-4 pb-12 pt-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-xs font-semibold uppercase tracking-wide text-[var(--accent)]">

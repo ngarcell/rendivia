@@ -5,6 +5,7 @@ import FeatureGrid from "@/components/FeatureGrid";
 import EarlyAccessForm from "@/components/EarlyAccessForm";
 import HeroCopy from "@/components/HeroCopy";
 import HeroVideo from "@/components/HeroVideo";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import UseCaseCard from "@/components/UseCaseCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getPseoPagesByType } from "@/lib/pseo";
@@ -158,6 +159,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd items={[{ name: "Home", href: "/" }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import UseCaseCard from "@/components/UseCaseCard";
 import { getPseoPagesByType } from "@/lib/pseo";
 
@@ -53,6 +54,13 @@ export default async function IndustryUseCasesPage({
 
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Use Cases", href: "/use-cases" },
+          { name: industryLabel, href: `/use-cases/${industry}` },
+        ]}
+      />
       <main className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>

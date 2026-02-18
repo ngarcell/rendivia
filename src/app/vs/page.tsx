@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ComparisonHubClient } from "@/components/ComparisonHubClient";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import { getComparisonHubEntries } from "@/data/seo";
 import { SiteFooter } from "@/components/SiteFooter";
 
@@ -8,6 +9,12 @@ export default function ComparisonsHubPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Comparisons", href: "/vs" },
+        ]}
+      />
       <section className="relative overflow-hidden px-4 pb-16 pt-12 sm:px-6 lg:px-8">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <div className="absolute -left-20 -top-16 h-80 w-80 rounded-full border border-indigo-200/60 opacity-40" />

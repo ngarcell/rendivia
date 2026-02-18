@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import UseCaseCard from "@/components/UseCaseCard";
 import { getPseoPagesByType } from "@/lib/pseo";
 
@@ -15,6 +16,12 @@ export default function DataSourceHub() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "From", href: "/from" },
+        ]}
+      />
       <main className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl title-animate">
           Data sources to video

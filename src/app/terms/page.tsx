@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata = {
@@ -9,6 +10,12 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Terms", href: "/terms" },
+        ]}
+      />
       <main className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-20">
         <Link
           href="/"

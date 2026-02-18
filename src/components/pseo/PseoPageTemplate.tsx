@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ARCHITECTURE_DIAGRAM } from "@/data/pseo-api";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 
 interface PseoPageTemplateProps {
   title: string;
@@ -7,6 +8,7 @@ interface PseoPageTemplateProps {
   inputLabel: string;
   outputLabel: string;
   jsonExample: string;
+  canonicalPath?: string;
 }
 
 const HOW_IT_WORKS = [
@@ -21,9 +23,17 @@ export default function PseoPageTemplate({
   inputLabel,
   outputLabel,
   jsonExample,
+  canonicalPath,
 }: PseoPageTemplateProps) {
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Alternatives", href: "/alternatives" },
+          { name: title, href: canonicalPath ?? "/alternatives" },
+        ]}
+      />
       <main className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
         <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm sm:p-10">
           <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">

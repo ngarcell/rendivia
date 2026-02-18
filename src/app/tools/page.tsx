@@ -5,6 +5,7 @@ import {
   TOOL_CATEGORIES,
   getAllToolEntriesByCategory,
 } from "@/data/tools";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
@@ -49,6 +50,12 @@ export default function ToolsPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Tools", href: "/tools" },
+        ]}
+      />
       {/* Hero — matches homepage */}
       <section className="relative overflow-hidden px-4 pb-16 pt-12 sm:px-6 lg:px-8">
         <div className="absolute inset-0 -z-10 overflow-hidden">

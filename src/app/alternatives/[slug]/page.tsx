@@ -6,8 +6,13 @@ export function generateStaticParams() {
   return getAlternativeStaticParams();
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const page = getAlternativePage(params.slug);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const page = getAlternativePage(slug);
   if (!page) return {};
   return {
     title: `${page.title} | Rendivia`,
@@ -15,8 +20,13 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   };
 }
 
-export default function AlternativePage({ params }: { params: { slug: string } }) {
-  const page = getAlternativePage(params.slug);
+export default async function AlternativePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const page = getAlternativePage(slug);
   if (!page) return notFound();
   return (
     <PseoPageTemplate
@@ -25,6 +35,7 @@ export default function AlternativePage({ params }: { params: { slug: string } }
       inputLabel={page.inputLabel}
       outputLabel={page.outputLabel}
       jsonExample={page.jsonExample}
+      canonicalPath={`/alternatives/${slug}`}
     />
   );
 }

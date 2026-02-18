@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import type { ComparisonEntry, ComparisonHubEntry } from "@/data/seo";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getComparisonMarketingVideoUrl, marketingVideosEnabled } from "@/lib/marketing-videos";
@@ -12,6 +13,13 @@ export function SeoComparisonPage({ entry, related }: SeoComparisonPageProps) {
   const videoUrl = marketingVideosEnabled() ? getComparisonMarketingVideoUrl(entry.slug) : null;
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Comparisons", href: "/vs" },
+          { name: entry.title, href: `/vs/${entry.slug}` },
+        ]}
+      />
       <main className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
         <nav className="text-sm text-zinc-500">
           <Link href="/" className="hover:text-zinc-800">Home</Link>

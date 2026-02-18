@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import type { ToolCategory, ToolEntry } from "@/data/tools";
 import { getToolMarketingVideoUrl, marketingVideosEnabled } from "@/lib/marketing-videos";
 
@@ -24,6 +25,13 @@ export function ToolPageTemplate({ entry, category, categoryLabel, related = [] 
   const videoUrl = marketingVideosEnabled() ? getToolMarketingVideoUrl(category, entry.slug) : null;
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Tools", href: "/tools" },
+          { name: entry.primaryKeyword, href: `/tools/${category}/${entry.slug}` },
+        ]}
+      />
       <main className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
         <nav className="text-sm text-zinc-600">
           <Link href="/tools" className="touch-target inline-flex min-h-[44px] items-center font-medium hover:text-zinc-900">

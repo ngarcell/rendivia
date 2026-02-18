@@ -1,4 +1,5 @@
 import CodeBlock from "@/components/CodeBlock";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 
 const REQUEST_EXAMPLE = `POST /api/v1/render
@@ -73,6 +74,12 @@ const TEMPLATE_LIST_EXAMPLE = `GET /api/v1/templates
 export default function DocsPage() {
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Docs", href: "/docs" },
+        ]}
+      />
       <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl title-animate">
           Docs

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import PricingRoiCalculator from "@/components/PricingRoiCalculator";
+import { SeoBreadcrumbJsonLd } from "@/components/SeoBreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
@@ -72,6 +73,12 @@ const PRICING_TIERS = [
 export default function PricingPage() {
   return (
     <div className="min-h-screen bg-white">
+      <SeoBreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Pricing", href: "/pricing" },
+        ]}
+      />
       <section className="px-4 pb-12 pt-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-xs font-semibold uppercase tracking-wide text-[var(--accent)]">
