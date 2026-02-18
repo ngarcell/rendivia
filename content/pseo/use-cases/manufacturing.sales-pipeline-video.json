@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by pipeline is updated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/sales-pipeline-video",
+  "cta": {
+    "body": "Create an API key and render your first sales pipeline video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate sales pipeline video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits?"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Sales pipeline video for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Turn pipeline snapshots into a concise weekly video for leadership."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send to sales leadership automatically.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.manufacturing.sales-pipeline-video.a5d3a52837",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "costPerUnit": 3.4,
+        "defectRate": "1.2%",
+        "downtime": "3h",
+        "forecast": "example-forecast",
+        "highlight": "lines",
+        "onTimeDelivery": "96%",
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline",
+        "unitsProduced": 28420
+      },
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Manufacturing using a simple API. Automate sales pipeline video from structured data (Units produced, Defect rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Sales pipeline video for Manufacturing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are buried in spreadsheets.",
+      "Plant updates take too long to compile.",
+      "Stakeholders need clear, consistent reporting.",
+      "Manual summaries slow down decisions."
+    ],
+    "title": "Why Manufacturing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/investor-update-video",
+      "label": "Investor Update Video for Manufacturing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when pipeline is updated happens.",
+      "POST structured data to /render using template pipeline-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or leadership portal."
+    ],
+    "title": "Automate sales pipeline video with an API"
+  },
+  "title": "Sales pipeline video for Manufacturing",
+  "type": "use_case",
+  "version": 1
+}

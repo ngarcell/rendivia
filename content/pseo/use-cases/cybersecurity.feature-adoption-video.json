@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Create consistent incident and status updates.",
+      "Automate post-incident communication.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by feature adoption crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/cybersecurity/feature-adoption-video",
+  "cta": {
+    "body": "Create an API key and render your first feature adoption video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate feature adoption video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide cohort arrays; the template compares them.",
+      "q": "Can I compare cohorts?"
+    },
+    {
+      "a": "Yes. Render per feature for deterministic outputs.",
+      "q": "Does it work for multiple features?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Feature adoption video for Cybersecurity",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Show adoption progress when usage crosses a threshold or milestone."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide adoption by cohort and growth delta.",
+        "title": "Collect adoption data"
+      },
+      {
+        "body": "POST to /render with feature-adoption-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify when ready.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with product or GTM teams.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.cybersecurity.feature-adoption-video.48c8daf9d1",
+  "io": {
+    "inputJsonExample": {
+      "brand": "cybersecurity",
+      "data": {
+        "adoptionRate": "example-adoptionRate",
+        "alerts": 1842,
+        "cohorts": "example-cohorts",
+        "coverage": "92%",
+        "criticalVulns": 11,
+        "featureName": "example-featureName",
+        "highlight": "alerts",
+        "incidents": 3,
+        "mttr": "2h 14m",
+        "period": "2026-01-14"
+      },
+      "template": "feature-adoption-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Cohort adoption breakdown",
+      "Trend lines and deltas",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Cybersecurity using a simple API. Automate feature adoption video from structured data (Alerts, Incidents). Includes webhooks and brand profiles.",
+  "metaTitle": "Feature adoption video for Cybersecurity | Rendivia",
+  "problem": {
+    "bullets": [
+      "Security updates are noisy and hard to summarize.",
+      "Stakeholders need digestible incident/status reporting.",
+      "Manual summaries are inconsistent under pressure.",
+      "Teams need reliable communication during events."
+    ],
+    "title": "Why Cybersecurity teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/cybersecurity/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Cybersecurity"
+    },
+    {
+      "href": "/use-cases/cybersecurity/investor-update-video",
+      "label": "Investor Update Video for Cybersecurity"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when feature adoption crosses a threshold happens.",
+      "POST structured data to /render using template feature-adoption-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or status page."
+    ],
+    "title": "Automate feature adoption video with an API"
+  },
+  "title": "Feature adoption video for Cybersecurity",
+  "type": "use_case",
+  "version": 1
+}

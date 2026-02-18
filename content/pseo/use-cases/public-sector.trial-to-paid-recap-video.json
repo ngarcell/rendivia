@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate program and service updates.",
+      "Deliver consistent reporting to leadership.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a trial is ending."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/public-sector/trial-to-paid-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first trial-to-paid conversion recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate trial-to-paid conversion recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a CTA field in data and render it in the outro.",
+      "q": "Can I include a CTA at the end?"
+    },
+    {
+      "a": "It complements them by adding a high-signal recap format.",
+      "q": "Does this replace emails?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Trial-to-paid conversion recap video for Public sector / GovTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize trial engagement and outcomes into a video recap to drive conversion."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate usage events and outcomes during the trial.",
+        "title": "Collect trial data"
+      },
+      {
+        "body": "POST to /render with trial-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Use webhook result to deliver video before trial ends.",
+        "title": "Send before expiry"
+      },
+      {
+        "body": "Track conversions and iterate template content.",
+        "title": "Measure"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.public-sector.trial-to-paid-recap-video.bd32b21c0f",
+  "io": {
+    "inputJsonExample": {
+      "brand": "public-sector-govtech",
+      "data": {
+        "backlog": 214,
+        "budgetUsed": "62%",
+        "casesResolved": 1842,
+        "highlight": "programs",
+        "kpis": {
+          "backlog": 214,
+          "budgetUsed": "62%",
+          "casesResolved": 1842,
+          "requests": 4821,
+          "slaCompliance": "93%"
+        },
+        "period": "2026-01-14",
+        "requests": 4821,
+        "slaCompliance": "93%",
+        "trialId": "example-trialId"
+      },
+      "template": "trial-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Usage highlights and outcomes",
+      "Clear next-step CTA slot",
+      "Webhook with URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Public sector / GovTech using a simple API. Automate trial-to-paid conversion recap video from structured data (Cases resolved, Backlog). Includes webhooks and brand profiles.",
+  "metaTitle": "Trial-to-paid conversion recap video for Public sector / GovTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Program reporting is slow and manual.",
+      "Stakeholders need digestible updates.",
+      "Teams lack a consistent narrative for outcomes.",
+      "Manual recaps delay operational decisions."
+    ],
+    "title": "Why Public sector / GovTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/public-sector/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/investor-update-video",
+      "label": "Investor Update Video for Public sector / GovTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a trial is ending happens.",
+      "POST structured data to /render using template trial-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via public portal, email, or leadership dashboard."
+    ],
+    "title": "Automate trial-to-paid conversion recap video with an API"
+  },
+  "title": "Trial-to-paid conversion recap video for Public sector / GovTech",
+  "type": "use_case",
+  "version": 1
+}

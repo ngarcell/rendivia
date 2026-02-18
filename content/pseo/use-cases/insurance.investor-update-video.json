@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an investor update is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/insurance/investor-update-video",
+  "cta": {
+    "body": "Create an API key and render your first investor update video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate investor update video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Same input produces the same output with a fixed template version.",
+      "q": "Is it deterministic?"
+    },
+    {
+      "a": "Yes. Use a Brand Profile to apply logo/colors/fonts.",
+      "q": "Can we customize branding?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Investor update video for Insurance",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate an investor-style update video from KPIs, milestones, and narrative points."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Gather growth, revenue, and retention metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "Provide 3-5 milestones for the period.",
+        "title": "Add milestones"
+      },
+      {
+        "body": "POST to /render with investor-update-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Share the MP4 via investor portal or email.",
+        "title": "Send"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.insurance.investor-update-video.f8043b6123",
+  "io": {
+    "inputJsonExample": {
+      "brand": "insurance",
+      "data": {
+        "claims": 214,
+        "fraudFlags": 7,
+        "highlight": "policies",
+        "kpis": {
+          "claims": 214,
+          "fraudFlags": 7,
+          "lossRatio": "62%",
+          "premium": 184200,
+          "renewals": 842
+        },
+        "lossRatio": "62%",
+        "milestones": "example-milestones",
+        "period": "2026-01-14",
+        "premium": 184200,
+        "renewals": 842
+      },
+      "template": "investor-update-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-120s MP4 video",
+      "KPI tiles + growth deltas",
+      "Milestones section",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Insurance using a simple API. Automate investor update video from structured data (Claims, Loss ratio). Includes webhooks and brand profiles.",
+  "metaTitle": "Investor update video for Insurance | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is complex and time-consuming.",
+      "Stakeholders need clear summaries.",
+      "Manual updates are inconsistent.",
+      "Ops teams need recurring digests."
+    ],
+    "title": "Why Insurance teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/insurance/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/customer-success-recap-video",
+      "label": "Customer Success Recap Video for Insurance"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an investor update is ready happens.",
+      "POST structured data to /render using template investor-update-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, internal portal, or dashboard."
+    ],
+    "title": "Automate investor update video with an API"
+  },
+  "title": "Investor update video for Insurance",
+  "type": "use_case",
+  "version": 1
+}

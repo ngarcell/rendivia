@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate recurring performance digests.",
+      "Improve stakeholder clarity on KPIs.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a campaign ends."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/telecom/campaign-results-video",
+  "cta": {
+    "body": "Create an API key and render your first campaign results video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate campaign results video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include target values and we render comparisons.",
+      "q": "Can I include benchmarks?"
+    },
+    {
+      "a": "Call /render per campaign for deterministic outputs.",
+      "q": "Is it multi-campaign?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Campaign results video for Telecom",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize campaign performance as soon as a campaign ends."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate reach, conversion, and spend metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "POST to /render with campaign-results-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive a webhook with the MP4 URL.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share internally or to clients automatically.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.telecom.campaign-results-video.c2f400e831",
+  "io": {
+    "inputJsonExample": {
+      "brand": "telecom",
+      "data": {
+        "arpu": 7.4,
+        "campaignId": "example-campaignId",
+        "churn": "1.9%",
+        "dataUsage": 412,
+        "highlight": "subscribers",
+        "kpis": {
+          "arpu": 7.4,
+          "churn": "1.9%",
+          "dataUsage": 412,
+          "outages": 2,
+          "subscribers": 184200
+        },
+        "outages": 2,
+        "period": "2026-01-14",
+        "subscribers": 184200
+      },
+      "template": "campaign-results-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Telecom using a simple API. Automate campaign results video from structured data (Subscribers, ARPU). Includes webhooks and brand profiles.",
+  "metaTitle": "Campaign results video for Telecom | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are noisy and difficult to summarize.",
+      "Stakeholders need digestible performance updates.",
+      "Manual summaries are slow and inconsistent.",
+      "Outage communication needs clarity."
+    ],
+    "title": "Why Telecom teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/telecom/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/investor-update-video",
+      "label": "Investor Update Video for Telecom"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a campaign ends happens.",
+      "POST structured data to /render using template campaign-results-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or internal dashboard."
+    ],
+    "title": "Automate campaign results video with an API"
+  },
+  "title": "Campaign results video for Telecom",
+  "type": "use_case",
+  "version": 1
+}

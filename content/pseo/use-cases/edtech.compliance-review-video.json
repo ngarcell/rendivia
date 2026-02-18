@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make progress and outcomes easier to understand.",
+      "Automate recurring cohort updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a compliance review is completed."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/edtech/compliance-review-video",
+  "cta": {
+    "body": "Create an API key and render your first compliance review video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate compliance review video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are deterministic and versioned.",
+      "q": "Is it audit-ready?"
+    },
+    {
+      "a": "Yes. Include remediation text in the payload.",
+      "q": "Can I add remediation notes?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Compliance review video for EdTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize compliance review outcomes in a deterministic video update."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide control statuses and open findings.",
+        "title": "Collect status"
+      },
+      {
+        "body": "POST to /render with compliance-review-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and send a webhook on completion.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share with leadership or auditors.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.edtech.compliance-review-video.908653c5e1",
+  "io": {
+    "inputJsonExample": {
+      "brand": "edtech",
+      "data": {
+        "activeLearners": 9342,
+        "avgScore": 82,
+        "completionRate": "58%",
+        "controls": "example-controls",
+        "dropOffWeek": 3,
+        "highlight": "students",
+        "period": "2026-01-14",
+        "sessions": 41210,
+        "status": "example-status"
+      },
+      "template": "compliance-review-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Control status breakdown",
+      "Open findings summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for EdTech using a simple API. Automate compliance review video from structured data (Active learners, Completion rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Compliance review video for EdTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Progress reports are hard to communicate clearly.",
+      "Learners and admins need simple summaries.",
+      "Manual reporting wastes instructor/admin time.",
+      "Insights aren't delivered proactively."
+    ],
+    "title": "Why EdTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/edtech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for EdTech"
+    },
+    {
+      "href": "/use-cases/edtech/investor-update-video",
+      "label": "Investor Update Video for EdTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a compliance review is completed happens.",
+      "POST structured data to /render using template compliance-review-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or admin dashboard."
+    ],
+    "title": "Automate compliance review video with an API"
+  },
+  "title": "Compliance review video for EdTech",
+  "type": "use_case",
+  "version": 1
+}

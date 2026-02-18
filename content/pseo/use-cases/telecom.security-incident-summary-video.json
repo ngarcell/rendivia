@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate recurring performance digests.",
+      "Improve stakeholder clarity on KPIs.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an incident is resolved."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/telecom/security-incident-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first security incident summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate security incident summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a rootCause field in the payload.",
+      "q": "Can I include root cause?"
+    },
+    {
+      "a": "Yes. You control delivery and messaging.",
+      "q": "Is it suitable for external comms?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Security incident summary video for Telecom",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Provide a concise incident summary once an incident is resolved."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide timeline events and impact metrics.",
+        "title": "Collect timeline"
+      },
+      {
+        "body": "POST to /render with incident-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue, render, and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to stakeholders or include in postmortems.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.telecom.security-incident-summary-video.d0c4dc8002",
+  "io": {
+    "inputJsonExample": {
+      "brand": "telecom",
+      "data": {
+        "arpu": 7.4,
+        "churn": "1.9%",
+        "dataUsage": 412,
+        "highlight": "subscribers",
+        "impact": "example-impact",
+        "incidentId": "example-incidentId",
+        "outages": 2,
+        "period": "2026-01-14",
+        "subscribers": 184200,
+        "timeline": "example-timeline"
+      },
+      "template": "incident-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Telecom using a simple API. Automate security incident summary video from structured data (Subscribers, ARPU). Includes webhooks and brand profiles.",
+  "metaTitle": "Security incident summary video for Telecom | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are noisy and difficult to summarize.",
+      "Stakeholders need digestible performance updates.",
+      "Manual summaries are slow and inconsistent.",
+      "Outage communication needs clarity."
+    ],
+    "title": "Why Telecom teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/telecom/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/investor-update-video",
+      "label": "Investor Update Video for Telecom"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an incident is resolved happens.",
+      "POST structured data to /render using template incident-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or internal dashboard."
+    ],
+    "title": "Automate security incident summary video with an API"
+  },
+  "title": "Security incident summary video for Telecom",
+  "type": "use_case",
+  "version": 1
+}

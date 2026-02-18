@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate weekly support performance digests.",
+      "Make trends visible and easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a hiring update is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/support-tools/hiring-progress-video",
+  "cta": {
+    "body": "Create an API key and render your first hiring progress video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate hiring progress video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include diversity fields for rendering.",
+      "q": "Can I include diversity metrics?"
+    },
+    {
+      "a": "Yes. Render per department or include groups.",
+      "q": "Does it support multiple departments?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Hiring progress video for Customer support tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize hiring pipeline progress for leadership updates."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage counts and open roles.",
+        "title": "Collect pipeline"
+      },
+      {
+        "body": "POST to /render with hiring-progress-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or hiring managers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.support-tools.hiring-progress-video.8fb1321b89",
+  "io": {
+    "inputJsonExample": {
+      "brand": "customer-support-tools",
+      "data": {
+        "backlog": 214,
+        "csat": "92%",
+        "firstResponse": "18m",
+        "highlight": "tickets",
+        "openRoles": "example-openRoles",
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline",
+        "resolution": "6h",
+        "tickets": 1842
+      },
+      "template": "hiring-progress-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Role-by-role pipeline summary",
+      "Time-to-fill indicators",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Customer support tools using a simple API. Automate hiring progress video from structured data (Tickets, First response time). Includes webhooks and brand profiles.",
+  "metaTitle": "Hiring progress video for Customer support tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Support performance reporting is repetitive.",
+      "Stakeholders miss trends between reviews.",
+      "Manual recaps vary by manager/team.",
+      "Teams need consistent outputs."
+    ],
+    "title": "Why Customer support tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/support-tools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/investor-update-video",
+      "label": "Investor Update Video for Customer support tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a hiring update is ready happens.",
+      "POST structured data to /render using template hiring-progress-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate hiring progress video with an API"
+  },
+  "title": "Hiring progress video for Customer support tools",
+  "type": "use_case",
+  "version": 1
+}

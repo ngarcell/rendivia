@@ -1,0 +1,134 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make progress and outcomes easier to understand.",
+      "Automate recurring cohort updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a renewal is upcoming."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/edtech/renewal-upcoming-video",
+  "cta": {
+    "body": "Create an API key and render your first renewal upcoming video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate renewal upcoming video via API"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets.",
+      "q": "Is this internal or external?"
+    },
+    {
+      "a": "Yes. Include plan fields to render pricing and tier info.",
+      "q": "Can I include plan details?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Renewal upcoming video for EdTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize account health ahead of renewals to drive proactive action."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide usage, outcomes, and renewal date.",
+        "title": "Prepare health data"
+      },
+      {
+        "body": "POST to /render with renewal-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to CSMs or customers with clear next steps.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.edtech.renewal-upcoming-video.64aaf97a72",
+  "io": {
+    "inputJsonExample": {
+      "brand": "edtech",
+      "data": {
+        "accountId": "example-accountId",
+        "activeLearners": 9342,
+        "avgScore": 82,
+        "completionRate": "58%",
+        "dropOffWeek": 3,
+        "highlight": "students",
+        "kpis": {
+          "activeLearners": 9342,
+          "avgScore": 82,
+          "completionRate": "58%",
+          "dropOffWeek": 3,
+          "sessions": 41210
+        },
+        "period": "2026-01-14",
+        "renewalDate": "example-renewalDate",
+        "sessions": 41210
+      },
+      "template": "renewal-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Renewal timeline and health KPIs",
+      "Next-step CTA slot",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for EdTech using a simple API. Automate renewal upcoming video from structured data (Active learners, Completion rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Renewal upcoming video for EdTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Progress reports are hard to communicate clearly.",
+      "Learners and admins need simple summaries.",
+      "Manual reporting wastes instructor/admin time.",
+      "Insights aren't delivered proactively."
+    ],
+    "title": "Why EdTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/edtech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for EdTech"
+    },
+    {
+      "href": "/use-cases/edtech/investor-update-video",
+      "label": "Investor Update Video for EdTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a renewal is upcoming happens.",
+      "POST structured data to /render using template renewal-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or admin dashboard."
+    ],
+    "title": "Automate renewal upcoming video with an API"
+  },
+  "title": "Renewal upcoming video for EdTech",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by pipeline is updated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/sales-pipeline-video",
+  "cta": {
+    "body": "Create an API key and render your first sales pipeline video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate sales pipeline video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits?"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Sales pipeline video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Turn pipeline snapshots into a concise weekly video for leadership."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send to sales leadership automatically.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.sales-pipeline-video.3e62316578",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "forecast": "example-forecast",
+        "highlight": "dashboards",
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline",
+        "retention": "41%",
+        "topEvent": "signup_completed",
+        "wau": 48210
+      },
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate sales pipeline video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Sales pipeline video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when pipeline is updated happens.",
+      "POST structured data to /render using template pipeline-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate sales pipeline video with an API"
+  },
+  "title": "Sales pipeline video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

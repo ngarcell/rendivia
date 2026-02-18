@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate data reliability and pipeline updates.",
+      "Make dataset health visible at a glance.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by pipeline is updated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/data-platforms/sales-pipeline-video",
+  "cta": {
+    "body": "Create an API key and render your first sales pipeline video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate sales pipeline video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits?"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Sales pipeline video for Data platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Turn pipeline snapshots into a concise weekly video for leadership."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send to sales leadership automatically.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.data-platforms.sales-pipeline-video.2e43299a46",
+  "io": {
+    "inputJsonExample": {
+      "brand": "data-platforms",
+      "data": {
+        "cost": 8420,
+        "dataVolume": 128,
+        "forecast": "example-forecast",
+        "highlight": "pipelines",
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline",
+        "pipelinesSucceeded": 932,
+        "queryCount": 42000,
+        "slaBreaches": 3
+      },
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Data platforms using a simple API. Automate sales pipeline video from structured data (Pipelines succeeded, Data volume (TB)). Includes webhooks and brand profiles.",
+  "metaTitle": "Sales pipeline video for Data platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Data reliability updates are buried in logs.",
+      "Stakeholders lack visibility into pipeline health.",
+      "Manual status emails take too long.",
+      "Incidents need a consistent recap format."
+    ],
+    "title": "Why Data platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/data-platforms/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/investor-update-video",
+      "label": "Investor Update Video for Data platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when pipeline is updated happens.",
+      "POST structured data to /render using template pipeline-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate sales pipeline video with an API"
+  },
+  "title": "Sales pipeline video for Data platforms",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate weekly support performance digests.",
+      "Make trends visible and easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by monthly close completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/support-tools/expense-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first expense summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate expense summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include department arrays in the payload.",
+      "q": "Can I include department splits?"
+    },
+    {
+      "a": "Yes. Provide currency fields for display.",
+      "q": "Does it support multiple currencies?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Expense summary video for Customer support tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automate monthly expense summaries with budget variance callouts."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide totals by category and variance.",
+        "title": "Collect spend data"
+      },
+      {
+        "body": "POST to /render with expense-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to finance and department leads.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.support-tools.expense-summary-video.1a2252ed63",
+  "io": {
+    "inputJsonExample": {
+      "brand": "customer-support-tools",
+      "data": {
+        "backlog": 214,
+        "csat": "92%",
+        "expenses": "example-expenses",
+        "firstResponse": "18m",
+        "highlight": "tickets",
+        "period": "2026-01",
+        "resolution": "6h",
+        "tickets": 1842,
+        "variance": "example-variance"
+      },
+      "template": "expense-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Customer support tools using a simple API. Automate expense summary video from structured data (Tickets, First response time). Includes webhooks and brand profiles.",
+  "metaTitle": "Expense summary video for Customer support tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Support performance reporting is repetitive.",
+      "Stakeholders miss trends between reviews.",
+      "Manual recaps vary by manager/team.",
+      "Teams need consistent outputs."
+    ],
+    "title": "Why Customer support tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/support-tools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/investor-update-video",
+      "label": "Investor Update Video for Customer support tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when monthly close completes happens.",
+      "POST structured data to /render using template expense-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate expense summary video with an API"
+  },
+  "title": "Expense summary video for Customer support tools",
+  "type": "use_case",
+  "version": 1
+}

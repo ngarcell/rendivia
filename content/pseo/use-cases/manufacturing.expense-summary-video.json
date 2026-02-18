@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by monthly close completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/expense-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first expense summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate expense summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include department arrays in the payload.",
+      "q": "Can I include department splits?"
+    },
+    {
+      "a": "Yes. Provide currency fields for display.",
+      "q": "Does it support multiple currencies?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Expense summary video for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automate monthly expense summaries with budget variance callouts."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide totals by category and variance.",
+        "title": "Collect spend data"
+      },
+      {
+        "body": "POST to /render with expense-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to finance and department leads.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.manufacturing.expense-summary-video.06cafb4f49",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "costPerUnit": 3.4,
+        "defectRate": "1.2%",
+        "downtime": "3h",
+        "expenses": "example-expenses",
+        "highlight": "lines",
+        "onTimeDelivery": "96%",
+        "period": "2026-01",
+        "unitsProduced": 28420,
+        "variance": "example-variance"
+      },
+      "template": "expense-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Manufacturing using a simple API. Automate expense summary video from structured data (Units produced, Defect rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Expense summary video for Manufacturing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are buried in spreadsheets.",
+      "Plant updates take too long to compile.",
+      "Stakeholders need clear, consistent reporting.",
+      "Manual summaries slow down decisions."
+    ],
+    "title": "Why Manufacturing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/investor-update-video",
+      "label": "Investor Update Video for Manufacturing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when monthly close completes happens.",
+      "POST structured data to /render using template expense-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or leadership portal."
+    ],
+    "title": "Automate expense summary video with an API"
+  },
+  "title": "Expense summary video for Manufacturing",
+  "type": "use_case",
+  "version": 1
+}

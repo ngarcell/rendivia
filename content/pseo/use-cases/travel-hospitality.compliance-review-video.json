@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a compliance review is completed."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/travel-hospitality/compliance-review-video",
+  "cta": {
+    "body": "Create an API key and render your first compliance review video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate compliance review video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are deterministic and versioned.",
+      "q": "Is it audit-ready?"
+    },
+    {
+      "a": "Yes. Include remediation text in the payload.",
+      "q": "Can I add remediation notes?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Compliance review video for Travel / Hospitality",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize compliance review outcomes in a deterministic video update."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide control statuses and open findings.",
+        "title": "Collect status"
+      },
+      {
+        "body": "POST to /render with compliance-review-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and send a webhook on completion.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share with leadership or auditors.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.travel-hospitality.compliance-review-video.4331992271",
+  "io": {
+    "inputJsonExample": {
+      "brand": "travel-hospitality",
+      "data": {
+        "adr": 124.5,
+        "bookings": 2140,
+        "cancellations": 86,
+        "controls": "example-controls",
+        "highlight": "bookings",
+        "occupancy": "81%",
+        "period": "2026-01-14",
+        "revpar": 101,
+        "status": "example-status"
+      },
+      "template": "compliance-review-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Control status breakdown",
+      "Open findings summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Travel / Hospitality using a simple API. Automate compliance review video from structured data (Bookings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Compliance review video for Travel / Hospitality | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance updates are scattered across systems.",
+      "Teams need a consistent weekly digest.",
+      "Manual recap work repeats every week.",
+      "Stakeholders miss changes without a narrative."
+    ],
+    "title": "Why Travel / Hospitality teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/travel-hospitality/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/investor-update-video",
+      "label": "Investor Update Video for Travel / Hospitality"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a compliance review is completed happens.",
+      "POST structured data to /render using template compliance-review-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate compliance review video with an API"
+  },
+  "title": "Compliance review video for Travel / Hospitality",
+  "type": "use_case",
+  "version": 1
+}

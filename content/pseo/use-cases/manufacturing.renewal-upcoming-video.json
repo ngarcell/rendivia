@@ -1,0 +1,134 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a renewal is upcoming."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/renewal-upcoming-video",
+  "cta": {
+    "body": "Create an API key and render your first renewal upcoming video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate renewal upcoming video via API"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets.",
+      "q": "Is this internal or external?"
+    },
+    {
+      "a": "Yes. Include plan fields to render pricing and tier info.",
+      "q": "Can I include plan details?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Renewal upcoming video for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize account health ahead of renewals to drive proactive action."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide usage, outcomes, and renewal date.",
+        "title": "Prepare health data"
+      },
+      {
+        "body": "POST to /render with renewal-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to CSMs or customers with clear next steps.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.manufacturing.renewal-upcoming-video.bf3d3be6ee",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "accountId": "example-accountId",
+        "costPerUnit": 3.4,
+        "defectRate": "1.2%",
+        "downtime": "3h",
+        "highlight": "lines",
+        "kpis": {
+          "costPerUnit": 3.4,
+          "defectRate": "1.2%",
+          "downtime": "3h",
+          "onTimeDelivery": "96%",
+          "unitsProduced": 28420
+        },
+        "onTimeDelivery": "96%",
+        "period": "2026-01-14",
+        "renewalDate": "example-renewalDate",
+        "unitsProduced": 28420
+      },
+      "template": "renewal-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Renewal timeline and health KPIs",
+      "Next-step CTA slot",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Manufacturing using a simple API. Automate renewal upcoming video from structured data (Units produced, Defect rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Renewal upcoming video for Manufacturing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are buried in spreadsheets.",
+      "Plant updates take too long to compile.",
+      "Stakeholders need clear, consistent reporting.",
+      "Manual summaries slow down decisions."
+    ],
+    "title": "Why Manufacturing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/investor-update-video",
+      "label": "Investor Update Video for Manufacturing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a renewal is upcoming happens.",
+      "POST structured data to /render using template renewal-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or leadership portal."
+    ],
+    "title": "Automate renewal upcoming video with an API"
+  },
+  "title": "Renewal upcoming video for Manufacturing",
+  "type": "use_case",
+  "version": 1
+}

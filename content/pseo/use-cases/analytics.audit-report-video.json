@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an audit is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/audit-report-video",
+  "cta": {
+    "body": "Create an API key and render your first audit report video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate audit report video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links?"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Audit report video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Produce a concise audit report video the moment an audit is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render at scale and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or compliance stakeholders.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.audit-report-video.21fbfd2f6c",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "auditId": "example-auditId",
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "findings": "example-findings",
+        "highlight": "dashboards",
+        "period": "2026-01-14",
+        "retention": "41%",
+        "topEvent": "signup_completed",
+        "wau": 48210
+      },
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate audit report video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Audit report video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an audit is complete happens.",
+      "POST structured data to /render using template audit-report-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate audit report video with an API"
+  },
+  "title": "Audit report video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "key": "weekly-metrics-video",
+    "label": "Weekly metrics video",
+    "short": "Automatically turn weekly KPIs into a branded video summary using an API.",
+    "trigger": {
+      "key": "weekly-report",
+      "label": "a weekly report is ready",
+      "description": "Triggered by a weekly cron job or scheduled report completion."
+    },
+    "templateId": "weekly-summary-v1",
+    "requiredFields": ["kpis"],
+    "howItWorksSteps": [
+      { "title": "Pick a template", "body": "Use a versioned template such as weekly-summary-v1." },
+      { "title": "Send data", "body": "POST metrics JSON to /render with your API key." },
+      { "title": "Render async", "body": "We queue the job and render reliably at scale." },
+      { "title": "Receive the result", "body": "Get a webhook with the MP4 URL when done." }
+    ],
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Brand colors, logo, and typography applied",
+      "Charts rendered from provided KPIs",
+      "Webhook includes output URL and metadata"
+    ],
+    "faq": [
+      { "q": "Is the output deterministic?", "a": "Yes. Templates are versioned and the same input produces the same output." },
+      { "q": "How do I deliver the video?", "a": "Use the webhook URL to embed in-app or send via email/portal." }
+    ]
+  },
+  {
+    "key": "monthly-metrics-video",
+    "label": "Monthly metrics video",
+    "short": "Generate a monthly KPI recap video from structured data using a simple API.",
+    "trigger": {
+      "key": "monthly-report",
+      "label": "a monthly report is ready",
+      "description": "Triggered by monthly close or scheduled report completion."
+    },
+    "templateId": "monthly-summary-v1",
+    "requiredFields": ["kpis"],
+    "howItWorksSteps": [
+      { "title": "Choose template", "body": "Use monthly-summary-v1 for consistent output." },
+      { "title": "Send KPIs", "body": "POST JSON to /render with monthly KPIs and highlights." },
+      { "title": "Render", "body": "We render asynchronously and retry safely." },
+      { "title": "Deliver", "body": "Receive webhook with MP4 and store/deliver it." }
+    ],
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Webhook includes MP4 URL"
+    ],
+    "faq": [
+      { "q": "Can I compare vs last month?", "a": "Yes. Include previous-period fields; the template renders comparisons." },
+      { "q": "Do templates change?", "a": "Templates are versioned; your chosen version stays stable." }
+    ]
+  },
+  {
+    "key": "quarterly-qbr-video",
+    "label": "Quarterly business review (QBR) video",
+    "short": "Generate a QBR-style recap video from structured quarterly KPIs and highlights.",
+    "trigger": {
+      "key": "quarterly-review",
+      "label": "a quarterly review is prepared",
+      "description": "Triggered by QBR preparation or quarter close."
+    },
+    "templateId": "qbr-summary-v1",
+    "requiredFields": ["kpis", "highlights"],
+    "howItWorksSteps": [
+      { "title": "Prepare inputs", "body": "Provide quarterly KPIs and a short set of highlights." },
+      { "title": "Render via API", "body": "POST to /render with qbr-summary-v1." },
+      { "title": "Async processing", "body": "We queue and render at scale." },
+      { "title": "Share", "body": "Send the MP4 to stakeholders or embed in your portal." }
+    ],
+    "outputBullets": [
+      "90-120s MP4 video",
+      "Quarter-over-quarter comparisons",
+      "Highlights section rendered as cards",
+      "Webhook with URL + metadata"
+    ],
+    "faq": [
+      { "q": "Can this be used for exec updates?", "a": "Yes. It's designed for leadership-friendly quarterly summaries." },
+      { "q": "Can I include charts?", "a": "Yes. Provide numeric series; the template renders charts." }
+    ]
+  },
+  {
+    "key": "investor-update-video",
+    "label": "Investor update video",
+    "short": "Generate an investor-style update video from KPIs, milestones, and narrative points.",
+    "trigger": {
+      "key": "investor-update",
+      "label": "an investor update is ready",
+      "description": "Triggered by a monthly/quarterly investor email workflow."
+    },
+    "templateId": "investor-update-v1",
+    "requiredFields": ["kpis", "milestones"],
+    "howItWorksSteps": [
+      { "title": "Collect KPIs", "body": "Gather growth, revenue, and retention metrics." },
+      { "title": "Add milestones", "body": "Provide 3-5 milestones for the period." },
+      { "title": "Render", "body": "POST to /render with investor-update-v1." },
+      { "title": "Send", "body": "Share the MP4 via investor portal or email." }
+    ],
+    "outputBullets": [
+      "60-120s MP4 video",
+      "KPI tiles + growth deltas",
+      "Milestones section",
+      "Webhook with MP4 URL"
+    ],
+    "faq": [
+      { "q": "Is it deterministic?", "a": "Yes. Same input produces the same output with a fixed template version." },
+      { "q": "Can we customize branding?", "a": "Yes. Use a Brand Profile to apply logo/colors/fonts." }
+    ]
+  },
+  {
+    "key": "customer-success-recap-video",
+    "label": "Customer success recap video",
+    "short": "Generate customer-level success recaps using usage, outcomes, and highlights.",
+    "trigger": {
+      "key": "customer-recap",
+      "label": "a customer recap is generated",
+      "description": "Triggered by weekly/monthly customer health workflows."
+    },
+    "templateId": "customer-recap-v1",
+    "requiredFields": ["customerId", "kpis"],
+    "howItWorksSteps": [
+      { "title": "Fetch customer KPIs", "body": "Pull usage and outcome metrics per customer." },
+      { "title": "Render recap", "body": "POST to /render with customer-recap-v1." },
+      { "title": "Deliver", "body": "Webhook returns the MP4 URL for the customer." },
+      { "title": "Embed", "body": "Embed in your customer portal or send via email." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I batch render for many customers?", "a": "Yes. Call /render per customer and process asynchronously." },
+      { "q": "Can I store outputs?", "a": "Yes. Store webhook URLs in your database." }
+    ]
+  },
+  {
+    "key": "trial-to-paid-recap-video",
+    "label": "Trial-to-paid conversion recap video",
+    "short": "Summarize trial engagement and outcomes into a video recap to drive conversion.",
+    "trigger": {
+      "key": "trial-end",
+      "label": "a trial is ending",
+      "description": "Triggered when a trial reaches day N or end date."
+    },
+    "templateId": "trial-recap-v1",
+    "requiredFields": ["trialId", "kpis"],
+    "howItWorksSteps": [
+      { "title": "Collect trial data", "body": "Aggregate usage events and outcomes during the trial." },
+      { "title": "Render recap", "body": "POST to /render with trial-recap-v1." },
+      { "title": "Send before expiry", "body": "Use webhook result to deliver video before trial ends." },
+      { "title": "Measure", "body": "Track conversions and iterate template content." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Usage highlights and outcomes",
+      "Clear next-step CTA slot",
+      "Webhook with URL"
+    ],
+    "faq": [
+      { "q": "Can I include a CTA at the end?", "a": "Yes. Include a CTA field in data and render it in the outro." },
+      { "q": "Does this replace emails?", "a": "It complements them by adding a high-signal recap format." }
+    ]
+  },
+  {
+    "key": "churn-risk-alert-video",
+    "label": "Churn risk alert video",
+    "short": "Generate a short alert video when churn risk spikes for an account or cohort.",
+    "trigger": {
+      "key": "risk-spike",
+      "label": "churn risk spikes",
+      "description": "Triggered by your churn model or health score threshold."
+    },
+    "templateId": "risk-alert-v1",
+    "requiredFields": ["accountId", "riskScore"],
+    "howItWorksSteps": [
+      { "title": "Detect risk", "body": "Compute churn risk or health score in your system." },
+      { "title": "Render alert", "body": "POST to /render with risk-alert-v1 and key drivers." },
+      { "title": "Notify", "body": "Webhook provides MP4 to attach in alerts." },
+      { "title": "Act", "body": "Route to CSM workflows with a clear summary." }
+    ],
+    "outputBullets": [
+      "15-30s MP4 video",
+      "Risk score and key drivers",
+      "Suggested next action slot",
+      "Webhook with URL"
+    ],
+    "faq": [
+      { "q": "Is this for customers or internal teams?", "a": "Either. You control delivery targets (internal alerts or customer comms)." },
+      { "q": "Can I include driver metrics?", "a": "Yes. Provide a drivers array; template renders top drivers." }
+    ]
+  },
+  {
+    "key": "onboarding-summary-video",
+    "label": "Onboarding summary video",
+    "short": "Generate onboarding progress summaries as soon as activation milestones are reached.",
+    "trigger": {
+      "key": "onboarding-complete",
+      "label": "onboarding is complete",
+      "description": "Triggered when a user or account finishes onboarding."
+    },
+    "templateId": "onboarding-summary-v1",
+    "requiredFields": ["accountId", "milestones"],
+    "howItWorksSteps": [
+      { "title": "Track milestones", "body": "Collect activation steps and completion timestamps." },
+      { "title": "Render summary", "body": "POST to /render with onboarding-summary-v1." },
+      { "title": "Async processing", "body": "We render and return a webhook on completion." },
+      { "title": "Deliver", "body": "Send the recap in-app or via email." }
+    ],
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I personalize by user?", "a": "Yes. Include the user or account name in the payload." },
+      { "q": "Does it work for teams?", "a": "Yes. Pass team milestones and the template adapts." }
+    ]
+  },
+  {
+    "key": "audit-report-video",
+    "label": "Audit report video",
+    "short": "Produce a concise audit report video the moment an audit is completed.",
+    "trigger": {
+      "key": "audit-complete",
+      "label": "an audit is complete",
+      "description": "Triggered when an audit workflow finishes."
+    },
+    "templateId": "audit-report-v1",
+    "requiredFields": ["auditId", "findings"],
+    "howItWorksSteps": [
+      { "title": "Collect findings", "body": "Bundle key findings and remediation status." },
+      { "title": "Render", "body": "POST to /render with audit-report-v1." },
+      { "title": "Async output", "body": "We render at scale and notify via webhook." },
+      { "title": "Share", "body": "Deliver to leadership or compliance stakeholders." }
+    ],
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Webhook with MP4 URL"
+    ],
+    "faq": [
+      { "q": "Can I include evidence links?", "a": "Yes. Include evidence URLs in the payload for display." },
+      { "q": "Is the output compliant?", "a": "Templates are deterministic and versioned for consistency." }
+    ]
+  },
+  {
+    "key": "campaign-results-video",
+    "label": "Campaign results video",
+    "short": "Summarize campaign performance as soon as a campaign ends.",
+    "trigger": {
+      "key": "campaign-ends",
+      "label": "a campaign ends",
+      "description": "Triggered at campaign end or post-campaign reporting."
+    },
+    "templateId": "campaign-results-v1",
+    "requiredFields": ["campaignId", "kpis"],
+    "howItWorksSteps": [
+      { "title": "Collect KPIs", "body": "Aggregate reach, conversion, and spend metrics." },
+      { "title": "Render", "body": "POST to /render with campaign-results-v1." },
+      { "title": "Async delivery", "body": "Receive a webhook with the MP4 URL." },
+      { "title": "Distribute", "body": "Share internally or to clients automatically." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include benchmarks?", "a": "Yes. Include target values and we render comparisons." },
+      { "q": "Is it multi-campaign?", "a": "Call /render per campaign for deterministic outputs." }
+    ]
+  },
+  {
+    "key": "portfolio-summary-video",
+    "label": "Portfolio summary video",
+    "short": "Generate a portfolio performance recap after rebalancing or period close.",
+    "trigger": {
+      "key": "portfolio-rebalanced",
+      "label": "a portfolio is rebalanced",
+      "description": "Triggered by rebalancing or end-of-period portfolio updates."
+    },
+    "templateId": "portfolio-summary-v1",
+    "requiredFields": ["portfolioId", "positions", "returns"],
+    "howItWorksSteps": [
+      { "title": "Collect holdings", "body": "Provide allocation and return data per holding." },
+      { "title": "Render recap", "body": "POST to /render with portfolio-summary-v1." },
+      { "title": "Async render", "body": "We render and notify via webhook." },
+      { "title": "Deliver", "body": "Send the recap to clients or advisors." }
+    ],
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Allocation changes visualized",
+      "Performance vs benchmark",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include asset classes?", "a": "Yes. Provide asset class labels and weights." },
+      { "q": "Does it support per-client branding?", "a": "Yes. Use brand profiles per client." }
+    ]
+  },
+  {
+    "key": "listing-summary-video",
+    "label": "Listing summary video",
+    "short": "Generate property listing highlight videos directly from structured listing data.",
+    "trigger": {
+      "key": "listing-published",
+      "label": "a listing is published",
+      "description": "Triggered when a property listing goes live."
+    },
+    "templateId": "listing-summary-v1",
+    "requiredFields": ["listingId", "highlights"],
+    "howItWorksSteps": [
+      { "title": "Collect highlights", "body": "Provide price, location, and key features." },
+      { "title": "Render", "body": "POST to /render with listing-summary-v1." },
+      { "title": "Async output", "body": "Receive a webhook once rendering completes." },
+      { "title": "Share", "body": "Embed on listing pages or email updates." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Key property highlights",
+      "Brand colors and logo",
+      "Webhook with MP4 URL"
+    ],
+    "faq": [
+      { "q": "Can I include images?", "a": "Yes. Pass image URLs and the template renders them." },
+      { "q": "Does it scale to many listings?", "a": "Yes. Render per listing with API automation." }
+    ]
+  },
+  {
+    "key": "compliance-review-video",
+    "label": "Compliance review video",
+    "short": "Summarize compliance review outcomes in a deterministic video update.",
+    "trigger": {
+      "key": "compliance-review",
+      "label": "a compliance review is completed",
+      "description": "Triggered when compliance reviews close."
+    },
+    "templateId": "compliance-review-v1",
+    "requiredFields": ["controls", "status"],
+    "howItWorksSteps": [
+      { "title": "Collect status", "body": "Provide control statuses and open findings." },
+      { "title": "Render summary", "body": "POST to /render with compliance-review-v1." },
+      { "title": "Async delivery", "body": "We render and send a webhook on completion." },
+      { "title": "Distribute", "body": "Share with leadership or auditors." }
+    ],
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Control status breakdown",
+      "Open findings summary",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Is it audit-ready?", "a": "Yes. Templates are deterministic and versioned." },
+      { "q": "Can I add remediation notes?", "a": "Yes. Include remediation text in the payload." }
+    ]
+  },
+  {
+    "key": "security-incident-summary-video",
+    "label": "Security incident summary video",
+    "short": "Provide a concise incident summary once an incident is resolved.",
+    "trigger": {
+      "key": "incident-resolved",
+      "label": "an incident is resolved",
+      "description": "Triggered after incident resolution or postmortem kickoff."
+    },
+    "templateId": "incident-summary-v1",
+    "requiredFields": ["incidentId", "timeline", "impact"],
+    "howItWorksSteps": [
+      { "title": "Collect timeline", "body": "Provide timeline events and impact metrics." },
+      { "title": "Render", "body": "POST to /render with incident-summary-v1." },
+      { "title": "Async processing", "body": "We queue, render, and notify via webhook." },
+      { "title": "Share", "body": "Send to stakeholders or include in postmortems." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Webhook with MP4 URL"
+    ],
+    "faq": [
+      { "q": "Can I include root cause?", "a": "Yes. Include a rootCause field in the payload." },
+      { "q": "Is it suitable for external comms?", "a": "Yes. You control delivery and messaging." }
+    ]
+  },
+  {
+    "key": "feature-adoption-video",
+    "label": "Feature adoption video",
+    "short": "Show adoption progress when usage crosses a threshold or milestone.",
+    "trigger": {
+      "key": "feature-adoption",
+      "label": "feature adoption crosses a threshold",
+      "description": "Triggered by feature usage milestones."
+    },
+    "templateId": "feature-adoption-v1",
+    "requiredFields": ["featureName", "adoptionRate", "cohorts"],
+    "howItWorksSteps": [
+      { "title": "Collect adoption data", "body": "Provide adoption by cohort and growth delta." },
+      { "title": "Render", "body": "POST to /render with feature-adoption-v1." },
+      { "title": "Async output", "body": "We render and notify when ready." },
+      { "title": "Distribute", "body": "Share with product or GTM teams." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Cohort adoption breakdown",
+      "Trend lines and deltas",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I compare cohorts?", "a": "Yes. Provide cohort arrays; the template compares them." },
+      { "q": "Does it work for multiple features?", "a": "Yes. Render per feature for deterministic outputs." }
+    ]
+  },
+  {
+    "key": "renewal-upcoming-video",
+    "label": "Renewal upcoming video",
+    "short": "Summarize account health ahead of renewals to drive proactive action.",
+    "trigger": {
+      "key": "renewal-upcoming",
+      "label": "a renewal is upcoming",
+      "description": "Triggered 30-60 days before renewal date."
+    },
+    "templateId": "renewal-summary-v1",
+    "requiredFields": ["accountId", "renewalDate", "kpis"],
+    "howItWorksSteps": [
+      { "title": "Prepare health data", "body": "Provide usage, outcomes, and renewal date." },
+      { "title": "Render recap", "body": "POST to /render with renewal-summary-v1." },
+      { "title": "Async processing", "body": "We render and notify via webhook." },
+      { "title": "Deliver", "body": "Send to CSMs or customers with clear next steps." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Renewal timeline and health KPIs",
+      "Next-step CTA slot",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Is this internal or external?", "a": "Either. You control delivery targets." },
+      { "q": "Can I include plan details?", "a": "Yes. Include plan fields to render pricing and tier info." }
+    ]
+  },
+  {
+    "key": "usage-insights-video",
+    "label": "Usage insights video",
+    "short": "Generate usage insight summaries when accounts hit key thresholds.",
+    "trigger": {
+      "key": "usage-threshold",
+      "label": "usage crosses a threshold",
+      "description": "Triggered by usage thresholds or daily/weekly rollups."
+    },
+    "templateId": "usage-insights-v1",
+    "requiredFields": ["accountId", "usage"],
+    "howItWorksSteps": [
+      { "title": "Aggregate usage", "body": "Provide daily or weekly usage metrics." },
+      { "title": "Render", "body": "POST to /render with usage-insights-v1." },
+      { "title": "Async output", "body": "We queue and render at scale." },
+      { "title": "Deliver", "body": "Send usage recaps in-app or via email." }
+    ],
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include comparisons?", "a": "Yes. Include previous period fields for comparisons." },
+      { "q": "Is it per account?", "a": "Yes. Render per account for deterministic outputs." }
+    ]
+  },
+  {
+    "key": "sales-pipeline-video",
+    "label": "Sales pipeline video",
+    "short": "Turn pipeline snapshots into a concise weekly video for leadership.",
+    "trigger": {
+      "key": "pipeline-updated",
+      "label": "pipeline is updated",
+      "description": "Triggered by weekly CRM snapshots."
+    },
+    "templateId": "pipeline-summary-v1",
+    "requiredFields": ["pipeline", "forecast"],
+    "howItWorksSteps": [
+      { "title": "Collect pipeline data", "body": "Provide stage totals and forecast metrics." },
+      { "title": "Render", "body": "POST to /render with pipeline-summary-v1." },
+      { "title": "Async render", "body": "We render and notify via webhook." },
+      { "title": "Share", "body": "Send to sales leadership automatically." }
+    ],
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include regional splits?", "a": "Yes. Include region arrays in the payload." },
+      { "q": "Does it support CRM data?", "a": "Yes. Map CRM fields into the JSON payload." }
+    ]
+  },
+  {
+    "key": "revenue-forecast-video",
+    "label": "Revenue forecast video",
+    "short": "Summarize revenue forecasts with assumptions and confidence ranges.",
+    "trigger": {
+      "key": "forecast-ready",
+      "label": "a forecast is ready",
+      "description": "Triggered when forecasting models complete."
+    },
+    "templateId": "revenue-forecast-v1",
+    "requiredFields": ["forecast", "assumptions"],
+    "howItWorksSteps": [
+      { "title": "Provide forecast", "body": "Include ranges, targets, and assumptions." },
+      { "title": "Render", "body": "POST to /render with revenue-forecast-v1." },
+      { "title": "Async output", "body": "We queue and render reliably." },
+      { "title": "Deliver", "body": "Share with finance and leadership." }
+    ],
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Forecast ranges and deltas",
+      "Assumptions summarized",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include scenarios?", "a": "Yes. Provide scenario arrays for best/base/worst." },
+      { "q": "Is it deterministic?", "a": "Yes. Same input always yields the same output." }
+    ]
+  },
+  {
+    "key": "support-performance-video",
+    "label": "Support performance video",
+    "short": "Ship weekly support KPIs to keep teams aligned on SLAs.",
+    "trigger": {
+      "key": "support-weekly",
+      "label": "a weekly support digest is ready",
+      "description": "Triggered by weekly support reporting."
+    },
+    "templateId": "support-performance-v1",
+    "requiredFields": ["kpis", "sla"],
+    "howItWorksSteps": [
+      { "title": "Collect support KPIs", "body": "Provide ticket volume, response, and resolution metrics." },
+      { "title": "Render", "body": "POST to /render with support-performance-v1." },
+      { "title": "Async delivery", "body": "We render and notify via webhook." },
+      { "title": "Distribute", "body": "Send to support leadership or ops." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "SLA compliance summary",
+      "Volume and backlog trends",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include agent metrics?", "a": "Yes. Include agent-level stats in the payload." },
+      { "q": "Does it handle multiple queues?", "a": "Yes. Provide queue arrays in the payload." }
+    ]
+  },
+  {
+    "key": "hiring-progress-video",
+    "label": "Hiring progress video",
+    "short": "Summarize hiring pipeline progress for leadership updates.",
+    "trigger": {
+      "key": "hiring-update",
+      "label": "a hiring update is ready",
+      "description": "Triggered by weekly people ops reports."
+    },
+    "templateId": "hiring-progress-v1",
+    "requiredFields": ["openRoles", "pipeline"],
+    "howItWorksSteps": [
+      { "title": "Collect pipeline", "body": "Provide stage counts and open roles." },
+      { "title": "Render", "body": "POST to /render with hiring-progress-v1." },
+      { "title": "Async output", "body": "We queue and render at scale." },
+      { "title": "Share", "body": "Deliver to leadership or hiring managers." }
+    ],
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Role-by-role pipeline summary",
+      "Time-to-fill indicators",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include diversity metrics?", "a": "Yes. Include diversity fields for rendering." },
+      { "q": "Does it support multiple departments?", "a": "Yes. Render per department or include groups." }
+    ]
+  },
+  {
+    "key": "customer-feedback-recap-video",
+    "label": "Customer feedback recap video",
+    "short": "Summarize NPS and feedback themes into a recurring recap.",
+    "trigger": {
+      "key": "feedback-cycle",
+      "label": "a feedback cycle completes",
+      "description": "Triggered by NPS or feedback survey rollups."
+    },
+    "templateId": "feedback-recap-v1",
+    "requiredFields": ["nps", "themes"],
+    "howItWorksSteps": [
+      { "title": "Aggregate feedback", "body": "Provide NPS score and top themes." },
+      { "title": "Render", "body": "POST to /render with feedback-recap-v1." },
+      { "title": "Async output", "body": "We render and notify via webhook." },
+      { "title": "Share", "body": "Send to product and leadership teams." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "NPS trend + benchmarks",
+      "Theme highlights",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include verbatim quotes?", "a": "Yes. Include a quotes array for display." },
+      { "q": "Is it suitable for board updates?", "a": "Yes. Summaries are designed for leadership review." }
+    ]
+  },
+  {
+    "key": "product-release-summary-video",
+    "label": "Product release summary video",
+    "short": "Generate a concise product release recap when a new version ships.",
+    "trigger": {
+      "key": "release-shipped",
+      "label": "a release ships",
+      "description": "Triggered by release pipelines or changelog publication."
+    },
+    "templateId": "release-summary-v1",
+    "requiredFields": ["releaseId", "features", "impact"],
+    "howItWorksSteps": [
+      { "title": "Collect release notes", "body": "Provide feature highlights and impact metrics." },
+      { "title": "Render", "body": "POST to /render with release-summary-v1." },
+      { "title": "Async delivery", "body": "We render and send a webhook when ready." },
+      { "title": "Share", "body": "Embed in-app or send to customers." }
+    ],
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Feature highlights",
+      "Impact summary",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include screenshots?", "a": "Yes. Provide image URLs in the payload." },
+      { "q": "Is it suitable for customer announcements?", "a": "Yes. Use branding and CTA slots." }
+    ]
+  },
+  {
+    "key": "expense-summary-video",
+    "label": "Expense summary video",
+    "short": "Automate monthly expense summaries with budget variance callouts.",
+    "trigger": {
+      "key": "monthly-close",
+      "label": "monthly close completes",
+      "description": "Triggered by finance close workflows."
+    },
+    "templateId": "expense-summary-v1",
+    "requiredFields": ["expenses", "variance"],
+    "howItWorksSteps": [
+      { "title": "Collect spend data", "body": "Provide totals by category and variance." },
+      { "title": "Render", "body": "POST to /render with expense-summary-v1." },
+      { "title": "Async output", "body": "We render and notify via webhook." },
+      { "title": "Share", "body": "Deliver to finance and department leads." }
+    ],
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include department splits?", "a": "Yes. Include department arrays in the payload." },
+      { "q": "Does it support multiple currencies?", "a": "Yes. Provide currency fields for display." }
+    ]
+  },
+  {
+    "key": "shipment-exception-video",
+    "label": "Shipment exception video",
+    "short": "Generate a short exception recap when logistics issues spike.",
+    "trigger": {
+      "key": "exception-detected",
+      "label": "exceptions are detected",
+      "description": "Triggered by exception thresholds in logistics systems."
+    },
+    "templateId": "exception-summary-v1",
+    "requiredFields": ["exceptions", "routes"],
+    "howItWorksSteps": [
+      { "title": "Detect exceptions", "body": "Provide exception counts and impacted routes." },
+      { "title": "Render", "body": "POST to /render with exception-summary-v1." },
+      { "title": "Async output", "body": "We queue and render reliably." },
+      { "title": "Notify", "body": "Webhook returns MP4 for ops alerts." }
+    ],
+    "outputBullets": [
+      "20-40s MP4 video",
+      "Exception count and severity",
+      "Impacted routes summary",
+      "Webhook with output URL"
+    ],
+    "faq": [
+      { "q": "Can I include live ETAs?", "a": "Yes. Provide ETA fields and the template renders them." },
+      { "q": "Is it for internal ops only?", "a": "Yes, typically for ops teams and internal dashboards." }
+    ]
+  }
+]

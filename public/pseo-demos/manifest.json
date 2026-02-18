@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-02-04T22:54:42.804Z",
+  "total": 5,
+  "items": [
+    {
+      "canonicalUrl": "/from/postgres/to/video",
+      "videoUrl": "/pseo-demos/data-sources/postgres.mp4"
+    },
+    {
+      "canonicalUrl": "/when/weekly-report/generate-video",
+      "videoUrl": "/pseo-demos/triggers/weekly-report.mp4"
+    },
+    {
+      "canonicalUrl": "/use-cases/accounting/audit-report-video",
+      "videoUrl": "/pseo-demos/use-cases/accounting/audit-report-video.mp4"
+    },
+    {
+      "canonicalUrl": "/use-cases/accounting/campaign-results-video",
+      "videoUrl": "/pseo-demos/use-cases/accounting/campaign-results-video.mp4"
+    },
+    {
+      "canonicalUrl": "/use-cases/accounting/churn-risk-alert-video",
+      "videoUrl": "/pseo-demos/use-cases/accounting/churn-risk-alert-video.mp4"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by pipeline is updated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/proptech/sales-pipeline-video",
+  "cta": {
+    "body": "Create an API key and render your first sales pipeline video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate sales pipeline video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits?"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Sales pipeline video for PropTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Turn pipeline snapshots into a concise weekly video for leadership."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send to sales leadership automatically.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.proptech.sales-pipeline-video.cc46d2b1f9",
+  "io": {
+    "inputJsonExample": {
+      "brand": "proptech",
+      "data": {
+        "avgRent": 2140,
+        "forecast": "example-forecast",
+        "highlight": "properties",
+        "leads": 620,
+        "leaseRenewals": 48,
+        "listings": 214,
+        "occupancy": "93%",
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline"
+      },
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for PropTech using a simple API. Automate sales pipeline video from structured data (Listings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Sales pipeline video for PropTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Property updates are spread across tools.",
+      "Stakeholders need a consistent weekly recap.",
+      "Manual report creation delays decisions.",
+      "Insights get lost without a clear narrative."
+    ],
+    "title": "Why PropTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/proptech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/investor-update-video",
+      "label": "Investor Update Video for PropTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when pipeline is updated happens.",
+      "POST structured data to /render using template pipeline-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, investor portal, or internal dashboard."
+    ],
+    "title": "Automate sales pipeline video with an API"
+  },
+  "title": "Sales pipeline video for PropTech",
+  "type": "use_case",
+  "version": 1
+}

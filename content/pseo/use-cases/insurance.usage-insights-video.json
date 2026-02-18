@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by usage crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/insurance/usage-insights-video",
+  "cta": {
+    "body": "Create an API key and render your first usage insights video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate usage insights video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons?"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Usage insights video for Insurance",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate usage insight summaries when accounts hit key thresholds."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send usage recaps in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.insurance.usage-insights-video.d3bec67823",
+  "io": {
+    "inputJsonExample": {
+      "brand": "insurance",
+      "data": {
+        "accountId": "example-accountId",
+        "claims": 214,
+        "fraudFlags": 7,
+        "highlight": "policies",
+        "lossRatio": "62%",
+        "period": "2026-01-14",
+        "premium": 184200,
+        "renewals": 842,
+        "usage": "example-usage"
+      },
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Insurance using a simple API. Automate usage insights video from structured data (Claims, Loss ratio). Includes webhooks and brand profiles.",
+  "metaTitle": "Usage insights video for Insurance | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is complex and time-consuming.",
+      "Stakeholders need clear summaries.",
+      "Manual updates are inconsistent.",
+      "Ops teams need recurring digests."
+    ],
+    "title": "Why Insurance teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/insurance/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/investor-update-video",
+      "label": "Investor Update Video for Insurance"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when usage crosses a threshold happens.",
+      "POST structured data to /render using template usage-insights-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, internal portal, or dashboard."
+    ],
+    "title": "Automate usage insights video with an API"
+  },
+  "title": "Usage insights video for Insurance",
+  "type": "use_case",
+  "version": 1
+}

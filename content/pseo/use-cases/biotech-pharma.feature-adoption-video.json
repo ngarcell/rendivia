@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate study progress recaps.",
+      "Deliver consistent updates across sites.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by feature adoption crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/biotech-pharma/feature-adoption-video",
+  "cta": {
+    "body": "Create an API key and render your first feature adoption video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate feature adoption video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide cohort arrays; the template compares them.",
+      "q": "Can I compare cohorts?"
+    },
+    {
+      "a": "Yes. Render per feature for deterministic outputs.",
+      "q": "Does it work for multiple features?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Feature adoption video for Biotech / Pharma",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Show adoption progress when usage crosses a threshold or milestone."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide adoption by cohort and growth delta.",
+        "title": "Collect adoption data"
+      },
+      {
+        "body": "POST to /render with feature-adoption-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify when ready.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with product or GTM teams.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.biotech-pharma.feature-adoption-video.210674e3f8",
+  "io": {
+    "inputJsonExample": {
+      "brand": "biotech-pharma",
+      "data": {
+        "adoptionRate": "example-adoptionRate",
+        "adverseEvents": 6,
+        "cohorts": "example-cohorts",
+        "cycleTime": "12d",
+        "featureName": "example-featureName",
+        "highlight": "trials",
+        "patientsEnrolled": 412,
+        "period": "2026-01-14",
+        "protocolDeviations": 3,
+        "sitesActive": 24
+      },
+      "template": "feature-adoption-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Cohort adoption breakdown",
+      "Trend lines and deltas",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Biotech / Pharma using a simple API. Automate feature adoption video from structured data (Active sites, Patients enrolled). Includes webhooks and brand profiles.",
+  "metaTitle": "Feature adoption video for Biotech / Pharma | Rendivia",
+  "problem": {
+    "bullets": [
+      "Trial updates are slow to compile and distribute.",
+      "Stakeholders need consistent progress reporting.",
+      "Manual summaries delay decisions.",
+      "Sites need a clear, repeatable recap format."
+    ],
+    "title": "Why Biotech / Pharma teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/biotech-pharma/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/investor-update-video",
+      "label": "Investor Update Video for Biotech / Pharma"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when feature adoption crosses a threshold happens.",
+      "POST structured data to /render using template feature-adoption-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via secure portal, email, or internal dashboard."
+    ],
+    "title": "Automate feature adoption video with an API"
+  },
+  "title": "Feature adoption video for Biotech / Pharma",
+  "type": "use_case",
+  "version": 1
+}

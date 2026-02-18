@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate reliability and outage updates.",
+      "Deliver clear status summaries to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an audit is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/energy-utilities/audit-report-video",
+  "cta": {
+    "body": "Create an API key and render your first audit report video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate audit report video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links?"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Audit report video for Energy / Utilities",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Produce a concise audit report video the moment an audit is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render at scale and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or compliance stakeholders.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.energy-utilities.audit-report-video.d6d0417d91",
+  "io": {
+    "inputJsonExample": {
+      "brand": "energy-utilities",
+      "data": {
+        "auditId": "example-auditId",
+        "findings": "example-findings",
+        "highlight": "meters",
+        "outages": 3,
+        "peakLoad": 842,
+        "period": "2026-01-14",
+        "renewableShare": "38%",
+        "restorationTime": "1h 20m",
+        "serviceTickets": 214
+      },
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Energy / Utilities using a simple API. Automate audit report video from structured data (Outages, Restoration time). Includes webhooks and brand profiles.",
+  "metaTitle": "Audit report video for Energy / Utilities | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are hard to summarize quickly.",
+      "Stakeholders need clear outage communication.",
+      "Manual recaps take too long to publish.",
+      "Teams need reliable status reporting."
+    ],
+    "title": "Why Energy / Utilities teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/energy-utilities/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/investor-update-video",
+      "label": "Investor Update Video for Energy / Utilities"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an audit is complete happens.",
+      "POST structured data to /render using template audit-report-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or ops dashboard."
+    ],
+    "title": "Automate audit report video with an API"
+  },
+  "title": "Audit report video for Energy / Utilities",
+  "type": "use_case",
+  "version": 1
+}

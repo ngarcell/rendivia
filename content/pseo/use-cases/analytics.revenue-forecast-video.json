@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a forecast is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/revenue-forecast-video",
+  "cta": {
+    "body": "Create an API key and render your first revenue forecast video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate revenue forecast video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide scenario arrays for best/base/worst.",
+      "q": "Can I include scenarios?"
+    },
+    {
+      "a": "Yes. Same input always yields the same output.",
+      "q": "Is it deterministic?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Revenue forecast video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize revenue forecasts with assumptions and confidence ranges."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Include ranges, targets, and assumptions.",
+        "title": "Provide forecast"
+      },
+      {
+        "body": "POST to /render with revenue-forecast-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render reliably.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with finance and leadership.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.revenue-forecast-video.279bff72b4",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "assumptions": "example-assumptions",
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "forecast": "example-forecast",
+        "highlight": "dashboards",
+        "period": "2026-01-14",
+        "retention": "41%",
+        "topEvent": "signup_completed",
+        "wau": 48210
+      },
+      "template": "revenue-forecast-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Forecast ranges and deltas",
+      "Assumptions summarized",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate revenue forecast video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Revenue forecast video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a forecast is ready happens.",
+      "POST structured data to /render using template revenue-forecast-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate revenue forecast video with an API"
+  },
+  "title": "Revenue forecast video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

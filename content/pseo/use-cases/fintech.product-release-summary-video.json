@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Improve customer trust with clear, consistent updates.",
+      "Automate recurring portfolio and account summaries.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a release ships."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/fintech/product-release-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first product release summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate product release summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide image URLs in the payload.",
+      "q": "Can I include screenshots?"
+    },
+    {
+      "a": "Yes. Use branding and CTA slots.",
+      "q": "Is it suitable for customer announcements?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Product release summary video for Fintech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a concise product release recap when a new version ships."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide feature highlights and impact metrics.",
+        "title": "Collect release notes"
+      },
+      {
+        "body": "POST to /render with release-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and send a webhook when ready.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Embed in-app or send to customers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.fintech.product-release-summary-video.4751a8762f",
+  "io": {
+    "inputJsonExample": {
+      "brand": "fintech",
+      "data": {
+        "aum": 1250000,
+        "chargebacks": 12,
+        "deposits": 84200,
+        "features": "example-features",
+        "highlight": "accounts",
+        "impact": "example-impact",
+        "netFlow": 31100,
+        "period": "2026-01-14",
+        "releaseId": "example-releaseId",
+        "withdrawals": 53100
+      },
+      "template": "release-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Feature highlights",
+      "Impact summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Fintech using a simple API. Automate product release summary video from structured data (Assets under management, Deposits). Includes webhooks and brand profiles.",
+  "metaTitle": "Product release summary video for Fintech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Users don't open dashboards regularly to parse performance.",
+      "Statements and PDFs lack engagement and context.",
+      "Updates are delayed when assembled manually.",
+      "Teams need consistent outputs for compliance and support."
+    ],
+    "title": "Why Fintech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/fintech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/investor-update-video",
+      "label": "Investor Update Video for Fintech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a release ships happens.",
+      "POST structured data to /render using template release-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, push notification, or secure message center."
+    ],
+    "title": "Automate product release summary video with an API"
+  },
+  "title": "Product release summary video for Fintech",
+  "type": "use_case",
+  "version": 1
+}

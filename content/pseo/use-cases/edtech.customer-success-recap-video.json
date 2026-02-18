@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make progress and outcomes easier to understand.",
+      "Automate recurring cohort updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a customer recap is generated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/edtech/customer-success-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first customer success recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate customer success recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Call /render per customer and process asynchronously.",
+      "q": "Can I batch render for many customers?"
+    },
+    {
+      "a": "Yes. Store webhook URLs in your database.",
+      "q": "Can I store outputs?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Customer success recap video for EdTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate customer-level success recaps using usage, outcomes, and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Pull usage and outcome metrics per customer.",
+        "title": "Fetch customer KPIs"
+      },
+      {
+        "body": "POST to /render with customer-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Webhook returns the MP4 URL for the customer.",
+        "title": "Deliver"
+      },
+      {
+        "body": "Embed in your customer portal or send via email.",
+        "title": "Embed"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.edtech.customer-success-recap-video.77934fbd80",
+  "io": {
+    "inputJsonExample": {
+      "brand": "edtech",
+      "data": {
+        "activeLearners": 9342,
+        "avgScore": 82,
+        "completionRate": "58%",
+        "customerId": "example-customerId",
+        "dropOffWeek": 3,
+        "highlight": "students",
+        "kpis": {
+          "activeLearners": 9342,
+          "avgScore": 82,
+          "completionRate": "58%",
+          "dropOffWeek": 3,
+          "sessions": 41210
+        },
+        "period": "2026-01-14",
+        "sessions": 41210
+      },
+      "template": "customer-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for EdTech using a simple API. Automate customer success recap video from structured data (Active learners, Completion rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Customer success recap video for EdTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Progress reports are hard to communicate clearly.",
+      "Learners and admins need simple summaries.",
+      "Manual reporting wastes instructor/admin time.",
+      "Insights aren't delivered proactively."
+    ],
+    "title": "Why EdTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/edtech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for EdTech"
+    },
+    {
+      "href": "/use-cases/edtech/investor-update-video",
+      "label": "Investor Update Video for EdTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a customer recap is generated happens.",
+      "POST structured data to /render using template customer-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or admin dashboard."
+    ],
+    "title": "Automate customer success recap video with an API"
+  },
+  "title": "Customer success recap video for EdTech",
+  "type": "use_case",
+  "version": 1
+}

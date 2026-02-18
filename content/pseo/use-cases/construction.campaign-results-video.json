@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate project progress summaries.",
+      "Deliver consistent updates to clients and leaders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a campaign ends."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/construction/campaign-results-video",
+  "cta": {
+    "body": "Create an API key and render your first campaign results video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate campaign results video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include target values and we render comparisons.",
+      "q": "Can I include benchmarks?"
+    },
+    {
+      "a": "Call /render per campaign for deterministic outputs.",
+      "q": "Is it multi-campaign?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Campaign results video for Construction",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize campaign performance as soon as a campaign ends."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate reach, conversion, and spend metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "POST to /render with campaign-results-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive a webhook with the MP4 URL.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share internally or to clients automatically.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.construction.campaign-results-video.99d3d5ec35",
+  "io": {
+    "inputJsonExample": {
+      "brand": "construction",
+      "data": {
+        "budgetVariance": "-2%",
+        "campaignId": "example-campaignId",
+        "changeOrders": 12,
+        "highlight": "projects",
+        "kpis": {
+          "budgetVariance": "-2%",
+          "changeOrders": 12,
+          "projectsOnTrack": 18,
+          "safetyIncidents": 1,
+          "scheduleVariance": "-3d"
+        },
+        "period": "2026-01-14",
+        "projectsOnTrack": 18,
+        "safetyIncidents": 1,
+        "scheduleVariance": "-3d"
+      },
+      "template": "campaign-results-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Construction using a simple API. Automate campaign results video from structured data (Projects on track, Change orders). Includes webhooks and brand profiles.",
+  "metaTitle": "Campaign results video for Construction | Rendivia",
+  "problem": {
+    "bullets": [
+      "Progress reporting is manual and inconsistent.",
+      "Stakeholders need clear weekly updates.",
+      "Site data is scattered across tools.",
+      "Manual recaps slow down decisions."
+    ],
+    "title": "Why Construction teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/construction/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Construction"
+    },
+    {
+      "href": "/use-cases/construction/investor-update-video",
+      "label": "Investor Update Video for Construction"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a campaign ends happens.",
+      "POST structured data to /render using template campaign-results-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or project dashboard."
+    ],
+    "title": "Automate campaign results video with an API"
+  },
+  "title": "Campaign results video for Construction",
+  "type": "use_case",
+  "version": 1
+}

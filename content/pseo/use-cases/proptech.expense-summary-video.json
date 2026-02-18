@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by monthly close completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/proptech/expense-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first expense summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate expense summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include department arrays in the payload.",
+      "q": "Can I include department splits?"
+    },
+    {
+      "a": "Yes. Provide currency fields for display.",
+      "q": "Does it support multiple currencies?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Expense summary video for PropTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automate monthly expense summaries with budget variance callouts."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide totals by category and variance.",
+        "title": "Collect spend data"
+      },
+      {
+        "body": "POST to /render with expense-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to finance and department leads.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.proptech.expense-summary-video.8bc7d6a5d1",
+  "io": {
+    "inputJsonExample": {
+      "brand": "proptech",
+      "data": {
+        "avgRent": 2140,
+        "expenses": "example-expenses",
+        "highlight": "properties",
+        "leads": 620,
+        "leaseRenewals": 48,
+        "listings": 214,
+        "occupancy": "93%",
+        "period": "2026-01",
+        "variance": "example-variance"
+      },
+      "template": "expense-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for PropTech using a simple API. Automate expense summary video from structured data (Listings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Expense summary video for PropTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Property updates are spread across tools.",
+      "Stakeholders need a consistent weekly recap.",
+      "Manual report creation delays decisions.",
+      "Insights get lost without a clear narrative."
+    ],
+    "title": "Why PropTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/proptech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/investor-update-video",
+      "label": "Investor Update Video for PropTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when monthly close completes happens.",
+      "POST structured data to /render using template expense-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, investor portal, or internal dashboard."
+    ],
+    "title": "Automate expense summary video with an API"
+  },
+  "title": "Expense summary video for PropTech",
+  "type": "use_case",
+  "version": 1
+}

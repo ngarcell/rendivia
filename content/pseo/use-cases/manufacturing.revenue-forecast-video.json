@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a forecast is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/revenue-forecast-video",
+  "cta": {
+    "body": "Create an API key and render your first revenue forecast video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate revenue forecast video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide scenario arrays for best/base/worst.",
+      "q": "Can I include scenarios?"
+    },
+    {
+      "a": "Yes. Same input always yields the same output.",
+      "q": "Is it deterministic?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Revenue forecast video for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize revenue forecasts with assumptions and confidence ranges."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Include ranges, targets, and assumptions.",
+        "title": "Provide forecast"
+      },
+      {
+        "body": "POST to /render with revenue-forecast-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render reliably.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with finance and leadership.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.manufacturing.revenue-forecast-video.6f5151a01d",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "assumptions": "example-assumptions",
+        "costPerUnit": 3.4,
+        "defectRate": "1.2%",
+        "downtime": "3h",
+        "forecast": "example-forecast",
+        "highlight": "lines",
+        "onTimeDelivery": "96%",
+        "period": "2026-01-14",
+        "unitsProduced": 28420
+      },
+      "template": "revenue-forecast-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Forecast ranges and deltas",
+      "Assumptions summarized",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Manufacturing using a simple API. Automate revenue forecast video from structured data (Units produced, Defect rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Revenue forecast video for Manufacturing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are buried in spreadsheets.",
+      "Plant updates take too long to compile.",
+      "Stakeholders need clear, consistent reporting.",
+      "Manual summaries slow down decisions."
+    ],
+    "title": "Why Manufacturing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/investor-update-video",
+      "label": "Investor Update Video for Manufacturing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a forecast is ready happens.",
+      "POST structured data to /render using template revenue-forecast-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or leadership portal."
+    ],
+    "title": "Automate revenue forecast video with an API"
+  },
+  "title": "Revenue forecast video for Manufacturing",
+  "type": "use_case",
+  "version": 1
+}

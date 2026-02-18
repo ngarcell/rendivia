@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make performance updates easy to share and consume.",
+      "Automate weekly and monthly recaps for teams.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a customer recap is generated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/ecommerce/customer-success-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first customer success recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate customer success recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Call /render per customer and process asynchronously.",
+      "q": "Can I batch render for many customers?"
+    },
+    {
+      "a": "Yes. Store webhook URLs in your database.",
+      "q": "Can I store outputs?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Customer success recap video for E-commerce",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate customer-level success recaps using usage, outcomes, and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Pull usage and outcome metrics per customer.",
+        "title": "Fetch customer KPIs"
+      },
+      {
+        "body": "POST to /render with customer-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Webhook returns the MP4 URL for the customer.",
+        "title": "Deliver"
+      },
+      {
+        "body": "Embed in your customer portal or send via email.",
+        "title": "Embed"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.ecommerce.customer-success-recap-video.1ef31c6e76",
+  "io": {
+    "inputJsonExample": {
+      "brand": "e-commerce",
+      "data": {
+        "aov": 47.2,
+        "conversionRate": "2.8%",
+        "customerId": "example-customerId",
+        "grossRevenue": 184200,
+        "highlight": "orders",
+        "kpis": {
+          "aov": 47.2,
+          "conversionRate": "2.8%",
+          "grossRevenue": 184200,
+          "orders": 3921,
+          "refundRate": "1.3%"
+        },
+        "orders": 3921,
+        "period": "2026-01-14",
+        "refundRate": "1.3%"
+      },
+      "template": "customer-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for E-commerce using a simple API. Automate customer success recap video from structured data (Gross revenue, Orders). Includes webhooks and brand profiles.",
+  "metaTitle": "Customer success recap video for E-commerce | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is scattered across tools.",
+      "Stakeholders miss weekly insights without a digest.",
+      "Manual recap creation wastes time every week.",
+      "Teams need consistent summaries for planning."
+    ],
+    "title": "Why E-commerce teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/ecommerce/monthly-metrics-video",
+      "label": "Monthly Metrics Video for E-commerce"
+    },
+    {
+      "href": "/use-cases/ecommerce/investor-update-video",
+      "label": "Investor Update Video for E-commerce"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a customer recap is generated happens.",
+      "POST structured data to /render using template customer-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate customer success recap video with an API"
+  },
+  "title": "Customer success recap video for E-commerce",
+  "type": "use_case",
+  "version": 1
+}

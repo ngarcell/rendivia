@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate donor and impact updates.",
+      "Make summaries easy to share with stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a campaign ends."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/nonprofits/campaign-results-video",
+  "cta": {
+    "body": "Create an API key and render your first campaign results video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate campaign results video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include target values and we render comparisons.",
+      "q": "Can I include benchmarks?"
+    },
+    {
+      "a": "Call /render per campaign for deterministic outputs.",
+      "q": "Is it multi-campaign?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Campaign results video for Nonprofits / Fundraising platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize campaign performance as soon as a campaign ends."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate reach, conversion, and spend metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "POST to /render with campaign-results-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive a webhook with the MP4 URL.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share internally or to clients automatically.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.nonprofits.campaign-results-video.b027784bac",
+  "io": {
+    "inputJsonExample": {
+      "brand": "nonprofits-fundraising-platforms",
+      "data": {
+        "avgDonation": 39.3,
+        "campaignId": "example-campaignId",
+        "campaigns": 6,
+        "donations": 84200,
+        "donors": 2140,
+        "highlight": "donors",
+        "kpis": {
+          "avgDonation": 39.3,
+          "campaigns": 6,
+          "donations": 84200,
+          "donors": 2140,
+          "recurringRate": "22%"
+        },
+        "period": "2026-01-14",
+        "recurringRate": "22%"
+      },
+      "template": "campaign-results-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Nonprofits / Fundraising platforms using a simple API. Automate campaign results video from structured data (Donations, Donors). Includes webhooks and brand profiles.",
+  "metaTitle": "Campaign results video for Nonprofits / Fundraising platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Impact reporting is time-consuming to assemble.",
+      "Stakeholders want a digest, not spreadsheets.",
+      "Manual updates are inconsistent across campaigns.",
+      "Teams need a repeatable recap format."
+    ],
+    "title": "Why Nonprofits / Fundraising platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/nonprofits/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Nonprofits / Fundraising platforms"
+    },
+    {
+      "href": "/use-cases/nonprofits/investor-update-video",
+      "label": "Investor Update Video for Nonprofits / Fundraising platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a campaign ends happens.",
+      "POST structured data to /render using template campaign-results-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, donor portal, or internal dashboard."
+    ],
+    "title": "Automate campaign results video with an API"
+  },
+  "title": "Campaign results video for Nonprofits / Fundraising platforms",
+  "type": "use_case",
+  "version": 1
+}

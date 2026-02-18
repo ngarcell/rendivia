@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate release and incident digests.",
+      "Make engineering health easy to communicate.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by onboarding is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/devtools/onboarding-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first onboarding summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate onboarding summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user?"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Onboarding summary video for Developer tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate onboarding progress summaries as soon as activation milestones are reached."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and return a webhook on completion.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the recap in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.devtools.onboarding-summary-video.d3d7e4f7a7",
+  "io": {
+    "inputJsonExample": {
+      "brand": "developer-tools",
+      "data": {
+        "accountId": "example-accountId",
+        "activeDevelopers": 214,
+        "changeFailureRate": "3.1%",
+        "deploys": 184,
+        "highlight": "repositories",
+        "leadTime": "18h",
+        "milestones": "example-milestones",
+        "mttr": "42m",
+        "period": "2026-01-14"
+      },
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Developer tools using a simple API. Automate onboarding summary video from structured data (Deploys, Lead time). Includes webhooks and brand profiles.",
+  "metaTitle": "Onboarding summary video for Developer tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Engineering metrics live in dashboards but stakeholders need summaries.",
+      "Release updates are assembled manually each week.",
+      "Incident recaps are inconsistent across teams.",
+      "Leadership wants a clear view of engineering health."
+    ],
+    "title": "Why Developer tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/devtools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/investor-update-video",
+      "label": "Investor Update Video for Developer tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when onboarding is complete happens.",
+      "POST structured data to /render using template onboarding-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal portal."
+    ],
+    "title": "Automate onboarding summary video with an API"
+  },
+  "title": "Onboarding summary video for Developer tools",
+  "type": "use_case",
+  "version": 1
+}

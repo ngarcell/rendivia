@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a customer recap is generated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/customer-success-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first customer success recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate customer success recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Call /render per customer and process asynchronously.",
+      "q": "Can I batch render for many customers?"
+    },
+    {
+      "a": "Yes. Store webhook URLs in your database.",
+      "q": "Can I store outputs?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Customer success recap video for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate customer-level success recaps using usage, outcomes, and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Pull usage and outcome metrics per customer.",
+        "title": "Fetch customer KPIs"
+      },
+      {
+        "body": "POST to /render with customer-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Webhook returns the MP4 URL for the customer.",
+        "title": "Deliver"
+      },
+      {
+        "body": "Embed in your customer portal or send via email.",
+        "title": "Embed"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.manufacturing.customer-success-recap-video.5019c7d356",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "costPerUnit": 3.4,
+        "customerId": "example-customerId",
+        "defectRate": "1.2%",
+        "downtime": "3h",
+        "highlight": "lines",
+        "kpis": {
+          "costPerUnit": 3.4,
+          "defectRate": "1.2%",
+          "downtime": "3h",
+          "onTimeDelivery": "96%",
+          "unitsProduced": 28420
+        },
+        "onTimeDelivery": "96%",
+        "period": "2026-01-14",
+        "unitsProduced": 28420
+      },
+      "template": "customer-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Manufacturing using a simple API. Automate customer success recap video from structured data (Units produced, Defect rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Customer success recap video for Manufacturing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are buried in spreadsheets.",
+      "Plant updates take too long to compile.",
+      "Stakeholders need clear, consistent reporting.",
+      "Manual summaries slow down decisions."
+    ],
+    "title": "Why Manufacturing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/investor-update-video",
+      "label": "Investor Update Video for Manufacturing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a customer recap is generated happens.",
+      "POST structured data to /render using template customer-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or leadership portal."
+    ],
+    "title": "Automate customer success recap video with an API"
+  },
+  "title": "Customer success recap video for Manufacturing",
+  "type": "use_case",
+  "version": 1
+}

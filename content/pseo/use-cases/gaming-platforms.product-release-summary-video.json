@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate weekly engagement recaps.",
+      "Make trends easy to communicate.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a release ships."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/gaming-platforms/product-release-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first product release summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate product release summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide image URLs in the payload.",
+      "q": "Can I include screenshots?"
+    },
+    {
+      "a": "Yes. Use branding and CTA slots.",
+      "q": "Is it suitable for customer announcements?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Product release summary video for Gaming platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a concise product release recap when a new version ships."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide feature highlights and impact metrics.",
+        "title": "Collect release notes"
+      },
+      {
+        "body": "POST to /render with release-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and send a webhook when ready.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Embed in-app or send to customers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.gaming-platforms.product-release-summary-video.525edf5ce8",
+  "io": {
+    "inputJsonExample": {
+      "brand": "gaming-platforms",
+      "data": {
+        "arppu": 3.2,
+        "dau": 284210,
+        "features": "example-features",
+        "highlight": "players",
+        "iapRevenue": 84200,
+        "impact": "example-impact",
+        "period": "2026-01-14",
+        "releaseId": "example-releaseId",
+        "retention": "36%",
+        "sessions": 1240000
+      },
+      "template": "release-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Feature highlights",
+      "Impact summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Gaming platforms using a simple API. Automate product release summary video from structured data (DAU, Sessions). Includes webhooks and brand profiles.",
+  "metaTitle": "Product release summary video for Gaming platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance insights aren't shared consistently.",
+      "Teams need a repeatable weekly digest.",
+      "Manual recaps take too long.",
+      "Stakeholders miss trends between reviews."
+    ],
+    "title": "Why Gaming platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/gaming-platforms/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Gaming platforms"
+    },
+    {
+      "href": "/use-cases/gaming-platforms/investor-update-video",
+      "label": "Investor Update Video for Gaming platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a release ships happens.",
+      "POST structured data to /render using template release-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate product release summary video with an API"
+  },
+  "title": "Product release summary video for Gaming platforms",
+  "type": "use_case",
+  "version": 1
+}

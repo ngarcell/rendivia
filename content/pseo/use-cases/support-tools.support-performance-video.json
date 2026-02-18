@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate weekly support performance digests.",
+      "Make trends visible and easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a weekly support digest is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/support-tools/support-performance-video",
+  "cta": {
+    "body": "Create an API key and render your first support performance video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate support performance video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include agent-level stats in the payload.",
+      "q": "Can I include agent metrics?"
+    },
+    {
+      "a": "Yes. Provide queue arrays in the payload.",
+      "q": "Does it handle multiple queues?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Support performance video for Customer support tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Ship weekly support KPIs to keep teams aligned on SLAs."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide ticket volume, response, and resolution metrics.",
+        "title": "Collect support KPIs"
+      },
+      {
+        "body": "POST to /render with support-performance-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Send to support leadership or ops.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.support-tools.support-performance-video.3889a90ecf",
+  "io": {
+    "inputJsonExample": {
+      "brand": "customer-support-tools",
+      "data": {
+        "backlog": 214,
+        "csat": "92%",
+        "firstResponse": "18m",
+        "highlight": "tickets",
+        "kpis": {
+          "backlog": 214,
+          "csat": "92%",
+          "firstResponse": "18m",
+          "resolution": "6h",
+          "tickets": 1842
+        },
+        "period": "2026-W05",
+        "resolution": "6h",
+        "sla": "example-sla",
+        "tickets": 1842
+      },
+      "template": "support-performance-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "SLA compliance summary",
+      "Volume and backlog trends",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Customer support tools using a simple API. Automate support performance video from structured data (Tickets, First response time). Includes webhooks and brand profiles.",
+  "metaTitle": "Support performance video for Customer support tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Support performance reporting is repetitive.",
+      "Stakeholders miss trends between reviews.",
+      "Manual recaps vary by manager/team.",
+      "Teams need consistent outputs."
+    ],
+    "title": "Why Customer support tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/support-tools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/investor-update-video",
+      "label": "Investor Update Video for Customer support tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a weekly support digest is ready happens.",
+      "POST structured data to /render using template support-performance-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate support performance video with an API"
+  },
+  "title": "Support performance video for Customer support tools",
+  "type": "use_case",
+  "version": 1
+}

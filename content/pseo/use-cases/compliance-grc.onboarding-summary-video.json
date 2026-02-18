@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by onboarding is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/compliance-grc/onboarding-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first onboarding summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate onboarding summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user?"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Onboarding summary video for Compliance / GRC",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate onboarding progress summaries as soon as activation milestones are reached."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and return a webhook on completion.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the recap in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.compliance-grc.onboarding-summary-video.2ceecb5061",
+  "io": {
+    "inputJsonExample": {
+      "brand": "compliance-grc",
+      "data": {
+        "accountId": "example-accountId",
+        "controlsComplete": 78,
+        "evidenceItems": 143,
+        "highlight": "controls",
+        "milestones": "example-milestones",
+        "openFindings": 6,
+        "period": "2026-01-14",
+        "riskScore": 72,
+        "vendorsAssessed": 21
+      },
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Compliance / GRC using a simple API. Automate onboarding summary video from structured data (Controls complete, Open findings). Includes webhooks and brand profiles.",
+  "metaTitle": "Onboarding summary video for Compliance / GRC | Rendivia",
+  "problem": {
+    "bullets": [
+      "Stakeholders struggle to track progress across audits.",
+      "Updates are manual and often delayed.",
+      "Status reports lack clarity and narrative.",
+      "Teams need consistent reporting for leadership."
+    ],
+    "title": "Why Compliance / GRC teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/compliance-grc/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/investor-update-video",
+      "label": "Investor Update Video for Compliance / GRC"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when onboarding is complete happens.",
+      "POST structured data to /render using template onboarding-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or leadership portal."
+    ],
+    "title": "Automate onboarding summary video with an API"
+  },
+  "title": "Onboarding summary video for Compliance / GRC",
+  "type": "use_case",
+  "version": 1
+}

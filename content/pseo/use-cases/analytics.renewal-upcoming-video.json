@@ -1,0 +1,134 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a renewal is upcoming."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/renewal-upcoming-video",
+  "cta": {
+    "body": "Create an API key and render your first renewal upcoming video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate renewal upcoming video via API"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets.",
+      "q": "Is this internal or external?"
+    },
+    {
+      "a": "Yes. Include plan fields to render pricing and tier info.",
+      "q": "Can I include plan details?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Renewal upcoming video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize account health ahead of renewals to drive proactive action."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide usage, outcomes, and renewal date.",
+        "title": "Prepare health data"
+      },
+      {
+        "body": "POST to /render with renewal-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to CSMs or customers with clear next steps.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.renewal-upcoming-video.5b2d62b94c",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "accountId": "example-accountId",
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "highlight": "dashboards",
+        "kpis": {
+          "conversion": "3.4%",
+          "dropOff": "pricing_view",
+          "retention": "41%",
+          "topEvent": "signup_completed",
+          "wau": 48210
+        },
+        "period": "2026-01-14",
+        "renewalDate": "example-renewalDate",
+        "retention": "41%",
+        "topEvent": "signup_completed",
+        "wau": 48210
+      },
+      "template": "renewal-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Renewal timeline and health KPIs",
+      "Next-step CTA slot",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate renewal upcoming video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Renewal upcoming video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a renewal is upcoming happens.",
+      "POST structured data to /render using template renewal-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate renewal upcoming video with an API"
+  },
+  "title": "Renewal upcoming video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

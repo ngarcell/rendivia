@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Create consistent incident and status updates.",
+      "Automate post-incident communication.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a quarterly review is prepared."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/cybersecurity/quarterly-qbr-video",
+  "cta": {
+    "body": "Create an API key and render your first quarterly business review (qbr) video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate quarterly business review (qbr) video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. It's designed for leadership-friendly quarterly summaries.",
+      "q": "Can this be used for exec updates?"
+    },
+    {
+      "a": "Yes. Provide numeric series; the template renders charts.",
+      "q": "Can I include charts?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Quarterly business review (QBR) video for Cybersecurity",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a QBR-style recap video from structured quarterly KPIs and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide quarterly KPIs and a short set of highlights.",
+        "title": "Prepare inputs"
+      },
+      {
+        "body": "POST to /render with qbr-summary-v1.",
+        "title": "Render via API"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the MP4 to stakeholders or embed in your portal.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.cybersecurity.quarterly-qbr-video.a8df75689e",
+  "io": {
+    "inputJsonExample": {
+      "brand": "cybersecurity",
+      "data": {
+        "alerts": 1842,
+        "coverage": "92%",
+        "criticalVulns": 11,
+        "highlight": "alerts",
+        "highlights": "example-highlights",
+        "incidents": 3,
+        "kpis": {
+          "alerts": 1842,
+          "coverage": "92%",
+          "criticalVulns": 11,
+          "incidents": 3,
+          "mttr": "2h 14m"
+        },
+        "mttr": "2h 14m",
+        "period": "2026-Q1"
+      },
+      "template": "qbr-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "90-120s MP4 video",
+      "Quarter-over-quarter comparisons",
+      "Highlights section rendered as cards",
+      "Webhook with URL + metadata"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Cybersecurity using a simple API. Automate quarterly business review (qbr) video from structured data (Alerts, Incidents). Includes webhooks and brand profiles.",
+  "metaTitle": "Quarterly business review (QBR) video for Cybersecurity | Rendivia",
+  "problem": {
+    "bullets": [
+      "Security updates are noisy and hard to summarize.",
+      "Stakeholders need digestible incident/status reporting.",
+      "Manual summaries are inconsistent under pressure.",
+      "Teams need reliable communication during events."
+    ],
+    "title": "Why Cybersecurity teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/cybersecurity/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Cybersecurity"
+    },
+    {
+      "href": "/use-cases/cybersecurity/investor-update-video",
+      "label": "Investor Update Video for Cybersecurity"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a quarterly review is prepared happens.",
+      "POST structured data to /render using template qbr-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or status page."
+    ],
+    "title": "Automate quarterly business review (qbr) video with an API"
+  },
+  "title": "Quarterly business review (QBR) video for Cybersecurity",
+  "type": "use_case",
+  "version": 1
+}

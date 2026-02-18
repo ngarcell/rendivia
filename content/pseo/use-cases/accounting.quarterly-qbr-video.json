@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate invoice and cashflow summaries.",
+      "Reduce reporting time each cycle.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a quarterly review is prepared."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/accounting/quarterly-qbr-video",
+  "cta": {
+    "body": "Create an API key and render your first quarterly business review (qbr) video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate quarterly business review (qbr) video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. It's designed for leadership-friendly quarterly summaries.",
+      "q": "Can this be used for exec updates?"
+    },
+    {
+      "a": "Yes. Provide numeric series; the template renders charts.",
+      "q": "Can I include charts?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Quarterly business review (QBR) video for Accounting / Invoicing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a QBR-style recap video from structured quarterly KPIs and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide quarterly KPIs and a short set of highlights.",
+        "title": "Prepare inputs"
+      },
+      {
+        "body": "POST to /render with qbr-summary-v1.",
+        "title": "Render via API"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the MP4 to stakeholders or embed in your portal.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.accounting.quarterly-qbr-video.b7f48a2b19",
+  "io": {
+    "inputJsonExample": {
+      "brand": "accounting-invoicing",
+      "data": {
+        "cashIn": 84200,
+        "dso": "31d",
+        "highlight": "invoices",
+        "highlights": "example-highlights",
+        "invoicesSent": 482,
+        "kpis": {
+          "cashIn": 84200,
+          "dso": "31d",
+          "invoicesSent": 482,
+          "overdue": 41,
+          "paid": 392
+        },
+        "overdue": 41,
+        "paid": 392,
+        "period": "2026-Q1"
+      },
+      "template": "qbr-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "90-120s MP4 video",
+      "Quarter-over-quarter comparisons",
+      "Highlights section rendered as cards",
+      "Webhook with URL + metadata"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Accounting / Invoicing using a simple API. Automate quarterly business review (qbr) video from structured data (Invoices sent, Paid). Includes webhooks and brand profiles.",
+  "metaTitle": "Quarterly business review (QBR) video for Accounting / Invoicing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Cashflow reporting is often delayed.",
+      "Stakeholders need predictable summaries.",
+      "Manual recap work repeats each period.",
+      "Invoices and payments need clearer communication."
+    ],
+    "title": "Why Accounting / Invoicing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/accounting/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/investor-update-video",
+      "label": "Investor Update Video for Accounting / Invoicing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a quarterly review is prepared happens.",
+      "POST structured data to /render using template qbr-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or dashboard."
+    ],
+    "title": "Automate quarterly business review (qbr) video with an API"
+  },
+  "title": "Quarterly business review (QBR) video for Accounting / Invoicing",
+  "type": "use_case",
+  "version": 1
+}

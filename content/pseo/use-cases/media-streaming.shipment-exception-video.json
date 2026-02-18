@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate content and subscriber recaps.",
+      "Make performance trends easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by exceptions are detected."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/media-streaming/shipment-exception-video",
+  "cta": {
+    "body": "Create an API key and render your first shipment exception video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate shipment exception video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide ETA fields and the template renders them.",
+      "q": "Can I include live ETAs?"
+    },
+    {
+      "a": "Yes, typically for ops teams and internal dashboards.",
+      "q": "Is it for internal ops only?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Shipment exception video for Media / Streaming",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a short exception recap when logistics issues spike."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide exception counts and impacted routes.",
+        "title": "Detect exceptions"
+      },
+      {
+        "body": "POST to /render with exception-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render reliably.",
+        "title": "Async output"
+      },
+      {
+        "body": "Webhook returns MP4 for ops alerts.",
+        "title": "Notify"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.media-streaming.shipment-exception-video.3f57eb2a81",
+  "io": {
+    "inputJsonExample": {
+      "brand": "media-streaming",
+      "data": {
+        "adRevenue": 124000,
+        "avgSession": "32m",
+        "churn": "2.4%",
+        "exceptions": "example-exceptions",
+        "highlight": "subscribers",
+        "period": "2026-01-14",
+        "routes": "example-routes",
+        "subsGained": 8420,
+        "watchHours": 482100
+      },
+      "template": "exception-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "20-40s MP4 video",
+      "Exception count and severity",
+      "Impacted routes summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Media / Streaming using a simple API. Automate shipment exception video from structured data (Watch hours, Subscribers gained). Includes webhooks and brand profiles.",
+  "metaTitle": "Shipment exception video for Media / Streaming | Rendivia",
+  "problem": {
+    "bullets": [
+      "Content performance updates are manual and delayed.",
+      "Teams need a consistent weekly recap.",
+      "KPIs are spread across analytics tools.",
+      "Manual summaries slow content decisions."
+    ],
+    "title": "Why Media / Streaming teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/media-streaming/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/investor-update-video",
+      "label": "Investor Update Video for Media / Streaming"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when exceptions are detected happens.",
+      "POST structured data to /render using template exception-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, internal dashboard, or Slack."
+    ],
+    "title": "Automate shipment exception video with an API"
+  },
+  "title": "Shipment exception video for Media / Streaming",
+  "type": "use_case",
+  "version": 1
+}

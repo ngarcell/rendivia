@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate data reliability and pipeline updates.",
+      "Make dataset health visible at a glance.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by onboarding is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/data-platforms/onboarding-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first onboarding summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate onboarding summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user?"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Onboarding summary video for Data platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate onboarding progress summaries as soon as activation milestones are reached."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and return a webhook on completion.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the recap in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.data-platforms.onboarding-summary-video.1ca6f2123c",
+  "io": {
+    "inputJsonExample": {
+      "brand": "data-platforms",
+      "data": {
+        "accountId": "example-accountId",
+        "cost": 8420,
+        "dataVolume": 128,
+        "highlight": "pipelines",
+        "milestones": "example-milestones",
+        "period": "2026-01-14",
+        "pipelinesSucceeded": 932,
+        "queryCount": 42000,
+        "slaBreaches": 3
+      },
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Data platforms using a simple API. Automate onboarding summary video from structured data (Pipelines succeeded, Data volume (TB)). Includes webhooks and brand profiles.",
+  "metaTitle": "Onboarding summary video for Data platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Data reliability updates are buried in logs.",
+      "Stakeholders lack visibility into pipeline health.",
+      "Manual status emails take too long.",
+      "Incidents need a consistent recap format."
+    ],
+    "title": "Why Data platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/data-platforms/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/investor-update-video",
+      "label": "Investor Update Video for Data platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when onboarding is complete happens.",
+      "POST structured data to /render using template onboarding-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate onboarding summary video with an API"
+  },
+  "title": "Onboarding summary video for Data platforms",
+  "type": "use_case",
+  "version": 1
+}

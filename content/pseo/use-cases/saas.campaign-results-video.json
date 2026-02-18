@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Increase engagement with automated summaries.",
+      "Make key KPIs easier to understand at a glance.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a campaign ends."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/saas/campaign-results-video",
+  "cta": {
+    "body": "Create an API key and render your first campaign results video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate campaign results video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include target values and we render comparisons.",
+      "q": "Can I include benchmarks?"
+    },
+    {
+      "a": "Call /render per campaign for deterministic outputs.",
+      "q": "Is it multi-campaign?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Campaign results video for SaaS",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize campaign performance as soon as a campaign ends."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate reach, conversion, and spend metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "POST to /render with campaign-results-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive a webhook with the MP4 URL.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share internally or to clients automatically.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.saas.campaign-results-video.a247cd1218",
+  "io": {
+    "inputJsonExample": {
+      "brand": "saas",
+      "data": {
+        "activation": "34%",
+        "activeUsers": 1243,
+        "campaignId": "example-campaignId",
+        "churn": "2.1%",
+        "highlight": "users",
+        "kpis": {
+          "activation": "34%",
+          "activeUsers": 1243,
+          "churn": "2.1%",
+          "mrr": 8920,
+          "nrr": "112%"
+        },
+        "mrr": 8920,
+        "nrr": "112%",
+        "period": "2026-01-14"
+      },
+      "template": "campaign-results-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for SaaS using a simple API. Automate campaign results video from structured data (MRR, Active users). Includes webhooks and brand profiles.",
+  "metaTitle": "Campaign results video for SaaS | Rendivia",
+  "problem": {
+    "bullets": [
+      "Dashboards require users to interpret charts manually.",
+      "Email and PDF reports are skimmed or ignored.",
+      "Weekly insights get lost without a narrative.",
+      "Manual video creation doesn't scale across customers."
+    ],
+    "title": "Why SaaS teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/saas/monthly-metrics-video",
+      "label": "Monthly Metrics Video for SaaS"
+    },
+    {
+      "href": "/use-cases/saas/investor-update-video",
+      "label": "Investor Update Video for SaaS"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a campaign ends happens.",
+      "POST structured data to /render using template campaign-results-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or customer portal."
+    ],
+    "title": "Automate campaign results video with an API"
+  },
+  "title": "Campaign results video for SaaS",
+  "type": "use_case",
+  "version": 1
+}

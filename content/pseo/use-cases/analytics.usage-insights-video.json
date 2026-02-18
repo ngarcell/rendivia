@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by usage crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/usage-insights-video",
+  "cta": {
+    "body": "Create an API key and render your first usage insights video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate usage insights video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons?"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Usage insights video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate usage insight summaries when accounts hit key thresholds."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send usage recaps in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.usage-insights-video.da82ff7b73",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "accountId": "example-accountId",
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "highlight": "dashboards",
+        "period": "2026-01-14",
+        "retention": "41%",
+        "topEvent": "signup_completed",
+        "usage": "example-usage",
+        "wau": 48210
+      },
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate usage insights video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Usage insights video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when usage crosses a threshold happens.",
+      "POST structured data to /render using template usage-insights-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate usage insights video with an API"
+  },
+  "title": "Usage insights video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

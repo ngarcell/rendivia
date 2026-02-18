@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an incident is resolved."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/security-incident-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first security incident summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate security incident summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a rootCause field in the payload.",
+      "q": "Can I include root cause?"
+    },
+    {
+      "a": "Yes. You control delivery and messaging.",
+      "q": "Is it suitable for external comms?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Security incident summary video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Provide a concise incident summary once an incident is resolved."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide timeline events and impact metrics.",
+        "title": "Collect timeline"
+      },
+      {
+        "body": "POST to /render with incident-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue, render, and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to stakeholders or include in postmortems.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.security-incident-summary-video.0777737524",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "highlight": "dashboards",
+        "impact": "example-impact",
+        "incidentId": "example-incidentId",
+        "period": "2026-01-14",
+        "retention": "41%",
+        "timeline": "example-timeline",
+        "topEvent": "signup_completed",
+        "wau": 48210
+      },
+      "template": "incident-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate security incident summary video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Security incident summary video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an incident is resolved happens.",
+      "POST structured data to /render using template incident-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate security incident summary video with an API"
+  },
+  "title": "Security incident summary video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

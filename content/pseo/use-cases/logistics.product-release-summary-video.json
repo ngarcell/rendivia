@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a release ships."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/logistics/product-release-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first product release summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate product release summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide image URLs in the payload.",
+      "q": "Can I include screenshots?"
+    },
+    {
+      "a": "Yes. Use branding and CTA slots.",
+      "q": "Is it suitable for customer announcements?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Product release summary video for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a concise product release recap when a new version ships."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide feature highlights and impact metrics.",
+        "title": "Collect release notes"
+      },
+      {
+        "body": "POST to /render with release-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and send a webhook when ready.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Embed in-app or send to customers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.logistics.product-release-summary-video.56fccdd947",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics-supply-chain",
+      "data": {
+        "avgDelay": "12m",
+        "costPerShipment": 4.2,
+        "exceptions": 38,
+        "features": "example-features",
+        "highlight": "shipments",
+        "impact": "example-impact",
+        "onTimeRate": "94%",
+        "period": "2026-01-14",
+        "releaseId": "example-releaseId",
+        "shipments": 9821
+      },
+      "template": "release-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Feature highlights",
+      "Impact summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Logistics / Supply chain using a simple API. Automate product release summary video from structured data (Shipments, On-time rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Product release summary video for Logistics / Supply chain | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are hard to communicate quickly.",
+      "Exceptions require consistent reporting.",
+      "Manual weekly summaries waste time.",
+      "Stakeholders want a digest, not dashboards."
+    ],
+    "title": "Why Logistics / Supply chain teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/investor-update-video",
+      "label": "Investor Update Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a release ships happens.",
+      "POST structured data to /render using template release-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or Slack."
+    ],
+    "title": "Automate product release summary video with an API"
+  },
+  "title": "Product release summary video for Logistics / Supply chain",
+  "type": "use_case",
+  "version": 1
+}

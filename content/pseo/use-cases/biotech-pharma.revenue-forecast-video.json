@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate study progress recaps.",
+      "Deliver consistent updates across sites.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a forecast is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/biotech-pharma/revenue-forecast-video",
+  "cta": {
+    "body": "Create an API key and render your first revenue forecast video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate revenue forecast video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide scenario arrays for best/base/worst.",
+      "q": "Can I include scenarios?"
+    },
+    {
+      "a": "Yes. Same input always yields the same output.",
+      "q": "Is it deterministic?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Revenue forecast video for Biotech / Pharma",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize revenue forecasts with assumptions and confidence ranges."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Include ranges, targets, and assumptions.",
+        "title": "Provide forecast"
+      },
+      {
+        "body": "POST to /render with revenue-forecast-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render reliably.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with finance and leadership.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.biotech-pharma.revenue-forecast-video.3d97a0eb25",
+  "io": {
+    "inputJsonExample": {
+      "brand": "biotech-pharma",
+      "data": {
+        "adverseEvents": 6,
+        "assumptions": "example-assumptions",
+        "cycleTime": "12d",
+        "forecast": "example-forecast",
+        "highlight": "trials",
+        "patientsEnrolled": 412,
+        "period": "2026-01-14",
+        "protocolDeviations": 3,
+        "sitesActive": 24
+      },
+      "template": "revenue-forecast-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Forecast ranges and deltas",
+      "Assumptions summarized",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Biotech / Pharma using a simple API. Automate revenue forecast video from structured data (Active sites, Patients enrolled). Includes webhooks and brand profiles.",
+  "metaTitle": "Revenue forecast video for Biotech / Pharma | Rendivia",
+  "problem": {
+    "bullets": [
+      "Trial updates are slow to compile and distribute.",
+      "Stakeholders need consistent progress reporting.",
+      "Manual summaries delay decisions.",
+      "Sites need a clear, repeatable recap format."
+    ],
+    "title": "Why Biotech / Pharma teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/biotech-pharma/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/investor-update-video",
+      "label": "Investor Update Video for Biotech / Pharma"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a forecast is ready happens.",
+      "POST structured data to /render using template revenue-forecast-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via secure portal, email, or internal dashboard."
+    ],
+    "title": "Automate revenue forecast video with an API"
+  },
+  "title": "Revenue forecast video for Biotech / Pharma",
+  "type": "use_case",
+  "version": 1
+}

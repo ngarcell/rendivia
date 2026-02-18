@@ -1,0 +1,134 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver consistent people updates.",
+      "Automate recurring headcount and hiring recaps.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a renewal is upcoming."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/hr-peopleops/renewal-upcoming-video",
+  "cta": {
+    "body": "Create an API key and render your first renewal upcoming video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate renewal upcoming video via API"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets.",
+      "q": "Is this internal or external?"
+    },
+    {
+      "a": "Yes. Include plan fields to render pricing and tier info.",
+      "q": "Can I include plan details?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Renewal upcoming video for HR / People Ops",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize account health ahead of renewals to drive proactive action."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide usage, outcomes, and renewal date.",
+        "title": "Prepare health data"
+      },
+      {
+        "body": "POST to /render with renewal-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to CSMs or customers with clear next steps.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.hr-peopleops.renewal-upcoming-video.3c60924bd9",
+  "io": {
+    "inputJsonExample": {
+      "brand": "hr-people-ops",
+      "data": {
+        "accountId": "example-accountId",
+        "attrition": "1.1%",
+        "engagement": "76%",
+        "headcount": 214,
+        "highlight": "employees",
+        "kpis": {
+          "attrition": "1.1%",
+          "engagement": "76%",
+          "headcount": 214,
+          "openRoles": 12,
+          "timeToHire": "24d"
+        },
+        "openRoles": 12,
+        "period": "2026-01-14",
+        "renewalDate": "example-renewalDate",
+        "timeToHire": "24d"
+      },
+      "template": "renewal-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Renewal timeline and health KPIs",
+      "Next-step CTA slot",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for HR / People Ops using a simple API. Automate renewal upcoming video from structured data (Headcount, Open roles). Includes webhooks and brand profiles.",
+  "metaTitle": "Renewal upcoming video for HR / People Ops | Rendivia",
+  "problem": {
+    "bullets": [
+      "People metrics aren't communicated consistently.",
+      "Stakeholders want simple, regular updates.",
+      "Manual reports take time each month.",
+      "Narrative gets lost in spreadsheets."
+    ],
+    "title": "Why HR / People Ops teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/hr-peopleops/monthly-metrics-video",
+      "label": "Monthly Metrics Video for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/investor-update-video",
+      "label": "Investor Update Video for HR / People Ops"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a renewal is upcoming happens.",
+      "POST structured data to /render using template renewal-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, leadership portal, or Slack."
+    ],
+    "title": "Automate renewal upcoming video with an API"
+  },
+  "title": "Renewal upcoming video for HR / People Ops",
+  "type": "use_case",
+  "version": 1
+}

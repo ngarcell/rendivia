@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate store performance summaries.",
+      "Make trends easy to share across regions.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by onboarding is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/retail/onboarding-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first onboarding summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate onboarding summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user?"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Onboarding summary video for Retail",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate onboarding progress summaries as soon as activation milestones are reached."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and return a webhook on completion.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the recap in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.retail.onboarding-summary-video.cb62b543d2",
+  "io": {
+    "inputJsonExample": {
+      "brand": "retail",
+      "data": {
+        "accountId": "example-accountId",
+        "footTraffic": 48210,
+        "highlight": "stores",
+        "inventoryTurns": 5.2,
+        "milestones": "example-milestones",
+        "period": "2026-01-14",
+        "promoLift": "12%",
+        "sameStoreSales": "4.1%",
+        "stockouts": 32
+      },
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Retail using a simple API. Automate onboarding summary video from structured data (Same-store sales, Foot traffic). Includes webhooks and brand profiles.",
+  "metaTitle": "Onboarding summary video for Retail | Rendivia",
+  "problem": {
+    "bullets": [
+      "Store performance updates are slow to compile.",
+      "Regional teams need consistent recaps.",
+      "Manual reporting hides trends.",
+      "KPIs are not shared in a digestible format."
+    ],
+    "title": "Why Retail teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/retail/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Retail"
+    },
+    {
+      "href": "/use-cases/retail/investor-update-video",
+      "label": "Investor Update Video for Retail"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when onboarding is complete happens.",
+      "POST structured data to /render using template onboarding-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, regional dashboard, or Slack."
+    ],
+    "title": "Automate onboarding summary video with an API"
+  },
+  "title": "Onboarding summary video for Retail",
+  "type": "use_case",
+  "version": 1
+}

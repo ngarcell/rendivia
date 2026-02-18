@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate data reliability and pipeline updates.",
+      "Make dataset health visible at a glance.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a compliance review is completed."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/data-platforms/compliance-review-video",
+  "cta": {
+    "body": "Create an API key and render your first compliance review video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate compliance review video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are deterministic and versioned.",
+      "q": "Is it audit-ready?"
+    },
+    {
+      "a": "Yes. Include remediation text in the payload.",
+      "q": "Can I add remediation notes?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Compliance review video for Data platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize compliance review outcomes in a deterministic video update."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide control statuses and open findings.",
+        "title": "Collect status"
+      },
+      {
+        "body": "POST to /render with compliance-review-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and send a webhook on completion.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share with leadership or auditors.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.data-platforms.compliance-review-video.0c377c5055",
+  "io": {
+    "inputJsonExample": {
+      "brand": "data-platforms",
+      "data": {
+        "controls": "example-controls",
+        "cost": 8420,
+        "dataVolume": 128,
+        "highlight": "pipelines",
+        "period": "2026-01-14",
+        "pipelinesSucceeded": 932,
+        "queryCount": 42000,
+        "slaBreaches": 3,
+        "status": "example-status"
+      },
+      "template": "compliance-review-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Control status breakdown",
+      "Open findings summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Data platforms using a simple API. Automate compliance review video from structured data (Pipelines succeeded, Data volume (TB)). Includes webhooks and brand profiles.",
+  "metaTitle": "Compliance review video for Data platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Data reliability updates are buried in logs.",
+      "Stakeholders lack visibility into pipeline health.",
+      "Manual status emails take too long.",
+      "Incidents need a consistent recap format."
+    ],
+    "title": "Why Data platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/data-platforms/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/investor-update-video",
+      "label": "Investor Update Video for Data platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a compliance review is completed happens.",
+      "POST structured data to /render using template compliance-review-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate compliance review video with an API"
+  },
+  "title": "Compliance review video for Data platforms",
+  "type": "use_case",
+  "version": 1
+}

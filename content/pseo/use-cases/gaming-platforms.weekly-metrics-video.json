@@ -1,0 +1,132 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate weekly engagement recaps.",
+      "Make trends easy to communicate.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a weekly report is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/gaming-platforms/weekly-metrics-video",
+  "cta": {
+    "body": "Create an API key and render your first weekly metrics video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate weekly metrics video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are versioned and the same input produces the same output.",
+      "q": "Is the output deterministic?"
+    },
+    {
+      "a": "Use the webhook URL to embed in-app or send via email/portal.",
+      "q": "How do I deliver the video?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Weekly metrics video for Gaming platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automatically turn weekly KPIs into a branded video summary using an API."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Use a versioned template such as weekly-summary-v1.",
+        "title": "Pick a template"
+      },
+      {
+        "body": "POST metrics JSON to /render with your API key.",
+        "title": "Send data"
+      },
+      {
+        "body": "We queue the job and render reliably at scale.",
+        "title": "Render async"
+      },
+      {
+        "body": "Get a webhook with the MP4 URL when done.",
+        "title": "Receive the result"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.gaming-platforms.weekly-metrics-video.73970cf1c3",
+  "io": {
+    "inputJsonExample": {
+      "brand": "gaming-platforms",
+      "data": {
+        "arppu": 3.2,
+        "dau": 284210,
+        "highlight": "players",
+        "iapRevenue": 84200,
+        "kpis": {
+          "arppu": 3.2,
+          "dau": 284210,
+          "iapRevenue": 84200,
+          "retention": "36%",
+          "sessions": 1240000
+        },
+        "period": "2026-W05",
+        "retention": "36%",
+        "sessions": 1240000
+      },
+      "template": "weekly-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Brand colors, logo, and typography applied",
+      "Charts rendered from provided KPIs",
+      "Webhook includes output URL and metadata"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Gaming platforms using a simple API. Automate weekly metrics video from structured data (DAU, Sessions). Includes webhooks and brand profiles.",
+  "metaTitle": "Weekly metrics video for Gaming platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance insights aren't shared consistently.",
+      "Teams need a repeatable weekly digest.",
+      "Manual recaps take too long.",
+      "Stakeholders miss trends between reviews."
+    ],
+    "title": "Why Gaming platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/gaming-platforms/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Gaming platforms"
+    },
+    {
+      "href": "/use-cases/gaming-platforms/investor-update-video",
+      "label": "Investor Update Video for Gaming platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a weekly report is ready happens.",
+      "POST structured data to /render using template weekly-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate weekly metrics video with an API"
+  },
+  "title": "Weekly metrics video for Gaming platforms",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a weekly support digest is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/proptech/support-performance-video",
+  "cta": {
+    "body": "Create an API key and render your first support performance video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate support performance video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include agent-level stats in the payload.",
+      "q": "Can I include agent metrics?"
+    },
+    {
+      "a": "Yes. Provide queue arrays in the payload.",
+      "q": "Does it handle multiple queues?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Support performance video for PropTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Ship weekly support KPIs to keep teams aligned on SLAs."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide ticket volume, response, and resolution metrics.",
+        "title": "Collect support KPIs"
+      },
+      {
+        "body": "POST to /render with support-performance-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Send to support leadership or ops.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.proptech.support-performance-video.d612157f18",
+  "io": {
+    "inputJsonExample": {
+      "brand": "proptech",
+      "data": {
+        "avgRent": 2140,
+        "highlight": "properties",
+        "kpis": {
+          "avgRent": 2140,
+          "leads": 620,
+          "leaseRenewals": 48,
+          "listings": 214,
+          "occupancy": "93%"
+        },
+        "leads": 620,
+        "leaseRenewals": 48,
+        "listings": 214,
+        "occupancy": "93%",
+        "period": "2026-W05",
+        "sla": "example-sla"
+      },
+      "template": "support-performance-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "SLA compliance summary",
+      "Volume and backlog trends",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for PropTech using a simple API. Automate support performance video from structured data (Listings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Support performance video for PropTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Property updates are spread across tools.",
+      "Stakeholders need a consistent weekly recap.",
+      "Manual report creation delays decisions.",
+      "Insights get lost without a clear narrative."
+    ],
+    "title": "Why PropTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/proptech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/investor-update-video",
+      "label": "Investor Update Video for PropTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a weekly support digest is ready happens.",
+      "POST structured data to /render using template support-performance-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, investor portal, or internal dashboard."
+    ],
+    "title": "Automate support performance video with an API"
+  },
+  "title": "Support performance video for PropTech",
+  "type": "use_case",
+  "version": 1
+}

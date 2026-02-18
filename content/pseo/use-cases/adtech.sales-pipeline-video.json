@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate campaign summaries for clients and teams.",
+      "Make performance trends easy to digest.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by pipeline is updated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/adtech/sales-pipeline-video",
+  "cta": {
+    "body": "Create an API key and render your first sales pipeline video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate sales pipeline video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits?"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Sales pipeline video for AdTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Turn pipeline snapshots into a concise weekly video for leadership."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send to sales leadership automatically.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.adtech.sales-pipeline-video.2f02767fe3",
+  "io": {
+    "inputJsonExample": {
+      "brand": "adtech",
+      "data": {
+        "clicks": 21400,
+        "cpa": 42.5,
+        "ctr": "2.6%",
+        "forecast": "example-forecast",
+        "highlight": "campaigns",
+        "impressions": 812000,
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline",
+        "spend": 48200
+      },
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for AdTech using a simple API. Automate sales pipeline video from structured data (Spend, Impressions). Includes webhooks and brand profiles.",
+  "metaTitle": "Sales pipeline video for AdTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Campaign performance updates are scattered across platforms.",
+      "Client recaps take hours to assemble each week.",
+      "Stakeholders miss trends without a clear narrative.",
+      "Manual reporting slows optimization cycles."
+    ],
+    "title": "Why AdTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/adtech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for AdTech"
+    },
+    {
+      "href": "/use-cases/adtech/investor-update-video",
+      "label": "Investor Update Video for AdTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when pipeline is updated happens.",
+      "POST structured data to /render using template pipeline-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or Slack."
+    ],
+    "title": "Automate sales pipeline video with an API"
+  },
+  "title": "Sales pipeline video for AdTech",
+  "type": "use_case",
+  "version": 1
+}

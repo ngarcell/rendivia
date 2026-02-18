@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate recurring performance digests.",
+      "Improve stakeholder clarity on KPIs.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a release ships."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/telecom/product-release-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first product release summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate product release summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide image URLs in the payload.",
+      "q": "Can I include screenshots?"
+    },
+    {
+      "a": "Yes. Use branding and CTA slots.",
+      "q": "Is it suitable for customer announcements?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Product release summary video for Telecom",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a concise product release recap when a new version ships."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide feature highlights and impact metrics.",
+        "title": "Collect release notes"
+      },
+      {
+        "body": "POST to /render with release-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and send a webhook when ready.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Embed in-app or send to customers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.telecom.product-release-summary-video.ba60d592a3",
+  "io": {
+    "inputJsonExample": {
+      "brand": "telecom",
+      "data": {
+        "arpu": 7.4,
+        "churn": "1.9%",
+        "dataUsage": 412,
+        "features": "example-features",
+        "highlight": "subscribers",
+        "impact": "example-impact",
+        "outages": 2,
+        "period": "2026-01-14",
+        "releaseId": "example-releaseId",
+        "subscribers": 184200
+      },
+      "template": "release-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Feature highlights",
+      "Impact summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Telecom using a simple API. Automate product release summary video from structured data (Subscribers, ARPU). Includes webhooks and brand profiles.",
+  "metaTitle": "Product release summary video for Telecom | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are noisy and difficult to summarize.",
+      "Stakeholders need digestible performance updates.",
+      "Manual summaries are slow and inconsistent.",
+      "Outage communication needs clarity."
+    ],
+    "title": "Why Telecom teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/telecom/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/investor-update-video",
+      "label": "Investor Update Video for Telecom"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a release ships happens.",
+      "POST structured data to /render using template release-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or internal dashboard."
+    ],
+    "title": "Automate product release summary video with an API"
+  },
+  "title": "Product release summary video for Telecom",
+  "type": "use_case",
+  "version": 1
+}

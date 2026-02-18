@@ -1,0 +1,1025 @@
+Below are all 3 deliverables: **(1)  one-shot prompt**, **(2) exact pSEO JSON schema → page generator**, **(3) the first canonical pSEO page written fully**. 
+
+---
+
+# 1) Cursor / Orchids one-shot prompt (paste as-is)
+
+```text
+You are a senior full-stack engineer + product designer shipping a developer-first B2B SaaS.
+
+GOAL
+Build the landing/homepage, dashboard UI, and pSEO page system for a product named “Rendivia” positioned as:
+“Programmatic video generation for SaaS products.”
+This is NOT a creator tool. It is an API-first infrastructure product.
+
+TECH STACK (strict)
+- Next.js 14+ App Router
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- Supabase (auth + db)
+- Optional: Zod for validation
+- Optional: MDX or “contentlayer” not required (we’ll use JSON content files)
+No complex external CMS.
+
+ROUTES TO BUILD (public)
+- / (homepage)
+- /use-cases/[industry]/[slug] (pSEO canonical pages)
+- /from/[source]/to/video (data-source pages)
+- /when/[event]/generate-video (trigger pages)
+- /pricing
+- /docs (simple placeholder)
+
+ROUTES TO BUILD (app)
+- /dashboard (overview)
+- /dashboard/api-keys
+- /dashboard/templates
+- /dashboard/brands
+- /dashboard/renders
+- /dashboard/billing
+
+DESIGN REQUIREMENTS
+- Clean enterprise/dev aesthetic: lots of whitespace, crisp typography, minimal gradients.
+- Hero must show code block (JSON example), not a “video editor” UI.
+- Single primary CTA: “Get API key”. Secondary as text link: “View docs”.
+- Absolutely avoid creator language: no “viral”, no “reels”, no emojis.
+- Use infrastructure language: deterministic, structured data, webhooks, templates, rendering.
+
+COPY REQUIREMENTS (must match)
+Homepage hero:
+H1: “Programmatic video generation for SaaS products”
+Subhead: “Generate deterministic, branded videos from structured data using a simple API.”
+Support: “Turn reports, metrics, events, and summaries into MP4 videos — automatically.”
+CTA: “Get API key” + text link “View docs”
+Code sample:
+POST /render
+{ "template":"weekly-summary", "data": { "users":1243, "revenue":8920, "growth":"+12%" } }
+→ returns branded MP4 video
+
+Homepage sections (in order):
+1) Problem: “Video is everywhere — but still manual” + 4 bullets
+2) Solution: “An API that turns data into video” with Input → Engine → Output columns
+3) Key features (6 max): API-first rendering, Deterministic output, Code-defined templates, Brand profiles, Scalable rendering, Usage-based billing
+4) Use cases grid linking to pSEO pages
+5) How it works (4 steps) + “See example request”
+6) Pricing teaser + CTA “View pricing”
+7) Footer with Docs, API Reference, Use cases, Status, Contact
+
+DASHBOARD UI (minimal, utilitarian)
+Sidebar: Overview, API Keys, Templates, Brand Profiles, Renders, Usage & Billing, Docs
+- Overview: 3 stats (Renders this month, Avg render time, Success rate) + Recent renders table
+- API Keys page: create/revoke, copy, example curl
+- Brands: brand name, logo upload, primary color, font dropdown, intro/outro toggle
+- Templates: read-only list with versions and supported fields
+- Renders: filters + detail view shows JSON input, logs, output URL, retry
+- Billing: renders/day chart + usage vs plan limit
+
+pSEO SYSTEM (critical)
+- Content must be generated from JSON files in /content/pseo/*.json
+- Each pSEO page uses a shared canonical layout (not blog style)
+- Each page must include: hero, problem, solution, input/output JSON, how it works, benefits, related links, single CTA “Get API key”.
+- Internal links must be generated from JSON “related” fields.
+
+DATA MODEL
+Implement a strict JSON schema using Zod that validates pSEO content:
+- Page types: use_case, data_source, trigger
+- Fields: title, metaTitle, metaDescription, slug, industry/source/event, hero, problemBullets, solutionBullets, inputJsonExample, outputBullets, howItWorksSteps, benefits, faq(optional), related (array of routes), cta, canonicalUrl
+
+SEO
+- Generate metadata (title/description) from JSON.
+- Add JSON-LD for “SoftwareApplication” and “FAQPage” if faq exists.
+- Add breadcrumb schema for pSEO pages.
+
+IMPLEMENTATION TASKS (deliverables)
+1) Create a complete Next.js project structure with these routes and components.
+2) Build reusable UI components: CodeBlock, FeatureGrid, UseCaseCard, StatCard, DataTable, SidebarLayout, CTASection.
+3) Create the JSON schema + loader utilities (read JSON files, validate with Zod).
+4) Implement the pSEO dynamic route pages rendering from JSON content.
+5) Seed at least ONE fully filled canonical pSEO JSON file for:
+   /use-cases/saas/weekly-metrics-video
+6) Make everything production-grade: responsive, accessible, clean layout, no placeholder lorem except in /docs.
+
+OUTPUT FORMAT
+- Provide the exact file tree
+- Provide code for every created file (no ellipses)
+- Ensure it builds successfully.
+- Use server components where appropriate; client only for interactive dashboard bits.
+- Keep it lean: no overengineering.
+
+Start now.
+```
+
+---
+
+# 2) Exact pSEO schema (JSON → page generator)
+
+## 2.1 Folder structure (content source of truth)
+
+```
+/content/pseo/
+  use-cases/
+    saas.weekly-metrics-video.json
+  data-sources/
+    postgres.to-video.json
+  triggers/
+    weekly-report.generate-video.json
+
+/content/pseo/_index.json   (optional: for global nav tiles)
+```
+
+## 2.2 Zod-backed JSON schema (shape you should enforce)
+
+### `PseoPage` (base)
+
+```json
+{
+  "type": "use_case",
+  "version": 1,
+  "id": "use_case.saas.weekly-metrics-video",
+  "canonicalUrl": "/use-cases/saas/weekly-metrics-video",
+
+  "title": "Weekly metrics videos for SaaS products",
+  "metaTitle": "Weekly metrics video summaries for SaaS | Rendivia",
+  "metaDescription": "Automatically turn weekly product metrics into branded video summaries using a simple API. Deterministic output, webhooks, and brand profiles.",
+
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Weekly metrics videos for SaaS products",
+    "subheadline": "Automatically turn weekly product metrics into branded video summaries using an API.",
+    "primaryCta": { "label": "Get API key", "href": "/dashboard" },
+    "secondaryCta": { "label": "View docs", "href": "/docs" }
+  },
+
+  "problem": {
+    "title": "Why metrics dashboards aren’t enough",
+    "bullets": [
+      "Users don’t log in weekly to interpret charts.",
+      "Email/PDF reports are ignored or skimmed.",
+      "Key insights get lost without a narrative.",
+      "Manual video creation doesn’t scale."
+    ]
+  },
+
+  "solution": {
+    "title": "Turn metrics into video — automatically",
+    "bullets": [
+      "Schedule a weekly job (cron) to fetch metrics.",
+      "Send metrics to the /render endpoint with a template id.",
+      "Receive a webhook when the MP4 is ready.",
+      "Deliver the video in-app, by email, or to a customer portal."
+    ]
+  },
+
+  "io": {
+    "inputTitle": "Input (structured metrics)",
+    "inputJsonExample": {
+      "template": "weekly-summary",
+      "data": { "week": "2026-01-14", "users": 1243, "revenue": 8920, "churn": "2.1%", "growth": "+12%" },
+      "brand": "acme"
+    },
+    "outputTitle": "Output (deterministic MP4)",
+    "outputBullets": [
+      "45–60s MP4 video",
+      "Brand colors, logo, and typography applied",
+      "Charts rendered from the provided metrics",
+      "Webhook payload includes output URL + metadata"
+    ]
+  },
+
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      { "title": "Pick a template", "body": "Use a versioned template such as weekly-summary:v1." },
+      { "title": "Send data", "body": "POST JSON metrics to /render with your API key." },
+      { "title": "Render async", "body": "We queue the job and render reliably at scale." },
+      { "title": "Receive the result", "body": "Get a webhook with the MP4 URL when done." }
+    ]
+  },
+
+  "benefits": {
+    "title": "Benefits",
+    "bullets": [
+      "Higher engagement than dashboards or PDFs",
+      "Clear narrative around key metrics",
+      "Fully automated weekly workflow",
+      "Deterministic output you can trust"
+    ]
+  },
+
+  "faq": [
+    {
+      "q": "Is the output deterministic?",
+      "a": "Yes. Templates are versioned and the same input produces the same video output."
+    },
+    {
+      "q": "How do I deliver the video to users?",
+      "a": "Use the webhook response to store the URL, then embed it in your app or send it by email."
+    }
+  ],
+
+  "related": [
+    { "label": "Monthly metrics videos", "href": "/use-cases/saas/monthly-metrics-video" },
+    { "label": "Investor update videos", "href": "/use-cases/saas/investor-update-video" },
+    { "label": "From Postgres to video", "href": "/from/postgres/to/video" }
+  ],
+
+  "cta": {
+    "title": "Generate weekly summaries via API",
+    "body": "Create an API key and render your first metrics video in minutes.",
+    "primary": { "label": "Get API key", "href": "/dashboard" }
+  }
+}
+```
+
+## 2.3 How the generator maps JSON → routes
+
+**Route rules**
+
+* `type=use_case` ⇒ `/use-cases/{industry}/{slug}`
+* `type=data_source` ⇒ `/from/{source}/to/video`
+* `type=trigger` ⇒ `/when/{event}/generate-video`
+
+**Slug strategy**
+
+* For use_case files: store `industry` and `slug` implicitly in filename or explicitly in JSON.
+* I recommend explicit in JSON if you want flexibility:
+
+  * add `params: { industry: "saas", slug: "weekly-metrics-video" }`
+
+**Indexing**
+
+* Build step reads all JSON under `/content/pseo/**`
+* Validates via Zod
+* Creates an in-memory map keyed by `canonicalUrl`
+* Dynamic routes fetch the matching page by params/canonicalUrl
+
+---
+
+# 3) First canonical pSEO page (fully written)
+
+This is the **full page copy** for:
+
+`/use-cases/saas/weekly-metrics-video`
+
+You can use it verbatim in your JSON and UI.
+
+---
+
+## Page metadata
+
+**Meta title:** Weekly metrics video summaries for SaaS | Rendivia
+**Meta description:** Automatically turn weekly product metrics into branded video summaries using a simple API. Deterministic output, webhooks, and brand profiles.
+
+---
+
+## Hero
+
+**Eyebrow:** Use case
+**H1:** Weekly metrics videos for SaaS products
+**Subheadline:** Automatically turn weekly product metrics into branded video summaries using an API.
+**Primary CTA:** Get API key
+**Secondary link:** View docs
+
+**Hero support line (optional):**
+Turn reports, dashboards, and weekly recaps into MP4 videos — automatically.
+
+---
+
+## Section: Why metrics dashboards aren’t enough
+
+Most SaaS products already track the right numbers. The problem is distribution and attention.
+
+* Users don’t log in every week to interpret charts.
+* Email and PDF reports are ignored or skimmed.
+* Key insights get lost without a clear narrative.
+* Manual video creation doesn’t scale with customer count.
+
+**Bridge sentence:**
+If you already compute weekly metrics, you can generate a weekly video recap with the same data.
+
+---
+
+## Section: Turn metrics into video — automatically
+
+Rendivia adds a video layer to your reporting workflow.
+
+* Schedule a weekly job (cron) to fetch your metrics.
+* Send the metrics to the `/render` endpoint with a template id.
+* We render an MP4 asynchronously and reliably.
+* Receive a webhook when the video is ready, then deliver it to users.
+
+---
+
+## Section: Input → Output
+
+### Input (structured metrics)
+
+```json
+{
+  "template": "weekly-summary:v1",
+  "data": {
+    "week": "2026-01-14",
+    "users": 1243,
+    "revenue": 8920,
+    "growth": "+12%",
+    "churn": "2.1%",
+    "topFeature": "Team Workspaces"
+  },
+  "brand": "acme"
+}
+```
+
+### Output (deterministic MP4)
+
+* 45–60 second MP4 video
+* Brand logo, colors, and typography applied
+* Charts and counters generated from your metrics
+* Webhook includes output URL and render metadata
+
+---
+
+## Section: How it works
+
+**1) Pick a template**
+Choose a versioned template like `weekly-summary:v1` to keep output deterministic.
+
+**2) Send data**
+POST your weekly metrics as JSON to `/render` using your API key.
+
+**3) Render async**
+We queue the job, render at scale, and retry safely on transient failures.
+
+**4) Receive the result**
+Get a webhook with the MP4 URL when the render completes.
+
+---
+
+## Section: Benefits
+
+* Higher engagement than dashboards or PDFs
+* Clear, consistent narrative around key metrics
+* Fully automated weekly workflow
+* Deterministic output you can trust in production
+
+---
+
+## Section: Common questions
+
+**Is the output deterministic?**
+Yes. Templates are versioned and the same input produces the same video output.
+
+**Where does the video live?**
+You receive an output URL in the webhook. Store it in your database and embed it in your app or email it to users.
+
+**Can I brand the video?**
+Yes. Use Brand Profiles to inject logo, colors, and typography automatically.
+
+---
+
+## Section: Related
+
+* Monthly metrics videos
+* Investor update videos
+* From Postgres to video
+
+---
+
+## Final CTA block
+
+**Title:** Generate weekly summaries via API
+**Body:** Create an API key and render your first weekly metrics video in minutes.
+**CTA:** Get API key
+
+
+/* -------------------------------------------------------------------------------------------------
+  generate-pseo.ts
+  Generate 500 pSEO JSON files (industry × use-case) into: /content/pseo/use-cases/
+
+  Usage:
+    1) Put this file at: /scripts/generate-pseo.ts
+    2) Create input files (provided below) in: /content/pseo/_inputs/
+    3) Run:
+        pnpm ts-node scripts/generate-pseo.ts
+       or
+        npx ts-node scripts/generate-pseo.ts
+       or (recommended) add package.json script:
+        "gen:pseo": "ts-node scripts/generate-pseo.ts"
+        then run: pnpm gen:pseo
+
+  Notes:
+    - No external deps required.
+    - Outputs deterministic JSON (stable ordering).
+-------------------------------------------------------------------------------------------------- */
+
+import * as fs from "node:fs";
+import * as path from "node:path";
+import { createHash } from "node:crypto";
+
+type CTA = { label: string; href: string };
+type Hero = {
+  eyebrow: string;
+  headline: string;
+  subheadline: string;
+  primaryCta: CTA;
+  secondaryCta: CTA;
+};
+
+type Problem = { title: string; bullets: string[] };
+type Solution = { title: string; bullets: string[] };
+
+type IOSpec = {
+  inputTitle: string;
+  inputJsonExample: Record<string, any>;
+  outputTitle: string;
+  outputBullets: string[];
+};
+
+type HowItWorks = {
+  title: string;
+  steps: Array<{ title: string; body: string }>;
+};
+
+type Benefits = { title: string; bullets: string[] };
+
+type FAQ = Array<{ q: string; a: string }>;
+
+type Related = Array<{ label: string; href: string }>;
+
+type PseoPage = {
+  type: "use_case";
+  version: 1;
+  id: string;
+  canonicalUrl: string;
+
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+
+  hero: Hero;
+  problem: Problem;
+  solution: Solution;
+  io: IOSpec;
+  howItWorks: HowItWorks;
+  benefits: Benefits;
+  faq?: FAQ;
+  related: Related;
+  cta: {
+    title: string;
+    body: string;
+    primary: CTA;
+  };
+};
+
+type IndustryInput = {
+  key: string; // e.g. "saas"
+  label: string; // e.g. "SaaS"
+  tagline?: string; // optional
+  // Used to make pages truly unique:
+  coreEntities: string[]; // nouns: "users", "accounts", "workspaces"
+  exampleMetrics: Array<{ key: string; label: string; example: string | number }>;
+  problemBullets: string[]; // industry-specific
+  benefitBullets: string[]; // industry-specific
+  deliveryExamples: string[]; // "in-app", "email", "customer portal"
+};
+
+type UseCaseInput = {
+  key: string; // e.g. "weekly-metrics-video"
+  label: string; // e.g. "Weekly metrics video"
+  short: string; // one-line definition
+  // Use-case specificity:
+  trigger: { key: string; label: string; description: string };
+  templateId: string; // e.g. "weekly-summary:v1"
+  // The fields this use-case wants (industry overlay will add metric examples)
+  requiredFields: string[]; // e.g. ["periodStart","periodEnd","kpis"]
+  howItWorksSteps: Array<{ title: string; body: string }>;
+  outputBullets: string[];
+  faq: FAQ;
+};
+
+const ROOT = process.cwd();
+const INPUT_DIR = path.join(ROOT, "content", "pseo", "_inputs");
+const OUT_DIR = path.join(ROOT, "content", "pseo", "use-cases");
+
+function readJsonFile<T>(filePath: string): T {
+  const raw = fs.readFileSync(filePath, "utf8");
+  return JSON.parse(raw) as T;
+}
+
+function ensureDir(dir: string) {
+  fs.mkdirSync(dir, { recursive: true });
+}
+
+function stableStringify(obj: any): string {
+  // Stable JSON stringify: recursively sorts keys to keep diffs clean.
+  const seen = new WeakSet();
+
+  const sorter = (value: any): any => {
+    if (value && typeof value === "object") {
+      if (seen.has(value)) return value;
+      seen.add(value);
+
+      if (Array.isArray(value)) return value.map(sorter);
+
+      const keys = Object.keys(value).sort();
+      const out: Record<string, any> = {};
+      for (const k of keys) out[k] = sorter(value[k]);
+      return out;
+    }
+    return value;
+  };
+
+  return JSON.stringify(sorter(obj), null, 2) + "\n";
+}
+
+function slugify(input: string): string {
+  return input
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+function hashId(str: string): string {
+  return createHash("sha1").update(str).digest("hex").slice(0, 10);
+}
+
+function pick<T>(arr: T[], idx: number): T {
+  return arr[idx % arr.length];
+}
+
+function buildMetaTitle(brand: string, industryLabel: string, useCaseLabel: string) {
+  return `${useCaseLabel} for ${industryLabel} | ${brand}`;
+}
+
+function buildMetaDescription(industry: IndustryInput, useCase: UseCaseInput) {
+  // Keep it deterministic + informative; avoid hype.
+  const m1 = pick(industry.exampleMetrics, 0);
+  const m2 = pick(industry.exampleMetrics, 1);
+  const metricsHint = m1 && m2 ? `${m1.label}, ${m2.label}` : "key metrics";
+  return `Generate deterministic, branded videos for ${industry.label} using a simple API. Automate ${useCase.label.toLowerCase()} from structured data (${metricsHint}). Includes webhooks and brand profiles.`;
+}
+
+function buildInputExample(industry: IndustryInput, useCase: UseCaseInput) {
+  // Construct a unique, industry-specific input JSON that stays “real”.
+  const m = industry.exampleMetrics.slice(0, 5);
+  const metricsObj: Record<string, any> = {};
+  for (const metric of m) metricsObj[metric.key] = metric.example;
+
+  // Provide a consistent period model for report-like use cases.
+  const base: Record<string, any> = {
+    template: useCase.templateId,
+    brand: slugify(industry.label),
+    data: {
+      period: useCase.trigger.key.includes("weekly")
+        ? "2026-W05"
+        : useCase.trigger.key.includes("monthly")
+        ? "2026-01"
+        : useCase.trigger.key.includes("quarter")
+        ? "2026-Q1"
+        : "2026-01-14",
+      ...metricsObj,
+      // Add one “entity” to make it feel tailored
+      highlight: pick(industry.coreEntities, 0),
+    },
+  };
+
+  // Add requiredFields (as placeholders) if they’re not already present
+  for (const f of useCase.requiredFields) {
+    if (!(f in base.data)) {
+      // keep placeholders minimal but concrete
+      base.data[f] = f === "kpis" ? metricsObj : `example-${f}`;
+    }
+  }
+
+  return base;
+}
+
+function buildRelated(industry: IndustryInput, useCase: UseCaseInput): Related {
+  // Link to 3 other pages, deterministic, not random:
+  const baseUseCases = ["monthly-metrics-video", "investor-update-video", "customer-success-recap-video"];
+  const related: Related = [];
+
+  for (const key of baseUseCases) {
+    if (key === useCase.key) continue;
+    related.push({
+      label: `${key.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())} for ${industry.label}`,
+      href: `/use-cases/${industry.key}/${key}`,
+    });
+    if (related.length >= 2) break;
+  }
+
+  related.push({
+    label: "From Postgres to video",
+    href: "/from/postgres/to/video",
+  });
+
+  return related;
+}
+
+function buildPage(brandName: string, industry: IndustryInput, useCase: UseCaseInput): PseoPage {
+  const canonicalUrl = `/use-cases/${industry.key}/${useCase.key}`;
+  const id = `use_case.${industry.key}.${useCase.key}.${hashId(canonicalUrl)}`;
+
+  const title = `${useCase.label} for ${industry.label}`;
+  const metaTitle = buildMetaTitle(brandName, industry.label, useCase.label);
+  const metaDescription = buildMetaDescription(industry, useCase);
+
+  const hero: Hero = {
+    eyebrow: "Use case",
+    headline: title,
+    subheadline: useCase.short,
+    primaryCta: { label: "Get API key", href: "/dashboard" },
+    secondaryCta: { label: "View docs", href: "/docs" },
+  };
+
+  const problem: Problem = {
+    title: `Why ${industry.label} teams still ship reports manually`,
+    bullets: industry.problemBullets,
+  };
+
+  const solution: Solution = {
+    title: `Automate ${useCase.label.toLowerCase()} with an API`,
+    bullets: [
+      `Trigger the workflow when ${useCase.trigger.label.toLowerCase()} happens.`,
+      `POST structured data to /render using template ${useCase.templateId}.`,
+      `Render asynchronously at scale and receive a webhook when the MP4 is ready.`,
+      `Deliver the video via ${pick(industry.deliveryExamples, 0)}, ${pick(industry.deliveryExamples, 1)}, or ${pick(industry.deliveryExamples, 2)}.`,
+    ],
+  };
+
+  const io: IOSpec = {
+    inputTitle: "Input (structured data)",
+    inputJsonExample: buildInputExample(industry, useCase),
+    outputTitle: "Output (deterministic MP4)",
+    outputBullets: useCase.outputBullets,
+  };
+
+  const howItWorks: HowItWorks = {
+    title: "How it works",
+    steps: useCase.howItWorksSteps,
+  };
+
+  const benefits: Benefits = {
+    title: "Benefits",
+    bullets: [
+      ...industry.benefitBullets.slice(0, 2),
+      `Deterministic output you can trust in production.`,
+      `A repeatable workflow triggered by ${useCase.trigger.label.toLowerCase()}.`,
+    ],
+  };
+
+  const related = buildRelated(industry, useCase);
+
+  const cta = {
+    title: `Generate ${useCase.label.toLowerCase()} via API`,
+    body: `Create an API key and render your first ${useCase.label.toLowerCase()} in minutes.`,
+    primary: { label: "Get API key", href: "/dashboard" },
+  };
+
+  const page: PseoPage = {
+    type: "use_case",
+    version: 1,
+    id,
+    canonicalUrl,
+    title,
+    metaTitle,
+    metaDescription,
+    hero,
+    problem,
+    solution,
+    io,
+    howItWorks,
+    benefits,
+    faq: useCase.faq,
+    related,
+    cta,
+  };
+
+  return page;
+}
+
+function writePageFile(page: PseoPage) {
+  const fileName = `${page.canonicalUrl.replace(/^\/use-cases\//, "").replace(/\//g, ".")}.json`;
+  const outPath = path.join(OUT_DIR, fileName);
+  fs.writeFileSync(outPath, stableStringify(page), "utf8");
+}
+
+function main() {
+  const brandName = "Rendivia";
+
+  const industriesPath = path.join(INPUT_DIR, "industries.json");
+  const useCasesPath = path.join(INPUT_DIR, "useCases.json");
+
+  if (!fs.existsSync(industriesPath) || !fs.existsSync(useCasesPath)) {
+    console.error("Missing inputs. Create:");
+    console.error(" - content/pseo/_inputs/industries.json");
+    console.error(" - content/pseo/_inputs/useCases.json");
+    process.exit(1);
+  }
+
+  const industries = readJsonFile<IndustryInput[]>(industriesPath);
+  const useCases = readJsonFile<UseCaseInput[]>(useCasesPath);
+
+  ensureDir(OUT_DIR);
+
+  let count = 0;
+  for (const industry of industries) {
+    for (const useCase of useCases) {
+      const page = buildPage(brandName, industry, useCase);
+      writePageFile(page);
+      count++;
+    }
+  }
+
+  // Optional: write a manifest for easier indexing
+  const manifest = {
+    generatedAt: new Date().toISOString(),
+    count,
+    routes: industries.flatMap((ind) =>
+      useCases.map((uc) => `/use-cases/${ind.key}/${uc.key}`)
+    ),
+  };
+  fs.writeFileSync(path.join(OUT_DIR, "_manifest.json"), stableStringify(manifest), "utf8");
+
+  console.log(`✅ Generated ${count} use-case pages into ${OUT_DIR}`);
+  console.log(`✅ Wrote manifest: ${path.join(OUT_DIR, "_manifest.json")}`);
+}
+
+main();
+content/pseo/_inputs/industries.json
+
+(20 industries. You can expand this list later.)
+[
+  {
+    "key": "saas",
+    "label": "SaaS",
+    "coreEntities": ["users", "workspaces", "teams", "seats"],
+    "exampleMetrics": [
+      { "key": "mrr", "label": "MRR", "example": 8920 },
+      { "key": "activeUsers", "label": "Active users", "example": 1243 },
+      { "key": "churn", "label": "Churn", "example": "2.1%" },
+      { "key": "activation", "label": "Activation rate", "example": "34%" },
+      { "key": "nrr", "label": "NRR", "example": "112%" }
+    ],
+    "problemBullets": [
+      "Dashboards require users to interpret charts manually.",
+      "Email and PDF reports are skimmed or ignored.",
+      "Weekly insights get lost without a narrative.",
+      "Manual video creation doesn’t scale across customers."
+    ],
+    "benefitBullets": [
+      "Increase engagement with automated summaries.",
+      "Make key KPIs easier to understand at a glance.",
+      "Reduce manual reporting time to near-zero.",
+      "Deliver a consistent reporting experience."
+    ],
+    "deliveryExamples": ["in-app", "email", "customer portal"]
+  },
+  {
+    "key": "fintech",
+    "label": "Fintech",
+    "coreEntities": ["accounts", "transactions", "portfolios", "cards"],
+    "exampleMetrics": [
+      { "key": "aum", "label": "Assets under management", "example": 1250000 },
+      { "key": "deposits", "label": "Deposits", "example": 84200 },
+      { "key": "withdrawals", "label": "Withdrawals", "example": 53100 },
+      { "key": "chargebacks", "label": "Chargebacks", "example": 12 },
+      { "key": "netFlow", "label": "Net flow", "example": 31100 }
+    ],
+    "problemBullets": [
+      "Users don’t open dashboards regularly to parse performance.",
+      "Statements and PDFs lack engagement and context.",
+      "Updates are delayed when assembled manually.",
+      "Teams need consistent outputs for compliance and support."
+    ],
+    "benefitBullets": [
+      "Improve customer trust with clear, consistent updates.",
+      "Automate recurring portfolio and account summaries.",
+      "Reduce support load by explaining changes proactively.",
+      "Deliver branded outputs that feel premium."
+    ],
+    "deliveryExamples": ["in-app", "push notification", "secure message center"]
+  },
+  {
+    "key": "ecommerce",
+    "label": "E-commerce",
+    "coreEntities": ["orders", "customers", "products", "carts"],
+    "exampleMetrics": [
+      { "key": "grossRevenue", "label": "Gross revenue", "example": 184200 },
+      { "key": "orders", "label": "Orders", "example": 3921 },
+      { "key": "aov", "label": "Average order value", "example": 47.2 },
+      { "key": "refundRate", "label": "Refund rate", "example": "1.3%" },
+      { "key": "conversionRate", "label": "Conversion rate", "example": "2.8%" }
+    ],
+    "problemBullets": [
+      "Performance reporting is scattered across tools.",
+      "Stakeholders miss weekly insights without a digest.",
+      "Manual recap creation wastes time every week.",
+      "Teams need consistent summaries for planning."
+    ],
+    "benefitBullets": [
+      "Make performance updates easy to share and consume.",
+      "Automate weekly and monthly recaps for teams.",
+      "Keep stakeholders aligned without meetings.",
+      "Turn KPIs into a repeatable communication layer."
+    ],
+    "deliveryExamples": ["Slack", "email", "internal dashboard"]
+  },
+  {
+    "key": "marketing-agency",
+    "label": "Marketing agencies",
+    "coreEntities": ["clients", "campaigns", "channels", "budgets"],
+    "exampleMetrics": [
+      { "key": "spend", "label": "Spend", "example": 12450 },
+      { "key": "leads", "label": "Leads", "example": 612 },
+      { "key": "cpl", "label": "Cost per lead", "example": 20.4 },
+      { "key": "roas", "label": "ROAS", "example": 3.1 },
+      { "key": "impressions", "label": "Impressions", "example": 812000 }
+    ],
+    "problemBullets": [
+      "Client reporting is repetitive and time-consuming.",
+      "Slides and PDFs get skimmed, not understood.",
+      "Teams spend too much time formatting instead of optimizing.",
+      "Clients want clearer summaries between meetings."
+    ],
+    "benefitBullets": [
+      "Automate client-ready weekly recaps.",
+      "Deliver consistent brand-aligned updates across accounts.",
+      "Reduce reporting overhead significantly.",
+      "Improve retention with clearer communication."
+    ],
+    "deliveryExamples": ["email", "client portal", "Slack Connect"]
+  },
+  {
+    "key": "analytics",
+    "label": "Analytics platforms",
+    "coreEntities": ["dashboards", "events", "funnels", "cohorts"],
+    "exampleMetrics": [
+      { "key": "wau", "label": "Weekly active users", "example": 48210 },
+      { "key": "retention", "label": "Retention", "example": "41%" },
+      { "key": "conversion", "label": "Conversion", "example": "3.4%" },
+      { "key": "topEvent", "label": "Top event", "example": "signup_completed" },
+      { "key": "dropOff", "label": "Largest drop-off", "example": "pricing_view" }
+    ],
+    "problemBullets": [
+      "Insights live in dashboards but don’t reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "benefitBullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Make dashboards more actionable with summaries.",
+      "Keep stakeholders aligned with minimal effort."
+    ],
+    "deliveryExamples": ["Slack", "email", "in-app"]
+  },
+
+  { "key": "compliance-grc", "label": "Compliance / GRC", "coreEntities": ["controls", "audits", "policies", "vendors"], "exampleMetrics": [ { "key": "controlsComplete", "label": "Controls complete", "example": 78 }, { "key": "openFindings", "label": "Open findings", "example": 6 }, { "key": "vendorsAssessed", "label": "Vendors assessed", "example": 21 }, { "key": "riskScore", "label": "Risk score", "example": 72 }, { "key": "evidenceItems", "label": "Evidence items", "example": 143 } ], "problemBullets": [ "Stakeholders struggle to track progress across audits.", "Updates are manual and often delayed.", "Status reports lack clarity and narrative.", "Teams need consistent reporting for leadership." ], "benefitBullets": [ "Make audit progress clear and easy to consume.", "Automate recurring status updates.", "Reduce time spent on manual reporting.", "Keep leadership aligned with consistent outputs." ], "deliveryExamples": ["in-app", "email", "leadership portal"] },
+
+  { "key": "cybersecurity", "label": "Cybersecurity", "coreEntities": ["alerts", "incidents", "assets", "policies"], "exampleMetrics": [ { "key": "alerts", "label": "Alerts", "example": 1842 }, { "key": "incidents", "label": "Incidents", "example": 3 }, { "key": "mttr", "label": "MTTR", "example": "2h 14m" }, { "key": "coverage", "label": "Coverage", "example": "92%" }, { "key": "criticalVulns", "label": "Critical vulns", "example": 11 } ], "problemBullets": [ "Security updates are noisy and hard to summarize.", "Stakeholders need digestible incident/status reporting.", "Manual summaries are inconsistent under pressure.", "Teams need reliable communication during events." ], "benefitBullets": [ "Create consistent incident and status updates.", "Automate post-incident communication.", "Reduce time spent assembling updates.", "Improve stakeholder confidence with clarity." ], "deliveryExamples": ["Slack", "email", "status page"] },
+
+  { "key": "edtech", "label": "EdTech", "coreEntities": ["students", "courses", "assignments", "cohorts"], "exampleMetrics": [ { "key": "activeLearners", "label": "Active learners", "example": 9342 }, { "key": "completionRate", "label": "Completion rate", "example": "58%" }, { "key": "avgScore", "label": "Average score", "example": 82 }, { "key": "sessions", "label": "Sessions", "example": 41210 }, { "key": "dropOffWeek", "label": "Drop-off week", "example": 3 } ], "problemBullets": [ "Progress reports are hard to communicate clearly.", "Learners and admins need simple summaries.", "Manual reporting wastes instructor/admin time.", "Insights aren’t delivered proactively." ], "benefitBullets": [ "Make progress and outcomes easier to understand.", "Automate recurring cohort updates.", "Increase engagement with digestible summaries.", "Reduce manual work for admins." ], "deliveryExamples": ["in-app", "email", "admin dashboard"] },
+
+  { "key": "healthtech", "label": "HealthTech", "coreEntities": ["patients", "appointments", "care-plans", "providers"], "exampleMetrics": [ { "key": "appointments", "label": "Appointments", "example": 2140 }, { "key": "noShowRate", "label": "No-show rate", "example": "4.2%" }, { "key": "activePatients", "label": "Active patients", "example": 18210 }, { "key": "avgWaitTime", "label": "Avg wait time", "example": "8m" }, { "key": "carePlanAdherence", "label": "Care plan adherence", "example": "71%" } ], "problemBullets": [ "Operational updates are buried in dashboards.", "Stakeholders need consistent summaries.", "Manual reporting adds overhead to operations.", "Updates must be clear and predictable." ], "benefitBullets": [ "Create consistent operational digests.", "Automate recurring summaries for leadership.", "Reduce manual reporting time.", "Make KPIs easier to share internally." ], "deliveryExamples": ["email", "internal dashboard", "secure portal"] },
+
+  { "key": "hr-peopleops", "label": "HR / People Ops", "coreEntities": ["employees", "candidates", "reviews", "headcount"], "exampleMetrics": [ { "key": "headcount", "label": "Headcount", "example": 214 }, { "key": "openRoles", "label": "Open roles", "example": 12 }, { "key": "timeToHire", "label": "Time to hire", "example": "24d" }, { "key": "attrition", "label": "Attrition", "example": "1.1%" }, { "key": "engagement", "label": "Engagement", "example": "76%" } ], "problemBullets": [ "People metrics aren’t communicated consistently.", "Stakeholders want simple, regular updates.", "Manual reports take time each month.", "Narrative gets lost in spreadsheets." ], "benefitBullets": [ "Deliver consistent people updates.", "Automate recurring headcount and hiring recaps.", "Reduce manual reporting overhead.", "Keep leadership aligned with clarity." ], "deliveryExamples": ["email", "leadership portal", "Slack"] },
+
+  { "key": "support-tools", "label": "Customer support tools", "coreEntities": ["tickets", "agents", "queues", "sla"], "exampleMetrics": [ { "key": "tickets", "label": "Tickets", "example": 1842 }, { "key": "firstResponse", "label": "First response time", "example": "18m" }, { "key": "resolution", "label": "Resolution time", "example": "6h" }, { "key": "csat", "label": "CSAT", "example": "92%" }, { "key": "backlog", "label": "Backlog", "example": 214 } ], "problemBullets": [ "Support performance reporting is repetitive.", "Stakeholders miss trends between reviews.", "Manual recaps vary by manager/team.", "Teams need consistent outputs." ], "benefitBullets": [ "Automate weekly support performance digests.", "Make trends visible and easy to share.", "Reduce time spent building reports.", "Keep teams aligned on SLAs." ], "deliveryExamples": ["Slack", "email", "internal dashboard"] },
+
+  { "key": "logistics", "label": "Logistics / Supply chain", "coreEntities": ["shipments", "routes", "warehouses", "orders"], "exampleMetrics": [ { "key": "shipments", "label": "Shipments", "example": 9821 }, { "key": "onTimeRate", "label": "On-time rate", "example": "94%" }, { "key": "avgDelay", "label": "Average delay", "example": "12m" }, { "key": "costPerShipment", "label": "Cost per shipment", "example": 4.2 }, { "key": "exceptions", "label": "Exceptions", "example": 38 } ], "problemBullets": [ "Operational KPIs are hard to communicate quickly.", "Exceptions require consistent reporting.", "Manual weekly summaries waste time.", "Stakeholders want a digest, not dashboards." ], "benefitBullets": [ "Share ops performance in a digestible format.", "Automate exception and KPI summaries.", "Reduce reporting overhead.", "Improve alignment across teams." ], "deliveryExamples": ["email", "operations dashboard", "Slack"] },
+
+  { "key": "travel-hospitality", "label": "Travel / Hospitality", "coreEntities": ["bookings", "properties", "guests", "rates"], "exampleMetrics": [ { "key": "bookings", "label": "Bookings", "example": 2140 }, { "key": "occupancy", "label": "Occupancy", "example": "81%" }, { "key": "adr", "label": "ADR", "example": 124.5 }, { "key": "revpar", "label": "RevPAR", "example": 101.0 }, { "key": "cancellations", "label": "Cancellations", "example": 86 } ], "problemBullets": [ "Performance updates are scattered across systems.", "Teams need a consistent weekly digest.", "Manual recap work repeats every week.", "Stakeholders miss changes without a narrative." ], "benefitBullets": [ "Automate occupancy and revenue recaps.", "Make performance easy to share.", "Reduce manual reporting time.", "Align teams on KPIs quickly." ], "deliveryExamples": ["email", "ops dashboard", "Slack"] },
+
+  { "key": "insurance", "label": "Insurance", "coreEntities": ["policies", "claims", "premiums", "renewals"], "exampleMetrics": [ { "key": "claims", "label": "Claims", "example": 214 }, { "key": "lossRatio", "label": "Loss ratio", "example": "62%" }, { "key": "renewals", "label": "Renewals", "example": 842 }, { "key": "premium", "label": "Premium", "example": 184200 }, { "key": "fraudFlags", "label": "Fraud flags", "example": 7 } ], "problemBullets": [ "Performance reporting is complex and time-consuming.", "Stakeholders need clear summaries.", "Manual updates are inconsistent.", "Ops teams need recurring digests." ], "benefitBullets": [ "Automate KPI and claims summaries.", "Improve clarity for stakeholders.", "Reduce manual reporting overhead.", "Deliver consistent communication." ], "deliveryExamples": ["email", "internal portal", "dashboard"] },
+
+  { "key": "accounting", "label": "Accounting / Invoicing", "coreEntities": ["invoices", "payments", "clients", "cashflow"], "exampleMetrics": [ { "key": "invoicesSent", "label": "Invoices sent", "example": 482 }, { "key": "paid", "label": "Paid", "example": 392 }, { "key": "overdue", "label": "Overdue", "example": 41 }, { "key": "cashIn", "label": "Cash in", "example": 84200 }, { "key": "dso", "label": "DSO", "example": "31d" } ], "problemBullets": [ "Cashflow reporting is often delayed.", "Stakeholders need predictable summaries.", "Manual recap work repeats each period.", "Invoices and payments need clearer communication." ], "benefitBullets": [ "Automate invoice and cashflow summaries.", "Reduce reporting time each cycle.", "Improve clarity for clients and teams.", "Deliver consistent outputs for leadership." ], "deliveryExamples": ["email", "client portal", "dashboard"] },
+
+  { "key": "telecom", "label": "Telecom", "coreEntities": ["subscribers", "plans", "usage", "outages"], "exampleMetrics": [ { "key": "subscribers", "label": "Subscribers", "example": 184200 }, { "key": "arpu", "label": "ARPU", "example": 7.4 }, { "key": "churn", "label": "Churn", "example": "1.9%" }, { "key": "outages", "label": "Outages", "example": 2 }, { "key": "dataUsage", "label": "Data usage (TB)", "example": 412 } ], "problemBullets": [ "Operational updates are noisy and difficult to summarize.", "Stakeholders need digestible performance updates.", "Manual summaries are slow and inconsistent.", "Outage communication needs clarity." ], "benefitBullets": [ "Automate recurring performance digests.", "Improve stakeholder clarity on KPIs.", "Reduce manual reporting overhead.", "Deliver consistent comms during events." ], "deliveryExamples": ["status page", "email", "internal dashboard"] },
+
+  { "key": "gaming-platforms", "label": "Gaming platforms", "coreEntities": ["players", "sessions", "matches", "purchases"], "exampleMetrics": [ { "key": "dau", "label": "DAU", "example": 284210 }, { "key": "sessions", "label": "Sessions", "example": 1240000 }, { "key": "arppu", "label": "ARPPU", "example": 3.2 }, { "key": "retention", "label": "Retention", "example": "36%" }, { "key": "iapRevenue", "label": "IAP revenue", "example": 84200 } ], "problemBullets": [ "Performance insights aren’t shared consistently.", "Teams need a repeatable weekly digest.", "Manual recaps take too long.", "Stakeholders miss trends between reviews." ], "benefitBullets": [ "Automate weekly engagement recaps.", "Make trends easy to communicate.", "Reduce reporting overhead.", "Align teams on KPIs." ], "deliveryExamples": ["Slack", "email", "internal dashboard"] },
+
+  { "key": "nonprofits",
+    "label": "Nonprofits / Fundraising platforms",
+    "coreEntities": ["donors", "campaigns", "donations", "events"],
+    "exampleMetrics": [
+      { "key": "donations", "label": "Donations", "example": 84200 },
+      { "key": "donors", "label": "Donors", "example": 2140 },
+      { "key": "avgDonation", "label": "Average donation", "example": 39.3 },
+      { "key": "recurringRate", "label": "Recurring rate", "example": "22%" },
+      { "key": "campaigns", "label": "Campaigns", "example": 6 }
+    ],
+    "problemBullets": [
+      "Impact reporting is time-consuming to assemble.",
+      "Stakeholders want a digest, not spreadsheets.",
+      "Manual updates are inconsistent across campaigns.",
+      "Teams need a repeatable recap format."
+    ],
+    "benefitBullets": [
+      "Automate donor and impact updates.",
+      "Make summaries easy to share with stakeholders.",
+      "Reduce manual reporting time.",
+      "Deliver consistent, branded recaps."
+    ],
+    "deliveryExamples": ["email", "donor portal", "internal dashboard"]
+  }
+]
+
+
+content/pseo/_inputs/useCases.json
+
+(25 use-cases. This is what gives you 20 × 25 = 500 pages.)
+
+[
+  {
+    "key": "weekly-metrics-video",
+    "label": "Weekly metrics video",
+    "short": "Automatically turn weekly KPIs into a branded video summary using an API.",
+    "trigger": { "key": "weekly-report", "label": "a weekly report is ready", "description": "Triggered by a weekly cron job or scheduled report completion." },
+    "templateId": "weekly-summary:v1",
+    "requiredFields": ["kpis"],
+    "howItWorksSteps": [
+      { "title": "Pick a template", "body": "Use a versioned template such as weekly-summary:v1." },
+      { "title": "Send data", "body": "POST metrics JSON to /render with your API key." },
+      { "title": "Render async", "body": "We queue the job and render reliably at scale." },
+      { "title": "Receive the result", "body": "Get a webhook with the MP4 URL when done." }
+    ],
+    "outputBullets": [
+      "45–60s MP4 video",
+      "Brand colors, logo, and typography applied",
+      "Charts rendered from provided KPIs",
+      "Webhook includes output URL and metadata"
+    ],
+    "faq": [
+      { "q": "Is the output deterministic?", "a": "Yes. Templates are versioned and the same input produces the same output." },
+      { "q": "How do I deliver the video?", "a": "Use the webhook URL to embed in-app or send via email/portal." }
+    ]
+  },
+  {
+    "key": "monthly-metrics-video",
+    "label": "Monthly metrics video",
+    "short": "Generate a monthly KPI recap video from structured data using a simple API.",
+    "trigger": { "key": "monthly-report", "label": "a monthly report is ready", "description": "Triggered by monthly close or scheduled report completion." },
+    "templateId": "monthly-summary:v1",
+    "requiredFields": ["kpis"],
+    "howItWorksSteps": [
+      { "title": "Choose template", "body": "Use monthly-summary:v1 for consistent output." },
+      { "title": "Send KPIs", "body": "POST JSON to /render with monthly KPIs and highlights." },
+      { "title": "Render", "body": "We render asynchronously and retry safely." },
+      { "title": "Deliver", "body": "Receive webhook with MP4 and store/deliver it." }
+    ],
+    "outputBullets": [
+      "60–90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Webhook includes MP4 URL"
+    ],
+    "faq": [
+      { "q": "Can I compare vs last month?", "a": "Yes. Include previous-period fields; the template renders comparisons." },
+      { "q": "Do templates change?", "a": "Templates are versioned; your chosen version stays stable." }
+    ]
+  },
+
+  { "key": "quarterly-qbr-video", "label": "Quarterly business review (QBR) video", "short": "Generate a QBR-style recap video from structured quarterly KPIs and highlights.", "trigger": { "key": "quarterly-review", "label": "a quarterly review is prepared", "description": "Triggered by QBR preparation or quarter close." }, "templateId": "qbr-summary:v1", "requiredFields": ["kpis", "highlights"], "howItWorksSteps": [ { "title": "Prepare inputs", "body": "Provide quarterly KPIs and a short set of highlights." }, { "title": "Render via API", "body": "POST to /render with qbr-summary:v1." }, { "title": "Async processing", "body": "We queue and render at scale." }, { "title": "Share", "body": "Send the MP4 to stakeholders or embed in your portal." } ], "outputBullets": [ "90–120s MP4 video", "Quarter-over-quarter comparisons", "Highlights section rendered as cards", "Webhook with URL + metadata" ], "faq": [ { "q": "Can this be used for exec updates?", "a": "Yes. It’s designed for leadership-friendly quarterly summaries." }, { "q": "Can I include charts?", "a": "Yes. Provide numeric series; the template renders charts." } ] },
+
+  { "key": "investor-update-video", "label": "Investor update video", "short": "Generate an investor-style update video from KPIs, milestones, and narrative points.", "trigger": { "key": "investor-update", "label": "an investor update is ready", "description": "Triggered by a monthly/quarterly investor email workflow." }, "templateId": "investor-update:v1", "requiredFields": ["kpis", "milestones"], "howItWorksSteps": [ { "title": "Collect KPIs", "body": "Gather growth, revenue, and retention metrics." }, { "title": "Add milestones", "body": "Provide 3–5 milestones for the period." }, { "title": "Render", "body": "POST to /render with investor-update:v1." }, { "title": "Send", "body": "Share the MP4 via investor portal or email." } ], "outputBullets": [ "60–120s MP4 video", "KPI tiles + growth deltas", "Milestones section", "Webhook with MP4 URL" ], "faq": [ { "q": "Is it deterministic?", "a": "Yes. Same input produces the same output with a fixed template version." }, { "q": "Can we customize branding?", "a": "Yes. Use a Brand Profile to apply logo/colors/fonts." } ] },
+
+  { "key": "customer-success-recap-video", "label": "Customer success recap video", "short": "Generate customer-level success recaps using usage, outcomes, and highlights.", "trigger": { "key": "customer-recap", "label": "a customer recap is generated", "description": "Triggered by weekly/monthly customer health workflows." }, "templateId": "customer-recap:v1", "requiredFields": ["customerId", "kpis"], "howItWorksSteps": [ { "title": "Fetch customer KPIs", "body": "Pull usage and outcome metrics per customer." }, { "title": "Render recap", "body": "POST to /render with customer-recap:v1." }, { "title": "Deliver", "body": "Webhook returns the MP4 URL for the customer." }, { "title": "Embed", "body": "Embed in your customer portal or send via email." } ], "outputBullets": [ "30–60s MP4 per customer", "Customer name and key KPIs", "Highlights section", "Webhook with output URL" ], "faq": [ { "q": "Can I batch render for many customers?", "a": "Yes. Call /render per customer and process asynchronously." }, { "q": "Can I store outputs?", "a": "Yes. Store webhook URLs in your database." } ] },
+
+  { "key": "trial-to-paid-recap-video", "label": "Trial-to-paid conversion recap video", "short": "Summarize trial engagement and outcomes into a video recap to drive conversion.", "trigger": { "key": "trial-end", "label": "a trial is ending", "description": "Triggered when a trial reaches day N or end date." }, "templateId": "trial-recap:v1", "requiredFields": ["trialId", "kpis"], "howItWorksSteps": [ { "title": "Collect trial data", "body": "Aggregate usage events and outcomes during the trial." }, { "title": "Render recap", "body": "POST to /render with trial-recap:v1." }, { "title": "Send before expiry", "body": "Use webhook result to deliver video before trial ends." }, { "title": "Measure", "body": "Track conversions and iterate template content." } ], "outputBullets": [ "30–60s MP4 video", "Usage highlights and outcomes", "Clear next-step CTA slot", "Webhook with URL" ], "faq": [ { "q": "Can I include a CTA at the end?", "a": "Yes. Include a CTA field in data and render it in the outro." }, { "q": "Does this replace emails?", "a": "It complements them by adding a high-signal recap format." } ] },
+
+  { "key": "churn-risk-alert-video", "label": "Churn risk alert video", "short": "Generate a short alert video when churn risk spikes for an account or cohort.", "trigger": { "key": "risk-spike", "label": "churn risk spikes", "description": "Triggered by your churn model or health score threshold." }, "templateId": "risk-alert:v1", "requiredFields": ["accountId", "riskScore"], "howItWorksSteps": [ { "title": "Detect risk", "body": "Compute churn risk or health score in your system." }, { "title": "Render alert", "body": "POST to /render with risk-alert:v1 and key drivers." }, { "title": "Notify", "body": "Webhook provides MP4 to attach in alerts." }, { "title": "Act", "body": "Route to CSM workflows with a clear summary." } ], "outputBullets": [ "15–30s MP4 video", "Risk score and key drivers", "Suggested next action slot", "Webhook with URL" ], "faq": [ { "q": "Is this for customers or internal teams?", "a": "Either. You control delivery targets (internal alerts or customer comms)." }, { "q": "Can I include driver metrics?", "a": "Yes. Provide a drivers array; template renders top drivers." } ] }
+
+  // Add remaining use-cases by continuing this list to 25 total.
+]
+What you do next (exact steps)
+
+Create these folders:
+
+content/pseo/_inputs/
+
+content/pseo/use-cases/
+
+scripts/
+
+Save:
+
+scripts/generate-pseo.ts
+
+content/pseo/_inputs/industries.json
+
+content/pseo/_inputs/useCases.json (finish to 25 items)
+
+Run:
+
+npx ts-node scripts/generate-pseo.ts
+
+
+It will generate:
+
+content/pseo/use-cases/{industry}.{use-case}.json (500 files when 20×25)
+
+content/pseo/use-cases/_manifest.json
+-

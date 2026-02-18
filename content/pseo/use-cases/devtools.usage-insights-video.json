@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate release and incident digests.",
+      "Make engineering health easy to communicate.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by usage crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/devtools/usage-insights-video",
+  "cta": {
+    "body": "Create an API key and render your first usage insights video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate usage insights video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons?"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Usage insights video for Developer tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate usage insight summaries when accounts hit key thresholds."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send usage recaps in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.devtools.usage-insights-video.7f517a80a8",
+  "io": {
+    "inputJsonExample": {
+      "brand": "developer-tools",
+      "data": {
+        "accountId": "example-accountId",
+        "activeDevelopers": 214,
+        "changeFailureRate": "3.1%",
+        "deploys": 184,
+        "highlight": "repositories",
+        "leadTime": "18h",
+        "mttr": "42m",
+        "period": "2026-01-14",
+        "usage": "example-usage"
+      },
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Developer tools using a simple API. Automate usage insights video from structured data (Deploys, Lead time). Includes webhooks and brand profiles.",
+  "metaTitle": "Usage insights video for Developer tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Engineering metrics live in dashboards but stakeholders need summaries.",
+      "Release updates are assembled manually each week.",
+      "Incident recaps are inconsistent across teams.",
+      "Leadership wants a clear view of engineering health."
+    ],
+    "title": "Why Developer tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/devtools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/investor-update-video",
+      "label": "Investor Update Video for Developer tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when usage crosses a threshold happens.",
+      "POST structured data to /render using template usage-insights-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal portal."
+    ],
+    "title": "Automate usage insights video with an API"
+  },
+  "title": "Usage insights video for Developer tools",
+  "type": "use_case",
+  "version": 1
+}

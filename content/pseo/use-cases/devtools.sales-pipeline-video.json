@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate release and incident digests.",
+      "Make engineering health easy to communicate.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by pipeline is updated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/devtools/sales-pipeline-video",
+  "cta": {
+    "body": "Create an API key and render your first sales pipeline video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate sales pipeline video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits?"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Sales pipeline video for Developer tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Turn pipeline snapshots into a concise weekly video for leadership."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send to sales leadership automatically.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.devtools.sales-pipeline-video.c0c6aac4a1",
+  "io": {
+    "inputJsonExample": {
+      "brand": "developer-tools",
+      "data": {
+        "activeDevelopers": 214,
+        "changeFailureRate": "3.1%",
+        "deploys": 184,
+        "forecast": "example-forecast",
+        "highlight": "repositories",
+        "leadTime": "18h",
+        "mttr": "42m",
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline"
+      },
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Developer tools using a simple API. Automate sales pipeline video from structured data (Deploys, Lead time). Includes webhooks and brand profiles.",
+  "metaTitle": "Sales pipeline video for Developer tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Engineering metrics live in dashboards but stakeholders need summaries.",
+      "Release updates are assembled manually each week.",
+      "Incident recaps are inconsistent across teams.",
+      "Leadership wants a clear view of engineering health."
+    ],
+    "title": "Why Developer tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/devtools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/investor-update-video",
+      "label": "Investor Update Video for Developer tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when pipeline is updated happens.",
+      "POST structured data to /render using template pipeline-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal portal."
+    ],
+    "title": "Automate sales pipeline video with an API"
+  },
+  "title": "Sales pipeline video for Developer tools",
+  "type": "use_case",
+  "version": 1
+}

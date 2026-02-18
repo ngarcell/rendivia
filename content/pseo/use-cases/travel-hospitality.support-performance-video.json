@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a weekly support digest is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/travel-hospitality/support-performance-video",
+  "cta": {
+    "body": "Create an API key and render your first support performance video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate support performance video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include agent-level stats in the payload.",
+      "q": "Can I include agent metrics?"
+    },
+    {
+      "a": "Yes. Provide queue arrays in the payload.",
+      "q": "Does it handle multiple queues?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Support performance video for Travel / Hospitality",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Ship weekly support KPIs to keep teams aligned on SLAs."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide ticket volume, response, and resolution metrics.",
+        "title": "Collect support KPIs"
+      },
+      {
+        "body": "POST to /render with support-performance-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Send to support leadership or ops.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.travel-hospitality.support-performance-video.4db395e7b6",
+  "io": {
+    "inputJsonExample": {
+      "brand": "travel-hospitality",
+      "data": {
+        "adr": 124.5,
+        "bookings": 2140,
+        "cancellations": 86,
+        "highlight": "bookings",
+        "kpis": {
+          "adr": 124.5,
+          "bookings": 2140,
+          "cancellations": 86,
+          "occupancy": "81%",
+          "revpar": 101
+        },
+        "occupancy": "81%",
+        "period": "2026-W05",
+        "revpar": 101,
+        "sla": "example-sla"
+      },
+      "template": "support-performance-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "SLA compliance summary",
+      "Volume and backlog trends",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Travel / Hospitality using a simple API. Automate support performance video from structured data (Bookings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Support performance video for Travel / Hospitality | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance updates are scattered across systems.",
+      "Teams need a consistent weekly digest.",
+      "Manual recap work repeats every week.",
+      "Stakeholders miss changes without a narrative."
+    ],
+    "title": "Why Travel / Hospitality teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/travel-hospitality/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/investor-update-video",
+      "label": "Investor Update Video for Travel / Hospitality"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a weekly support digest is ready happens.",
+      "POST structured data to /render using template support-performance-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate support performance video with an API"
+  },
+  "title": "Support performance video for Travel / Hospitality",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a feedback cycle completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/customer-feedback-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first customer feedback recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate customer feedback recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a quotes array for display.",
+      "q": "Can I include verbatim quotes?"
+    },
+    {
+      "a": "Yes. Summaries are designed for leadership review.",
+      "q": "Is it suitable for board updates?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Customer feedback recap video for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize NPS and feedback themes into a recurring recap."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide NPS score and top themes.",
+        "title": "Aggregate feedback"
+      },
+      {
+        "body": "POST to /render with feedback-recap-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send to product and leadership teams.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.manufacturing.customer-feedback-recap-video.76c446724a",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "costPerUnit": 3.4,
+        "defectRate": "1.2%",
+        "downtime": "3h",
+        "highlight": "lines",
+        "nps": "example-nps",
+        "onTimeDelivery": "96%",
+        "period": "2026-01-14",
+        "themes": "example-themes",
+        "unitsProduced": 28420
+      },
+      "template": "feedback-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "NPS trend + benchmarks",
+      "Theme highlights",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Manufacturing using a simple API. Automate customer feedback recap video from structured data (Units produced, Defect rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Customer feedback recap video for Manufacturing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are buried in spreadsheets.",
+      "Plant updates take too long to compile.",
+      "Stakeholders need clear, consistent reporting.",
+      "Manual summaries slow down decisions."
+    ],
+    "title": "Why Manufacturing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/investor-update-video",
+      "label": "Investor Update Video for Manufacturing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a feedback cycle completes happens.",
+      "POST structured data to /render using template feedback-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or leadership portal."
+    ],
+    "title": "Automate customer feedback recap video with an API"
+  },
+  "title": "Customer feedback recap video for Manufacturing",
+  "type": "use_case",
+  "version": 1
+}

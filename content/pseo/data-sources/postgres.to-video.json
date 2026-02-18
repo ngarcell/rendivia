@@ -1,0 +1,87 @@
+{
+  "type": "data_source",
+  "version": 1,
+  "id": "data_source.postgres.to-video",
+  "canonicalUrl": "/from/postgres/to/video",
+  "title": "From Postgres to video",
+  "metaTitle": "Postgres to video generation | Rendivia",
+  "metaDescription": "Turn Postgres query results into deterministic, branded MP4 videos using a simple API.",
+  "hero": {
+    "eyebrow": "Data source",
+    "headline": "From Postgres to video",
+    "subheadline": "Query your database, send JSON, and receive a branded MP4 video.",
+    "primaryCta": { "label": "Get API key", "href": "/dashboard" },
+    "secondaryCta": { "label": "View docs", "href": "/docs" }
+  },
+  "problem": {
+    "title": "Query results aren't shareable on their own",
+    "bullets": [
+      "SQL outputs live in dashboards, not customer workflows.",
+      "Stakeholders skim spreadsheets and miss context.",
+      "Manual report creation wastes engineering cycles.",
+      "Video summaries increase engagement and clarity."
+    ]
+  },
+  "solution": {
+    "title": "Convert query results into video",
+    "bullets": [
+      "Run your Postgres query on a schedule or trigger.",
+      "POST the results to /render with a template id.",
+      "Rendivia renders a deterministic MP4 asynchronously.",
+      "Deliver the video through your product or email."
+    ]
+  },
+  "io": {
+    "inputTitle": "Input (query results)",
+    "inputJsonExample": {
+      "template": "weekly-summary-v1",
+      "data": {
+        "period": "2026-W05",
+        "mrr": 8920,
+        "activeUsers": 1243,
+        "churn": "2.1%",
+        "highlight": "workspaces"
+      },
+      "brand": "acme"
+    },
+    "outputTitle": "Output (deterministic MP4)",
+    "outputBullets": [
+      "45-60 second MP4 video",
+      "Brand logo, colors, and typography applied",
+      "Charts rendered from query output",
+      "Webhook includes output URL and metadata"
+    ]
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      { "title": "Query Postgres", "body": "Run a scheduled or triggered query." },
+      { "title": "Send JSON", "body": "POST results to /render with your API key." },
+      { "title": "Render async", "body": "We queue and render reliably at scale." },
+      { "title": "Deliver", "body": "Receive a webhook and deliver the MP4." }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "bullets": [
+      "Turn raw data into a narrative",
+      "Automate weekly reporting workflows",
+      "Share results in a format people consume",
+      "Keep output deterministic and brand-safe"
+    ]
+  },
+  "faq": [
+    { "q": "Can I use any SQL query?", "a": "Yes. Send the results as JSON to the render API." },
+    { "q": "Is the output deterministic?", "a": "Yes. Same inputs produce the same output on a fixed template version." }
+  ],
+  "related": [
+    { "label": "Weekly metrics videos", "href": "/use-cases/saas/weekly-metrics-video" },
+    { "label": "From CSV to video", "href": "/from/csv/to/video" },
+    { "label": "Trigger: weekly report", "href": "/when/weekly-report/generate-video" }
+  ],
+  "cta": {
+    "title": "Generate videos from Postgres",
+    "body": "Create an API key and render your first Postgres-driven video.",
+    "primary": { "label": "Get API key", "href": "/dashboard" }
+  }
+}

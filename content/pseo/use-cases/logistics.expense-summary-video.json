@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by monthly close completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/logistics/expense-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first expense summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate expense summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include department arrays in the payload.",
+      "q": "Can I include department splits?"
+    },
+    {
+      "a": "Yes. Provide currency fields for display.",
+      "q": "Does it support multiple currencies?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Expense summary video for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automate monthly expense summaries with budget variance callouts."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide totals by category and variance.",
+        "title": "Collect spend data"
+      },
+      {
+        "body": "POST to /render with expense-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to finance and department leads.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.logistics.expense-summary-video.812fb95d10",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics-supply-chain",
+      "data": {
+        "avgDelay": "12m",
+        "costPerShipment": 4.2,
+        "exceptions": 38,
+        "expenses": "example-expenses",
+        "highlight": "shipments",
+        "onTimeRate": "94%",
+        "period": "2026-01",
+        "shipments": 9821,
+        "variance": "example-variance"
+      },
+      "template": "expense-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Logistics / Supply chain using a simple API. Automate expense summary video from structured data (Shipments, On-time rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Expense summary video for Logistics / Supply chain | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are hard to communicate quickly.",
+      "Exceptions require consistent reporting.",
+      "Manual weekly summaries waste time.",
+      "Stakeholders want a digest, not dashboards."
+    ],
+    "title": "Why Logistics / Supply chain teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/investor-update-video",
+      "label": "Investor Update Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when monthly close completes happens.",
+      "POST structured data to /render using template expense-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or Slack."
+    ],
+    "title": "Automate expense summary video with an API"
+  },
+  "title": "Expense summary video for Logistics / Supply chain",
+  "type": "use_case",
+  "version": 1
+}

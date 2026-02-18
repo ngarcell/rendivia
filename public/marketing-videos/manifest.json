@@ -1,0 +1,4986 @@
+{
+  "generatedAt": "2026-02-04T13:59:24.257Z",
+  "total": 830,
+  "items": [
+    {
+      "type": "tool",
+      "category": "platform",
+      "slug": "youtube-shorts-captions",
+      "videoUrl": "/marketing-videos/tools/platform/youtube-shorts-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform",
+      "slug": "tiktok-caption-generator",
+      "videoUrl": "/marketing-videos/tools/platform/tiktok-caption-generator.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform",
+      "slug": "instagram-reels-captions",
+      "videoUrl": "/marketing-videos/tools/platform/instagram-reels-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform",
+      "slug": "facebook-reels-captions",
+      "videoUrl": "/marketing-videos/tools/platform/facebook-reels-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "language",
+      "slug": "spanish-subtitles",
+      "videoUrl": "/marketing-videos/tools/language/spanish-subtitles.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "language",
+      "slug": "french-subtitles",
+      "videoUrl": "/marketing-videos/tools/language/french-subtitles.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "language",
+      "slug": "german-subtitles",
+      "videoUrl": "/marketing-videos/tools/language/german-subtitles.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "use-case",
+      "slug": "podcast-to-shorts",
+      "videoUrl": "/marketing-videos/tools/use-case/podcast-to-shorts.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "use-case",
+      "slug": "long-to-shorts",
+      "videoUrl": "/marketing-videos/tools/use-case/long-to-shorts.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "use-case",
+      "slug": "trim-silence-captions",
+      "videoUrl": "/marketing-videos/tools/use-case/trim-silence-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "feature",
+      "slug": "animated-captions",
+      "videoUrl": "/marketing-videos/tools/feature/animated-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "feature",
+      "slug": "burn-in-subtitles",
+      "videoUrl": "/marketing-videos/tools/feature/burn-in-subtitles.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "feature",
+      "slug": "auto-captions",
+      "videoUrl": "/marketing-videos/tools/feature/auto-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "vertical",
+      "slug": "real-estate-video-captions",
+      "videoUrl": "/marketing-videos/tools/vertical/real-estate-video-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "vertical",
+      "slug": "educators-video-captions",
+      "videoUrl": "/marketing-videos/tools/vertical/educators-video-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "vertical",
+      "slug": "agencies-video-captions",
+      "videoUrl": "/marketing-videos/tools/vertical/agencies-video-captions.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-afrikaans",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-afrikaans.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-amharic",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-amharic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-arabic",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-arabic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-assamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-assamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-azerbaijani",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-azerbaijani.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-bashkir",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-bashkir.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-belarusian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-belarusian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-bengali",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-bengali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-tibetan",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-tibetan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-breton",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-breton.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-bosnian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-bosnian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-catalan",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-catalan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-czech",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-czech.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-welsh",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-welsh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-danish",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-danish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-german",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-german.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-greek",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-greek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-english",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-english.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-spanish",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-spanish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-estonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-estonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-basque",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-basque.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-persian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-persian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-finnish",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-finnish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-faroese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-faroese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-french",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-french.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-galician",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-galician.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-gujarati",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-gujarati.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-hausa",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-hausa.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-hawaiian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-hawaiian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-hebrew",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-hebrew.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-hindi",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-hindi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-croatian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-croatian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-haitian-creole",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-haitian-creole.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-hungarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-hungarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-armenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-armenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-indonesian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-indonesian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-icelandic",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-icelandic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-italian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-italian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-japanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-japanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-javanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-javanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-georgian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-georgian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-kazakh",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-kazakh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-khmer",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-khmer.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-kannada",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-kannada.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-korean",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-korean.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-latin",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-latin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-luxembourgish",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-luxembourgish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-lingala",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-lingala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-lao",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-lao.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-lithuanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-lithuanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-latvian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-latvian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-malagasy",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-malagasy.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-maori",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-maori.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-macedonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-macedonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-malayalam",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-malayalam.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-mongolian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-mongolian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-marathi",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-marathi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-malay",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-malay.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-maltese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-maltese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-myanmar",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-myanmar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-nepali",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-nepali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-dutch",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-dutch.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-norwegian-nynorsk",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-norwegian-nynorsk.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-norwegian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-norwegian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-occitan",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-occitan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-punjabi",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-punjabi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-polish",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-polish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-pashto",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-pashto.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-portuguese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-portuguese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-romanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-romanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-russian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-russian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-sanskrit",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-sanskrit.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-sindhi",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-sindhi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-sinhala",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-sinhala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-slovak",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-slovak.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-slovenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-slovenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-shona",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-shona.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-somali",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-somali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-albanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-albanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-serbian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-serbian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-sundanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-sundanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-swedish",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-swedish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-swahili",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-swahili.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-tamil",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-tamil.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-telugu",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-telugu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-tajik",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-tajik.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-thai",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-thai.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-turkmen",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-turkmen.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-tagalog",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-tagalog.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-turkish",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-turkish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-tatar",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-tatar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-ukrainian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-ukrainian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-urdu",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-urdu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-uzbek",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-uzbek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-vietnamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-vietnamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-yiddish",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-yiddish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-yoruba",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-yoruba.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-chinese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-chinese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-cantonese",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-cantonese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-mandarin",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-mandarin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "youtube-shorts-bulgarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/youtube-shorts-bulgarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-afrikaans",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-afrikaans.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-amharic",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-amharic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-arabic",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-arabic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-assamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-assamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-azerbaijani",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-azerbaijani.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-bashkir",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-bashkir.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-belarusian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-belarusian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-bengali",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-bengali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-tibetan",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-tibetan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-breton",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-breton.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-bosnian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-bosnian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-catalan",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-catalan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-czech",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-czech.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-welsh",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-welsh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-danish",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-danish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-german",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-german.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-greek",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-greek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-english",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-english.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-spanish",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-spanish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-estonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-estonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-basque",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-basque.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-persian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-persian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-finnish",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-finnish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-faroese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-faroese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-french",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-french.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-galician",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-galician.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-gujarati",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-gujarati.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-hausa",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-hausa.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-hawaiian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-hawaiian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-hebrew",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-hebrew.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-hindi",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-hindi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-croatian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-croatian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-haitian-creole",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-haitian-creole.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-hungarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-hungarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-armenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-armenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-indonesian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-indonesian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-icelandic",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-icelandic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-italian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-italian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-japanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-japanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-javanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-javanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-georgian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-georgian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-kazakh",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-kazakh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-khmer",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-khmer.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-kannada",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-kannada.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-korean",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-korean.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-latin",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-latin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-luxembourgish",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-luxembourgish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-lingala",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-lingala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-lao",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-lao.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-lithuanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-lithuanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-latvian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-latvian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-malagasy",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-malagasy.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-maori",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-maori.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-macedonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-macedonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-malayalam",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-malayalam.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-mongolian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-mongolian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-marathi",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-marathi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-malay",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-malay.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-maltese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-maltese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-myanmar",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-myanmar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-nepali",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-nepali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-dutch",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-dutch.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-norwegian-nynorsk",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-norwegian-nynorsk.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-norwegian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-norwegian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-occitan",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-occitan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-punjabi",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-punjabi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-polish",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-polish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-pashto",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-pashto.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-portuguese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-portuguese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-romanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-romanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-russian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-russian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-sanskrit",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-sanskrit.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-sindhi",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-sindhi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-sinhala",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-sinhala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-slovak",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-slovak.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-slovenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-slovenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-shona",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-shona.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-somali",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-somali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-albanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-albanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-serbian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-serbian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-sundanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-sundanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-swedish",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-swedish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-swahili",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-swahili.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-tamil",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-tamil.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-telugu",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-telugu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-tajik",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-tajik.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-thai",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-thai.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-turkmen",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-turkmen.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-tagalog",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-tagalog.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-turkish",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-turkish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-tatar",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-tatar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-ukrainian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-ukrainian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-urdu",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-urdu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-uzbek",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-uzbek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-vietnamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-vietnamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-yiddish",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-yiddish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-yoruba",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-yoruba.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-chinese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-chinese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-cantonese",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-cantonese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-mandarin",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-mandarin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "tiktok-bulgarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/tiktok-bulgarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-afrikaans",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-afrikaans.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-amharic",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-amharic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-arabic",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-arabic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-assamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-assamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-azerbaijani",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-azerbaijani.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-bashkir",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-bashkir.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-belarusian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-belarusian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-bengali",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-bengali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-tibetan",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-tibetan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-breton",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-breton.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-bosnian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-bosnian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-catalan",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-catalan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-czech",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-czech.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-welsh",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-welsh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-danish",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-danish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-german",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-german.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-greek",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-greek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-english",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-english.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-spanish",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-spanish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-estonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-estonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-basque",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-basque.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-persian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-persian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-finnish",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-finnish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-faroese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-faroese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-french",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-french.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-galician",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-galician.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-gujarati",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-gujarati.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-hausa",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-hausa.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-hawaiian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-hawaiian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-hebrew",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-hebrew.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-hindi",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-hindi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-croatian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-croatian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-haitian-creole",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-haitian-creole.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-hungarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-hungarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-armenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-armenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-indonesian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-indonesian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-icelandic",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-icelandic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-italian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-italian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-japanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-japanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-javanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-javanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-georgian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-georgian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-kazakh",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-kazakh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-khmer",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-khmer.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-kannada",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-kannada.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-korean",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-korean.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-latin",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-latin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-luxembourgish",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-luxembourgish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-lingala",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-lingala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-lao",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-lao.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-lithuanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-lithuanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-latvian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-latvian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-malagasy",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-malagasy.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-maori",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-maori.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-macedonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-macedonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-malayalam",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-malayalam.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-mongolian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-mongolian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-marathi",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-marathi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-malay",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-malay.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-maltese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-maltese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-myanmar",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-myanmar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-nepali",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-nepali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-dutch",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-dutch.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-norwegian-nynorsk",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-norwegian-nynorsk.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-norwegian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-norwegian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-occitan",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-occitan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-punjabi",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-punjabi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-polish",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-polish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-pashto",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-pashto.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-portuguese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-portuguese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-romanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-romanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-russian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-russian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-sanskrit",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-sanskrit.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-sindhi",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-sindhi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-sinhala",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-sinhala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-slovak",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-slovak.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-slovenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-slovenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-shona",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-shona.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-somali",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-somali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-albanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-albanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-serbian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-serbian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-sundanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-sundanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-swedish",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-swedish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-swahili",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-swahili.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-tamil",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-tamil.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-telugu",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-telugu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-tajik",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-tajik.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-thai",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-thai.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-turkmen",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-turkmen.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-tagalog",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-tagalog.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-turkish",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-turkish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-tatar",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-tatar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-ukrainian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-ukrainian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-urdu",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-urdu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-uzbek",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-uzbek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-vietnamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-vietnamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-yiddish",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-yiddish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-yoruba",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-yoruba.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-chinese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-chinese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-cantonese",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-cantonese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-mandarin",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-mandarin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "instagram-reels-bulgarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/instagram-reels-bulgarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-afrikaans",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-afrikaans.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-amharic",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-amharic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-arabic",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-arabic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-assamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-assamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-azerbaijani",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-azerbaijani.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-bashkir",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-bashkir.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-belarusian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-belarusian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-bengali",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-bengali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-tibetan",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-tibetan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-breton",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-breton.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-bosnian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-bosnian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-catalan",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-catalan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-czech",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-czech.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-welsh",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-welsh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-danish",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-danish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-german",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-german.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-greek",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-greek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-english",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-english.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-spanish",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-spanish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-estonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-estonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-basque",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-basque.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-persian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-persian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-finnish",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-finnish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-faroese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-faroese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-french",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-french.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-galician",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-galician.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-gujarati",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-gujarati.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-hausa",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-hausa.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-hawaiian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-hawaiian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-hebrew",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-hebrew.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-hindi",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-hindi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-croatian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-croatian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-haitian-creole",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-haitian-creole.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-hungarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-hungarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-armenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-armenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-indonesian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-indonesian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-icelandic",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-icelandic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-italian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-italian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-japanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-japanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-javanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-javanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-georgian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-georgian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-kazakh",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-kazakh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-khmer",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-khmer.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-kannada",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-kannada.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-korean",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-korean.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-latin",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-latin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-luxembourgish",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-luxembourgish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-lingala",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-lingala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-lao",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-lao.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-lithuanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-lithuanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-latvian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-latvian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-malagasy",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-malagasy.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-maori",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-maori.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-macedonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-macedonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-malayalam",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-malayalam.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-mongolian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-mongolian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-marathi",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-marathi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-malay",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-malay.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-maltese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-maltese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-myanmar",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-myanmar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-nepali",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-nepali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-dutch",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-dutch.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-norwegian-nynorsk",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-norwegian-nynorsk.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-norwegian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-norwegian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-occitan",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-occitan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-punjabi",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-punjabi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-polish",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-polish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-pashto",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-pashto.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-portuguese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-portuguese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-romanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-romanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-russian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-russian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-sanskrit",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-sanskrit.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-sindhi",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-sindhi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-sinhala",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-sinhala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-slovak",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-slovak.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-slovenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-slovenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-shona",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-shona.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-somali",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-somali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-albanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-albanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-serbian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-serbian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-sundanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-sundanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-swedish",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-swedish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-swahili",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-swahili.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-tamil",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-tamil.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-telugu",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-telugu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-tajik",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-tajik.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-thai",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-thai.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-turkmen",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-turkmen.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-tagalog",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-tagalog.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-turkish",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-turkish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-tatar",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-tatar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-ukrainian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-ukrainian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-urdu",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-urdu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-uzbek",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-uzbek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-vietnamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-vietnamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-yiddish",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-yiddish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-yoruba",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-yoruba.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-chinese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-chinese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-cantonese",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-cantonese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-mandarin",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-mandarin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "facebook-reels-bulgarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/facebook-reels-bulgarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-afrikaans",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-afrikaans.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-amharic",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-amharic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-arabic",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-arabic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-assamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-assamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-azerbaijani",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-azerbaijani.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-bashkir",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-bashkir.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-belarusian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-belarusian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-bengali",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-bengali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-tibetan",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-tibetan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-breton",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-breton.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-bosnian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-bosnian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-catalan",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-catalan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-czech",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-czech.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-welsh",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-welsh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-danish",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-danish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-german",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-german.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-greek",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-greek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-english",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-english.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-spanish",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-spanish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-estonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-estonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-basque",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-basque.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-persian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-persian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-finnish",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-finnish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-faroese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-faroese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-french",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-french.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-galician",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-galician.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-gujarati",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-gujarati.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-hausa",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-hausa.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-hawaiian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-hawaiian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-hebrew",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-hebrew.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-hindi",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-hindi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-croatian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-croatian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-haitian-creole",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-haitian-creole.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-hungarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-hungarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-armenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-armenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-indonesian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-indonesian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-icelandic",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-icelandic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-italian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-italian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-japanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-japanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-javanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-javanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-georgian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-georgian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-kazakh",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-kazakh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-khmer",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-khmer.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-kannada",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-kannada.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-korean",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-korean.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-latin",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-latin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-luxembourgish",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-luxembourgish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-lingala",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-lingala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-lao",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-lao.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-lithuanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-lithuanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-latvian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-latvian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-malagasy",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-malagasy.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-maori",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-maori.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-macedonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-macedonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-malayalam",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-malayalam.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-mongolian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-mongolian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-marathi",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-marathi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-malay",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-malay.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-maltese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-maltese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-myanmar",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-myanmar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-nepali",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-nepali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-dutch",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-dutch.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-norwegian-nynorsk",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-norwegian-nynorsk.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-norwegian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-norwegian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-occitan",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-occitan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-punjabi",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-punjabi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-polish",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-polish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-pashto",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-pashto.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-portuguese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-portuguese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-romanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-romanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-russian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-russian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-sanskrit",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-sanskrit.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-sindhi",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-sindhi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-sinhala",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-sinhala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-slovak",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-slovak.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-slovenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-slovenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-shona",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-shona.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-somali",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-somali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-albanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-albanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-serbian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-serbian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-sundanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-sundanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-swedish",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-swedish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-swahili",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-swahili.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-tamil",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-tamil.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-telugu",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-telugu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-tajik",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-tajik.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-thai",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-thai.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-turkmen",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-turkmen.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-tagalog",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-tagalog.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-turkish",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-turkish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-tatar",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-tatar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-ukrainian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-ukrainian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-urdu",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-urdu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-uzbek",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-uzbek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-vietnamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-vietnamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-yiddish",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-yiddish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-yoruba",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-yoruba.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-chinese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-chinese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-cantonese",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-cantonese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-mandarin",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-mandarin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "linkedin-video-bulgarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/linkedin-video-bulgarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-afrikaans",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-afrikaans.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-amharic",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-amharic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-arabic",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-arabic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-assamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-assamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-azerbaijani",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-azerbaijani.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-bashkir",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-bashkir.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-belarusian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-belarusian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-bengali",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-bengali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-tibetan",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-tibetan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-breton",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-breton.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-bosnian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-bosnian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-catalan",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-catalan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-czech",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-czech.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-welsh",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-welsh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-danish",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-danish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-german",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-german.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-greek",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-greek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-english",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-english.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-spanish",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-spanish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-estonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-estonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-basque",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-basque.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-persian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-persian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-finnish",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-finnish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-faroese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-faroese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-french",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-french.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-galician",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-galician.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-gujarati",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-gujarati.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-hausa",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-hausa.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-hawaiian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-hawaiian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-hebrew",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-hebrew.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-hindi",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-hindi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-croatian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-croatian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-haitian-creole",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-haitian-creole.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-hungarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-hungarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-armenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-armenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-indonesian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-indonesian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-icelandic",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-icelandic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-italian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-italian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-japanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-japanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-javanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-javanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-georgian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-georgian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-kazakh",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-kazakh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-khmer",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-khmer.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-kannada",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-kannada.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-korean",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-korean.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-latin",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-latin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-luxembourgish",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-luxembourgish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-lingala",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-lingala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-lao",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-lao.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-lithuanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-lithuanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-latvian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-latvian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-malagasy",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-malagasy.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-maori",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-maori.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-macedonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-macedonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-malayalam",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-malayalam.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-mongolian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-mongolian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-marathi",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-marathi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-malay",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-malay.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-maltese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-maltese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-myanmar",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-myanmar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-nepali",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-nepali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-dutch",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-dutch.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-norwegian-nynorsk",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-norwegian-nynorsk.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-norwegian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-norwegian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-occitan",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-occitan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-punjabi",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-punjabi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-polish",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-polish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-pashto",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-pashto.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-portuguese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-portuguese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-romanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-romanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-russian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-russian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-sanskrit",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-sanskrit.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-sindhi",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-sindhi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-sinhala",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-sinhala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-slovak",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-slovak.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-slovenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-slovenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-shona",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-shona.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-somali",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-somali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-albanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-albanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-serbian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-serbian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-sundanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-sundanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-swedish",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-swedish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-swahili",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-swahili.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-tamil",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-tamil.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-telugu",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-telugu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-tajik",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-tajik.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-thai",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-thai.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-turkmen",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-turkmen.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-tagalog",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-tagalog.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-turkish",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-turkish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-tatar",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-tatar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-ukrainian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-ukrainian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-urdu",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-urdu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-uzbek",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-uzbek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-vietnamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-vietnamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-yiddish",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-yiddish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-yoruba",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-yoruba.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-chinese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-chinese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-cantonese",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-cantonese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-mandarin",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-mandarin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "twitter-x-bulgarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/twitter-x-bulgarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-afrikaans",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-afrikaans.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-amharic",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-amharic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-arabic",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-arabic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-assamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-assamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-azerbaijani",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-azerbaijani.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-bashkir",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-bashkir.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-belarusian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-belarusian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-bengali",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-bengali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-tibetan",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-tibetan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-breton",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-breton.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-bosnian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-bosnian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-catalan",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-catalan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-czech",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-czech.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-welsh",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-welsh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-danish",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-danish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-german",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-german.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-greek",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-greek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-english",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-english.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-spanish",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-spanish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-estonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-estonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-basque",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-basque.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-persian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-persian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-finnish",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-finnish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-faroese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-faroese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-french",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-french.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-galician",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-galician.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-gujarati",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-gujarati.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-hausa",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-hausa.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-hawaiian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-hawaiian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-hebrew",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-hebrew.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-hindi",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-hindi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-croatian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-croatian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-haitian-creole",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-haitian-creole.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-hungarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-hungarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-armenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-armenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-indonesian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-indonesian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-icelandic",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-icelandic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-italian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-italian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-japanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-japanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-javanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-javanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-georgian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-georgian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-kazakh",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-kazakh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-khmer",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-khmer.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-kannada",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-kannada.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-korean",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-korean.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-latin",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-latin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-luxembourgish",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-luxembourgish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-lingala",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-lingala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-lao",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-lao.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-lithuanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-lithuanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-latvian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-latvian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-malagasy",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-malagasy.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-maori",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-maori.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-macedonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-macedonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-malayalam",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-malayalam.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-mongolian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-mongolian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-marathi",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-marathi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-malay",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-malay.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-maltese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-maltese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-myanmar",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-myanmar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-nepali",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-nepali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-dutch",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-dutch.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-norwegian-nynorsk",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-norwegian-nynorsk.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-norwegian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-norwegian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-occitan",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-occitan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-punjabi",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-punjabi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-polish",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-polish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-pashto",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-pashto.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-portuguese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-portuguese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-romanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-romanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-russian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-russian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-sanskrit",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-sanskrit.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-sindhi",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-sindhi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-sinhala",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-sinhala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-slovak",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-slovak.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-slovenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-slovenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-shona",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-shona.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-somali",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-somali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-albanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-albanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-serbian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-serbian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-sundanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-sundanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-swedish",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-swedish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-swahili",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-swahili.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-tamil",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-tamil.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-telugu",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-telugu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-tajik",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-tajik.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-thai",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-thai.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-turkmen",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-turkmen.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-tagalog",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-tagalog.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-turkish",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-turkish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-tatar",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-tatar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-ukrainian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-ukrainian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-urdu",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-urdu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-uzbek",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-uzbek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-vietnamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-vietnamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-yiddish",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-yiddish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-yoruba",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-yoruba.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-chinese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-chinese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-cantonese",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-cantonese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-mandarin",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-mandarin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "pinterest-video-bulgarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/pinterest-video-bulgarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-afrikaans",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-afrikaans.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-amharic",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-amharic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-arabic",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-arabic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-assamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-assamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-azerbaijani",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-azerbaijani.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-bashkir",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-bashkir.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-belarusian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-belarusian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-bengali",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-bengali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-tibetan",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-tibetan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-breton",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-breton.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-bosnian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-bosnian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-catalan",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-catalan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-czech",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-czech.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-welsh",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-welsh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-danish",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-danish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-german",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-german.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-greek",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-greek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-english",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-english.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-spanish",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-spanish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-estonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-estonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-basque",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-basque.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-persian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-persian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-finnish",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-finnish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-faroese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-faroese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-french",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-french.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-galician",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-galician.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-gujarati",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-gujarati.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-hausa",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-hausa.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-hawaiian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-hawaiian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-hebrew",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-hebrew.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-hindi",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-hindi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-croatian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-croatian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-haitian-creole",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-haitian-creole.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-hungarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-hungarian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-armenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-armenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-indonesian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-indonesian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-icelandic",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-icelandic.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-italian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-italian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-japanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-japanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-javanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-javanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-georgian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-georgian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-kazakh",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-kazakh.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-khmer",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-khmer.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-kannada",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-kannada.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-korean",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-korean.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-latin",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-latin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-luxembourgish",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-luxembourgish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-lingala",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-lingala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-lao",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-lao.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-lithuanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-lithuanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-latvian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-latvian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-malagasy",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-malagasy.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-maori",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-maori.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-macedonian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-macedonian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-malayalam",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-malayalam.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-mongolian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-mongolian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-marathi",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-marathi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-malay",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-malay.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-maltese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-maltese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-myanmar",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-myanmar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-nepali",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-nepali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-dutch",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-dutch.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-norwegian-nynorsk",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-norwegian-nynorsk.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-norwegian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-norwegian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-occitan",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-occitan.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-punjabi",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-punjabi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-polish",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-polish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-pashto",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-pashto.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-portuguese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-portuguese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-romanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-romanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-russian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-russian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-sanskrit",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-sanskrit.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-sindhi",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-sindhi.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-sinhala",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-sinhala.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-slovak",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-slovak.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-slovenian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-slovenian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-shona",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-shona.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-somali",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-somali.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-albanian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-albanian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-serbian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-serbian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-sundanese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-sundanese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-swedish",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-swedish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-swahili",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-swahili.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-tamil",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-tamil.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-telugu",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-telugu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-tajik",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-tajik.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-thai",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-thai.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-turkmen",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-turkmen.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-tagalog",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-tagalog.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-turkish",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-turkish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-tatar",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-tatar.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-ukrainian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-ukrainian.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-urdu",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-urdu.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-uzbek",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-uzbek.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-vietnamese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-vietnamese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-yiddish",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-yiddish.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-yoruba",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-yoruba.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-chinese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-chinese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-cantonese",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-cantonese.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-mandarin",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-mandarin.mp4"
+    },
+    {
+      "type": "tool",
+      "category": "platform-language",
+      "slug": "snapchat-bulgarian",
+      "videoUrl": "/marketing-videos/tools/platform-language/snapchat-bulgarian.mp4"
+    },
+    {
+      "type": "comparison",
+      "category": "vs",
+      "slug": "rendivia-vs-capcut",
+      "videoUrl": "/marketing-videos/vs/rendivia-vs-capcut.mp4"
+    },
+    {
+      "type": "comparison",
+      "category": "vs",
+      "slug": "rendivia-vs-descript",
+      "videoUrl": "/marketing-videos/vs/rendivia-vs-descript.mp4"
+    },
+    {
+      "type": "comparison",
+      "category": "vs",
+      "slug": "rendivia-vs-veed",
+      "videoUrl": "/marketing-videos/vs/rendivia-vs-veed.mp4"
+    },
+    {
+      "type": "comparison",
+      "category": "vs",
+      "slug": "rendivia-vs-opus-clip",
+      "videoUrl": "/marketing-videos/vs/rendivia-vs-opus-clip.mp4"
+    },
+    {
+      "type": "comparison",
+      "category": "vs",
+      "slug": "rendivia-vs-kapwing",
+      "videoUrl": "/marketing-videos/vs/rendivia-vs-kapwing.mp4"
+    },
+    {
+      "type": "comparison",
+      "category": "vs",
+      "slug": "rendivia-vs-riverside",
+      "videoUrl": "/marketing-videos/vs/rendivia-vs-riverside.mp4"
+    }
+  ]
+}

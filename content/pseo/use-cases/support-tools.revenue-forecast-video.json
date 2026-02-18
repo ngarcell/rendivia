@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate weekly support performance digests.",
+      "Make trends visible and easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a forecast is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/support-tools/revenue-forecast-video",
+  "cta": {
+    "body": "Create an API key and render your first revenue forecast video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate revenue forecast video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide scenario arrays for best/base/worst.",
+      "q": "Can I include scenarios?"
+    },
+    {
+      "a": "Yes. Same input always yields the same output.",
+      "q": "Is it deterministic?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Revenue forecast video for Customer support tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize revenue forecasts with assumptions and confidence ranges."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Include ranges, targets, and assumptions.",
+        "title": "Provide forecast"
+      },
+      {
+        "body": "POST to /render with revenue-forecast-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render reliably.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with finance and leadership.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.support-tools.revenue-forecast-video.6867160cfb",
+  "io": {
+    "inputJsonExample": {
+      "brand": "customer-support-tools",
+      "data": {
+        "assumptions": "example-assumptions",
+        "backlog": 214,
+        "csat": "92%",
+        "firstResponse": "18m",
+        "forecast": "example-forecast",
+        "highlight": "tickets",
+        "period": "2026-01-14",
+        "resolution": "6h",
+        "tickets": 1842
+      },
+      "template": "revenue-forecast-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Forecast ranges and deltas",
+      "Assumptions summarized",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Customer support tools using a simple API. Automate revenue forecast video from structured data (Tickets, First response time). Includes webhooks and brand profiles.",
+  "metaTitle": "Revenue forecast video for Customer support tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Support performance reporting is repetitive.",
+      "Stakeholders miss trends between reviews.",
+      "Manual recaps vary by manager/team.",
+      "Teams need consistent outputs."
+    ],
+    "title": "Why Customer support tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/support-tools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/investor-update-video",
+      "label": "Investor Update Video for Customer support tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a forecast is ready happens.",
+      "POST structured data to /render using template revenue-forecast-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate revenue forecast video with an API"
+  },
+  "title": "Revenue forecast video for Customer support tools",
+  "type": "use_case",
+  "version": 1
+}

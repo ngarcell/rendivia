@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate data reliability and pipeline updates.",
+      "Make dataset health visible at a glance.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an investor update is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/data-platforms/investor-update-video",
+  "cta": {
+    "body": "Create an API key and render your first investor update video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate investor update video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Same input produces the same output with a fixed template version.",
+      "q": "Is it deterministic?"
+    },
+    {
+      "a": "Yes. Use a Brand Profile to apply logo/colors/fonts.",
+      "q": "Can we customize branding?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Investor update video for Data platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate an investor-style update video from KPIs, milestones, and narrative points."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Gather growth, revenue, and retention metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "Provide 3-5 milestones for the period.",
+        "title": "Add milestones"
+      },
+      {
+        "body": "POST to /render with investor-update-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Share the MP4 via investor portal or email.",
+        "title": "Send"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.data-platforms.investor-update-video.90e78003ab",
+  "io": {
+    "inputJsonExample": {
+      "brand": "data-platforms",
+      "data": {
+        "cost": 8420,
+        "dataVolume": 128,
+        "highlight": "pipelines",
+        "kpis": {
+          "cost": 8420,
+          "dataVolume": 128,
+          "pipelinesSucceeded": 932,
+          "queryCount": 42000,
+          "slaBreaches": 3
+        },
+        "milestones": "example-milestones",
+        "period": "2026-01-14",
+        "pipelinesSucceeded": 932,
+        "queryCount": 42000,
+        "slaBreaches": 3
+      },
+      "template": "investor-update-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-120s MP4 video",
+      "KPI tiles + growth deltas",
+      "Milestones section",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Data platforms using a simple API. Automate investor update video from structured data (Pipelines succeeded, Data volume (TB)). Includes webhooks and brand profiles.",
+  "metaTitle": "Investor update video for Data platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Data reliability updates are buried in logs.",
+      "Stakeholders lack visibility into pipeline health.",
+      "Manual status emails take too long.",
+      "Incidents need a consistent recap format."
+    ],
+    "title": "Why Data platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/data-platforms/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/customer-success-recap-video",
+      "label": "Customer Success Recap Video for Data platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an investor update is ready happens.",
+      "POST structured data to /render using template investor-update-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate investor update video with an API"
+  },
+  "title": "Investor update video for Data platforms",
+  "type": "use_case",
+  "version": 1
+}

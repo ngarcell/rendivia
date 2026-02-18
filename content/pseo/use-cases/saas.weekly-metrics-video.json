@@ -1,0 +1,99 @@
+{
+  "type": "use_case",
+  "version": 1,
+  "id": "use_case.saas.weekly-metrics-video",
+  "canonicalUrl": "/use-cases/saas/weekly-metrics-video",
+  "title": "Weekly metrics videos for SaaS products",
+  "metaTitle": "Weekly metrics video summaries for SaaS | Rendivia",
+  "metaDescription": "Automatically turn weekly product metrics into branded video summaries using a simple API. Deterministic output, webhooks, and brand profiles.",
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Weekly metrics videos for SaaS products",
+    "subheadline": "Automatically turn weekly product metrics into branded video summaries using an API.",
+    "supportLine": "Turn reports, dashboards, and weekly recaps into MP4 videos - automatically.",
+    "primaryCta": { "label": "Get API key", "href": "/dashboard" },
+    "secondaryCta": { "label": "View docs", "href": "/docs" }
+  },
+  "problem": {
+    "title": "Why metrics dashboards aren't enough",
+    "bullets": [
+      "Users don't log in every week to interpret charts.",
+      "Email and PDF reports are ignored or skimmed.",
+      "Key insights get lost without a clear narrative.",
+      "Manual video creation doesn't scale with customer count."
+    ]
+  },
+  "solution": {
+    "title": "Turn metrics into video - automatically",
+    "bullets": [
+      "Schedule a weekly job (cron) to fetch your metrics.",
+      "Send the metrics to the /render endpoint with a template id.",
+      "We render an MP4 asynchronously and reliably.",
+      "Receive a webhook when the video is ready, then deliver it to users."
+    ]
+  },
+  "io": {
+    "inputTitle": "Input (structured metrics)",
+    "inputJsonExample": {
+      "template": "weekly-summary-v1",
+      "data": {
+        "week": "2026-01-14",
+        "users": 1243,
+        "revenue": 8920,
+        "growth": "+12%",
+        "churn": "2.1%",
+        "topFeature": "Team Workspaces"
+      },
+      "brand": "acme"
+    },
+    "outputTitle": "Output (deterministic MP4)",
+    "outputBullets": [
+      "45-60 second MP4 video",
+      "Brand logo, colors, and typography applied",
+      "Charts and counters generated from your metrics",
+      "Webhook includes output URL and render metadata"
+    ]
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      { "title": "Pick a template", "body": "Choose a versioned template like weekly-summary-v1 to keep output deterministic." },
+      { "title": "Send data", "body": "POST your weekly metrics as JSON to /render using your API key." },
+      { "title": "Render async", "body": "We queue the job, render at scale, and retry safely on transient failures." },
+      { "title": "Receive the result", "body": "Get a webhook with the MP4 URL when the render completes." }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "bullets": [
+      "Higher engagement than dashboards or PDFs",
+      "Clear, consistent narrative around key metrics",
+      "Fully automated weekly workflow",
+      "Deterministic output you can trust in production"
+    ]
+  },
+  "faq": [
+    {
+      "q": "Is the output deterministic?",
+      "a": "Yes. Templates are versioned and the same input produces the same video output."
+    },
+    {
+      "q": "Where does the video live?",
+      "a": "You receive an output URL in the webhook. Store it in your database and embed it in your app or email it to users."
+    },
+    {
+      "q": "Can I brand the video?",
+      "a": "Yes. Use Brand Profiles to inject logo, colors, and typography automatically."
+    }
+  ],
+  "related": [
+    { "label": "Monthly metrics videos", "href": "/use-cases/saas/monthly-metrics-video" },
+    { "label": "Investor update videos", "href": "/use-cases/saas/investor-update-video" },
+    { "label": "From Postgres to video", "href": "/from/postgres/to/video" }
+  ],
+  "cta": {
+    "title": "Generate weekly summaries via API",
+    "body": "Create an API key and render your first weekly metrics video in minutes.",
+    "primary": { "label": "Get API key", "href": "/dashboard" }
+  }
+}

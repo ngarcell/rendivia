@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a campaign ends."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/campaign-results-video",
+  "cta": {
+    "body": "Create an API key and render your first campaign results video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate campaign results video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include target values and we render comparisons.",
+      "q": "Can I include benchmarks?"
+    },
+    {
+      "a": "Call /render per campaign for deterministic outputs.",
+      "q": "Is it multi-campaign?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Campaign results video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize campaign performance as soon as a campaign ends."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate reach, conversion, and spend metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "POST to /render with campaign-results-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive a webhook with the MP4 URL.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share internally or to clients automatically.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.campaign-results-video.e50c9dee7f",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "campaignId": "example-campaignId",
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "highlight": "dashboards",
+        "kpis": {
+          "conversion": "3.4%",
+          "dropOff": "pricing_view",
+          "retention": "41%",
+          "topEvent": "signup_completed",
+          "wau": 48210
+        },
+        "period": "2026-01-14",
+        "retention": "41%",
+        "topEvent": "signup_completed",
+        "wau": 48210
+      },
+      "template": "campaign-results-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate campaign results video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Campaign results video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a campaign ends happens.",
+      "POST structured data to /render using template campaign-results-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate campaign results video with an API"
+  },
+  "title": "Campaign results video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

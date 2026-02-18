@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make performance updates easy to share and consume.",
+      "Automate weekly and monthly recaps for teams.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a portfolio is rebalanced."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/ecommerce/portfolio-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first portfolio summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate portfolio summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide asset class labels and weights.",
+      "q": "Can I include asset classes?"
+    },
+    {
+      "a": "Yes. Use brand profiles per client.",
+      "q": "Does it support per-client branding?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Portfolio summary video for E-commerce",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a portfolio performance recap after rebalancing or period close."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide allocation and return data per holding.",
+        "title": "Collect holdings"
+      },
+      {
+        "body": "POST to /render with portfolio-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send the recap to clients or advisors.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.ecommerce.portfolio-summary-video.f4d30d28b7",
+  "io": {
+    "inputJsonExample": {
+      "brand": "e-commerce",
+      "data": {
+        "aov": 47.2,
+        "conversionRate": "2.8%",
+        "grossRevenue": 184200,
+        "highlight": "orders",
+        "orders": 3921,
+        "period": "2026-01-14",
+        "portfolioId": "example-portfolioId",
+        "positions": "example-positions",
+        "refundRate": "1.3%",
+        "returns": "example-returns"
+      },
+      "template": "portfolio-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Allocation changes visualized",
+      "Performance vs benchmark",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for E-commerce using a simple API. Automate portfolio summary video from structured data (Gross revenue, Orders). Includes webhooks and brand profiles.",
+  "metaTitle": "Portfolio summary video for E-commerce | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is scattered across tools.",
+      "Stakeholders miss weekly insights without a digest.",
+      "Manual recap creation wastes time every week.",
+      "Teams need consistent summaries for planning."
+    ],
+    "title": "Why E-commerce teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/ecommerce/monthly-metrics-video",
+      "label": "Monthly Metrics Video for E-commerce"
+    },
+    {
+      "href": "/use-cases/ecommerce/investor-update-video",
+      "label": "Investor Update Video for E-commerce"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a portfolio is rebalanced happens.",
+      "POST structured data to /render using template portfolio-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate portfolio summary video with an API"
+  },
+  "title": "Portfolio summary video for E-commerce",
+  "type": "use_case",
+  "version": 1
+}

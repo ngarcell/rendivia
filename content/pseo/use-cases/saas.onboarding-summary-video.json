@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Increase engagement with automated summaries.",
+      "Make key KPIs easier to understand at a glance.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by onboarding is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/saas/onboarding-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first onboarding summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate onboarding summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user?"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Onboarding summary video for SaaS",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate onboarding progress summaries as soon as activation milestones are reached."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and return a webhook on completion.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the recap in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.saas.onboarding-summary-video.f80111e48b",
+  "io": {
+    "inputJsonExample": {
+      "brand": "saas",
+      "data": {
+        "accountId": "example-accountId",
+        "activation": "34%",
+        "activeUsers": 1243,
+        "churn": "2.1%",
+        "highlight": "users",
+        "milestones": "example-milestones",
+        "mrr": 8920,
+        "nrr": "112%",
+        "period": "2026-01-14"
+      },
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for SaaS using a simple API. Automate onboarding summary video from structured data (MRR, Active users). Includes webhooks and brand profiles.",
+  "metaTitle": "Onboarding summary video for SaaS | Rendivia",
+  "problem": {
+    "bullets": [
+      "Dashboards require users to interpret charts manually.",
+      "Email and PDF reports are skimmed or ignored.",
+      "Weekly insights get lost without a narrative.",
+      "Manual video creation doesn't scale across customers."
+    ],
+    "title": "Why SaaS teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/saas/monthly-metrics-video",
+      "label": "Monthly Metrics Video for SaaS"
+    },
+    {
+      "href": "/use-cases/saas/investor-update-video",
+      "label": "Investor Update Video for SaaS"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when onboarding is complete happens.",
+      "POST structured data to /render using template onboarding-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or customer portal."
+    ],
+    "title": "Automate onboarding summary video with an API"
+  },
+  "title": "Onboarding summary video for SaaS",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an audit is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/logistics/audit-report-video",
+  "cta": {
+    "body": "Create an API key and render your first audit report video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate audit report video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links?"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Audit report video for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Produce a concise audit report video the moment an audit is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render at scale and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or compliance stakeholders.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.logistics.audit-report-video.68ff4fc300",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics-supply-chain",
+      "data": {
+        "auditId": "example-auditId",
+        "avgDelay": "12m",
+        "costPerShipment": 4.2,
+        "exceptions": 38,
+        "findings": "example-findings",
+        "highlight": "shipments",
+        "onTimeRate": "94%",
+        "period": "2026-01-14",
+        "shipments": 9821
+      },
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Logistics / Supply chain using a simple API. Automate audit report video from structured data (Shipments, On-time rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Audit report video for Logistics / Supply chain | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are hard to communicate quickly.",
+      "Exceptions require consistent reporting.",
+      "Manual weekly summaries waste time.",
+      "Stakeholders want a digest, not dashboards."
+    ],
+    "title": "Why Logistics / Supply chain teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/investor-update-video",
+      "label": "Investor Update Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an audit is complete happens.",
+      "POST structured data to /render using template audit-report-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or Slack."
+    ],
+    "title": "Automate audit report video with an API"
+  },
+  "title": "Audit report video for Logistics / Supply chain",
+  "type": "use_case",
+  "version": 1
+}

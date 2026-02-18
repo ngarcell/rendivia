@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an investor update is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/proptech/investor-update-video",
+  "cta": {
+    "body": "Create an API key and render your first investor update video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate investor update video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Same input produces the same output with a fixed template version.",
+      "q": "Is it deterministic?"
+    },
+    {
+      "a": "Yes. Use a Brand Profile to apply logo/colors/fonts.",
+      "q": "Can we customize branding?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Investor update video for PropTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate an investor-style update video from KPIs, milestones, and narrative points."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Gather growth, revenue, and retention metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "Provide 3-5 milestones for the period.",
+        "title": "Add milestones"
+      },
+      {
+        "body": "POST to /render with investor-update-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Share the MP4 via investor portal or email.",
+        "title": "Send"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.proptech.investor-update-video.60fbfc5351",
+  "io": {
+    "inputJsonExample": {
+      "brand": "proptech",
+      "data": {
+        "avgRent": 2140,
+        "highlight": "properties",
+        "kpis": {
+          "avgRent": 2140,
+          "leads": 620,
+          "leaseRenewals": 48,
+          "listings": 214,
+          "occupancy": "93%"
+        },
+        "leads": 620,
+        "leaseRenewals": 48,
+        "listings": 214,
+        "milestones": "example-milestones",
+        "occupancy": "93%",
+        "period": "2026-01-14"
+      },
+      "template": "investor-update-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-120s MP4 video",
+      "KPI tiles + growth deltas",
+      "Milestones section",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for PropTech using a simple API. Automate investor update video from structured data (Listings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Investor update video for PropTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Property updates are spread across tools.",
+      "Stakeholders need a consistent weekly recap.",
+      "Manual report creation delays decisions.",
+      "Insights get lost without a clear narrative."
+    ],
+    "title": "Why PropTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/proptech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/customer-success-recap-video",
+      "label": "Customer Success Recap Video for PropTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an investor update is ready happens.",
+      "POST structured data to /render using template investor-update-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, investor portal, or internal dashboard."
+    ],
+    "title": "Automate investor update video with an API"
+  },
+  "title": "Investor update video for PropTech",
+  "type": "use_case",
+  "version": 1
+}

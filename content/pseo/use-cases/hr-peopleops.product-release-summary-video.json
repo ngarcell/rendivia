@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver consistent people updates.",
+      "Automate recurring headcount and hiring recaps.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a release ships."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/hr-peopleops/product-release-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first product release summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate product release summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide image URLs in the payload.",
+      "q": "Can I include screenshots?"
+    },
+    {
+      "a": "Yes. Use branding and CTA slots.",
+      "q": "Is it suitable for customer announcements?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Product release summary video for HR / People Ops",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a concise product release recap when a new version ships."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide feature highlights and impact metrics.",
+        "title": "Collect release notes"
+      },
+      {
+        "body": "POST to /render with release-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and send a webhook when ready.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Embed in-app or send to customers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.hr-peopleops.product-release-summary-video.2f23ba9ea7",
+  "io": {
+    "inputJsonExample": {
+      "brand": "hr-people-ops",
+      "data": {
+        "attrition": "1.1%",
+        "engagement": "76%",
+        "features": "example-features",
+        "headcount": 214,
+        "highlight": "employees",
+        "impact": "example-impact",
+        "openRoles": 12,
+        "period": "2026-01-14",
+        "releaseId": "example-releaseId",
+        "timeToHire": "24d"
+      },
+      "template": "release-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Feature highlights",
+      "Impact summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for HR / People Ops using a simple API. Automate product release summary video from structured data (Headcount, Open roles). Includes webhooks and brand profiles.",
+  "metaTitle": "Product release summary video for HR / People Ops | Rendivia",
+  "problem": {
+    "bullets": [
+      "People metrics aren't communicated consistently.",
+      "Stakeholders want simple, regular updates.",
+      "Manual reports take time each month.",
+      "Narrative gets lost in spreadsheets."
+    ],
+    "title": "Why HR / People Ops teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/hr-peopleops/monthly-metrics-video",
+      "label": "Monthly Metrics Video for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/investor-update-video",
+      "label": "Investor Update Video for HR / People Ops"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a release ships happens.",
+      "POST structured data to /render using template release-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, leadership portal, or Slack."
+    ],
+    "title": "Automate product release summary video with an API"
+  },
+  "title": "Product release summary video for HR / People Ops",
+  "type": "use_case",
+  "version": 1
+}

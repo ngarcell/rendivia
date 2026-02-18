@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate project progress summaries.",
+      "Deliver consistent updates to clients and leaders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an audit is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/construction/audit-report-video",
+  "cta": {
+    "body": "Create an API key and render your first audit report video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate audit report video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links?"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Audit report video for Construction",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Produce a concise audit report video the moment an audit is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render at scale and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or compliance stakeholders.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.construction.audit-report-video.3bbead898b",
+  "io": {
+    "inputJsonExample": {
+      "brand": "construction",
+      "data": {
+        "auditId": "example-auditId",
+        "budgetVariance": "-2%",
+        "changeOrders": 12,
+        "findings": "example-findings",
+        "highlight": "projects",
+        "period": "2026-01-14",
+        "projectsOnTrack": 18,
+        "safetyIncidents": 1,
+        "scheduleVariance": "-3d"
+      },
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Construction using a simple API. Automate audit report video from structured data (Projects on track, Change orders). Includes webhooks and brand profiles.",
+  "metaTitle": "Audit report video for Construction | Rendivia",
+  "problem": {
+    "bullets": [
+      "Progress reporting is manual and inconsistent.",
+      "Stakeholders need clear weekly updates.",
+      "Site data is scattered across tools.",
+      "Manual recaps slow down decisions."
+    ],
+    "title": "Why Construction teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/construction/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Construction"
+    },
+    {
+      "href": "/use-cases/construction/investor-update-video",
+      "label": "Investor Update Video for Construction"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an audit is complete happens.",
+      "POST structured data to /render using template audit-report-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or project dashboard."
+    ],
+    "title": "Automate audit report video with an API"
+  },
+  "title": "Audit report video for Construction",
+  "type": "use_case",
+  "version": 1
+}

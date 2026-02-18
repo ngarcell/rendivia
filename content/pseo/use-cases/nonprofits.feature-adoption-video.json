@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate donor and impact updates.",
+      "Make summaries easy to share with stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by feature adoption crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/nonprofits/feature-adoption-video",
+  "cta": {
+    "body": "Create an API key and render your first feature adoption video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate feature adoption video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide cohort arrays; the template compares them.",
+      "q": "Can I compare cohorts?"
+    },
+    {
+      "a": "Yes. Render per feature for deterministic outputs.",
+      "q": "Does it work for multiple features?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Feature adoption video for Nonprofits / Fundraising platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Show adoption progress when usage crosses a threshold or milestone."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide adoption by cohort and growth delta.",
+        "title": "Collect adoption data"
+      },
+      {
+        "body": "POST to /render with feature-adoption-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify when ready.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with product or GTM teams.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.nonprofits.feature-adoption-video.cd494268ae",
+  "io": {
+    "inputJsonExample": {
+      "brand": "nonprofits-fundraising-platforms",
+      "data": {
+        "adoptionRate": "example-adoptionRate",
+        "avgDonation": 39.3,
+        "campaigns": 6,
+        "cohorts": "example-cohorts",
+        "donations": 84200,
+        "donors": 2140,
+        "featureName": "example-featureName",
+        "highlight": "donors",
+        "period": "2026-01-14",
+        "recurringRate": "22%"
+      },
+      "template": "feature-adoption-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Cohort adoption breakdown",
+      "Trend lines and deltas",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Nonprofits / Fundraising platforms using a simple API. Automate feature adoption video from structured data (Donations, Donors). Includes webhooks and brand profiles.",
+  "metaTitle": "Feature adoption video for Nonprofits / Fundraising platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Impact reporting is time-consuming to assemble.",
+      "Stakeholders want a digest, not spreadsheets.",
+      "Manual updates are inconsistent across campaigns.",
+      "Teams need a repeatable recap format."
+    ],
+    "title": "Why Nonprofits / Fundraising platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/nonprofits/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Nonprofits / Fundraising platforms"
+    },
+    {
+      "href": "/use-cases/nonprofits/investor-update-video",
+      "label": "Investor Update Video for Nonprofits / Fundraising platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when feature adoption crosses a threshold happens.",
+      "POST structured data to /render using template feature-adoption-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, donor portal, or internal dashboard."
+    ],
+    "title": "Automate feature adoption video with an API"
+  },
+  "title": "Feature adoption video for Nonprofits / Fundraising platforms",
+  "type": "use_case",
+  "version": 1
+}

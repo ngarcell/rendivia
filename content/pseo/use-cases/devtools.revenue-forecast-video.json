@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate release and incident digests.",
+      "Make engineering health easy to communicate.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a forecast is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/devtools/revenue-forecast-video",
+  "cta": {
+    "body": "Create an API key and render your first revenue forecast video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate revenue forecast video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide scenario arrays for best/base/worst.",
+      "q": "Can I include scenarios?"
+    },
+    {
+      "a": "Yes. Same input always yields the same output.",
+      "q": "Is it deterministic?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Revenue forecast video for Developer tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize revenue forecasts with assumptions and confidence ranges."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Include ranges, targets, and assumptions.",
+        "title": "Provide forecast"
+      },
+      {
+        "body": "POST to /render with revenue-forecast-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render reliably.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with finance and leadership.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.devtools.revenue-forecast-video.0f031a6538",
+  "io": {
+    "inputJsonExample": {
+      "brand": "developer-tools",
+      "data": {
+        "activeDevelopers": 214,
+        "assumptions": "example-assumptions",
+        "changeFailureRate": "3.1%",
+        "deploys": 184,
+        "forecast": "example-forecast",
+        "highlight": "repositories",
+        "leadTime": "18h",
+        "mttr": "42m",
+        "period": "2026-01-14"
+      },
+      "template": "revenue-forecast-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Forecast ranges and deltas",
+      "Assumptions summarized",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Developer tools using a simple API. Automate revenue forecast video from structured data (Deploys, Lead time). Includes webhooks and brand profiles.",
+  "metaTitle": "Revenue forecast video for Developer tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Engineering metrics live in dashboards but stakeholders need summaries.",
+      "Release updates are assembled manually each week.",
+      "Incident recaps are inconsistent across teams.",
+      "Leadership wants a clear view of engineering health."
+    ],
+    "title": "Why Developer tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/devtools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/investor-update-video",
+      "label": "Investor Update Video for Developer tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a forecast is ready happens.",
+      "POST structured data to /render using template revenue-forecast-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal portal."
+    ],
+    "title": "Automate revenue forecast video with an API"
+  },
+  "title": "Revenue forecast video for Developer tools",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Improve customer trust with clear, consistent updates.",
+      "Automate recurring portfolio and account summaries.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an incident is resolved."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/fintech/security-incident-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first security incident summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate security incident summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a rootCause field in the payload.",
+      "q": "Can I include root cause?"
+    },
+    {
+      "a": "Yes. You control delivery and messaging.",
+      "q": "Is it suitable for external comms?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Security incident summary video for Fintech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Provide a concise incident summary once an incident is resolved."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide timeline events and impact metrics.",
+        "title": "Collect timeline"
+      },
+      {
+        "body": "POST to /render with incident-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue, render, and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to stakeholders or include in postmortems.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.fintech.security-incident-summary-video.301e05d3f6",
+  "io": {
+    "inputJsonExample": {
+      "brand": "fintech",
+      "data": {
+        "aum": 1250000,
+        "chargebacks": 12,
+        "deposits": 84200,
+        "highlight": "accounts",
+        "impact": "example-impact",
+        "incidentId": "example-incidentId",
+        "netFlow": 31100,
+        "period": "2026-01-14",
+        "timeline": "example-timeline",
+        "withdrawals": 53100
+      },
+      "template": "incident-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Fintech using a simple API. Automate security incident summary video from structured data (Assets under management, Deposits). Includes webhooks and brand profiles.",
+  "metaTitle": "Security incident summary video for Fintech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Users don't open dashboards regularly to parse performance.",
+      "Statements and PDFs lack engagement and context.",
+      "Updates are delayed when assembled manually.",
+      "Teams need consistent outputs for compliance and support."
+    ],
+    "title": "Why Fintech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/fintech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/investor-update-video",
+      "label": "Investor Update Video for Fintech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an incident is resolved happens.",
+      "POST structured data to /render using template incident-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, push notification, or secure message center."
+    ],
+    "title": "Automate security incident summary video with an API"
+  },
+  "title": "Security incident summary video for Fintech",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make performance updates easy to share and consume.",
+      "Automate weekly and monthly recaps for teams.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a trial is ending."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/ecommerce/trial-to-paid-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first trial-to-paid conversion recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate trial-to-paid conversion recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a CTA field in data and render it in the outro.",
+      "q": "Can I include a CTA at the end?"
+    },
+    {
+      "a": "It complements them by adding a high-signal recap format.",
+      "q": "Does this replace emails?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Trial-to-paid conversion recap video for E-commerce",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize trial engagement and outcomes into a video recap to drive conversion."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate usage events and outcomes during the trial.",
+        "title": "Collect trial data"
+      },
+      {
+        "body": "POST to /render with trial-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Use webhook result to deliver video before trial ends.",
+        "title": "Send before expiry"
+      },
+      {
+        "body": "Track conversions and iterate template content.",
+        "title": "Measure"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.ecommerce.trial-to-paid-recap-video.c5d0a5a423",
+  "io": {
+    "inputJsonExample": {
+      "brand": "e-commerce",
+      "data": {
+        "aov": 47.2,
+        "conversionRate": "2.8%",
+        "grossRevenue": 184200,
+        "highlight": "orders",
+        "kpis": {
+          "aov": 47.2,
+          "conversionRate": "2.8%",
+          "grossRevenue": 184200,
+          "orders": 3921,
+          "refundRate": "1.3%"
+        },
+        "orders": 3921,
+        "period": "2026-01-14",
+        "refundRate": "1.3%",
+        "trialId": "example-trialId"
+      },
+      "template": "trial-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Usage highlights and outcomes",
+      "Clear next-step CTA slot",
+      "Webhook with URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for E-commerce using a simple API. Automate trial-to-paid conversion recap video from structured data (Gross revenue, Orders). Includes webhooks and brand profiles.",
+  "metaTitle": "Trial-to-paid conversion recap video for E-commerce | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is scattered across tools.",
+      "Stakeholders miss weekly insights without a digest.",
+      "Manual recap creation wastes time every week.",
+      "Teams need consistent summaries for planning."
+    ],
+    "title": "Why E-commerce teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/ecommerce/monthly-metrics-video",
+      "label": "Monthly Metrics Video for E-commerce"
+    },
+    {
+      "href": "/use-cases/ecommerce/investor-update-video",
+      "label": "Investor Update Video for E-commerce"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a trial is ending happens.",
+      "POST structured data to /render using template trial-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate trial-to-paid conversion recap video with an API"
+  },
+  "title": "Trial-to-paid conversion recap video for E-commerce",
+  "type": "use_case",
+  "version": 1
+}

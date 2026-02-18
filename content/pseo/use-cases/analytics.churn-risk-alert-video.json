@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by churn risk spikes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/churn-risk-alert-video",
+  "cta": {
+    "body": "Create an API key and render your first churn risk alert video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate churn risk alert video via API"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets (internal alerts or customer comms).",
+      "q": "Is this for customers or internal teams?"
+    },
+    {
+      "a": "Yes. Provide a drivers array; template renders top drivers.",
+      "q": "Can I include driver metrics?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Churn risk alert video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a short alert video when churn risk spikes for an account or cohort."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Compute churn risk or health score in your system.",
+        "title": "Detect risk"
+      },
+      {
+        "body": "POST to /render with risk-alert-v1 and key drivers.",
+        "title": "Render alert"
+      },
+      {
+        "body": "Webhook provides MP4 to attach in alerts.",
+        "title": "Notify"
+      },
+      {
+        "body": "Route to CSM workflows with a clear summary.",
+        "title": "Act"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.churn-risk-alert-video.dc3263516b",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "accountId": "example-accountId",
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "highlight": "dashboards",
+        "period": "2026-01-14",
+        "retention": "41%",
+        "riskScore": "example-riskScore",
+        "topEvent": "signup_completed",
+        "wau": 48210
+      },
+      "template": "risk-alert-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "15-30s MP4 video",
+      "Risk score and key drivers",
+      "Suggested next action slot",
+      "Webhook with URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate churn risk alert video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Churn risk alert video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when churn risk spikes happens.",
+      "POST structured data to /render using template risk-alert-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate churn risk alert video with an API"
+  },
+  "title": "Churn risk alert video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

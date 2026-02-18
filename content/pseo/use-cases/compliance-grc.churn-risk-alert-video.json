@@ -1,0 +1,126 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by churn risk spikes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/compliance-grc/churn-risk-alert-video",
+  "cta": {
+    "body": "Create an API key and render your first churn risk alert video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate churn risk alert video via API"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets (internal alerts or customer comms).",
+      "q": "Is this for customers or internal teams?"
+    },
+    {
+      "a": "Yes. Provide a drivers array; template renders top drivers.",
+      "q": "Can I include driver metrics?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Churn risk alert video for Compliance / GRC",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a short alert video when churn risk spikes for an account or cohort."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Compute churn risk or health score in your system.",
+        "title": "Detect risk"
+      },
+      {
+        "body": "POST to /render with risk-alert-v1 and key drivers.",
+        "title": "Render alert"
+      },
+      {
+        "body": "Webhook provides MP4 to attach in alerts.",
+        "title": "Notify"
+      },
+      {
+        "body": "Route to CSM workflows with a clear summary.",
+        "title": "Act"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.compliance-grc.churn-risk-alert-video.b5f1d7d976",
+  "io": {
+    "inputJsonExample": {
+      "brand": "compliance-grc",
+      "data": {
+        "accountId": "example-accountId",
+        "controlsComplete": 78,
+        "evidenceItems": 143,
+        "highlight": "controls",
+        "openFindings": 6,
+        "period": "2026-01-14",
+        "riskScore": 72,
+        "vendorsAssessed": 21
+      },
+      "template": "risk-alert-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "15-30s MP4 video",
+      "Risk score and key drivers",
+      "Suggested next action slot",
+      "Webhook with URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Compliance / GRC using a simple API. Automate churn risk alert video from structured data (Controls complete, Open findings). Includes webhooks and brand profiles.",
+  "metaTitle": "Churn risk alert video for Compliance / GRC | Rendivia",
+  "problem": {
+    "bullets": [
+      "Stakeholders struggle to track progress across audits.",
+      "Updates are manual and often delayed.",
+      "Status reports lack clarity and narrative.",
+      "Teams need consistent reporting for leadership."
+    ],
+    "title": "Why Compliance / GRC teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/compliance-grc/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/investor-update-video",
+      "label": "Investor Update Video for Compliance / GRC"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when churn risk spikes happens.",
+      "POST structured data to /render using template risk-alert-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or leadership portal."
+    ],
+    "title": "Automate churn risk alert video with an API"
+  },
+  "title": "Churn risk alert video for Compliance / GRC",
+  "type": "use_case",
+  "version": 1
+}

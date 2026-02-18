@@ -1,0 +1,134 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a renewal is upcoming."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/compliance-grc/renewal-upcoming-video",
+  "cta": {
+    "body": "Create an API key and render your first renewal upcoming video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate renewal upcoming video via API"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets.",
+      "q": "Is this internal or external?"
+    },
+    {
+      "a": "Yes. Include plan fields to render pricing and tier info.",
+      "q": "Can I include plan details?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Renewal upcoming video for Compliance / GRC",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize account health ahead of renewals to drive proactive action."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide usage, outcomes, and renewal date.",
+        "title": "Prepare health data"
+      },
+      {
+        "body": "POST to /render with renewal-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to CSMs or customers with clear next steps.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.compliance-grc.renewal-upcoming-video.41d75ffea8",
+  "io": {
+    "inputJsonExample": {
+      "brand": "compliance-grc",
+      "data": {
+        "accountId": "example-accountId",
+        "controlsComplete": 78,
+        "evidenceItems": 143,
+        "highlight": "controls",
+        "kpis": {
+          "controlsComplete": 78,
+          "evidenceItems": 143,
+          "openFindings": 6,
+          "riskScore": 72,
+          "vendorsAssessed": 21
+        },
+        "openFindings": 6,
+        "period": "2026-01-14",
+        "renewalDate": "example-renewalDate",
+        "riskScore": 72,
+        "vendorsAssessed": 21
+      },
+      "template": "renewal-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Renewal timeline and health KPIs",
+      "Next-step CTA slot",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Compliance / GRC using a simple API. Automate renewal upcoming video from structured data (Controls complete, Open findings). Includes webhooks and brand profiles.",
+  "metaTitle": "Renewal upcoming video for Compliance / GRC | Rendivia",
+  "problem": {
+    "bullets": [
+      "Stakeholders struggle to track progress across audits.",
+      "Updates are manual and often delayed.",
+      "Status reports lack clarity and narrative.",
+      "Teams need consistent reporting for leadership."
+    ],
+    "title": "Why Compliance / GRC teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/compliance-grc/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/investor-update-video",
+      "label": "Investor Update Video for Compliance / GRC"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a renewal is upcoming happens.",
+      "POST structured data to /render using template renewal-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or leadership portal."
+    ],
+    "title": "Automate renewal upcoming video with an API"
+  },
+  "title": "Renewal upcoming video for Compliance / GRC",
+  "type": "use_case",
+  "version": 1
+}

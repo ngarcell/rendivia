@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate fleet performance summaries.",
+      "Make route and delivery KPIs easy to understand.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a hiring update is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/mobility-fleet/hiring-progress-video",
+  "cta": {
+    "body": "Create an API key and render your first hiring progress video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate hiring progress video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include diversity fields for rendering.",
+      "q": "Can I include diversity metrics?"
+    },
+    {
+      "a": "Yes. Render per department or include groups.",
+      "q": "Does it support multiple departments?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Hiring progress video for Mobility / Fleet",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize hiring pipeline progress for leadership updates."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage counts and open roles.",
+        "title": "Collect pipeline"
+      },
+      {
+        "body": "POST to /render with hiring-progress-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or hiring managers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.mobility-fleet.hiring-progress-video.62349bc738",
+  "io": {
+    "inputJsonExample": {
+      "brand": "mobility-fleet",
+      "data": {
+        "fuelCost": 12450,
+        "highlight": "vehicles",
+        "maintenanceIssues": 6,
+        "milesDriven": 84210,
+        "onTimeRate": "96%",
+        "openRoles": "example-openRoles",
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline",
+        "utilization": "78%"
+      },
+      "template": "hiring-progress-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Role-by-role pipeline summary",
+      "Time-to-fill indicators",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Mobility / Fleet using a simple API. Automate hiring progress video from structured data (On-time rate, Miles driven). Includes webhooks and brand profiles.",
+  "metaTitle": "Hiring progress video for Mobility / Fleet | Rendivia",
+  "problem": {
+    "bullets": [
+      "Fleet performance updates are manual and delayed.",
+      "Operations teams need a clear weekly digest.",
+      "Data lives in multiple systems.",
+      "Manual recaps slow operational decisions."
+    ],
+    "title": "Why Mobility / Fleet teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/mobility-fleet/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/investor-update-video",
+      "label": "Investor Update Video for Mobility / Fleet"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a hiring update is ready happens.",
+      "POST structured data to /render using template hiring-progress-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via ops dashboard, email, or Slack."
+    ],
+    "title": "Automate hiring progress video with an API"
+  },
+  "title": "Hiring progress video for Mobility / Fleet",
+  "type": "use_case",
+  "version": 1
+}

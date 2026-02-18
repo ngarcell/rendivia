@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a listing is published."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/analytics/listing-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first listing summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate listing summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Pass image URLs and the template renders them.",
+      "q": "Can I include images?"
+    },
+    {
+      "a": "Yes. Render per listing with API automation.",
+      "q": "Does it scale to many listings?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Listing summary video for Analytics platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate property listing highlight videos directly from structured listing data."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide price, location, and key features.",
+        "title": "Collect highlights"
+      },
+      {
+        "body": "POST to /render with listing-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive a webhook once rendering completes.",
+        "title": "Async output"
+      },
+      {
+        "body": "Embed on listing pages or email updates.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.analytics.listing-summary-video.fb364c9253",
+  "io": {
+    "inputJsonExample": {
+      "brand": "analytics-platforms",
+      "data": {
+        "conversion": "3.4%",
+        "dropOff": "pricing_view",
+        "highlight": "dashboards",
+        "highlights": "example-highlights",
+        "listingId": "example-listingId",
+        "period": "2026-01-14",
+        "retention": "41%",
+        "topEvent": "signup_completed",
+        "wau": 48210
+      },
+      "template": "listing-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Key property highlights",
+      "Brand colors and logo",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Analytics platforms using a simple API. Automate listing summary video from structured data (Weekly active users, Retention). Includes webhooks and brand profiles.",
+  "metaTitle": "Listing summary video for Analytics platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "title": "Why Analytics platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/analytics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Analytics platforms"
+    },
+    {
+      "href": "/use-cases/analytics/investor-update-video",
+      "label": "Investor Update Video for Analytics platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a listing is published happens.",
+      "POST structured data to /render using template listing-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or in-app."
+    ],
+    "title": "Automate listing summary video with an API"
+  },
+  "title": "Listing summary video for Analytics platforms",
+  "type": "use_case",
+  "version": 1
+}

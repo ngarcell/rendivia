@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate release and incident digests.",
+      "Make engineering health easy to communicate.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by churn risk spikes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/devtools/churn-risk-alert-video",
+  "cta": {
+    "body": "Create an API key and render your first churn risk alert video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate churn risk alert video via API"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets (internal alerts or customer comms).",
+      "q": "Is this for customers or internal teams?"
+    },
+    {
+      "a": "Yes. Provide a drivers array; template renders top drivers.",
+      "q": "Can I include driver metrics?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Churn risk alert video for Developer tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a short alert video when churn risk spikes for an account or cohort."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Compute churn risk or health score in your system.",
+        "title": "Detect risk"
+      },
+      {
+        "body": "POST to /render with risk-alert-v1 and key drivers.",
+        "title": "Render alert"
+      },
+      {
+        "body": "Webhook provides MP4 to attach in alerts.",
+        "title": "Notify"
+      },
+      {
+        "body": "Route to CSM workflows with a clear summary.",
+        "title": "Act"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.devtools.churn-risk-alert-video.5a5e5597e8",
+  "io": {
+    "inputJsonExample": {
+      "brand": "developer-tools",
+      "data": {
+        "accountId": "example-accountId",
+        "activeDevelopers": 214,
+        "changeFailureRate": "3.1%",
+        "deploys": 184,
+        "highlight": "repositories",
+        "leadTime": "18h",
+        "mttr": "42m",
+        "period": "2026-01-14",
+        "riskScore": "example-riskScore"
+      },
+      "template": "risk-alert-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "15-30s MP4 video",
+      "Risk score and key drivers",
+      "Suggested next action slot",
+      "Webhook with URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Developer tools using a simple API. Automate churn risk alert video from structured data (Deploys, Lead time). Includes webhooks and brand profiles.",
+  "metaTitle": "Churn risk alert video for Developer tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Engineering metrics live in dashboards but stakeholders need summaries.",
+      "Release updates are assembled manually each week.",
+      "Incident recaps are inconsistent across teams.",
+      "Leadership wants a clear view of engineering health."
+    ],
+    "title": "Why Developer tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/devtools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/investor-update-video",
+      "label": "Investor Update Video for Developer tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when churn risk spikes happens.",
+      "POST structured data to /render using template risk-alert-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal portal."
+    ],
+    "title": "Automate churn risk alert video with an API"
+  },
+  "title": "Churn risk alert video for Developer tools",
+  "type": "use_case",
+  "version": 1
+}

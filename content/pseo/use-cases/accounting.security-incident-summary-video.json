@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate invoice and cashflow summaries.",
+      "Reduce reporting time each cycle.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an incident is resolved."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/accounting/security-incident-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first security incident summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate security incident summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a rootCause field in the payload.",
+      "q": "Can I include root cause?"
+    },
+    {
+      "a": "Yes. You control delivery and messaging.",
+      "q": "Is it suitable for external comms?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Security incident summary video for Accounting / Invoicing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Provide a concise incident summary once an incident is resolved."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide timeline events and impact metrics.",
+        "title": "Collect timeline"
+      },
+      {
+        "body": "POST to /render with incident-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue, render, and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to stakeholders or include in postmortems.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.accounting.security-incident-summary-video.e4afd78c93",
+  "io": {
+    "inputJsonExample": {
+      "brand": "accounting-invoicing",
+      "data": {
+        "cashIn": 84200,
+        "dso": "31d",
+        "highlight": "invoices",
+        "impact": "example-impact",
+        "incidentId": "example-incidentId",
+        "invoicesSent": 482,
+        "overdue": 41,
+        "paid": 392,
+        "period": "2026-01-14",
+        "timeline": "example-timeline"
+      },
+      "template": "incident-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Accounting / Invoicing using a simple API. Automate security incident summary video from structured data (Invoices sent, Paid). Includes webhooks and brand profiles.",
+  "metaTitle": "Security incident summary video for Accounting / Invoicing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Cashflow reporting is often delayed.",
+      "Stakeholders need predictable summaries.",
+      "Manual recap work repeats each period.",
+      "Invoices and payments need clearer communication."
+    ],
+    "title": "Why Accounting / Invoicing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/accounting/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/investor-update-video",
+      "label": "Investor Update Video for Accounting / Invoicing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an incident is resolved happens.",
+      "POST structured data to /render using template incident-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or dashboard."
+    ],
+    "title": "Automate security incident summary video with an API"
+  },
+  "title": "Security incident summary video for Accounting / Invoicing",
+  "type": "use_case",
+  "version": 1
+}

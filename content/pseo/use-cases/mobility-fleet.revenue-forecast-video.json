@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate fleet performance summaries.",
+      "Make route and delivery KPIs easy to understand.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a forecast is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/mobility-fleet/revenue-forecast-video",
+  "cta": {
+    "body": "Create an API key and render your first revenue forecast video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate revenue forecast video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide scenario arrays for best/base/worst.",
+      "q": "Can I include scenarios?"
+    },
+    {
+      "a": "Yes. Same input always yields the same output.",
+      "q": "Is it deterministic?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Revenue forecast video for Mobility / Fleet",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize revenue forecasts with assumptions and confidence ranges."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Include ranges, targets, and assumptions.",
+        "title": "Provide forecast"
+      },
+      {
+        "body": "POST to /render with revenue-forecast-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render reliably.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with finance and leadership.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.mobility-fleet.revenue-forecast-video.2d38ddd6c3",
+  "io": {
+    "inputJsonExample": {
+      "brand": "mobility-fleet",
+      "data": {
+        "assumptions": "example-assumptions",
+        "forecast": "example-forecast",
+        "fuelCost": 12450,
+        "highlight": "vehicles",
+        "maintenanceIssues": 6,
+        "milesDriven": 84210,
+        "onTimeRate": "96%",
+        "period": "2026-01-14",
+        "utilization": "78%"
+      },
+      "template": "revenue-forecast-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Forecast ranges and deltas",
+      "Assumptions summarized",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Mobility / Fleet using a simple API. Automate revenue forecast video from structured data (On-time rate, Miles driven). Includes webhooks and brand profiles.",
+  "metaTitle": "Revenue forecast video for Mobility / Fleet | Rendivia",
+  "problem": {
+    "bullets": [
+      "Fleet performance updates are manual and delayed.",
+      "Operations teams need a clear weekly digest.",
+      "Data lives in multiple systems.",
+      "Manual recaps slow operational decisions."
+    ],
+    "title": "Why Mobility / Fleet teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/mobility-fleet/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/investor-update-video",
+      "label": "Investor Update Video for Mobility / Fleet"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a forecast is ready happens.",
+      "POST structured data to /render using template revenue-forecast-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via ops dashboard, email, or Slack."
+    ],
+    "title": "Automate revenue forecast video with an API"
+  },
+  "title": "Revenue forecast video for Mobility / Fleet",
+  "type": "use_case",
+  "version": 1
+}

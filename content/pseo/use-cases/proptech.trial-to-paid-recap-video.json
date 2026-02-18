@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a trial is ending."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/proptech/trial-to-paid-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first trial-to-paid conversion recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate trial-to-paid conversion recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a CTA field in data and render it in the outro.",
+      "q": "Can I include a CTA at the end?"
+    },
+    {
+      "a": "It complements them by adding a high-signal recap format.",
+      "q": "Does this replace emails?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Trial-to-paid conversion recap video for PropTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize trial engagement and outcomes into a video recap to drive conversion."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate usage events and outcomes during the trial.",
+        "title": "Collect trial data"
+      },
+      {
+        "body": "POST to /render with trial-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Use webhook result to deliver video before trial ends.",
+        "title": "Send before expiry"
+      },
+      {
+        "body": "Track conversions and iterate template content.",
+        "title": "Measure"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.proptech.trial-to-paid-recap-video.e73747ce01",
+  "io": {
+    "inputJsonExample": {
+      "brand": "proptech",
+      "data": {
+        "avgRent": 2140,
+        "highlight": "properties",
+        "kpis": {
+          "avgRent": 2140,
+          "leads": 620,
+          "leaseRenewals": 48,
+          "listings": 214,
+          "occupancy": "93%"
+        },
+        "leads": 620,
+        "leaseRenewals": 48,
+        "listings": 214,
+        "occupancy": "93%",
+        "period": "2026-01-14",
+        "trialId": "example-trialId"
+      },
+      "template": "trial-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Usage highlights and outcomes",
+      "Clear next-step CTA slot",
+      "Webhook with URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for PropTech using a simple API. Automate trial-to-paid conversion recap video from structured data (Listings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Trial-to-paid conversion recap video for PropTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Property updates are spread across tools.",
+      "Stakeholders need a consistent weekly recap.",
+      "Manual report creation delays decisions.",
+      "Insights get lost without a clear narrative."
+    ],
+    "title": "Why PropTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/proptech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/investor-update-video",
+      "label": "Investor Update Video for PropTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a trial is ending happens.",
+      "POST structured data to /render using template trial-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, investor portal, or internal dashboard."
+    ],
+    "title": "Automate trial-to-paid conversion recap video with an API"
+  },
+  "title": "Trial-to-paid conversion recap video for PropTech",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate weekly support performance digests.",
+      "Make trends visible and easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a listing is published."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/support-tools/listing-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first listing summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate listing summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Pass image URLs and the template renders them.",
+      "q": "Can I include images?"
+    },
+    {
+      "a": "Yes. Render per listing with API automation.",
+      "q": "Does it scale to many listings?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Listing summary video for Customer support tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate property listing highlight videos directly from structured listing data."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide price, location, and key features.",
+        "title": "Collect highlights"
+      },
+      {
+        "body": "POST to /render with listing-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive a webhook once rendering completes.",
+        "title": "Async output"
+      },
+      {
+        "body": "Embed on listing pages or email updates.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.support-tools.listing-summary-video.c94b21c52d",
+  "io": {
+    "inputJsonExample": {
+      "brand": "customer-support-tools",
+      "data": {
+        "backlog": 214,
+        "csat": "92%",
+        "firstResponse": "18m",
+        "highlight": "tickets",
+        "highlights": "example-highlights",
+        "listingId": "example-listingId",
+        "period": "2026-01-14",
+        "resolution": "6h",
+        "tickets": 1842
+      },
+      "template": "listing-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Key property highlights",
+      "Brand colors and logo",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Customer support tools using a simple API. Automate listing summary video from structured data (Tickets, First response time). Includes webhooks and brand profiles.",
+  "metaTitle": "Listing summary video for Customer support tools | Rendivia",
+  "problem": {
+    "bullets": [
+      "Support performance reporting is repetitive.",
+      "Stakeholders miss trends between reviews.",
+      "Manual recaps vary by manager/team.",
+      "Teams need consistent outputs."
+    ],
+    "title": "Why Customer support tools teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/support-tools/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/investor-update-video",
+      "label": "Investor Update Video for Customer support tools"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a listing is published happens.",
+      "POST structured data to /render using template listing-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate listing summary video with an API"
+  },
+  "title": "Listing summary video for Customer support tools",
+  "type": "use_case",
+  "version": 1
+}

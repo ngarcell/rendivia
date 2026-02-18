@@ -1,0 +1,132 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deliver consistent people updates.",
+      "Automate recurring headcount and hiring recaps.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a weekly report is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/hr-peopleops/weekly-metrics-video",
+  "cta": {
+    "body": "Create an API key and render your first weekly metrics video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate weekly metrics video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are versioned and the same input produces the same output.",
+      "q": "Is the output deterministic?"
+    },
+    {
+      "a": "Use the webhook URL to embed in-app or send via email/portal.",
+      "q": "How do I deliver the video?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Weekly metrics video for HR / People Ops",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automatically turn weekly KPIs into a branded video summary using an API."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Use a versioned template such as weekly-summary-v1.",
+        "title": "Pick a template"
+      },
+      {
+        "body": "POST metrics JSON to /render with your API key.",
+        "title": "Send data"
+      },
+      {
+        "body": "We queue the job and render reliably at scale.",
+        "title": "Render async"
+      },
+      {
+        "body": "Get a webhook with the MP4 URL when done.",
+        "title": "Receive the result"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.hr-peopleops.weekly-metrics-video.30f3d80f7e",
+  "io": {
+    "inputJsonExample": {
+      "brand": "hr-people-ops",
+      "data": {
+        "attrition": "1.1%",
+        "engagement": "76%",
+        "headcount": 214,
+        "highlight": "employees",
+        "kpis": {
+          "attrition": "1.1%",
+          "engagement": "76%",
+          "headcount": 214,
+          "openRoles": 12,
+          "timeToHire": "24d"
+        },
+        "openRoles": 12,
+        "period": "2026-W05",
+        "timeToHire": "24d"
+      },
+      "template": "weekly-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Brand colors, logo, and typography applied",
+      "Charts rendered from provided KPIs",
+      "Webhook includes output URL and metadata"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for HR / People Ops using a simple API. Automate weekly metrics video from structured data (Headcount, Open roles). Includes webhooks and brand profiles.",
+  "metaTitle": "Weekly metrics video for HR / People Ops | Rendivia",
+  "problem": {
+    "bullets": [
+      "People metrics aren't communicated consistently.",
+      "Stakeholders want simple, regular updates.",
+      "Manual reports take time each month.",
+      "Narrative gets lost in spreadsheets."
+    ],
+    "title": "Why HR / People Ops teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/hr-peopleops/monthly-metrics-video",
+      "label": "Monthly Metrics Video for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/investor-update-video",
+      "label": "Investor Update Video for HR / People Ops"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a weekly report is ready happens.",
+      "POST structured data to /render using template weekly-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, leadership portal, or Slack."
+    ],
+    "title": "Automate weekly metrics video with an API"
+  },
+  "title": "Weekly metrics video for HR / People Ops",
+  "type": "use_case",
+  "version": 1
+}

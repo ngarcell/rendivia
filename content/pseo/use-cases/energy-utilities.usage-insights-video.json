@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate reliability and outage updates.",
+      "Deliver clear status summaries to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by usage crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/energy-utilities/usage-insights-video",
+  "cta": {
+    "body": "Create an API key and render your first usage insights video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate usage insights video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons?"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Usage insights video for Energy / Utilities",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate usage insight summaries when accounts hit key thresholds."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send usage recaps in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.energy-utilities.usage-insights-video.23fa4a6f1c",
+  "io": {
+    "inputJsonExample": {
+      "brand": "energy-utilities",
+      "data": {
+        "accountId": "example-accountId",
+        "highlight": "meters",
+        "outages": 3,
+        "peakLoad": 842,
+        "period": "2026-01-14",
+        "renewableShare": "38%",
+        "restorationTime": "1h 20m",
+        "serviceTickets": 214,
+        "usage": "example-usage"
+      },
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Energy / Utilities using a simple API. Automate usage insights video from structured data (Outages, Restoration time). Includes webhooks and brand profiles.",
+  "metaTitle": "Usage insights video for Energy / Utilities | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are hard to summarize quickly.",
+      "Stakeholders need clear outage communication.",
+      "Manual recaps take too long to publish.",
+      "Teams need reliable status reporting."
+    ],
+    "title": "Why Energy / Utilities teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/energy-utilities/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/investor-update-video",
+      "label": "Investor Update Video for Energy / Utilities"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when usage crosses a threshold happens.",
+      "POST structured data to /render using template usage-insights-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or ops dashboard."
+    ],
+    "title": "Automate usage insights video with an API"
+  },
+  "title": "Usage insights video for Energy / Utilities",
+  "type": "use_case",
+  "version": 1
+}

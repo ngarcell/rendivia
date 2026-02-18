@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a release ships."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/insurance/product-release-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first product release summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate product release summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide image URLs in the payload.",
+      "q": "Can I include screenshots?"
+    },
+    {
+      "a": "Yes. Use branding and CTA slots.",
+      "q": "Is it suitable for customer announcements?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Product release summary video for Insurance",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a concise product release recap when a new version ships."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide feature highlights and impact metrics.",
+        "title": "Collect release notes"
+      },
+      {
+        "body": "POST to /render with release-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and send a webhook when ready.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Embed in-app or send to customers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.insurance.product-release-summary-video.8833daa351",
+  "io": {
+    "inputJsonExample": {
+      "brand": "insurance",
+      "data": {
+        "claims": 214,
+        "features": "example-features",
+        "fraudFlags": 7,
+        "highlight": "policies",
+        "impact": "example-impact",
+        "lossRatio": "62%",
+        "period": "2026-01-14",
+        "premium": 184200,
+        "releaseId": "example-releaseId",
+        "renewals": 842
+      },
+      "template": "release-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Feature highlights",
+      "Impact summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Insurance using a simple API. Automate product release summary video from structured data (Claims, Loss ratio). Includes webhooks and brand profiles.",
+  "metaTitle": "Product release summary video for Insurance | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is complex and time-consuming.",
+      "Stakeholders need clear summaries.",
+      "Manual updates are inconsistent.",
+      "Ops teams need recurring digests."
+    ],
+    "title": "Why Insurance teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/insurance/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/investor-update-video",
+      "label": "Investor Update Video for Insurance"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a release ships happens.",
+      "POST structured data to /render using template release-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, internal portal, or dashboard."
+    ],
+    "title": "Automate product release summary video with an API"
+  },
+  "title": "Product release summary video for Insurance",
+  "type": "use_case",
+  "version": 1
+}

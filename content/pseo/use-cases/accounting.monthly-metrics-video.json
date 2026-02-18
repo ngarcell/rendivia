@@ -1,0 +1,132 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate invoice and cashflow summaries.",
+      "Reduce reporting time each cycle.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a monthly report is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/accounting/monthly-metrics-video",
+  "cta": {
+    "body": "Create an API key and render your first monthly metrics video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate monthly metrics video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous-period fields; the template renders comparisons.",
+      "q": "Can I compare vs last month?"
+    },
+    {
+      "a": "Templates are versioned; your chosen version stays stable.",
+      "q": "Do templates change?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Monthly metrics video for Accounting / Invoicing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a monthly KPI recap video from structured data using a simple API."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Use monthly-summary-v1 for consistent output.",
+        "title": "Choose template"
+      },
+      {
+        "body": "POST JSON to /render with monthly KPIs and highlights.",
+        "title": "Send KPIs"
+      },
+      {
+        "body": "We render asynchronously and retry safely.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive webhook with MP4 and store/deliver it.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.accounting.monthly-metrics-video.90cc96ac08",
+  "io": {
+    "inputJsonExample": {
+      "brand": "accounting-invoicing",
+      "data": {
+        "cashIn": 84200,
+        "dso": "31d",
+        "highlight": "invoices",
+        "invoicesSent": 482,
+        "kpis": {
+          "cashIn": 84200,
+          "dso": "31d",
+          "invoicesSent": 482,
+          "overdue": 41,
+          "paid": 392
+        },
+        "overdue": 41,
+        "paid": 392,
+        "period": "2026-01"
+      },
+      "template": "monthly-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Webhook includes MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Accounting / Invoicing using a simple API. Automate monthly metrics video from structured data (Invoices sent, Paid). Includes webhooks and brand profiles.",
+  "metaTitle": "Monthly metrics video for Accounting / Invoicing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Cashflow reporting is often delayed.",
+      "Stakeholders need predictable summaries.",
+      "Manual recap work repeats each period.",
+      "Invoices and payments need clearer communication."
+    ],
+    "title": "Why Accounting / Invoicing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/accounting/investor-update-video",
+      "label": "Investor Update Video for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/customer-success-recap-video",
+      "label": "Customer Success Recap Video for Accounting / Invoicing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a monthly report is ready happens.",
+      "POST structured data to /render using template monthly-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or dashboard."
+    ],
+    "title": "Automate monthly metrics video with an API"
+  },
+  "title": "Monthly metrics video for Accounting / Invoicing",
+  "type": "use_case",
+  "version": 1
+}

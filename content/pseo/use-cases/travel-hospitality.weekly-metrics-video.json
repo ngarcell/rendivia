@@ -1,0 +1,132 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a weekly report is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/travel-hospitality/weekly-metrics-video",
+  "cta": {
+    "body": "Create an API key and render your first weekly metrics video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate weekly metrics video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are versioned and the same input produces the same output.",
+      "q": "Is the output deterministic?"
+    },
+    {
+      "a": "Use the webhook URL to embed in-app or send via email/portal.",
+      "q": "How do I deliver the video?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Weekly metrics video for Travel / Hospitality",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automatically turn weekly KPIs into a branded video summary using an API."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Use a versioned template such as weekly-summary-v1.",
+        "title": "Pick a template"
+      },
+      {
+        "body": "POST metrics JSON to /render with your API key.",
+        "title": "Send data"
+      },
+      {
+        "body": "We queue the job and render reliably at scale.",
+        "title": "Render async"
+      },
+      {
+        "body": "Get a webhook with the MP4 URL when done.",
+        "title": "Receive the result"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.travel-hospitality.weekly-metrics-video.dd96a78861",
+  "io": {
+    "inputJsonExample": {
+      "brand": "travel-hospitality",
+      "data": {
+        "adr": 124.5,
+        "bookings": 2140,
+        "cancellations": 86,
+        "highlight": "bookings",
+        "kpis": {
+          "adr": 124.5,
+          "bookings": 2140,
+          "cancellations": 86,
+          "occupancy": "81%",
+          "revpar": 101
+        },
+        "occupancy": "81%",
+        "period": "2026-W05",
+        "revpar": 101
+      },
+      "template": "weekly-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Brand colors, logo, and typography applied",
+      "Charts rendered from provided KPIs",
+      "Webhook includes output URL and metadata"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Travel / Hospitality using a simple API. Automate weekly metrics video from structured data (Bookings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Weekly metrics video for Travel / Hospitality | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance updates are scattered across systems.",
+      "Teams need a consistent weekly digest.",
+      "Manual recap work repeats every week.",
+      "Stakeholders miss changes without a narrative."
+    ],
+    "title": "Why Travel / Hospitality teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/travel-hospitality/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/investor-update-video",
+      "label": "Investor Update Video for Travel / Hospitality"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a weekly report is ready happens.",
+      "POST structured data to /render using template weekly-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate weekly metrics video with an API"
+  },
+  "title": "Weekly metrics video for Travel / Hospitality",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a customer recap is generated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/proptech/customer-success-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first customer success recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate customer success recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Call /render per customer and process asynchronously.",
+      "q": "Can I batch render for many customers?"
+    },
+    {
+      "a": "Yes. Store webhook URLs in your database.",
+      "q": "Can I store outputs?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Customer success recap video for PropTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate customer-level success recaps using usage, outcomes, and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Pull usage and outcome metrics per customer.",
+        "title": "Fetch customer KPIs"
+      },
+      {
+        "body": "POST to /render with customer-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Webhook returns the MP4 URL for the customer.",
+        "title": "Deliver"
+      },
+      {
+        "body": "Embed in your customer portal or send via email.",
+        "title": "Embed"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.proptech.customer-success-recap-video.3f31998cdb",
+  "io": {
+    "inputJsonExample": {
+      "brand": "proptech",
+      "data": {
+        "avgRent": 2140,
+        "customerId": "example-customerId",
+        "highlight": "properties",
+        "kpis": {
+          "avgRent": 2140,
+          "leads": 620,
+          "leaseRenewals": 48,
+          "listings": 214,
+          "occupancy": "93%"
+        },
+        "leads": 620,
+        "leaseRenewals": 48,
+        "listings": 214,
+        "occupancy": "93%",
+        "period": "2026-01-14"
+      },
+      "template": "customer-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for PropTech using a simple API. Automate customer success recap video from structured data (Listings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Customer success recap video for PropTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Property updates are spread across tools.",
+      "Stakeholders need a consistent weekly recap.",
+      "Manual report creation delays decisions.",
+      "Insights get lost without a clear narrative."
+    ],
+    "title": "Why PropTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/proptech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/investor-update-video",
+      "label": "Investor Update Video for PropTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a customer recap is generated happens.",
+      "POST structured data to /render using template customer-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, investor portal, or internal dashboard."
+    ],
+    "title": "Automate customer success recap video with an API"
+  },
+  "title": "Customer success recap video for PropTech",
+  "type": "use_case",
+  "version": 1
+}

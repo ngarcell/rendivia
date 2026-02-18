@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate data reliability and pipeline updates.",
+      "Make dataset health visible at a glance.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a feedback cycle completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/data-platforms/customer-feedback-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first customer feedback recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate customer feedback recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a quotes array for display.",
+      "q": "Can I include verbatim quotes?"
+    },
+    {
+      "a": "Yes. Summaries are designed for leadership review.",
+      "q": "Is it suitable for board updates?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Customer feedback recap video for Data platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize NPS and feedback themes into a recurring recap."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide NPS score and top themes.",
+        "title": "Aggregate feedback"
+      },
+      {
+        "body": "POST to /render with feedback-recap-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send to product and leadership teams.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.data-platforms.customer-feedback-recap-video.6ca38fcd5b",
+  "io": {
+    "inputJsonExample": {
+      "brand": "data-platforms",
+      "data": {
+        "cost": 8420,
+        "dataVolume": 128,
+        "highlight": "pipelines",
+        "nps": "example-nps",
+        "period": "2026-01-14",
+        "pipelinesSucceeded": 932,
+        "queryCount": 42000,
+        "slaBreaches": 3,
+        "themes": "example-themes"
+      },
+      "template": "feedback-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "NPS trend + benchmarks",
+      "Theme highlights",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Data platforms using a simple API. Automate customer feedback recap video from structured data (Pipelines succeeded, Data volume (TB)). Includes webhooks and brand profiles.",
+  "metaTitle": "Customer feedback recap video for Data platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Data reliability updates are buried in logs.",
+      "Stakeholders lack visibility into pipeline health.",
+      "Manual status emails take too long.",
+      "Incidents need a consistent recap format."
+    ],
+    "title": "Why Data platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/data-platforms/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/investor-update-video",
+      "label": "Investor Update Video for Data platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a feedback cycle completes happens.",
+      "POST structured data to /render using template feedback-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate customer feedback recap video with an API"
+  },
+  "title": "Customer feedback recap video for Data platforms",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate recurring performance digests.",
+      "Improve stakeholder clarity on KPIs.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a quarterly review is prepared."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/telecom/quarterly-qbr-video",
+  "cta": {
+    "body": "Create an API key and render your first quarterly business review (qbr) video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate quarterly business review (qbr) video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. It's designed for leadership-friendly quarterly summaries.",
+      "q": "Can this be used for exec updates?"
+    },
+    {
+      "a": "Yes. Provide numeric series; the template renders charts.",
+      "q": "Can I include charts?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Quarterly business review (QBR) video for Telecom",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a QBR-style recap video from structured quarterly KPIs and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide quarterly KPIs and a short set of highlights.",
+        "title": "Prepare inputs"
+      },
+      {
+        "body": "POST to /render with qbr-summary-v1.",
+        "title": "Render via API"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the MP4 to stakeholders or embed in your portal.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.telecom.quarterly-qbr-video.fc6655cc75",
+  "io": {
+    "inputJsonExample": {
+      "brand": "telecom",
+      "data": {
+        "arpu": 7.4,
+        "churn": "1.9%",
+        "dataUsage": 412,
+        "highlight": "subscribers",
+        "highlights": "example-highlights",
+        "kpis": {
+          "arpu": 7.4,
+          "churn": "1.9%",
+          "dataUsage": 412,
+          "outages": 2,
+          "subscribers": 184200
+        },
+        "outages": 2,
+        "period": "2026-Q1",
+        "subscribers": 184200
+      },
+      "template": "qbr-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "90-120s MP4 video",
+      "Quarter-over-quarter comparisons",
+      "Highlights section rendered as cards",
+      "Webhook with URL + metadata"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Telecom using a simple API. Automate quarterly business review (qbr) video from structured data (Subscribers, ARPU). Includes webhooks and brand profiles.",
+  "metaTitle": "Quarterly business review (QBR) video for Telecom | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are noisy and difficult to summarize.",
+      "Stakeholders need digestible performance updates.",
+      "Manual summaries are slow and inconsistent.",
+      "Outage communication needs clarity."
+    ],
+    "title": "Why Telecom teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/telecom/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/investor-update-video",
+      "label": "Investor Update Video for Telecom"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a quarterly review is prepared happens.",
+      "POST structured data to /render using template qbr-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or internal dashboard."
+    ],
+    "title": "Automate quarterly business review (qbr) video with an API"
+  },
+  "title": "Quarterly business review (QBR) video for Telecom",
+  "type": "use_case",
+  "version": 1
+}

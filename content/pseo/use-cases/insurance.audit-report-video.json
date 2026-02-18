@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an audit is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/insurance/audit-report-video",
+  "cta": {
+    "body": "Create an API key and render your first audit report video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate audit report video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links?"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Audit report video for Insurance",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Produce a concise audit report video the moment an audit is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render at scale and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or compliance stakeholders.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.insurance.audit-report-video.d81135d6d8",
+  "io": {
+    "inputJsonExample": {
+      "brand": "insurance",
+      "data": {
+        "auditId": "example-auditId",
+        "claims": 214,
+        "findings": "example-findings",
+        "fraudFlags": 7,
+        "highlight": "policies",
+        "lossRatio": "62%",
+        "period": "2026-01-14",
+        "premium": 184200,
+        "renewals": 842
+      },
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Insurance using a simple API. Automate audit report video from structured data (Claims, Loss ratio). Includes webhooks and brand profiles.",
+  "metaTitle": "Audit report video for Insurance | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is complex and time-consuming.",
+      "Stakeholders need clear summaries.",
+      "Manual updates are inconsistent.",
+      "Ops teams need recurring digests."
+    ],
+    "title": "Why Insurance teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/insurance/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/investor-update-video",
+      "label": "Investor Update Video for Insurance"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an audit is complete happens.",
+      "POST structured data to /render using template audit-report-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, internal portal, or dashboard."
+    ],
+    "title": "Automate audit report video with an API"
+  },
+  "title": "Audit report video for Insurance",
+  "type": "use_case",
+  "version": 1
+}

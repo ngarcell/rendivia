@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate matter and contract updates.",
+      "Deliver consistent reporting to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an investor update is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/legaltech/investor-update-video",
+  "cta": {
+    "body": "Create an API key and render your first investor update video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate investor update video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Same input produces the same output with a fixed template version.",
+      "q": "Is it deterministic?"
+    },
+    {
+      "a": "Yes. Use a Brand Profile to apply logo/colors/fonts.",
+      "q": "Can we customize branding?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Investor update video for LegalTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate an investor-style update video from KPIs, milestones, and narrative points."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Gather growth, revenue, and retention metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "Provide 3-5 milestones for the period.",
+        "title": "Add milestones"
+      },
+      {
+        "body": "POST to /render with investor-update-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Share the MP4 via investor portal or email.",
+        "title": "Send"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.legaltech.investor-update-video.0d04f4bd19",
+  "io": {
+    "inputJsonExample": {
+      "brand": "legaltech",
+      "data": {
+        "complianceRate": "97%",
+        "contractsReviewed": 142,
+        "highlight": "cases",
+        "kpis": {
+          "complianceRate": "97%",
+          "contractsReviewed": 142,
+          "mattersOpen": 38,
+          "riskFlags": 11,
+          "turnaround": "5d"
+        },
+        "mattersOpen": 38,
+        "milestones": "example-milestones",
+        "period": "2026-01-14",
+        "riskFlags": 11,
+        "turnaround": "5d"
+      },
+      "template": "investor-update-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-120s MP4 video",
+      "KPI tiles + growth deltas",
+      "Milestones section",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for LegalTech using a simple API. Automate investor update video from structured data (Contracts reviewed, Open matters). Includes webhooks and brand profiles.",
+  "metaTitle": "Investor update video for LegalTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Legal ops reporting is manual and time-consuming.",
+      "Stakeholders need clear, consistent updates.",
+      "Status reporting varies by team and matter.",
+      "Manual summaries delay decision making."
+    ],
+    "title": "Why LegalTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/legaltech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/customer-success-recap-video",
+      "label": "Customer Success Recap Video for LegalTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an investor update is ready happens.",
+      "POST structured data to /render using template investor-update-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via client portal, email, or executive dashboard."
+    ],
+    "title": "Automate investor update video with an API"
+  },
+  "title": "Investor update video for LegalTech",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate project progress summaries.",
+      "Deliver consistent updates to clients and leaders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a quarterly review is prepared."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/construction/quarterly-qbr-video",
+  "cta": {
+    "body": "Create an API key and render your first quarterly business review (qbr) video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate quarterly business review (qbr) video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. It's designed for leadership-friendly quarterly summaries.",
+      "q": "Can this be used for exec updates?"
+    },
+    {
+      "a": "Yes. Provide numeric series; the template renders charts.",
+      "q": "Can I include charts?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Quarterly business review (QBR) video for Construction",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a QBR-style recap video from structured quarterly KPIs and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide quarterly KPIs and a short set of highlights.",
+        "title": "Prepare inputs"
+      },
+      {
+        "body": "POST to /render with qbr-summary-v1.",
+        "title": "Render via API"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the MP4 to stakeholders or embed in your portal.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.construction.quarterly-qbr-video.4e44753ccb",
+  "io": {
+    "inputJsonExample": {
+      "brand": "construction",
+      "data": {
+        "budgetVariance": "-2%",
+        "changeOrders": 12,
+        "highlight": "projects",
+        "highlights": "example-highlights",
+        "kpis": {
+          "budgetVariance": "-2%",
+          "changeOrders": 12,
+          "projectsOnTrack": 18,
+          "safetyIncidents": 1,
+          "scheduleVariance": "-3d"
+        },
+        "period": "2026-Q1",
+        "projectsOnTrack": 18,
+        "safetyIncidents": 1,
+        "scheduleVariance": "-3d"
+      },
+      "template": "qbr-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "90-120s MP4 video",
+      "Quarter-over-quarter comparisons",
+      "Highlights section rendered as cards",
+      "Webhook with URL + metadata"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Construction using a simple API. Automate quarterly business review (qbr) video from structured data (Projects on track, Change orders). Includes webhooks and brand profiles.",
+  "metaTitle": "Quarterly business review (QBR) video for Construction | Rendivia",
+  "problem": {
+    "bullets": [
+      "Progress reporting is manual and inconsistent.",
+      "Stakeholders need clear weekly updates.",
+      "Site data is scattered across tools.",
+      "Manual recaps slow down decisions."
+    ],
+    "title": "Why Construction teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/construction/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Construction"
+    },
+    {
+      "href": "/use-cases/construction/investor-update-video",
+      "label": "Investor Update Video for Construction"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a quarterly review is prepared happens.",
+      "POST structured data to /render using template qbr-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or project dashboard."
+    ],
+    "title": "Automate quarterly business review (qbr) video with an API"
+  },
+  "title": "Quarterly business review (QBR) video for Construction",
+  "type": "use_case",
+  "version": 1
+}

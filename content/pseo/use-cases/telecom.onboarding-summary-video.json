@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate recurring performance digests.",
+      "Improve stakeholder clarity on KPIs.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by onboarding is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/telecom/onboarding-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first onboarding summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate onboarding summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user?"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Onboarding summary video for Telecom",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate onboarding progress summaries as soon as activation milestones are reached."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and return a webhook on completion.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send the recap in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.telecom.onboarding-summary-video.97519c2f2b",
+  "io": {
+    "inputJsonExample": {
+      "brand": "telecom",
+      "data": {
+        "accountId": "example-accountId",
+        "arpu": 7.4,
+        "churn": "1.9%",
+        "dataUsage": 412,
+        "highlight": "subscribers",
+        "milestones": "example-milestones",
+        "outages": 2,
+        "period": "2026-01-14",
+        "subscribers": 184200
+      },
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Telecom using a simple API. Automate onboarding summary video from structured data (Subscribers, ARPU). Includes webhooks and brand profiles.",
+  "metaTitle": "Onboarding summary video for Telecom | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are noisy and difficult to summarize.",
+      "Stakeholders need digestible performance updates.",
+      "Manual summaries are slow and inconsistent.",
+      "Outage communication needs clarity."
+    ],
+    "title": "Why Telecom teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/telecom/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/investor-update-video",
+      "label": "Investor Update Video for Telecom"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when onboarding is complete happens.",
+      "POST structured data to /render using template onboarding-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or internal dashboard."
+    ],
+    "title": "Automate onboarding summary video with an API"
+  },
+  "title": "Onboarding summary video for Telecom",
+  "type": "use_case",
+  "version": 1
+}

@@ -1,0 +1,10 @@
+To get this working, you just need to install two things on your computer:
+
+• Node.js – this lets you use the npx command
+https://nodejs.org/en/download
+
+• Git – this lets you download tools from GitHub, like remotion-dev/skills
+https://git-scm.com/install
+
+• Once those are installed, Type this into AntiGravity 👇
+npx create-video@latest

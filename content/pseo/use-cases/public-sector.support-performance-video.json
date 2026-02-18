@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate program and service updates.",
+      "Deliver consistent reporting to leadership.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a weekly support digest is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/public-sector/support-performance-video",
+  "cta": {
+    "body": "Create an API key and render your first support performance video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate support performance video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include agent-level stats in the payload.",
+      "q": "Can I include agent metrics?"
+    },
+    {
+      "a": "Yes. Provide queue arrays in the payload.",
+      "q": "Does it handle multiple queues?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Support performance video for Public sector / GovTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Ship weekly support KPIs to keep teams aligned on SLAs."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide ticket volume, response, and resolution metrics.",
+        "title": "Collect support KPIs"
+      },
+      {
+        "body": "POST to /render with support-performance-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Send to support leadership or ops.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.public-sector.support-performance-video.5ffcdb48a2",
+  "io": {
+    "inputJsonExample": {
+      "brand": "public-sector-govtech",
+      "data": {
+        "backlog": 214,
+        "budgetUsed": "62%",
+        "casesResolved": 1842,
+        "highlight": "programs",
+        "kpis": {
+          "backlog": 214,
+          "budgetUsed": "62%",
+          "casesResolved": 1842,
+          "requests": 4821,
+          "slaCompliance": "93%"
+        },
+        "period": "2026-W05",
+        "requests": 4821,
+        "sla": "example-sla",
+        "slaCompliance": "93%"
+      },
+      "template": "support-performance-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "SLA compliance summary",
+      "Volume and backlog trends",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Public sector / GovTech using a simple API. Automate support performance video from structured data (Cases resolved, Backlog). Includes webhooks and brand profiles.",
+  "metaTitle": "Support performance video for Public sector / GovTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Program reporting is slow and manual.",
+      "Stakeholders need digestible updates.",
+      "Teams lack a consistent narrative for outcomes.",
+      "Manual recaps delay operational decisions."
+    ],
+    "title": "Why Public sector / GovTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/public-sector/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/investor-update-video",
+      "label": "Investor Update Video for Public sector / GovTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a weekly support digest is ready happens.",
+      "POST structured data to /render using template support-performance-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via public portal, email, or leadership dashboard."
+    ],
+    "title": "Automate support performance video with an API"
+  },
+  "title": "Support performance video for Public sector / GovTech",
+  "type": "use_case",
+  "version": 1
+}

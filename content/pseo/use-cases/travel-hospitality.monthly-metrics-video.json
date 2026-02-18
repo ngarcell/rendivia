@@ -1,0 +1,132 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a monthly report is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/travel-hospitality/monthly-metrics-video",
+  "cta": {
+    "body": "Create an API key and render your first monthly metrics video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate monthly metrics video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous-period fields; the template renders comparisons.",
+      "q": "Can I compare vs last month?"
+    },
+    {
+      "a": "Templates are versioned; your chosen version stays stable.",
+      "q": "Do templates change?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Monthly metrics video for Travel / Hospitality",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a monthly KPI recap video from structured data using a simple API."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Use monthly-summary-v1 for consistent output.",
+        "title": "Choose template"
+      },
+      {
+        "body": "POST JSON to /render with monthly KPIs and highlights.",
+        "title": "Send KPIs"
+      },
+      {
+        "body": "We render asynchronously and retry safely.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive webhook with MP4 and store/deliver it.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.travel-hospitality.monthly-metrics-video.c10814cdac",
+  "io": {
+    "inputJsonExample": {
+      "brand": "travel-hospitality",
+      "data": {
+        "adr": 124.5,
+        "bookings": 2140,
+        "cancellations": 86,
+        "highlight": "bookings",
+        "kpis": {
+          "adr": 124.5,
+          "bookings": 2140,
+          "cancellations": 86,
+          "occupancy": "81%",
+          "revpar": 101
+        },
+        "occupancy": "81%",
+        "period": "2026-01",
+        "revpar": 101
+      },
+      "template": "monthly-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Webhook includes MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Travel / Hospitality using a simple API. Automate monthly metrics video from structured data (Bookings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Monthly metrics video for Travel / Hospitality | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance updates are scattered across systems.",
+      "Teams need a consistent weekly digest.",
+      "Manual recap work repeats every week.",
+      "Stakeholders miss changes without a narrative."
+    ],
+    "title": "Why Travel / Hospitality teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/travel-hospitality/investor-update-video",
+      "label": "Investor Update Video for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/customer-success-recap-video",
+      "label": "Customer Success Recap Video for Travel / Hospitality"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a monthly report is ready happens.",
+      "POST structured data to /render using template monthly-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate monthly metrics video with an API"
+  },
+  "title": "Monthly metrics video for Travel / Hospitality",
+  "type": "use_case",
+  "version": 1
+}

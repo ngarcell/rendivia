@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate project progress summaries.",
+      "Deliver consistent updates to clients and leaders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by pipeline is updated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/construction/sales-pipeline-video",
+  "cta": {
+    "body": "Create an API key and render your first sales pipeline video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate sales pipeline video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits?"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Sales pipeline video for Construction",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Turn pipeline snapshots into a concise weekly video for leadership."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send to sales leadership automatically.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.construction.sales-pipeline-video.2e72558789",
+  "io": {
+    "inputJsonExample": {
+      "brand": "construction",
+      "data": {
+        "budgetVariance": "-2%",
+        "changeOrders": 12,
+        "forecast": "example-forecast",
+        "highlight": "projects",
+        "period": "2026-01-14",
+        "pipeline": "example-pipeline",
+        "projectsOnTrack": 18,
+        "safetyIncidents": 1,
+        "scheduleVariance": "-3d"
+      },
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Construction using a simple API. Automate sales pipeline video from structured data (Projects on track, Change orders). Includes webhooks and brand profiles.",
+  "metaTitle": "Sales pipeline video for Construction | Rendivia",
+  "problem": {
+    "bullets": [
+      "Progress reporting is manual and inconsistent.",
+      "Stakeholders need clear weekly updates.",
+      "Site data is scattered across tools.",
+      "Manual recaps slow down decisions."
+    ],
+    "title": "Why Construction teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/construction/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Construction"
+    },
+    {
+      "href": "/use-cases/construction/investor-update-video",
+      "label": "Investor Update Video for Construction"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when pipeline is updated happens.",
+      "POST structured data to /render using template pipeline-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or project dashboard."
+    ],
+    "title": "Automate sales pipeline video with an API"
+  },
+  "title": "Sales pipeline video for Construction",
+  "type": "use_case",
+  "version": 1
+}

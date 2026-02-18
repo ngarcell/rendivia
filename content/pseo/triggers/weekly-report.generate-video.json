@@ -1,0 +1,85 @@
+{
+  "type": "trigger",
+  "version": 1,
+  "id": "trigger.weekly-report.generate-video",
+  "canonicalUrl": "/when/weekly-report/generate-video",
+  "title": "When a weekly report is ready, generate video",
+  "metaTitle": "Weekly report trigger -> video | Rendivia",
+  "metaDescription": "Trigger deterministic MP4 videos whenever a weekly report is ready using Rendivia's render API.",
+  "hero": {
+    "eyebrow": "Trigger",
+    "headline": "When a weekly report is ready, generate video",
+    "subheadline": "Connect weekly report events to programmatic video generation.",
+    "primaryCta": { "label": "Get API key", "href": "/dashboard" },
+    "secondaryCta": { "label": "View docs", "href": "/docs" }
+  },
+  "problem": {
+    "title": "Weekly reports stop at dashboards",
+    "bullets": [
+      "Stakeholders don't open dashboards every week.",
+      "PDF summaries get skimmed or ignored.",
+      "Manual recaps take time and delay insights.",
+      "Teams need a consistent narrative format."
+    ]
+  },
+  "solution": {
+    "title": "Map weekly report events to video",
+    "bullets": [
+      "Trigger a webhook or job when the report is ready.",
+      "Send JSON to /render with a template id.",
+      "Rendivia renders the MP4 asynchronously.",
+      "Deliver the video to users or stakeholders."
+    ]
+  },
+  "io": {
+    "inputTitle": "Input (weekly report payload)",
+    "inputJsonExample": {
+      "template": "weekly-summary-v1",
+      "data": {
+        "period": "2026-W05",
+        "users": 1243,
+        "revenue": 8920,
+        "growth": "+12%"
+      },
+      "brand": "acme"
+    },
+    "outputTitle": "Output (deterministic MP4)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Brand profiles applied automatically",
+      "Charts rendered from weekly metrics",
+      "Webhook includes output URL"
+    ]
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      { "title": "Detect event", "body": "Trigger on weekly report completion." },
+      { "title": "Send JSON", "body": "POST to /render with your API key." },
+      { "title": "Render async", "body": "Queue and render reliably at scale." },
+      { "title": "Deliver", "body": "Receive the MP4 URL via webhook." }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "bullets": [
+      "Automated weekly delivery",
+      "Consistent narrative format",
+      "Deterministic output",
+      "Simple webhook integration"
+    ]
+  },
+  "faq": [
+    { "q": "Do I need a scheduler?", "a": "Yes. Trigger the workflow when the report is ready." },
+    { "q": "How do I deliver the MP4?", "a": "Store the output URL from the webhook and embed it in your product." }
+  ],
+  "related": [
+    { "label": "Weekly metrics videos", "href": "/use-cases/saas/weekly-metrics-video" },
+    { "label": "From Postgres to video", "href": "/from/postgres/to/video" }
+  ],
+  "cta": {
+    "title": "Trigger weekly report videos",
+    "body": "Create an API key and render your first weekly recap video.",
+    "primary": { "label": "Get API key", "href": "/dashboard" }
+  }
+}

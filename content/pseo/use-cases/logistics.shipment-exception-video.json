@@ -1,0 +1,126 @@
+{
+  "benefits": {
+    "bullets": [
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by exceptions are detected."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/logistics/shipment-exception-video",
+  "cta": {
+    "body": "Create an API key and render your first shipment exception video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate shipment exception video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide ETA fields and the template renders them.",
+      "q": "Can I include live ETAs?"
+    },
+    {
+      "a": "Yes, typically for ops teams and internal dashboards.",
+      "q": "Is it for internal ops only?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Shipment exception video for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a short exception recap when logistics issues spike."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide exception counts and impacted routes.",
+        "title": "Detect exceptions"
+      },
+      {
+        "body": "POST to /render with exception-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render reliably.",
+        "title": "Async output"
+      },
+      {
+        "body": "Webhook returns MP4 for ops alerts.",
+        "title": "Notify"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.logistics.shipment-exception-video.391c17c542",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics-supply-chain",
+      "data": {
+        "avgDelay": "12m",
+        "costPerShipment": 4.2,
+        "exceptions": 38,
+        "highlight": "shipments",
+        "onTimeRate": "94%",
+        "period": "2026-01-14",
+        "routes": "example-routes",
+        "shipments": 9821
+      },
+      "template": "exception-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "20-40s MP4 video",
+      "Exception count and severity",
+      "Impacted routes summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Logistics / Supply chain using a simple API. Automate shipment exception video from structured data (Shipments, On-time rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Shipment exception video for Logistics / Supply chain | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are hard to communicate quickly.",
+      "Exceptions require consistent reporting.",
+      "Manual weekly summaries waste time.",
+      "Stakeholders want a digest, not dashboards."
+    ],
+    "title": "Why Logistics / Supply chain teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/investor-update-video",
+      "label": "Investor Update Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when exceptions are detected happens.",
+      "POST structured data to /render using template exception-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or Slack."
+    ],
+    "title": "Automate shipment exception video with an API"
+  },
+  "title": "Shipment exception video for Logistics / Supply chain",
+  "type": "use_case",
+  "version": 1
+}

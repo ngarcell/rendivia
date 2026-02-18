@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate program and service updates.",
+      "Deliver consistent reporting to leadership.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a compliance review is completed."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/public-sector/compliance-review-video",
+  "cta": {
+    "body": "Create an API key and render your first compliance review video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate compliance review video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are deterministic and versioned.",
+      "q": "Is it audit-ready?"
+    },
+    {
+      "a": "Yes. Include remediation text in the payload.",
+      "q": "Can I add remediation notes?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Compliance review video for Public sector / GovTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize compliance review outcomes in a deterministic video update."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide control statuses and open findings.",
+        "title": "Collect status"
+      },
+      {
+        "body": "POST to /render with compliance-review-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "We render and send a webhook on completion.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Share with leadership or auditors.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.public-sector.compliance-review-video.212d6d1fc5",
+  "io": {
+    "inputJsonExample": {
+      "brand": "public-sector-govtech",
+      "data": {
+        "backlog": 214,
+        "budgetUsed": "62%",
+        "casesResolved": 1842,
+        "controls": "example-controls",
+        "highlight": "programs",
+        "period": "2026-01-14",
+        "requests": 4821,
+        "slaCompliance": "93%",
+        "status": "example-status"
+      },
+      "template": "compliance-review-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Control status breakdown",
+      "Open findings summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Public sector / GovTech using a simple API. Automate compliance review video from structured data (Cases resolved, Backlog). Includes webhooks and brand profiles.",
+  "metaTitle": "Compliance review video for Public sector / GovTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Program reporting is slow and manual.",
+      "Stakeholders need digestible updates.",
+      "Teams lack a consistent narrative for outcomes.",
+      "Manual recaps delay operational decisions."
+    ],
+    "title": "Why Public sector / GovTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/public-sector/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/investor-update-video",
+      "label": "Investor Update Video for Public sector / GovTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a compliance review is completed happens.",
+      "POST structured data to /render using template compliance-review-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via public portal, email, or leadership dashboard."
+    ],
+    "title": "Automate compliance review video with an API"
+  },
+  "title": "Compliance review video for Public sector / GovTech",
+  "type": "use_case",
+  "version": 1
+}

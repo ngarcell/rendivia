@@ -1,0 +1,1730 @@
+[
+  {
+    "key": "saas",
+    "label": "SaaS",
+    "coreEntities": [
+      "users",
+      "workspaces",
+      "teams",
+      "seats"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "mrr",
+        "label": "MRR",
+        "example": 8920
+      },
+      {
+        "key": "activeUsers",
+        "label": "Active users",
+        "example": 1243
+      },
+      {
+        "key": "churn",
+        "label": "Churn",
+        "example": "2.1%"
+      },
+      {
+        "key": "activation",
+        "label": "Activation rate",
+        "example": "34%"
+      },
+      {
+        "key": "nrr",
+        "label": "NRR",
+        "example": "112%"
+      }
+    ],
+    "problemBullets": [
+      "Dashboards require users to interpret charts manually.",
+      "Email and PDF reports are skimmed or ignored.",
+      "Weekly insights get lost without a narrative.",
+      "Manual video creation doesn't scale across customers."
+    ],
+    "benefitBullets": [
+      "Increase engagement with automated summaries.",
+      "Make key KPIs easier to understand at a glance.",
+      "Reduce manual reporting time to near-zero.",
+      "Deliver a consistent reporting experience."
+    ],
+    "deliveryExamples": [
+      "in-app",
+      "email",
+      "customer portal"
+    ]
+  },
+  {
+    "key": "fintech",
+    "label": "Fintech",
+    "coreEntities": [
+      "accounts",
+      "transactions",
+      "portfolios",
+      "cards"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "aum",
+        "label": "Assets under management",
+        "example": 1250000
+      },
+      {
+        "key": "deposits",
+        "label": "Deposits",
+        "example": 84200
+      },
+      {
+        "key": "withdrawals",
+        "label": "Withdrawals",
+        "example": 53100
+      },
+      {
+        "key": "chargebacks",
+        "label": "Chargebacks",
+        "example": 12
+      },
+      {
+        "key": "netFlow",
+        "label": "Net flow",
+        "example": 31100
+      }
+    ],
+    "problemBullets": [
+      "Users don't open dashboards regularly to parse performance.",
+      "Statements and PDFs lack engagement and context.",
+      "Updates are delayed when assembled manually.",
+      "Teams need consistent outputs for compliance and support."
+    ],
+    "benefitBullets": [
+      "Improve customer trust with clear, consistent updates.",
+      "Automate recurring portfolio and account summaries.",
+      "Reduce support load by explaining changes proactively.",
+      "Deliver branded outputs that feel premium."
+    ],
+    "deliveryExamples": [
+      "in-app",
+      "push notification",
+      "secure message center"
+    ]
+  },
+  {
+    "key": "ecommerce",
+    "label": "E-commerce",
+    "coreEntities": [
+      "orders",
+      "customers",
+      "products",
+      "carts"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "grossRevenue",
+        "label": "Gross revenue",
+        "example": 184200
+      },
+      {
+        "key": "orders",
+        "label": "Orders",
+        "example": 3921
+      },
+      {
+        "key": "aov",
+        "label": "Average order value",
+        "example": 47.2
+      },
+      {
+        "key": "refundRate",
+        "label": "Refund rate",
+        "example": "1.3%"
+      },
+      {
+        "key": "conversionRate",
+        "label": "Conversion rate",
+        "example": "2.8%"
+      }
+    ],
+    "problemBullets": [
+      "Performance reporting is scattered across tools.",
+      "Stakeholders miss weekly insights without a digest.",
+      "Manual recap creation wastes time every week.",
+      "Teams need consistent summaries for planning."
+    ],
+    "benefitBullets": [
+      "Make performance updates easy to share and consume.",
+      "Automate weekly and monthly recaps for teams.",
+      "Keep stakeholders aligned without meetings.",
+      "Turn KPIs into a repeatable communication layer."
+    ],
+    "deliveryExamples": [
+      "Slack",
+      "email",
+      "internal dashboard"
+    ]
+  },
+  {
+    "key": "marketing-agency",
+    "label": "Marketing agencies",
+    "coreEntities": [
+      "clients",
+      "campaigns",
+      "channels",
+      "budgets"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "spend",
+        "label": "Spend",
+        "example": 12450
+      },
+      {
+        "key": "leads",
+        "label": "Leads",
+        "example": 612
+      },
+      {
+        "key": "cpl",
+        "label": "Cost per lead",
+        "example": 20.4
+      },
+      {
+        "key": "roas",
+        "label": "ROAS",
+        "example": 3.1
+      },
+      {
+        "key": "impressions",
+        "label": "Impressions",
+        "example": 812000
+      }
+    ],
+    "problemBullets": [
+      "Client reporting is repetitive and time-consuming.",
+      "Slides and PDFs get skimmed, not understood.",
+      "Teams spend too much time formatting instead of optimizing.",
+      "Clients want clearer summaries between meetings."
+    ],
+    "benefitBullets": [
+      "Automate client-ready weekly recaps.",
+      "Deliver consistent brand-aligned updates across accounts.",
+      "Reduce reporting overhead significantly.",
+      "Improve retention with clearer communication."
+    ],
+    "deliveryExamples": [
+      "email",
+      "client portal",
+      "Slack Connect"
+    ]
+  },
+  {
+    "key": "analytics",
+    "label": "Analytics platforms",
+    "coreEntities": [
+      "dashboards",
+      "events",
+      "funnels",
+      "cohorts"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "wau",
+        "label": "Weekly active users",
+        "example": 48210
+      },
+      {
+        "key": "retention",
+        "label": "Retention",
+        "example": "41%"
+      },
+      {
+        "key": "conversion",
+        "label": "Conversion",
+        "example": "3.4%"
+      },
+      {
+        "key": "topEvent",
+        "label": "Top event",
+        "example": "signup_completed"
+      },
+      {
+        "key": "dropOff",
+        "label": "Largest drop-off",
+        "example": "pricing_view"
+      }
+    ],
+    "problemBullets": [
+      "Insights live in dashboards but don't reach stakeholders.",
+      "Teams miss important changes between reviews.",
+      "Manual recaps are inconsistent across teams.",
+      "Reports lack narrative and prioritization."
+    ],
+    "benefitBullets": [
+      "Deliver insights in a format people actually consume.",
+      "Automate recurring digests and alerts.",
+      "Make dashboards more actionable with summaries.",
+      "Keep stakeholders aligned with minimal effort."
+    ],
+    "deliveryExamples": [
+      "Slack",
+      "email",
+      "in-app"
+    ]
+  },
+  {
+    "key": "compliance-grc",
+    "label": "Compliance / GRC",
+    "coreEntities": [
+      "controls",
+      "audits",
+      "policies",
+      "vendors"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "controlsComplete",
+        "label": "Controls complete",
+        "example": 78
+      },
+      {
+        "key": "openFindings",
+        "label": "Open findings",
+        "example": 6
+      },
+      {
+        "key": "vendorsAssessed",
+        "label": "Vendors assessed",
+        "example": 21
+      },
+      {
+        "key": "riskScore",
+        "label": "Risk score",
+        "example": 72
+      },
+      {
+        "key": "evidenceItems",
+        "label": "Evidence items",
+        "example": 143
+      }
+    ],
+    "problemBullets": [
+      "Stakeholders struggle to track progress across audits.",
+      "Updates are manual and often delayed.",
+      "Status reports lack clarity and narrative.",
+      "Teams need consistent reporting for leadership."
+    ],
+    "benefitBullets": [
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates.",
+      "Reduce time spent on manual reporting.",
+      "Keep leadership aligned with consistent outputs."
+    ],
+    "deliveryExamples": [
+      "in-app",
+      "email",
+      "leadership portal"
+    ]
+  },
+  {
+    "key": "cybersecurity",
+    "label": "Cybersecurity",
+    "coreEntities": [
+      "alerts",
+      "incidents",
+      "assets",
+      "policies"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "alerts",
+        "label": "Alerts",
+        "example": 1842
+      },
+      {
+        "key": "incidents",
+        "label": "Incidents",
+        "example": 3
+      },
+      {
+        "key": "mttr",
+        "label": "MTTR",
+        "example": "2h 14m"
+      },
+      {
+        "key": "coverage",
+        "label": "Coverage",
+        "example": "92%"
+      },
+      {
+        "key": "criticalVulns",
+        "label": "Critical vulns",
+        "example": 11
+      }
+    ],
+    "problemBullets": [
+      "Security updates are noisy and hard to summarize.",
+      "Stakeholders need digestible incident/status reporting.",
+      "Manual summaries are inconsistent under pressure.",
+      "Teams need reliable communication during events."
+    ],
+    "benefitBullets": [
+      "Create consistent incident and status updates.",
+      "Automate post-incident communication.",
+      "Reduce time spent assembling updates.",
+      "Improve stakeholder confidence with clarity."
+    ],
+    "deliveryExamples": [
+      "Slack",
+      "email",
+      "status page"
+    ]
+  },
+  {
+    "key": "edtech",
+    "label": "EdTech",
+    "coreEntities": [
+      "students",
+      "courses",
+      "assignments",
+      "cohorts"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "activeLearners",
+        "label": "Active learners",
+        "example": 9342
+      },
+      {
+        "key": "completionRate",
+        "label": "Completion rate",
+        "example": "58%"
+      },
+      {
+        "key": "avgScore",
+        "label": "Average score",
+        "example": 82
+      },
+      {
+        "key": "sessions",
+        "label": "Sessions",
+        "example": 41210
+      },
+      {
+        "key": "dropOffWeek",
+        "label": "Drop-off week",
+        "example": 3
+      }
+    ],
+    "problemBullets": [
+      "Progress reports are hard to communicate clearly.",
+      "Learners and admins need simple summaries.",
+      "Manual reporting wastes instructor/admin time.",
+      "Insights aren't delivered proactively."
+    ],
+    "benefitBullets": [
+      "Make progress and outcomes easier to understand.",
+      "Automate recurring cohort updates.",
+      "Increase engagement with digestible summaries.",
+      "Reduce manual work for admins."
+    ],
+    "deliveryExamples": [
+      "in-app",
+      "email",
+      "admin dashboard"
+    ]
+  },
+  {
+    "key": "healthtech",
+    "label": "HealthTech",
+    "coreEntities": [
+      "patients",
+      "appointments",
+      "care-plans",
+      "providers"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "appointments",
+        "label": "Appointments",
+        "example": 2140
+      },
+      {
+        "key": "noShowRate",
+        "label": "No-show rate",
+        "example": "4.2%"
+      },
+      {
+        "key": "activePatients",
+        "label": "Active patients",
+        "example": 18210
+      },
+      {
+        "key": "avgWaitTime",
+        "label": "Avg wait time",
+        "example": "8m"
+      },
+      {
+        "key": "carePlanAdherence",
+        "label": "Care plan adherence",
+        "example": "71%"
+      }
+    ],
+    "problemBullets": [
+      "Operational updates are buried in dashboards.",
+      "Stakeholders need consistent summaries.",
+      "Manual reporting adds overhead to operations.",
+      "Updates must be clear and predictable."
+    ],
+    "benefitBullets": [
+      "Create consistent operational digests.",
+      "Automate recurring summaries for leadership.",
+      "Reduce manual reporting time.",
+      "Make KPIs easier to share internally."
+    ],
+    "deliveryExamples": [
+      "email",
+      "internal dashboard",
+      "secure portal"
+    ]
+  },
+  {
+    "key": "hr-peopleops",
+    "label": "HR / People Ops",
+    "coreEntities": [
+      "employees",
+      "candidates",
+      "reviews",
+      "headcount"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "headcount",
+        "label": "Headcount",
+        "example": 214
+      },
+      {
+        "key": "openRoles",
+        "label": "Open roles",
+        "example": 12
+      },
+      {
+        "key": "timeToHire",
+        "label": "Time to hire",
+        "example": "24d"
+      },
+      {
+        "key": "attrition",
+        "label": "Attrition",
+        "example": "1.1%"
+      },
+      {
+        "key": "engagement",
+        "label": "Engagement",
+        "example": "76%"
+      }
+    ],
+    "problemBullets": [
+      "People metrics aren't communicated consistently.",
+      "Stakeholders want simple, regular updates.",
+      "Manual reports take time each month.",
+      "Narrative gets lost in spreadsheets."
+    ],
+    "benefitBullets": [
+      "Deliver consistent people updates.",
+      "Automate recurring headcount and hiring recaps.",
+      "Reduce manual reporting overhead.",
+      "Keep leadership aligned with clarity."
+    ],
+    "deliveryExamples": [
+      "email",
+      "leadership portal",
+      "Slack"
+    ]
+  },
+  {
+    "key": "support-tools",
+    "label": "Customer support tools",
+    "coreEntities": [
+      "tickets",
+      "agents",
+      "queues",
+      "sla"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "tickets",
+        "label": "Tickets",
+        "example": 1842
+      },
+      {
+        "key": "firstResponse",
+        "label": "First response time",
+        "example": "18m"
+      },
+      {
+        "key": "resolution",
+        "label": "Resolution time",
+        "example": "6h"
+      },
+      {
+        "key": "csat",
+        "label": "CSAT",
+        "example": "92%"
+      },
+      {
+        "key": "backlog",
+        "label": "Backlog",
+        "example": 214
+      }
+    ],
+    "problemBullets": [
+      "Support performance reporting is repetitive.",
+      "Stakeholders miss trends between reviews.",
+      "Manual recaps vary by manager/team.",
+      "Teams need consistent outputs."
+    ],
+    "benefitBullets": [
+      "Automate weekly support performance digests.",
+      "Make trends visible and easy to share.",
+      "Reduce time spent building reports.",
+      "Keep teams aligned on SLAs."
+    ],
+    "deliveryExamples": [
+      "Slack",
+      "email",
+      "internal dashboard"
+    ]
+  },
+  {
+    "key": "logistics",
+    "label": "Logistics / Supply chain",
+    "coreEntities": [
+      "shipments",
+      "routes",
+      "warehouses",
+      "orders"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "shipments",
+        "label": "Shipments",
+        "example": 9821
+      },
+      {
+        "key": "onTimeRate",
+        "label": "On-time rate",
+        "example": "94%"
+      },
+      {
+        "key": "avgDelay",
+        "label": "Average delay",
+        "example": "12m"
+      },
+      {
+        "key": "costPerShipment",
+        "label": "Cost per shipment",
+        "example": 4.2
+      },
+      {
+        "key": "exceptions",
+        "label": "Exceptions",
+        "example": 38
+      }
+    ],
+    "problemBullets": [
+      "Operational KPIs are hard to communicate quickly.",
+      "Exceptions require consistent reporting.",
+      "Manual weekly summaries waste time.",
+      "Stakeholders want a digest, not dashboards."
+    ],
+    "benefitBullets": [
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries.",
+      "Reduce reporting overhead.",
+      "Improve alignment across teams."
+    ],
+    "deliveryExamples": [
+      "email",
+      "operations dashboard",
+      "Slack"
+    ]
+  },
+  {
+    "key": "travel-hospitality",
+    "label": "Travel / Hospitality",
+    "coreEntities": [
+      "bookings",
+      "properties",
+      "guests",
+      "rates"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "bookings",
+        "label": "Bookings",
+        "example": 2140
+      },
+      {
+        "key": "occupancy",
+        "label": "Occupancy",
+        "example": "81%"
+      },
+      {
+        "key": "adr",
+        "label": "ADR",
+        "example": 124.5
+      },
+      {
+        "key": "revpar",
+        "label": "RevPAR",
+        "example": 101
+      },
+      {
+        "key": "cancellations",
+        "label": "Cancellations",
+        "example": 86
+      }
+    ],
+    "problemBullets": [
+      "Performance updates are scattered across systems.",
+      "Teams need a consistent weekly digest.",
+      "Manual recap work repeats every week.",
+      "Stakeholders miss changes without a narrative."
+    ],
+    "benefitBullets": [
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share.",
+      "Reduce manual reporting time.",
+      "Align teams on KPIs quickly."
+    ],
+    "deliveryExamples": [
+      "email",
+      "ops dashboard",
+      "Slack"
+    ]
+  },
+  {
+    "key": "insurance",
+    "label": "Insurance",
+    "coreEntities": [
+      "policies",
+      "claims",
+      "premiums",
+      "renewals"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "claims",
+        "label": "Claims",
+        "example": 214
+      },
+      {
+        "key": "lossRatio",
+        "label": "Loss ratio",
+        "example": "62%"
+      },
+      {
+        "key": "renewals",
+        "label": "Renewals",
+        "example": 842
+      },
+      {
+        "key": "premium",
+        "label": "Premium",
+        "example": 184200
+      },
+      {
+        "key": "fraudFlags",
+        "label": "Fraud flags",
+        "example": 7
+      }
+    ],
+    "problemBullets": [
+      "Performance reporting is complex and time-consuming.",
+      "Stakeholders need clear summaries.",
+      "Manual updates are inconsistent.",
+      "Ops teams need recurring digests."
+    ],
+    "benefitBullets": [
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders.",
+      "Reduce manual reporting overhead.",
+      "Deliver consistent communication."
+    ],
+    "deliveryExamples": [
+      "email",
+      "internal portal",
+      "dashboard"
+    ]
+  },
+  {
+    "key": "accounting",
+    "label": "Accounting / Invoicing",
+    "coreEntities": [
+      "invoices",
+      "payments",
+      "clients",
+      "cashflow"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "invoicesSent",
+        "label": "Invoices sent",
+        "example": 482
+      },
+      {
+        "key": "paid",
+        "label": "Paid",
+        "example": 392
+      },
+      {
+        "key": "overdue",
+        "label": "Overdue",
+        "example": 41
+      },
+      {
+        "key": "cashIn",
+        "label": "Cash in",
+        "example": 84200
+      },
+      {
+        "key": "dso",
+        "label": "DSO",
+        "example": "31d"
+      }
+    ],
+    "problemBullets": [
+      "Cashflow reporting is often delayed.",
+      "Stakeholders need predictable summaries.",
+      "Manual recap work repeats each period.",
+      "Invoices and payments need clearer communication."
+    ],
+    "benefitBullets": [
+      "Automate invoice and cashflow summaries.",
+      "Reduce reporting time each cycle.",
+      "Improve clarity for clients and teams.",
+      "Deliver consistent outputs for leadership."
+    ],
+    "deliveryExamples": [
+      "email",
+      "client portal",
+      "dashboard"
+    ]
+  },
+  {
+    "key": "telecom",
+    "label": "Telecom",
+    "coreEntities": [
+      "subscribers",
+      "plans",
+      "usage",
+      "outages"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "subscribers",
+        "label": "Subscribers",
+        "example": 184200
+      },
+      {
+        "key": "arpu",
+        "label": "ARPU",
+        "example": 7.4
+      },
+      {
+        "key": "churn",
+        "label": "Churn",
+        "example": "1.9%"
+      },
+      {
+        "key": "outages",
+        "label": "Outages",
+        "example": 2
+      },
+      {
+        "key": "dataUsage",
+        "label": "Data usage (TB)",
+        "example": 412
+      }
+    ],
+    "problemBullets": [
+      "Operational updates are noisy and difficult to summarize.",
+      "Stakeholders need digestible performance updates.",
+      "Manual summaries are slow and inconsistent.",
+      "Outage communication needs clarity."
+    ],
+    "benefitBullets": [
+      "Automate recurring performance digests.",
+      "Improve stakeholder clarity on KPIs.",
+      "Reduce manual reporting overhead.",
+      "Deliver consistent comms during events."
+    ],
+    "deliveryExamples": [
+      "status page",
+      "email",
+      "internal dashboard"
+    ]
+  },
+  {
+    "key": "gaming-platforms",
+    "label": "Gaming platforms",
+    "coreEntities": [
+      "players",
+      "sessions",
+      "matches",
+      "purchases"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "dau",
+        "label": "DAU",
+        "example": 284210
+      },
+      {
+        "key": "sessions",
+        "label": "Sessions",
+        "example": 1240000
+      },
+      {
+        "key": "arppu",
+        "label": "ARPPU",
+        "example": 3.2
+      },
+      {
+        "key": "retention",
+        "label": "Retention",
+        "example": "36%"
+      },
+      {
+        "key": "iapRevenue",
+        "label": "IAP revenue",
+        "example": 84200
+      }
+    ],
+    "problemBullets": [
+      "Performance insights aren't shared consistently.",
+      "Teams need a repeatable weekly digest.",
+      "Manual recaps take too long.",
+      "Stakeholders miss trends between reviews."
+    ],
+    "benefitBullets": [
+      "Automate weekly engagement recaps.",
+      "Make trends easy to communicate.",
+      "Reduce reporting overhead.",
+      "Align teams on KPIs."
+    ],
+    "deliveryExamples": [
+      "Slack",
+      "email",
+      "internal dashboard"
+    ]
+  },
+  {
+    "key": "nonprofits",
+    "label": "Nonprofits / Fundraising platforms",
+    "coreEntities": [
+      "donors",
+      "campaigns",
+      "donations",
+      "events"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "donations",
+        "label": "Donations",
+        "example": 84200
+      },
+      {
+        "key": "donors",
+        "label": "Donors",
+        "example": 2140
+      },
+      {
+        "key": "avgDonation",
+        "label": "Average donation",
+        "example": 39.3
+      },
+      {
+        "key": "recurringRate",
+        "label": "Recurring rate",
+        "example": "22%"
+      },
+      {
+        "key": "campaigns",
+        "label": "Campaigns",
+        "example": 6
+      }
+    ],
+    "problemBullets": [
+      "Impact reporting is time-consuming to assemble.",
+      "Stakeholders want a digest, not spreadsheets.",
+      "Manual updates are inconsistent across campaigns.",
+      "Teams need a repeatable recap format."
+    ],
+    "benefitBullets": [
+      "Automate donor and impact updates.",
+      "Make summaries easy to share with stakeholders.",
+      "Reduce manual reporting time.",
+      "Deliver consistent, branded recaps."
+    ],
+    "deliveryExamples": [
+      "email",
+      "donor portal",
+      "internal dashboard"
+    ]
+  },
+  {
+    "key": "proptech",
+    "label": "PropTech",
+    "coreEntities": [
+      "properties",
+      "leases",
+      "tenants",
+      "listings"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "listings",
+        "label": "Listings",
+        "example": 214
+      },
+      {
+        "key": "occupancy",
+        "label": "Occupancy",
+        "example": "93%"
+      },
+      {
+        "key": "leaseRenewals",
+        "label": "Lease renewals",
+        "example": 48
+      },
+      {
+        "key": "avgRent",
+        "label": "Average rent",
+        "example": 2140
+      },
+      {
+        "key": "leads",
+        "label": "Leads",
+        "example": 620
+      }
+    ],
+    "problemBullets": [
+      "Property updates are spread across tools.",
+      "Stakeholders need a consistent weekly recap.",
+      "Manual report creation delays decisions.",
+      "Insights get lost without a clear narrative."
+    ],
+    "benefitBullets": [
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders.",
+      "Reduce reporting overhead.",
+      "Make KPI trends easy to share."
+    ],
+    "deliveryExamples": [
+      "email",
+      "investor portal",
+      "internal dashboard"
+    ]
+  },
+  {
+    "key": "manufacturing",
+    "label": "Manufacturing",
+    "coreEntities": [
+      "lines",
+      "batches",
+      "defects",
+      "units"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "unitsProduced",
+        "label": "Units produced",
+        "example": 28420
+      },
+      {
+        "key": "defectRate",
+        "label": "Defect rate",
+        "example": "1.2%"
+      },
+      {
+        "key": "downtime",
+        "label": "Downtime",
+        "example": "3h"
+      },
+      {
+        "key": "onTimeDelivery",
+        "label": "On-time delivery",
+        "example": "96%"
+      },
+      {
+        "key": "costPerUnit",
+        "label": "Cost per unit",
+        "example": 3.4
+      }
+    ],
+    "problemBullets": [
+      "Operational KPIs are buried in spreadsheets.",
+      "Plant updates take too long to compile.",
+      "Stakeholders need clear, consistent reporting.",
+      "Manual summaries slow down decisions."
+    ],
+    "benefitBullets": [
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants.",
+      "Reduce manual ops reporting time.",
+      "Make KPI trends easy to consume."
+    ],
+    "deliveryExamples": [
+      "email",
+      "operations dashboard",
+      "leadership portal"
+    ]
+  },
+  {
+    "key": "adtech",
+    "label": "AdTech",
+    "coreEntities": [
+      "campaigns",
+      "adGroups",
+      "channels",
+      "creatives"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "spend",
+        "label": "Spend",
+        "example": 48200
+      },
+      {
+        "key": "impressions",
+        "label": "Impressions",
+        "example": 812000
+      },
+      {
+        "key": "clicks",
+        "label": "Clicks",
+        "example": 21400
+      },
+      {
+        "key": "ctr",
+        "label": "CTR",
+        "example": "2.6%"
+      },
+      {
+        "key": "cpa",
+        "label": "CPA",
+        "example": 42.5
+      }
+    ],
+    "problemBullets": [
+      "Campaign performance updates are scattered across platforms.",
+      "Client recaps take hours to assemble each week.",
+      "Stakeholders miss trends without a clear narrative.",
+      "Manual reporting slows optimization cycles."
+    ],
+    "benefitBullets": [
+      "Automate campaign summaries for clients and teams.",
+      "Make performance trends easy to digest.",
+      "Reduce manual reporting overhead.",
+      "Deliver consistent, branded updates every week."
+    ],
+    "deliveryExamples": [
+      "email",
+      "client portal",
+      "Slack"
+    ]
+  },
+  {
+    "key": "devtools",
+    "label": "Developer tools",
+    "coreEntities": [
+      "repositories",
+      "deployments",
+      "incidents",
+      "teams"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "deploys",
+        "label": "Deploys",
+        "example": 184
+      },
+      {
+        "key": "leadTime",
+        "label": "Lead time",
+        "example": "18h"
+      },
+      {
+        "key": "changeFailureRate",
+        "label": "Change failure rate",
+        "example": "3.1%"
+      },
+      {
+        "key": "mttr",
+        "label": "MTTR",
+        "example": "42m"
+      },
+      {
+        "key": "activeDevelopers",
+        "label": "Active developers",
+        "example": 214
+      }
+    ],
+    "problemBullets": [
+      "Engineering metrics live in dashboards but stakeholders need summaries.",
+      "Release updates are assembled manually each week.",
+      "Incident recaps are inconsistent across teams.",
+      "Leadership wants a clear view of engineering health."
+    ],
+    "benefitBullets": [
+      "Automate release and incident digests.",
+      "Make engineering health easy to communicate.",
+      "Reduce manual status reporting time.",
+      "Deliver consistent, versioned updates to leaders."
+    ],
+    "deliveryExamples": [
+      "Slack",
+      "email",
+      "internal portal"
+    ]
+  },
+  {
+    "key": "data-platforms",
+    "label": "Data platforms",
+    "coreEntities": [
+      "pipelines",
+      "datasets",
+      "queries",
+      "jobs"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "pipelinesSucceeded",
+        "label": "Pipelines succeeded",
+        "example": 932
+      },
+      {
+        "key": "dataVolume",
+        "label": "Data volume (TB)",
+        "example": 128
+      },
+      {
+        "key": "queryCount",
+        "label": "Queries",
+        "example": 42000
+      },
+      {
+        "key": "slaBreaches",
+        "label": "SLA breaches",
+        "example": 3
+      },
+      {
+        "key": "cost",
+        "label": "Compute cost",
+        "example": 8420
+      }
+    ],
+    "problemBullets": [
+      "Data reliability updates are buried in logs.",
+      "Stakeholders lack visibility into pipeline health.",
+      "Manual status emails take too long.",
+      "Incidents need a consistent recap format."
+    ],
+    "benefitBullets": [
+      "Automate data reliability and pipeline updates.",
+      "Make dataset health visible at a glance.",
+      "Reduce manual reporting overhead.",
+      "Deliver consistent status recaps to teams."
+    ],
+    "deliveryExamples": [
+      "email",
+      "ops dashboard",
+      "Slack"
+    ]
+  },
+  {
+    "key": "legaltech",
+    "label": "LegalTech",
+    "coreEntities": [
+      "cases",
+      "contracts",
+      "matters",
+      "clients"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "contractsReviewed",
+        "label": "Contracts reviewed",
+        "example": 142
+      },
+      {
+        "key": "mattersOpen",
+        "label": "Open matters",
+        "example": 38
+      },
+      {
+        "key": "turnaround",
+        "label": "Avg turnaround",
+        "example": "5d"
+      },
+      {
+        "key": "complianceRate",
+        "label": "Compliance rate",
+        "example": "97%"
+      },
+      {
+        "key": "riskFlags",
+        "label": "Risk flags",
+        "example": 11
+      }
+    ],
+    "problemBullets": [
+      "Legal ops reporting is manual and time-consuming.",
+      "Stakeholders need clear, consistent updates.",
+      "Status reporting varies by team and matter.",
+      "Manual summaries delay decision making."
+    ],
+    "benefitBullets": [
+      "Automate matter and contract updates.",
+      "Deliver consistent reporting to stakeholders.",
+      "Reduce manual reporting time.",
+      "Improve visibility into legal workloads."
+    ],
+    "deliveryExamples": [
+      "client portal",
+      "email",
+      "executive dashboard"
+    ]
+  },
+  {
+    "key": "biotech-pharma",
+    "label": "Biotech / Pharma",
+    "coreEntities": [
+      "trials",
+      "sites",
+      "patients",
+      "protocols"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "sitesActive",
+        "label": "Active sites",
+        "example": 24
+      },
+      {
+        "key": "patientsEnrolled",
+        "label": "Patients enrolled",
+        "example": 412
+      },
+      {
+        "key": "adverseEvents",
+        "label": "Adverse events",
+        "example": 6
+      },
+      {
+        "key": "cycleTime",
+        "label": "Cycle time",
+        "example": "12d"
+      },
+      {
+        "key": "protocolDeviations",
+        "label": "Protocol deviations",
+        "example": 3
+      }
+    ],
+    "problemBullets": [
+      "Trial updates are slow to compile and distribute.",
+      "Stakeholders need consistent progress reporting.",
+      "Manual summaries delay decisions.",
+      "Sites need a clear, repeatable recap format."
+    ],
+    "benefitBullets": [
+      "Automate study progress recaps.",
+      "Deliver consistent updates across sites.",
+      "Reduce manual reporting overhead.",
+      "Make trial KPIs easy to consume."
+    ],
+    "deliveryExamples": [
+      "secure portal",
+      "email",
+      "internal dashboard"
+    ]
+  },
+  {
+    "key": "public-sector",
+    "label": "Public sector / GovTech",
+    "coreEntities": [
+      "programs",
+      "projects",
+      "citizens",
+      "agencies"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "casesResolved",
+        "label": "Cases resolved",
+        "example": 1842
+      },
+      {
+        "key": "backlog",
+        "label": "Backlog",
+        "example": 214
+      },
+      {
+        "key": "slaCompliance",
+        "label": "SLA compliance",
+        "example": "93%"
+      },
+      {
+        "key": "budgetUsed",
+        "label": "Budget used",
+        "example": "62%"
+      },
+      {
+        "key": "requests",
+        "label": "Requests",
+        "example": 4821
+      }
+    ],
+    "problemBullets": [
+      "Program reporting is slow and manual.",
+      "Stakeholders need digestible updates.",
+      "Teams lack a consistent narrative for outcomes.",
+      "Manual recaps delay operational decisions."
+    ],
+    "benefitBullets": [
+      "Automate program and service updates.",
+      "Deliver consistent reporting to leadership.",
+      "Reduce manual reporting effort.",
+      "Improve transparency across agencies."
+    ],
+    "deliveryExamples": [
+      "public portal",
+      "email",
+      "leadership dashboard"
+    ]
+  },
+  {
+    "key": "energy-utilities",
+    "label": "Energy / Utilities",
+    "coreEntities": [
+      "meters",
+      "outages",
+      "customers",
+      "sites"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "outages",
+        "label": "Outages",
+        "example": 3
+      },
+      {
+        "key": "restorationTime",
+        "label": "Restoration time",
+        "example": "1h 20m"
+      },
+      {
+        "key": "peakLoad",
+        "label": "Peak load (MW)",
+        "example": 842
+      },
+      {
+        "key": "renewableShare",
+        "label": "Renewable share",
+        "example": "38%"
+      },
+      {
+        "key": "serviceTickets",
+        "label": "Service tickets",
+        "example": 214
+      }
+    ],
+    "problemBullets": [
+      "Operational updates are hard to summarize quickly.",
+      "Stakeholders need clear outage communication.",
+      "Manual recaps take too long to publish.",
+      "Teams need reliable status reporting."
+    ],
+    "benefitBullets": [
+      "Automate reliability and outage updates.",
+      "Deliver clear status summaries to stakeholders.",
+      "Reduce manual reporting overhead.",
+      "Make performance KPIs easy to share."
+    ],
+    "deliveryExamples": [
+      "status page",
+      "email",
+      "ops dashboard"
+    ]
+  },
+  {
+    "key": "construction",
+    "label": "Construction",
+    "coreEntities": [
+      "projects",
+      "sites",
+      "milestones",
+      "subcontractors"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "projectsOnTrack",
+        "label": "Projects on track",
+        "example": 18
+      },
+      {
+        "key": "changeOrders",
+        "label": "Change orders",
+        "example": 12
+      },
+      {
+        "key": "safetyIncidents",
+        "label": "Safety incidents",
+        "example": 1
+      },
+      {
+        "key": "budgetVariance",
+        "label": "Budget variance",
+        "example": "-2%"
+      },
+      {
+        "key": "scheduleVariance",
+        "label": "Schedule variance",
+        "example": "-3d"
+      }
+    ],
+    "problemBullets": [
+      "Progress reporting is manual and inconsistent.",
+      "Stakeholders need clear weekly updates.",
+      "Site data is scattered across tools.",
+      "Manual recaps slow down decisions."
+    ],
+    "benefitBullets": [
+      "Automate project progress summaries.",
+      "Deliver consistent updates to clients and leaders.",
+      "Reduce reporting overhead for project teams.",
+      "Make KPIs easy to consume across sites."
+    ],
+    "deliveryExamples": [
+      "email",
+      "client portal",
+      "project dashboard"
+    ]
+  },
+  {
+    "key": "retail",
+    "label": "Retail",
+    "coreEntities": [
+      "stores",
+      "locations",
+      "inventory",
+      "promotions"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "sameStoreSales",
+        "label": "Same-store sales",
+        "example": "4.1%"
+      },
+      {
+        "key": "footTraffic",
+        "label": "Foot traffic",
+        "example": 48210
+      },
+      {
+        "key": "inventoryTurns",
+        "label": "Inventory turns",
+        "example": 5.2
+      },
+      {
+        "key": "stockouts",
+        "label": "Stockouts",
+        "example": 32
+      },
+      {
+        "key": "promoLift",
+        "label": "Promo lift",
+        "example": "12%"
+      }
+    ],
+    "problemBullets": [
+      "Store performance updates are slow to compile.",
+      "Regional teams need consistent recaps.",
+      "Manual reporting hides trends.",
+      "KPIs are not shared in a digestible format."
+    ],
+    "benefitBullets": [
+      "Automate store performance summaries.",
+      "Make trends easy to share across regions.",
+      "Reduce manual reporting time.",
+      "Deliver consistent updates to leadership."
+    ],
+    "deliveryExamples": [
+      "email",
+      "regional dashboard",
+      "Slack"
+    ]
+  },
+  {
+    "key": "mobility-fleet",
+    "label": "Mobility / Fleet",
+    "coreEntities": [
+      "vehicles",
+      "routes",
+      "drivers",
+      "deliveries"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "onTimeRate",
+        "label": "On-time rate",
+        "example": "96%"
+      },
+      {
+        "key": "milesDriven",
+        "label": "Miles driven",
+        "example": 84210
+      },
+      {
+        "key": "utilization",
+        "label": "Utilization",
+        "example": "78%"
+      },
+      {
+        "key": "fuelCost",
+        "label": "Fuel cost",
+        "example": 12450
+      },
+      {
+        "key": "maintenanceIssues",
+        "label": "Maintenance issues",
+        "example": 6
+      }
+    ],
+    "problemBullets": [
+      "Fleet performance updates are manual and delayed.",
+      "Operations teams need a clear weekly digest.",
+      "Data lives in multiple systems.",
+      "Manual recaps slow operational decisions."
+    ],
+    "benefitBullets": [
+      "Automate fleet performance summaries.",
+      "Make route and delivery KPIs easy to understand.",
+      "Reduce manual reporting overhead.",
+      "Deliver consistent updates to stakeholders."
+    ],
+    "deliveryExamples": [
+      "ops dashboard",
+      "email",
+      "Slack"
+    ]
+  },
+  {
+    "key": "procurement",
+    "label": "Procurement",
+    "coreEntities": [
+      "suppliers",
+      "purchaseOrders",
+      "spend",
+      "contracts"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "spend",
+        "label": "Spend",
+        "example": 214000
+      },
+      {
+        "key": "savings",
+        "label": "Savings",
+        "example": 18200
+      },
+      {
+        "key": "onTimeDelivery",
+        "label": "On-time delivery",
+        "example": "91%"
+      },
+      {
+        "key": "supplierRisk",
+        "label": "Supplier risk",
+        "example": "Low"
+      },
+      {
+        "key": "poCount",
+        "label": "PO count",
+        "example": 482
+      }
+    ],
+    "problemBullets": [
+      "Spend reporting is manual and time-consuming.",
+      "Stakeholders lack a consistent vendor summary.",
+      "Procurement KPIs are buried in spreadsheets.",
+      "Manual updates slow down decision making."
+    ],
+    "benefitBullets": [
+      "Automate supplier and spend summaries.",
+      "Make savings and risk visibility clear.",
+      "Reduce manual reporting overhead.",
+      "Deliver consistent updates to leadership."
+    ],
+    "deliveryExamples": [
+      "email",
+      "procurement portal",
+      "leadership dashboard"
+    ]
+  },
+  {
+    "key": "media-streaming",
+    "label": "Media / Streaming",
+    "coreEntities": [
+      "subscribers",
+      "streams",
+      "content",
+      "adBreaks"
+    ],
+    "exampleMetrics": [
+      {
+        "key": "watchHours",
+        "label": "Watch hours",
+        "example": 482100
+      },
+      {
+        "key": "subsGained",
+        "label": "Subscribers gained",
+        "example": 8420
+      },
+      {
+        "key": "churn",
+        "label": "Churn",
+        "example": "2.4%"
+      },
+      {
+        "key": "avgSession",
+        "label": "Avg session",
+        "example": "32m"
+      },
+      {
+        "key": "adRevenue",
+        "label": "Ad revenue",
+        "example": 124000
+      }
+    ],
+    "problemBullets": [
+      "Content performance updates are manual and delayed.",
+      "Teams need a consistent weekly recap.",
+      "KPIs are spread across analytics tools.",
+      "Manual summaries slow content decisions."
+    ],
+    "benefitBullets": [
+      "Automate content and subscriber recaps.",
+      "Make performance trends easy to share.",
+      "Reduce manual reporting time.",
+      "Deliver consistent updates to stakeholders."
+    ],
+    "deliveryExamples": [
+      "email",
+      "internal dashboard",
+      "Slack"
+    ]
+  }
+]

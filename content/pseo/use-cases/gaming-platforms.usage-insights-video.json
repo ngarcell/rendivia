@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate weekly engagement recaps.",
+      "Make trends easy to communicate.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by usage crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/gaming-platforms/usage-insights-video",
+  "cta": {
+    "body": "Create an API key and render your first usage insights video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate usage insights video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons?"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Usage insights video for Gaming platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate usage insight summaries when accounts hit key thresholds."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send usage recaps in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.gaming-platforms.usage-insights-video.768ccc4638",
+  "io": {
+    "inputJsonExample": {
+      "brand": "gaming-platforms",
+      "data": {
+        "accountId": "example-accountId",
+        "arppu": 3.2,
+        "dau": 284210,
+        "highlight": "players",
+        "iapRevenue": 84200,
+        "period": "2026-01-14",
+        "retention": "36%",
+        "sessions": 1240000,
+        "usage": "example-usage"
+      },
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Gaming platforms using a simple API. Automate usage insights video from structured data (DAU, Sessions). Includes webhooks and brand profiles.",
+  "metaTitle": "Usage insights video for Gaming platforms | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance insights aren't shared consistently.",
+      "Teams need a repeatable weekly digest.",
+      "Manual recaps take too long.",
+      "Stakeholders miss trends between reviews."
+    ],
+    "title": "Why Gaming platforms teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/gaming-platforms/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Gaming platforms"
+    },
+    {
+      "href": "/use-cases/gaming-platforms/investor-update-video",
+      "label": "Investor Update Video for Gaming platforms"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when usage crosses a threshold happens.",
+      "POST structured data to /render using template usage-insights-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate usage insights video with an API"
+  },
+  "title": "Usage insights video for Gaming platforms",
+  "type": "use_case",
+  "version": 1
+}

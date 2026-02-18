@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by usage crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/logistics/usage-insights-video",
+  "cta": {
+    "body": "Create an API key and render your first usage insights video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate usage insights video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons?"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Usage insights video for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate usage insight summaries when accounts hit key thresholds."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send usage recaps in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.logistics.usage-insights-video.186d4c6281",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics-supply-chain",
+      "data": {
+        "accountId": "example-accountId",
+        "avgDelay": "12m",
+        "costPerShipment": 4.2,
+        "exceptions": 38,
+        "highlight": "shipments",
+        "onTimeRate": "94%",
+        "period": "2026-01-14",
+        "shipments": 9821,
+        "usage": "example-usage"
+      },
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Logistics / Supply chain using a simple API. Automate usage insights video from structured data (Shipments, On-time rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Usage insights video for Logistics / Supply chain | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational KPIs are hard to communicate quickly.",
+      "Exceptions require consistent reporting.",
+      "Manual weekly summaries waste time.",
+      "Stakeholders want a digest, not dashboards."
+    ],
+    "title": "Why Logistics / Supply chain teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/investor-update-video",
+      "label": "Investor Update Video for Logistics / Supply chain"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when usage crosses a threshold happens.",
+      "POST structured data to /render using template usage-insights-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, operations dashboard, or Slack."
+    ],
+    "title": "Automate usage insights video with an API"
+  },
+  "title": "Usage insights video for Logistics / Supply chain",
+  "type": "use_case",
+  "version": 1
+}

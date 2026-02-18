@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a trial is ending."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/travel-hospitality/trial-to-paid-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first trial-to-paid conversion recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate trial-to-paid conversion recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a CTA field in data and render it in the outro.",
+      "q": "Can I include a CTA at the end?"
+    },
+    {
+      "a": "It complements them by adding a high-signal recap format.",
+      "q": "Does this replace emails?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Trial-to-paid conversion recap video for Travel / Hospitality",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize trial engagement and outcomes into a video recap to drive conversion."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Aggregate usage events and outcomes during the trial.",
+        "title": "Collect trial data"
+      },
+      {
+        "body": "POST to /render with trial-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Use webhook result to deliver video before trial ends.",
+        "title": "Send before expiry"
+      },
+      {
+        "body": "Track conversions and iterate template content.",
+        "title": "Measure"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.travel-hospitality.trial-to-paid-recap-video.dc52728556",
+  "io": {
+    "inputJsonExample": {
+      "brand": "travel-hospitality",
+      "data": {
+        "adr": 124.5,
+        "bookings": 2140,
+        "cancellations": 86,
+        "highlight": "bookings",
+        "kpis": {
+          "adr": 124.5,
+          "bookings": 2140,
+          "cancellations": 86,
+          "occupancy": "81%",
+          "revpar": 101
+        },
+        "occupancy": "81%",
+        "period": "2026-01-14",
+        "revpar": 101,
+        "trialId": "example-trialId"
+      },
+      "template": "trial-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Usage highlights and outcomes",
+      "Clear next-step CTA slot",
+      "Webhook with URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Travel / Hospitality using a simple API. Automate trial-to-paid conversion recap video from structured data (Bookings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Trial-to-paid conversion recap video for Travel / Hospitality | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance updates are scattered across systems.",
+      "Teams need a consistent weekly digest.",
+      "Manual recap work repeats every week.",
+      "Stakeholders miss changes without a narrative."
+    ],
+    "title": "Why Travel / Hospitality teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/travel-hospitality/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/investor-update-video",
+      "label": "Investor Update Video for Travel / Hospitality"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a trial is ending happens.",
+      "POST structured data to /render using template trial-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate trial-to-paid conversion recap video with an API"
+  },
+  "title": "Trial-to-paid conversion recap video for Travel / Hospitality",
+  "type": "use_case",
+  "version": 1
+}

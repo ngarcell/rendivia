@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate supplier and spend summaries.",
+      "Make savings and risk visibility clear.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a portfolio is rebalanced."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/procurement/portfolio-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first portfolio summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate portfolio summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide asset class labels and weights.",
+      "q": "Can I include asset classes?"
+    },
+    {
+      "a": "Yes. Use brand profiles per client.",
+      "q": "Does it support per-client branding?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Portfolio summary video for Procurement",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a portfolio performance recap after rebalancing or period close."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide allocation and return data per holding.",
+        "title": "Collect holdings"
+      },
+      {
+        "body": "POST to /render with portfolio-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async render"
+      },
+      {
+        "body": "Send the recap to clients or advisors.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.procurement.portfolio-summary-video.d81f32e4fc",
+  "io": {
+    "inputJsonExample": {
+      "brand": "procurement",
+      "data": {
+        "highlight": "suppliers",
+        "onTimeDelivery": "91%",
+        "period": "2026-01-14",
+        "poCount": 482,
+        "portfolioId": "example-portfolioId",
+        "positions": "example-positions",
+        "returns": "example-returns",
+        "savings": 18200,
+        "spend": 214000,
+        "supplierRisk": "Low"
+      },
+      "template": "portfolio-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Allocation changes visualized",
+      "Performance vs benchmark",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Procurement using a simple API. Automate portfolio summary video from structured data (Spend, Savings). Includes webhooks and brand profiles.",
+  "metaTitle": "Portfolio summary video for Procurement | Rendivia",
+  "problem": {
+    "bullets": [
+      "Spend reporting is manual and time-consuming.",
+      "Stakeholders lack a consistent vendor summary.",
+      "Procurement KPIs are buried in spreadsheets.",
+      "Manual updates slow down decision making."
+    ],
+    "title": "Why Procurement teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/procurement/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/investor-update-video",
+      "label": "Investor Update Video for Procurement"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a portfolio is rebalanced happens.",
+      "POST structured data to /render using template portfolio-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, procurement portal, or leadership dashboard."
+    ],
+    "title": "Automate portfolio summary video with an API"
+  },
+  "title": "Portfolio summary video for Procurement",
+  "type": "use_case",
+  "version": 1
+}

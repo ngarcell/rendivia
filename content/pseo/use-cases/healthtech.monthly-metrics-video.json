@@ -1,0 +1,132 @@
+{
+  "benefits": {
+    "bullets": [
+      "Create consistent operational digests.",
+      "Automate recurring summaries for leadership.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a monthly report is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/healthtech/monthly-metrics-video",
+  "cta": {
+    "body": "Create an API key and render your first monthly metrics video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate monthly metrics video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous-period fields; the template renders comparisons.",
+      "q": "Can I compare vs last month?"
+    },
+    {
+      "a": "Templates are versioned; your chosen version stays stable.",
+      "q": "Do templates change?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Monthly metrics video for HealthTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a monthly KPI recap video from structured data using a simple API."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Use monthly-summary-v1 for consistent output.",
+        "title": "Choose template"
+      },
+      {
+        "body": "POST JSON to /render with monthly KPIs and highlights.",
+        "title": "Send KPIs"
+      },
+      {
+        "body": "We render asynchronously and retry safely.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive webhook with MP4 and store/deliver it.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.healthtech.monthly-metrics-video.e604b8ed47",
+  "io": {
+    "inputJsonExample": {
+      "brand": "healthtech",
+      "data": {
+        "activePatients": 18210,
+        "appointments": 2140,
+        "avgWaitTime": "8m",
+        "carePlanAdherence": "71%",
+        "highlight": "patients",
+        "kpis": {
+          "activePatients": 18210,
+          "appointments": 2140,
+          "avgWaitTime": "8m",
+          "carePlanAdherence": "71%",
+          "noShowRate": "4.2%"
+        },
+        "noShowRate": "4.2%",
+        "period": "2026-01"
+      },
+      "template": "monthly-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Webhook includes MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for HealthTech using a simple API. Automate monthly metrics video from structured data (Appointments, No-show rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Monthly metrics video for HealthTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are buried in dashboards.",
+      "Stakeholders need consistent summaries.",
+      "Manual reporting adds overhead to operations.",
+      "Updates must be clear and predictable."
+    ],
+    "title": "Why HealthTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/healthtech/investor-update-video",
+      "label": "Investor Update Video for HealthTech"
+    },
+    {
+      "href": "/use-cases/healthtech/customer-success-recap-video",
+      "label": "Customer Success Recap Video for HealthTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a monthly report is ready happens.",
+      "POST structured data to /render using template monthly-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, internal dashboard, or secure portal."
+    ],
+    "title": "Automate monthly metrics video with an API"
+  },
+  "title": "Monthly metrics video for HealthTech",
+  "type": "use_case",
+  "version": 1
+}

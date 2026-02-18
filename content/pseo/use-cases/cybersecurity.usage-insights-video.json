@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Create consistent incident and status updates.",
+      "Automate post-incident communication.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by usage crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/cybersecurity/usage-insights-video",
+  "cta": {
+    "body": "Create an API key and render your first usage insights video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate usage insights video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons?"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Usage insights video for Cybersecurity",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate usage insight summaries when accounts hit key thresholds."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue and render at scale.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send usage recaps in-app or via email.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.cybersecurity.usage-insights-video.fdc8935a34",
+  "io": {
+    "inputJsonExample": {
+      "brand": "cybersecurity",
+      "data": {
+        "accountId": "example-accountId",
+        "alerts": 1842,
+        "coverage": "92%",
+        "criticalVulns": 11,
+        "highlight": "alerts",
+        "incidents": 3,
+        "mttr": "2h 14m",
+        "period": "2026-01-14",
+        "usage": "example-usage"
+      },
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Cybersecurity using a simple API. Automate usage insights video from structured data (Alerts, Incidents). Includes webhooks and brand profiles.",
+  "metaTitle": "Usage insights video for Cybersecurity | Rendivia",
+  "problem": {
+    "bullets": [
+      "Security updates are noisy and hard to summarize.",
+      "Stakeholders need digestible incident/status reporting.",
+      "Manual summaries are inconsistent under pressure.",
+      "Teams need reliable communication during events."
+    ],
+    "title": "Why Cybersecurity teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/cybersecurity/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Cybersecurity"
+    },
+    {
+      "href": "/use-cases/cybersecurity/investor-update-video",
+      "label": "Investor Update Video for Cybersecurity"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when usage crosses a threshold happens.",
+      "POST structured data to /render using template usage-insights-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or status page."
+    ],
+    "title": "Automate usage insights video with an API"
+  },
+  "title": "Usage insights video for Cybersecurity",
+  "type": "use_case",
+  "version": 1
+}

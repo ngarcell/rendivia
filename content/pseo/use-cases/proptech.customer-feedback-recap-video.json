@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a feedback cycle completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/proptech/customer-feedback-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first customer feedback recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate customer feedback recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a quotes array for display.",
+      "q": "Can I include verbatim quotes?"
+    },
+    {
+      "a": "Yes. Summaries are designed for leadership review.",
+      "q": "Is it suitable for board updates?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Customer feedback recap video for PropTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Summarize NPS and feedback themes into a recurring recap."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide NPS score and top themes.",
+        "title": "Aggregate feedback"
+      },
+      {
+        "body": "POST to /render with feedback-recap-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Send to product and leadership teams.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.proptech.customer-feedback-recap-video.77a571fd4a",
+  "io": {
+    "inputJsonExample": {
+      "brand": "proptech",
+      "data": {
+        "avgRent": 2140,
+        "highlight": "properties",
+        "leads": 620,
+        "leaseRenewals": 48,
+        "listings": 214,
+        "nps": "example-nps",
+        "occupancy": "93%",
+        "period": "2026-01-14",
+        "themes": "example-themes"
+      },
+      "template": "feedback-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "NPS trend + benchmarks",
+      "Theme highlights",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for PropTech using a simple API. Automate customer feedback recap video from structured data (Listings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Customer feedback recap video for PropTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Property updates are spread across tools.",
+      "Stakeholders need a consistent weekly recap.",
+      "Manual report creation delays decisions.",
+      "Insights get lost without a clear narrative."
+    ],
+    "title": "Why PropTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/proptech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/investor-update-video",
+      "label": "Investor Update Video for PropTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a feedback cycle completes happens.",
+      "POST structured data to /render using template feedback-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, investor portal, or internal dashboard."
+    ],
+    "title": "Automate customer feedback recap video with an API"
+  },
+  "title": "Customer feedback recap video for PropTech",
+  "type": "use_case",
+  "version": 1
+}

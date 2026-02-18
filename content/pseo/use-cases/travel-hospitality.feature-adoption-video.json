@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by feature adoption crosses a threshold."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/travel-hospitality/feature-adoption-video",
+  "cta": {
+    "body": "Create an API key and render your first feature adoption video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate feature adoption video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide cohort arrays; the template compares them.",
+      "q": "Can I compare cohorts?"
+    },
+    {
+      "a": "Yes. Render per feature for deterministic outputs.",
+      "q": "Does it work for multiple features?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Feature adoption video for Travel / Hospitality",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Show adoption progress when usage crosses a threshold or milestone."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide adoption by cohort and growth delta.",
+        "title": "Collect adoption data"
+      },
+      {
+        "body": "POST to /render with feature-adoption-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify when ready.",
+        "title": "Async output"
+      },
+      {
+        "body": "Share with product or GTM teams.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.travel-hospitality.feature-adoption-video.7eaecdda2b",
+  "io": {
+    "inputJsonExample": {
+      "brand": "travel-hospitality",
+      "data": {
+        "adoptionRate": "example-adoptionRate",
+        "adr": 124.5,
+        "bookings": 2140,
+        "cancellations": 86,
+        "cohorts": "example-cohorts",
+        "featureName": "example-featureName",
+        "highlight": "bookings",
+        "occupancy": "81%",
+        "period": "2026-01-14",
+        "revpar": 101
+      },
+      "template": "feature-adoption-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Cohort adoption breakdown",
+      "Trend lines and deltas",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Travel / Hospitality using a simple API. Automate feature adoption video from structured data (Bookings, Occupancy). Includes webhooks and brand profiles.",
+  "metaTitle": "Feature adoption video for Travel / Hospitality | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance updates are scattered across systems.",
+      "Teams need a consistent weekly digest.",
+      "Manual recap work repeats every week.",
+      "Stakeholders miss changes without a narrative."
+    ],
+    "title": "Why Travel / Hospitality teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/travel-hospitality/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/investor-update-video",
+      "label": "Investor Update Video for Travel / Hospitality"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when feature adoption crosses a threshold happens.",
+      "POST structured data to /render using template feature-adoption-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, ops dashboard, or Slack."
+    ],
+    "title": "Automate feature adoption video with an API"
+  },
+  "title": "Feature adoption video for Travel / Hospitality",
+  "type": "use_case",
+  "version": 1
+}

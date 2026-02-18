@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make performance updates easy to share and consume.",
+      "Automate weekly and monthly recaps for teams.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by monthly close completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/ecommerce/expense-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first expense summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate expense summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include department arrays in the payload.",
+      "q": "Can I include department splits?"
+    },
+    {
+      "a": "Yes. Provide currency fields for display.",
+      "q": "Does it support multiple currencies?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Expense summary video for E-commerce",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automate monthly expense summaries with budget variance callouts."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide totals by category and variance.",
+        "title": "Collect spend data"
+      },
+      {
+        "body": "POST to /render with expense-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to finance and department leads.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.ecommerce.expense-summary-video.f621be9f02",
+  "io": {
+    "inputJsonExample": {
+      "brand": "e-commerce",
+      "data": {
+        "aov": 47.2,
+        "conversionRate": "2.8%",
+        "expenses": "example-expenses",
+        "grossRevenue": 184200,
+        "highlight": "orders",
+        "orders": 3921,
+        "period": "2026-01",
+        "refundRate": "1.3%",
+        "variance": "example-variance"
+      },
+      "template": "expense-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for E-commerce using a simple API. Automate expense summary video from structured data (Gross revenue, Orders). Includes webhooks and brand profiles.",
+  "metaTitle": "Expense summary video for E-commerce | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is scattered across tools.",
+      "Stakeholders miss weekly insights without a digest.",
+      "Manual recap creation wastes time every week.",
+      "Teams need consistent summaries for planning."
+    ],
+    "title": "Why E-commerce teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/ecommerce/monthly-metrics-video",
+      "label": "Monthly Metrics Video for E-commerce"
+    },
+    {
+      "href": "/use-cases/ecommerce/investor-update-video",
+      "label": "Investor Update Video for E-commerce"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when monthly close completes happens.",
+      "POST structured data to /render using template expense-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via Slack, email, or internal dashboard."
+    ],
+    "title": "Automate expense summary video with an API"
+  },
+  "title": "Expense summary video for E-commerce",
+  "type": "use_case",
+  "version": 1
+}

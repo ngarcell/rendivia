@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate recurring performance digests.",
+      "Improve stakeholder clarity on KPIs.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a listing is published."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/telecom/listing-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first listing summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate listing summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Pass image URLs and the template renders them.",
+      "q": "Can I include images?"
+    },
+    {
+      "a": "Yes. Render per listing with API automation.",
+      "q": "Does it scale to many listings?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Listing summary video for Telecom",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate property listing highlight videos directly from structured listing data."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide price, location, and key features.",
+        "title": "Collect highlights"
+      },
+      {
+        "body": "POST to /render with listing-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive a webhook once rendering completes.",
+        "title": "Async output"
+      },
+      {
+        "body": "Embed on listing pages or email updates.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.telecom.listing-summary-video.7eb7fa8c01",
+  "io": {
+    "inputJsonExample": {
+      "brand": "telecom",
+      "data": {
+        "arpu": 7.4,
+        "churn": "1.9%",
+        "dataUsage": 412,
+        "highlight": "subscribers",
+        "highlights": "example-highlights",
+        "listingId": "example-listingId",
+        "outages": 2,
+        "period": "2026-01-14",
+        "subscribers": 184200
+      },
+      "template": "listing-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Key property highlights",
+      "Brand colors and logo",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Telecom using a simple API. Automate listing summary video from structured data (Subscribers, ARPU). Includes webhooks and brand profiles.",
+  "metaTitle": "Listing summary video for Telecom | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are noisy and difficult to summarize.",
+      "Stakeholders need digestible performance updates.",
+      "Manual summaries are slow and inconsistent.",
+      "Outage communication needs clarity."
+    ],
+    "title": "Why Telecom teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/telecom/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/investor-update-video",
+      "label": "Investor Update Video for Telecom"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a listing is published happens.",
+      "POST structured data to /render using template listing-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or internal dashboard."
+    ],
+    "title": "Automate listing summary video with an API"
+  },
+  "title": "Listing summary video for Telecom",
+  "type": "use_case",
+  "version": 1
+}

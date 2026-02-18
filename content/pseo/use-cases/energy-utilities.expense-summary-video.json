@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate reliability and outage updates.",
+      "Deliver clear status summaries to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by monthly close completes."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/energy-utilities/expense-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first expense summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate expense summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include department arrays in the payload.",
+      "q": "Can I include department splits?"
+    },
+    {
+      "a": "Yes. Provide currency fields for display.",
+      "q": "Does it support multiple currencies?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Expense summary video for Energy / Utilities",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Automate monthly expense summaries with budget variance callouts."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide totals by category and variance.",
+        "title": "Collect spend data"
+      },
+      {
+        "body": "POST to /render with expense-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to finance and department leads.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.energy-utilities.expense-summary-video.604251b951",
+  "io": {
+    "inputJsonExample": {
+      "brand": "energy-utilities",
+      "data": {
+        "expenses": "example-expenses",
+        "highlight": "meters",
+        "outages": 3,
+        "peakLoad": 842,
+        "period": "2026-01",
+        "renewableShare": "38%",
+        "restorationTime": "1h 20m",
+        "serviceTickets": 214,
+        "variance": "example-variance"
+      },
+      "template": "expense-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Energy / Utilities using a simple API. Automate expense summary video from structured data (Outages, Restoration time). Includes webhooks and brand profiles.",
+  "metaTitle": "Expense summary video for Energy / Utilities | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are hard to summarize quickly.",
+      "Stakeholders need clear outage communication.",
+      "Manual recaps take too long to publish.",
+      "Teams need reliable status reporting."
+    ],
+    "title": "Why Energy / Utilities teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/energy-utilities/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/investor-update-video",
+      "label": "Investor Update Video for Energy / Utilities"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when monthly close completes happens.",
+      "POST structured data to /render using template expense-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or ops dashboard."
+    ],
+    "title": "Automate expense summary video with an API"
+  },
+  "title": "Expense summary video for Energy / Utilities",
+  "type": "use_case",
+  "version": 1
+}

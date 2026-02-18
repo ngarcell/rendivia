@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate invoice and cashflow summaries.",
+      "Reduce reporting time each cycle.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a customer recap is generated."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/accounting/customer-success-recap-video",
+  "cta": {
+    "body": "Create an API key and render your first customer success recap video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate customer success recap video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Call /render per customer and process asynchronously.",
+      "q": "Can I batch render for many customers?"
+    },
+    {
+      "a": "Yes. Store webhook URLs in your database.",
+      "q": "Can I store outputs?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Customer success recap video for Accounting / Invoicing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate customer-level success recaps using usage, outcomes, and highlights."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Pull usage and outcome metrics per customer.",
+        "title": "Fetch customer KPIs"
+      },
+      {
+        "body": "POST to /render with customer-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Webhook returns the MP4 URL for the customer.",
+        "title": "Deliver"
+      },
+      {
+        "body": "Embed in your customer portal or send via email.",
+        "title": "Embed"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.accounting.customer-success-recap-video.4ac599f211",
+  "io": {
+    "inputJsonExample": {
+      "brand": "accounting-invoicing",
+      "data": {
+        "cashIn": 84200,
+        "customerId": "example-customerId",
+        "dso": "31d",
+        "highlight": "invoices",
+        "invoicesSent": 482,
+        "kpis": {
+          "cashIn": 84200,
+          "dso": "31d",
+          "invoicesSent": 482,
+          "overdue": 41,
+          "paid": 392
+        },
+        "overdue": 41,
+        "paid": 392,
+        "period": "2026-01-14"
+      },
+      "template": "customer-recap-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Accounting / Invoicing using a simple API. Automate customer success recap video from structured data (Invoices sent, Paid). Includes webhooks and brand profiles.",
+  "metaTitle": "Customer success recap video for Accounting / Invoicing | Rendivia",
+  "problem": {
+    "bullets": [
+      "Cashflow reporting is often delayed.",
+      "Stakeholders need predictable summaries.",
+      "Manual recap work repeats each period.",
+      "Invoices and payments need clearer communication."
+    ],
+    "title": "Why Accounting / Invoicing teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/accounting/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/investor-update-video",
+      "label": "Investor Update Video for Accounting / Invoicing"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a customer recap is generated happens.",
+      "POST structured data to /render using template customer-recap-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or dashboard."
+    ],
+    "title": "Automate customer success recap video with an API"
+  },
+  "title": "Customer success recap video for Accounting / Invoicing",
+  "type": "use_case",
+  "version": 1
+}

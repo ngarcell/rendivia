@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate client-ready weekly recaps.",
+      "Deliver consistent brand-aligned updates across accounts.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an incident is resolved."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/marketing-agency/security-incident-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first security incident summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate security incident summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a rootCause field in the payload.",
+      "q": "Can I include root cause?"
+    },
+    {
+      "a": "Yes. You control delivery and messaging.",
+      "q": "Is it suitable for external comms?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Security incident summary video for Marketing agencies",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Provide a concise incident summary once an incident is resolved."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide timeline events and impact metrics.",
+        "title": "Collect timeline"
+      },
+      {
+        "body": "POST to /render with incident-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We queue, render, and notify via webhook.",
+        "title": "Async processing"
+      },
+      {
+        "body": "Send to stakeholders or include in postmortems.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.marketing-agency.security-incident-summary-video.f050a95826",
+  "io": {
+    "inputJsonExample": {
+      "brand": "marketing-agencies",
+      "data": {
+        "cpl": 20.4,
+        "highlight": "clients",
+        "impact": "example-impact",
+        "impressions": 812000,
+        "incidentId": "example-incidentId",
+        "leads": 612,
+        "period": "2026-01-14",
+        "roas": 3.1,
+        "spend": 12450,
+        "timeline": "example-timeline"
+      },
+      "template": "incident-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Marketing agencies using a simple API. Automate security incident summary video from structured data (Spend, Leads). Includes webhooks and brand profiles.",
+  "metaTitle": "Security incident summary video for Marketing agencies | Rendivia",
+  "problem": {
+    "bullets": [
+      "Client reporting is repetitive and time-consuming.",
+      "Slides and PDFs get skimmed, not understood.",
+      "Teams spend too much time formatting instead of optimizing.",
+      "Clients want clearer summaries between meetings."
+    ],
+    "title": "Why Marketing agencies teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/marketing-agency/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/investor-update-video",
+      "label": "Investor Update Video for Marketing agencies"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an incident is resolved happens.",
+      "POST structured data to /render using template incident-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or Slack Connect."
+    ],
+    "title": "Automate security incident summary video with an API"
+  },
+  "title": "Security incident summary video for Marketing agencies",
+  "type": "use_case",
+  "version": 1
+}

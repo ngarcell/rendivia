@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate campaign summaries for clients and teams.",
+      "Make performance trends easy to digest.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a weekly support digest is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/adtech/support-performance-video",
+  "cta": {
+    "body": "Create an API key and render your first support performance video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate support performance video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include agent-level stats in the payload.",
+      "q": "Can I include agent metrics?"
+    },
+    {
+      "a": "Yes. Provide queue arrays in the payload.",
+      "q": "Does it handle multiple queues?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Support performance video for AdTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Ship weekly support KPIs to keep teams aligned on SLAs."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide ticket volume, response, and resolution metrics.",
+        "title": "Collect support KPIs"
+      },
+      {
+        "body": "POST to /render with support-performance-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and notify via webhook.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Send to support leadership or ops.",
+        "title": "Distribute"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.adtech.support-performance-video.7a3d46ae44",
+  "io": {
+    "inputJsonExample": {
+      "brand": "adtech",
+      "data": {
+        "clicks": 21400,
+        "cpa": 42.5,
+        "ctr": "2.6%",
+        "highlight": "campaigns",
+        "impressions": 812000,
+        "kpis": {
+          "clicks": 21400,
+          "cpa": 42.5,
+          "ctr": "2.6%",
+          "impressions": 812000,
+          "spend": 48200
+        },
+        "period": "2026-W05",
+        "sla": "example-sla",
+        "spend": 48200
+      },
+      "template": "support-performance-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "SLA compliance summary",
+      "Volume and backlog trends",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for AdTech using a simple API. Automate support performance video from structured data (Spend, Impressions). Includes webhooks and brand profiles.",
+  "metaTitle": "Support performance video for AdTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Campaign performance updates are scattered across platforms.",
+      "Client recaps take hours to assemble each week.",
+      "Stakeholders miss trends without a clear narrative.",
+      "Manual reporting slows optimization cycles."
+    ],
+    "title": "Why AdTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/adtech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for AdTech"
+    },
+    {
+      "href": "/use-cases/adtech/investor-update-video",
+      "label": "Investor Update Video for AdTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a weekly support digest is ready happens.",
+      "POST structured data to /render using template support-performance-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, client portal, or Slack."
+    ],
+    "title": "Automate support performance video with an API"
+  },
+  "title": "Support performance video for AdTech",
+  "type": "use_case",
+  "version": 1
+}

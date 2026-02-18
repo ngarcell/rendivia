@@ -1,0 +1,128 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a release ships."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/compliance-grc/product-release-summary-video",
+  "cta": {
+    "body": "Create an API key and render your first product release summary video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate product release summary video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide image URLs in the payload.",
+      "q": "Can I include screenshots?"
+    },
+    {
+      "a": "Yes. Use branding and CTA slots.",
+      "q": "Is it suitable for customer announcements?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Product release summary video for Compliance / GRC",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a concise product release recap when a new version ships."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Provide feature highlights and impact metrics.",
+        "title": "Collect release notes"
+      },
+      {
+        "body": "POST to /render with release-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render and send a webhook when ready.",
+        "title": "Async delivery"
+      },
+      {
+        "body": "Embed in-app or send to customers.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.compliance-grc.product-release-summary-video.b5acc26ec1",
+  "io": {
+    "inputJsonExample": {
+      "brand": "compliance-grc",
+      "data": {
+        "controlsComplete": 78,
+        "evidenceItems": 143,
+        "features": "example-features",
+        "highlight": "controls",
+        "impact": "example-impact",
+        "openFindings": 6,
+        "period": "2026-01-14",
+        "releaseId": "example-releaseId",
+        "riskScore": 72,
+        "vendorsAssessed": 21
+      },
+      "template": "release-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Feature highlights",
+      "Impact summary",
+      "Webhook with output URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Compliance / GRC using a simple API. Automate product release summary video from structured data (Controls complete, Open findings). Includes webhooks and brand profiles.",
+  "metaTitle": "Product release summary video for Compliance / GRC | Rendivia",
+  "problem": {
+    "bullets": [
+      "Stakeholders struggle to track progress across audits.",
+      "Updates are manual and often delayed.",
+      "Status reports lack clarity and narrative.",
+      "Teams need consistent reporting for leadership."
+    ],
+    "title": "Why Compliance / GRC teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/compliance-grc/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/investor-update-video",
+      "label": "Investor Update Video for Compliance / GRC"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a release ships happens.",
+      "POST structured data to /render using template release-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or leadership portal."
+    ],
+    "title": "Automate product release summary video with an API"
+  },
+  "title": "Product release summary video for Compliance / GRC",
+  "type": "use_case",
+  "version": 1
+}

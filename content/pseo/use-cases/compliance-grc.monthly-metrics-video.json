@@ -1,0 +1,132 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a monthly report is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/compliance-grc/monthly-metrics-video",
+  "cta": {
+    "body": "Create an API key and render your first monthly metrics video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate monthly metrics video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous-period fields; the template renders comparisons.",
+      "q": "Can I compare vs last month?"
+    },
+    {
+      "a": "Templates are versioned; your chosen version stays stable.",
+      "q": "Do templates change?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Monthly metrics video for Compliance / GRC",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a monthly KPI recap video from structured data using a simple API."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Use monthly-summary-v1 for consistent output.",
+        "title": "Choose template"
+      },
+      {
+        "body": "POST JSON to /render with monthly KPIs and highlights.",
+        "title": "Send KPIs"
+      },
+      {
+        "body": "We render asynchronously and retry safely.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive webhook with MP4 and store/deliver it.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.compliance-grc.monthly-metrics-video.62f9468500",
+  "io": {
+    "inputJsonExample": {
+      "brand": "compliance-grc",
+      "data": {
+        "controlsComplete": 78,
+        "evidenceItems": 143,
+        "highlight": "controls",
+        "kpis": {
+          "controlsComplete": 78,
+          "evidenceItems": 143,
+          "openFindings": 6,
+          "riskScore": 72,
+          "vendorsAssessed": 21
+        },
+        "openFindings": 6,
+        "period": "2026-01",
+        "riskScore": 72,
+        "vendorsAssessed": 21
+      },
+      "template": "monthly-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Webhook includes MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Compliance / GRC using a simple API. Automate monthly metrics video from structured data (Controls complete, Open findings). Includes webhooks and brand profiles.",
+  "metaTitle": "Monthly metrics video for Compliance / GRC | Rendivia",
+  "problem": {
+    "bullets": [
+      "Stakeholders struggle to track progress across audits.",
+      "Updates are manual and often delayed.",
+      "Status reports lack clarity and narrative.",
+      "Teams need consistent reporting for leadership."
+    ],
+    "title": "Why Compliance / GRC teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/compliance-grc/investor-update-video",
+      "label": "Investor Update Video for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/customer-success-recap-video",
+      "label": "Customer Success Recap Video for Compliance / GRC"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a monthly report is ready happens.",
+      "POST structured data to /render using template monthly-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or leadership portal."
+    ],
+    "title": "Automate monthly metrics video with an API"
+  },
+  "title": "Monthly metrics video for Compliance / GRC",
+  "type": "use_case",
+  "version": 1
+}

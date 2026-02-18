@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate fleet performance summaries.",
+      "Make route and delivery KPIs easy to understand.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an audit is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/mobility-fleet/audit-report-video",
+  "cta": {
+    "body": "Create an API key and render your first audit report video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate audit report video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links?"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Audit report video for Mobility / Fleet",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Produce a concise audit report video the moment an audit is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render at scale and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or compliance stakeholders.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.mobility-fleet.audit-report-video.9bc5de8c95",
+  "io": {
+    "inputJsonExample": {
+      "brand": "mobility-fleet",
+      "data": {
+        "auditId": "example-auditId",
+        "findings": "example-findings",
+        "fuelCost": 12450,
+        "highlight": "vehicles",
+        "maintenanceIssues": 6,
+        "milesDriven": 84210,
+        "onTimeRate": "96%",
+        "period": "2026-01-14",
+        "utilization": "78%"
+      },
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Mobility / Fleet using a simple API. Automate audit report video from structured data (On-time rate, Miles driven). Includes webhooks and brand profiles.",
+  "metaTitle": "Audit report video for Mobility / Fleet | Rendivia",
+  "problem": {
+    "bullets": [
+      "Fleet performance updates are manual and delayed.",
+      "Operations teams need a clear weekly digest.",
+      "Data lives in multiple systems.",
+      "Manual recaps slow operational decisions."
+    ],
+    "title": "Why Mobility / Fleet teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/mobility-fleet/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/investor-update-video",
+      "label": "Investor Update Video for Mobility / Fleet"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an audit is complete happens.",
+      "POST structured data to /render using template audit-report-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via ops dashboard, email, or Slack."
+    ],
+    "title": "Automate audit report video with an API"
+  },
+  "title": "Audit report video for Mobility / Fleet",
+  "type": "use_case",
+  "version": 1
+}

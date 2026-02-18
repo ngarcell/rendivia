@@ -1,0 +1,132 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by a monthly report is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/insurance/monthly-metrics-video",
+  "cta": {
+    "body": "Create an API key and render your first monthly metrics video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate monthly metrics video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous-period fields; the template renders comparisons.",
+      "q": "Can I compare vs last month?"
+    },
+    {
+      "a": "Templates are versioned; your chosen version stays stable.",
+      "q": "Do templates change?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Monthly metrics video for Insurance",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate a monthly KPI recap video from structured data using a simple API."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Use monthly-summary-v1 for consistent output.",
+        "title": "Choose template"
+      },
+      {
+        "body": "POST JSON to /render with monthly KPIs and highlights.",
+        "title": "Send KPIs"
+      },
+      {
+        "body": "We render asynchronously and retry safely.",
+        "title": "Render"
+      },
+      {
+        "body": "Receive webhook with MP4 and store/deliver it.",
+        "title": "Deliver"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.insurance.monthly-metrics-video.f11551df53",
+  "io": {
+    "inputJsonExample": {
+      "brand": "insurance",
+      "data": {
+        "claims": 214,
+        "fraudFlags": 7,
+        "highlight": "policies",
+        "kpis": {
+          "claims": 214,
+          "fraudFlags": 7,
+          "lossRatio": "62%",
+          "premium": 184200,
+          "renewals": 842
+        },
+        "lossRatio": "62%",
+        "period": "2026-01",
+        "premium": 184200,
+        "renewals": 842
+      },
+      "template": "monthly-summary-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Webhook includes MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Insurance using a simple API. Automate monthly metrics video from structured data (Claims, Loss ratio). Includes webhooks and brand profiles.",
+  "metaTitle": "Monthly metrics video for Insurance | Rendivia",
+  "problem": {
+    "bullets": [
+      "Performance reporting is complex and time-consuming.",
+      "Stakeholders need clear summaries.",
+      "Manual updates are inconsistent.",
+      "Ops teams need recurring digests."
+    ],
+    "title": "Why Insurance teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/insurance/investor-update-video",
+      "label": "Investor Update Video for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/customer-success-recap-video",
+      "label": "Customer Success Recap Video for Insurance"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when a monthly report is ready happens.",
+      "POST structured data to /render using template monthly-summary-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via email, internal portal, or dashboard."
+    ],
+    "title": "Automate monthly metrics video with an API"
+  },
+  "title": "Monthly metrics video for Insurance",
+  "type": "use_case",
+  "version": 1
+}

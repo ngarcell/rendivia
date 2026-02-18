@@ -1,0 +1,133 @@
+{
+  "benefits": {
+    "bullets": [
+      "Automate reliability and outage updates.",
+      "Deliver clear status summaries to stakeholders.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an investor update is ready."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/energy-utilities/investor-update-video",
+  "cta": {
+    "body": "Create an API key and render your first investor update video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate investor update video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Same input produces the same output with a fixed template version.",
+      "q": "Is it deterministic?"
+    },
+    {
+      "a": "Yes. Use a Brand Profile to apply logo/colors/fonts.",
+      "q": "Can we customize branding?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Investor update video for Energy / Utilities",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Generate an investor-style update video from KPIs, milestones, and narrative points."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Gather growth, revenue, and retention metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "Provide 3-5 milestones for the period.",
+        "title": "Add milestones"
+      },
+      {
+        "body": "POST to /render with investor-update-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Share the MP4 via investor portal or email.",
+        "title": "Send"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.energy-utilities.investor-update-video.1b8239ef84",
+  "io": {
+    "inputJsonExample": {
+      "brand": "energy-utilities",
+      "data": {
+        "highlight": "meters",
+        "kpis": {
+          "outages": 3,
+          "peakLoad": 842,
+          "renewableShare": "38%",
+          "restorationTime": "1h 20m",
+          "serviceTickets": 214
+        },
+        "milestones": "example-milestones",
+        "outages": 3,
+        "peakLoad": 842,
+        "period": "2026-01-14",
+        "renewableShare": "38%",
+        "restorationTime": "1h 20m",
+        "serviceTickets": 214
+      },
+      "template": "investor-update-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "60-120s MP4 video",
+      "KPI tiles + growth deltas",
+      "Milestones section",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for Energy / Utilities using a simple API. Automate investor update video from structured data (Outages, Restoration time). Includes webhooks and brand profiles.",
+  "metaTitle": "Investor update video for Energy / Utilities | Rendivia",
+  "problem": {
+    "bullets": [
+      "Operational updates are hard to summarize quickly.",
+      "Stakeholders need clear outage communication.",
+      "Manual recaps take too long to publish.",
+      "Teams need reliable status reporting."
+    ],
+    "title": "Why Energy / Utilities teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/energy-utilities/monthly-metrics-video",
+      "label": "Monthly Metrics Video for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/customer-success-recap-video",
+      "label": "Customer Success Recap Video for Energy / Utilities"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an investor update is ready happens.",
+      "POST structured data to /render using template investor-update-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via status page, email, or ops dashboard."
+    ],
+    "title": "Automate investor update video with an API"
+  },
+  "title": "Investor update video for Energy / Utilities",
+  "type": "use_case",
+  "version": 1
+}

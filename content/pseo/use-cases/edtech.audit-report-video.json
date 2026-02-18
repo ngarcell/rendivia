@@ -1,0 +1,127 @@
+{
+  "benefits": {
+    "bullets": [
+      "Make progress and outcomes easier to understand.",
+      "Automate recurring cohort updates.",
+      "Deterministic output you can trust in production.",
+      "A repeatable workflow triggered by an audit is complete."
+    ],
+    "title": "Benefits"
+  },
+  "canonicalUrl": "/use-cases/edtech/audit-report-video",
+  "cta": {
+    "body": "Create an API key and render your first audit report video in minutes.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "title": "Generate audit report video via API"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links?"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Use case",
+    "headline": "Audit report video for EdTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Get API key"
+    },
+    "secondaryCta": {
+      "href": "/docs",
+      "label": "View docs"
+    },
+    "subheadline": "Produce a concise audit report video the moment an audit is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "We render at scale and notify via webhook.",
+        "title": "Async output"
+      },
+      {
+        "body": "Deliver to leadership or compliance stakeholders.",
+        "title": "Share"
+      }
+    ],
+    "title": "How it works"
+  },
+  "id": "use_case.edtech.audit-report-video.a5a98b98ec",
+  "io": {
+    "inputJsonExample": {
+      "brand": "edtech",
+      "data": {
+        "activeLearners": 9342,
+        "auditId": "example-auditId",
+        "avgScore": 82,
+        "completionRate": "58%",
+        "dropOffWeek": 3,
+        "findings": "example-findings",
+        "highlight": "students",
+        "period": "2026-01-14",
+        "sessions": 41210
+      },
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (structured data)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Webhook with MP4 URL"
+    ],
+    "outputTitle": "Output (deterministic MP4)"
+  },
+  "metaDescription": "Generate deterministic, branded videos for EdTech using a simple API. Automate audit report video from structured data (Active learners, Completion rate). Includes webhooks and brand profiles.",
+  "metaTitle": "Audit report video for EdTech | Rendivia",
+  "problem": {
+    "bullets": [
+      "Progress reports are hard to communicate clearly.",
+      "Learners and admins need simple summaries.",
+      "Manual reporting wastes instructor/admin time.",
+      "Insights aren't delivered proactively."
+    ],
+    "title": "Why EdTech teams still ship reports manually"
+  },
+  "related": [
+    {
+      "href": "/use-cases/edtech/monthly-metrics-video",
+      "label": "Monthly Metrics Video for EdTech"
+    },
+    {
+      "href": "/use-cases/edtech/investor-update-video",
+      "label": "Investor Update Video for EdTech"
+    },
+    {
+      "href": "/from/postgres/to/video",
+      "label": "From Postgres to video"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger the workflow when an audit is complete happens.",
+      "POST structured data to /render using template audit-report-v1.",
+      "Render asynchronously at scale and receive a webhook when the MP4 is ready.",
+      "Deliver the video via in-app, email, or admin dashboard."
+    ],
+    "title": "Automate audit report video with an API"
+  },
+  "title": "Audit report video for EdTech",
+  "type": "use_case",
+  "version": 1
+}
