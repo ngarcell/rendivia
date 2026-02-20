@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate weekly support performance digests.",
+      "Make trends visible and easy to share."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/support-tools/investor-update-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic investor update video workflow for Customer support tools.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch investor update video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Same input produces the same output with a fixed template version.",
+      "q": "Is it deterministic? (video api pricing)"
+    },
+    {
+      "a": "Yes. Use a Brand Profile to apply logo/colors/fonts.",
+      "q": "Can we customize branding? (video api pricing)"
+    },
+    {
+      "a": "Customer support tools teams use video api pricing to automate investor update video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Customer support tools teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Investor update video video api pricing for Customer support tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Customer support tools teams running investor update video.",
+    "supportLine": "Operational fit: Tickets and First response time with an investor update is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map investor update video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Gather growth, revenue, and retention metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "Provide 3-5 milestones for the period.",
+        "title": "Add milestones"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.support-tools.investor-update-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "support-tools",
+      "data": {
+        "highlight": "tickets",
+        "industry": "support-tools",
+        "kpis": {
+          "csat": "92%",
+          "firstResponse": "18m",
+          "resolution": "6h",
+          "tickets": 1842
+        },
+        "narrative": "Customer support tools investor update video execution update",
+        "trigger": "investor-update",
+        "workflow": "investor-update-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "investor-update-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "60-120s MP4 video",
+      "KPI tiles + growth deltas",
+      "Milestones section",
+      "Delivery targets: Slack, email, internal dashboard for customer support tools stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Customer support tools. Run investor update video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Customer support tools Investor update video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Support performance reporting is repetitive."
+    ],
+    "title": "Why Customer support tools buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/support-tools/investor-update-video/video-api-software",
+      "label": "Investor update video video api software for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/investor-update-video/video-automation-service",
+      "label": "Investor update video video automation service for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Customer support tools"
+    },
+    {
+      "href": "/use-cases/support-tools/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Customer support tools"
+    },
+    {
+      "href": "/use-cases/saas/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use investor-update-v1 to keep output deterministic across Customer support tools workflows."
+    ],
+    "title": "Execution plan for investor update video (video api pricing)"
+  },
+  "title": "Investor update video video api pricing for Customer support tools",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/compliance-grc/security-incident-summary-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic security incident summary video workflow for Compliance / GRC.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch security incident summary video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a rootCause field in the payload.",
+      "q": "Can I include root cause? (video api pricing)"
+    },
+    {
+      "a": "Yes. You control delivery and messaging.",
+      "q": "Is it suitable for external comms? (video api pricing)"
+    },
+    {
+      "a": "Compliance / GRC teams use video api pricing to automate security incident summary video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Compliance / GRC teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Security incident summary video video api pricing for Compliance / GRC",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Compliance / GRC teams running security incident summary video.",
+    "supportLine": "Operational fit: Controls complete and Open findings with an incident is resolved."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map security incident summary video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide timeline events and impact metrics.",
+        "title": "Collect timeline"
+      },
+      {
+        "body": "POST to /render with incident-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.compliance-grc.security-incident-summary-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "compliance-grc",
+      "data": {
+        "highlight": "controls",
+        "industry": "compliance-grc",
+        "kpis": {
+          "controlsComplete": 78,
+          "openFindings": 6,
+          "riskScore": 72,
+          "vendorsAssessed": 21
+        },
+        "narrative": "Compliance / GRC security incident summary video execution update",
+        "trigger": "incident-resolved",
+        "workflow": "security-incident-summary-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "incident-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Delivery targets: in-app, email, leadership portal for compliance / grc stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Compliance / GRC. Run security incident summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Compliance / GRC Security incident summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Stakeholders struggle to track progress across audits."
+    ],
+    "title": "Why Compliance / GRC buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/compliance-grc/security-incident-summary-video/video-api-software",
+      "label": "Security incident summary video video api software for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/security-incident-summary-video/video-automation-service",
+      "label": "Security incident summary video video automation service for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/saas/security-incident-summary-video/video-api-pricing",
+      "label": "Security incident summary video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/security-incident-summary-video/video-api-pricing",
+      "label": "Security incident summary video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/security-incident-summary-video/video-api-pricing",
+      "label": "Security incident summary video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use incident-summary-v1 to keep output deterministic across Compliance / GRC workflows."
+    ],
+    "title": "Execution plan for security incident summary video (video api pricing)"
+  },
+  "title": "Security incident summary video video api pricing for Compliance / GRC",
+  "type": "buyer_intent",
+  "version": 1
+}

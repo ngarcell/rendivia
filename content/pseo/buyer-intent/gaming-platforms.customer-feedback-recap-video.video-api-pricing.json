@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate weekly engagement recaps.",
+      "Make trends easy to communicate."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/gaming-platforms/customer-feedback-recap-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic customer feedback recap video workflow for Gaming platforms.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch customer feedback recap video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a quotes array for display.",
+      "q": "Can I include verbatim quotes? (video api pricing)"
+    },
+    {
+      "a": "Yes. Summaries are designed for leadership review.",
+      "q": "Is it suitable for board updates? (video api pricing)"
+    },
+    {
+      "a": "Gaming platforms teams use video api pricing to automate customer feedback recap video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Gaming platforms teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Customer feedback recap video video api pricing for Gaming platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Gaming platforms teams running customer feedback recap video.",
+    "supportLine": "Operational fit: DAU and Sessions with a feedback cycle completes."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map customer feedback recap video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide NPS score and top themes.",
+        "title": "Aggregate feedback"
+      },
+      {
+        "body": "POST to /render with feedback-recap-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.gaming-platforms.customer-feedback-recap-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "gaming-platforms",
+      "data": {
+        "highlight": "players",
+        "industry": "gaming-platforms",
+        "kpis": {
+          "arppu": 3.2,
+          "dau": 284210,
+          "retention": "36%",
+          "sessions": 1240000
+        },
+        "narrative": "Gaming platforms customer feedback recap video execution update",
+        "trigger": "feedback-cycle",
+        "workflow": "customer-feedback-recap-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "feedback-recap-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "NPS trend + benchmarks",
+      "Theme highlights",
+      "Delivery targets: Slack, email, internal dashboard for gaming platforms stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Gaming platforms. Run customer feedback recap video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Gaming platforms Customer feedback recap video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Performance insights aren't shared consistently."
+    ],
+    "title": "Why Gaming platforms buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/gaming-platforms/customer-feedback-recap-video/video-api-software",
+      "label": "Customer feedback recap video video api software for Gaming platforms"
+    },
+    {
+      "href": "/use-cases/gaming-platforms/customer-feedback-recap-video/video-automation-service",
+      "label": "Customer feedback recap video video automation service for Gaming platforms"
+    },
+    {
+      "href": "/use-cases/gaming-platforms/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Gaming platforms"
+    },
+    {
+      "href": "/use-cases/gaming-platforms/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Gaming platforms"
+    },
+    {
+      "href": "/use-cases/gaming-platforms/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Gaming platforms"
+    },
+    {
+      "href": "/use-cases/saas/customer-feedback-recap-video/video-api-pricing",
+      "label": "Customer feedback recap video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/customer-feedback-recap-video/video-api-pricing",
+      "label": "Customer feedback recap video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/customer-feedback-recap-video/video-api-pricing",
+      "label": "Customer feedback recap video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use feedback-recap-v1 to keep output deterministic across Gaming platforms workflows."
+    ],
+    "title": "Execution plan for customer feedback recap video (video api pricing)"
+  },
+  "title": "Customer feedback recap video video api pricing for Gaming platforms",
+  "type": "buyer_intent",
+  "version": 1
+}

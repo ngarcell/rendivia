@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate study progress recaps.",
+      "Deliver consistent updates across sites."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/biotech-pharma/portfolio-summary-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic portfolio summary video workflow for Biotech / Pharma.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch portfolio summary video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide asset class labels and weights.",
+      "q": "Can I include asset classes? (video api pricing)"
+    },
+    {
+      "a": "Yes. Use brand profiles per client.",
+      "q": "Does it support per-client branding? (video api pricing)"
+    },
+    {
+      "a": "Biotech / Pharma teams use video api pricing to automate portfolio summary video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Biotech / Pharma teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Portfolio summary video video api pricing for Biotech / Pharma",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Biotech / Pharma teams running portfolio summary video.",
+    "supportLine": "Operational fit: Active sites and Patients enrolled with a portfolio is rebalanced."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map portfolio summary video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide allocation and return data per holding.",
+        "title": "Collect holdings"
+      },
+      {
+        "body": "POST to /render with portfolio-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.biotech-pharma.portfolio-summary-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "biotech-pharma",
+      "data": {
+        "highlight": "trials",
+        "industry": "biotech-pharma",
+        "kpis": {
+          "adverseEvents": 6,
+          "cycleTime": "12d",
+          "patientsEnrolled": 412,
+          "sitesActive": 24
+        },
+        "narrative": "Biotech / Pharma portfolio summary video execution update",
+        "trigger": "portfolio-rebalanced",
+        "workflow": "portfolio-summary-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "portfolio-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Allocation changes visualized",
+      "Performance vs benchmark",
+      "Delivery targets: secure portal, email, internal dashboard for biotech / pharma stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Biotech / Pharma. Run portfolio summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Biotech / Pharma Portfolio summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Trial updates are slow to compile and distribute."
+    ],
+    "title": "Why Biotech / Pharma buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/biotech-pharma/portfolio-summary-video/video-api-software",
+      "label": "Portfolio summary video video api software for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/portfolio-summary-video/video-automation-service",
+      "label": "Portfolio summary video video automation service for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/saas/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use portfolio-summary-v1 to keep output deterministic across Biotech / Pharma workflows."
+    ],
+    "title": "Execution plan for portfolio summary video (video api pricing)"
+  },
+  "title": "Portfolio summary video video api pricing for Biotech / Pharma",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate invoice and cashflow summaries.",
+      "Reduce reporting time each cycle."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/accounting/investor-update-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic investor update video workflow for Accounting / Invoicing.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch investor update video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Same input produces the same output with a fixed template version.",
+      "q": "Is it deterministic? (video api pricing)"
+    },
+    {
+      "a": "Yes. Use a Brand Profile to apply logo/colors/fonts.",
+      "q": "Can we customize branding? (video api pricing)"
+    },
+    {
+      "a": "Accounting / Invoicing teams use video api pricing to automate investor update video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Accounting / Invoicing teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Investor update video video api pricing for Accounting / Invoicing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Accounting / Invoicing teams running investor update video.",
+    "supportLine": "Operational fit: Invoices sent and Paid with an investor update is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map investor update video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Gather growth, revenue, and retention metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "Provide 3-5 milestones for the period.",
+        "title": "Add milestones"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.accounting.investor-update-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "accounting",
+      "data": {
+        "highlight": "invoices",
+        "industry": "accounting",
+        "kpis": {
+          "cashIn": 84200,
+          "invoicesSent": 482,
+          "overdue": 41,
+          "paid": 392
+        },
+        "narrative": "Accounting / Invoicing investor update video execution update",
+        "trigger": "investor-update",
+        "workflow": "investor-update-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "investor-update-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "60-120s MP4 video",
+      "KPI tiles + growth deltas",
+      "Milestones section",
+      "Delivery targets: email, client portal, dashboard for accounting / invoicing stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Accounting / Invoicing. Run investor update video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Accounting / Invoicing Investor update video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Cashflow reporting is often delayed."
+    ],
+    "title": "Why Accounting / Invoicing buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/accounting/investor-update-video/video-api-software",
+      "label": "Investor update video video api software for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/investor-update-video/video-automation-service",
+      "label": "Investor update video video automation service for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/saas/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use investor-update-v1 to keep output deterministic across Accounting / Invoicing workflows."
+    ],
+    "title": "Execution plan for investor update video (video api pricing)"
+  },
+  "title": "Investor update video video api pricing for Accounting / Invoicing",
+  "type": "buyer_intent",
+  "version": 1
+}

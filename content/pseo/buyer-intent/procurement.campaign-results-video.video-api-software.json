@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deterministic render pipeline built for repeatable output",
+      "Template versioning for controlled production changes",
+      "API and webhook primitives designed for SaaS integration",
+      "Automate supplier and spend summaries.",
+      "Make savings and risk visibility clear."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/procurement/campaign-results-video/video-api-software",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic campaign results video workflow for Procurement.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "title": "Launch campaign results video with video api software"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include target values and we render comparisons.",
+      "q": "Can I include benchmarks? (video api software)"
+    },
+    {
+      "a": "Call /render per campaign for deterministic outputs.",
+      "q": "Is it multi-campaign? (video api software)"
+    },
+    {
+      "a": "Procurement teams use video api software to automate campaign results video without manual editing bottlenecks.",
+      "q": "Why is video api software relevant for Procurement teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Campaign results video video api software for Procurement",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Evaluate software that product and engineering teams can own directly. Built for Procurement teams running campaign results video.",
+    "supportLine": "Operational fit: Spend and Savings with a campaign ends."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map campaign results video requirements to video api software buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Aggregate reach, conversion, and spend metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "POST to /render with campaign-results-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.procurement.campaign-results-video.video-api-software",
+  "intentSlug": "video-api-software",
+  "io": {
+    "inputJsonExample": {
+      "brand": "procurement",
+      "data": {
+        "highlight": "suppliers",
+        "industry": "procurement",
+        "kpis": {
+          "onTimeDelivery": "91%",
+          "savings": 18200,
+          "spend": 214000,
+          "supplierRisk": "Low"
+        },
+        "narrative": "Procurement campaign results video execution update",
+        "trigger": "campaign-ends",
+        "workflow": "campaign-results-video"
+      },
+      "intent": "video-api-software",
+      "template": "campaign-results-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Delivery targets: email, procurement portal, leadership dashboard for procurement stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api software options for Procurement. Run campaign results video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Software for Procurement Campaign results video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Generic editors break when teams need deterministic output.",
+      "Manual clip production cannot keep up with recurring workflows.",
+      "Without API-native rendering, handoffs between teams become bottlenecks.",
+      "Spend reporting is manual and time-consuming."
+    ],
+    "title": "Why Procurement buyers look for video api software"
+  },
+  "related": [
+    {
+      "href": "/use-cases/procurement/campaign-results-video/video-api-pricing",
+      "label": "Campaign results video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/campaign-results-video/video-automation-service",
+      "label": "Campaign results video video automation service for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/weekly-metrics-video/video-api-software",
+      "label": "Weekly metrics video video api software for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for Procurement"
+    },
+    {
+      "href": "/use-cases/saas/campaign-results-video/video-api-software",
+      "label": "Campaign results video video api software for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/campaign-results-video/video-api-software",
+      "label": "Campaign results video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/campaign-results-video/video-api-software",
+      "label": "Campaign results video video api software for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Use a versioned template to lock output behavior.",
+      "Send structured data to a single render endpoint.",
+      "Automate delivery with webhooks and system events.",
+      "Use campaign-results-v1 to keep output deterministic across Procurement workflows."
+    ],
+    "title": "Execution plan for campaign results video (video api software)"
+  },
+  "title": "Campaign results video video api software for Procurement",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate fleet performance summaries.",
+      "Make route and delivery KPIs easy to understand."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/mobility-fleet/monthly-metrics-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic monthly metrics video workflow for Mobility / Fleet.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch monthly metrics video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous-period fields; the template renders comparisons.",
+      "q": "Can I compare vs last month? (video automation service)"
+    },
+    {
+      "a": "Templates are versioned; your chosen version stays stable.",
+      "q": "Do templates change? (video automation service)"
+    },
+    {
+      "a": "Mobility / Fleet teams use video automation service to automate monthly metrics video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Mobility / Fleet teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Monthly metrics video video automation service for Mobility / Fleet",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Mobility / Fleet teams running monthly metrics video.",
+    "supportLine": "Operational fit: On-time rate and Miles driven with a monthly report is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map monthly metrics video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Use monthly-summary-v1 for consistent output.",
+        "title": "Choose template"
+      },
+      {
+        "body": "POST JSON to /render with monthly KPIs and highlights.",
+        "title": "Send KPIs"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.mobility-fleet.monthly-metrics-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "mobility-fleet",
+      "data": {
+        "highlight": "vehicles",
+        "industry": "mobility-fleet",
+        "kpis": {
+          "fuelCost": 12450,
+          "milesDriven": 84210,
+          "onTimeRate": "96%",
+          "utilization": "78%"
+        },
+        "narrative": "Mobility / Fleet monthly metrics video execution update",
+        "trigger": "monthly-report",
+        "workflow": "monthly-metrics-video"
+      },
+      "intent": "video-automation-service",
+      "template": "monthly-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Delivery targets: ops dashboard, email, Slack for mobility / fleet stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Mobility / Fleet. Run monthly metrics video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Mobility / Fleet Monthly metrics video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Fleet performance updates are manual and delayed."
+    ],
+    "title": "Why Mobility / Fleet buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/mobility-fleet/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/investor-update-video/video-automation-service",
+      "label": "Investor update video video automation service for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/saas/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use monthly-summary-v1 to keep output deterministic across Mobility / Fleet workflows."
+    ],
+    "title": "Execution plan for monthly metrics video (video automation service)"
+  },
+  "title": "Monthly metrics video video automation service for Mobility / Fleet",
+  "type": "buyer_intent",
+  "version": 1
+}

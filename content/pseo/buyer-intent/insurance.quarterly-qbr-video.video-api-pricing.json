@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/insurance/quarterly-qbr-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic quarterly business review (qbr) video workflow for Insurance.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch quarterly business review (qbr) video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. It's designed for leadership-friendly quarterly summaries.",
+      "q": "Can this be used for exec updates? (video api pricing)"
+    },
+    {
+      "a": "Yes. Provide numeric series; the template renders charts.",
+      "q": "Can I include charts? (video api pricing)"
+    },
+    {
+      "a": "Insurance teams use video api pricing to automate quarterly business review (qbr) video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Insurance teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Quarterly business review (QBR) video video api pricing for Insurance",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Insurance teams running quarterly business review (qbr) video.",
+    "supportLine": "Operational fit: Claims and Loss ratio with a quarterly review is prepared."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map quarterly business review (qbr) video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide quarterly KPIs and a short set of highlights.",
+        "title": "Prepare inputs"
+      },
+      {
+        "body": "POST to /render with qbr-summary-v1.",
+        "title": "Render via API"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.insurance.quarterly-qbr-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "insurance",
+      "data": {
+        "highlight": "policies",
+        "industry": "insurance",
+        "kpis": {
+          "claims": 214,
+          "lossRatio": "62%",
+          "premium": 184200,
+          "renewals": 842
+        },
+        "narrative": "Insurance quarterly business review (qbr) video execution update",
+        "trigger": "quarterly-review",
+        "workflow": "quarterly-qbr-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "qbr-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "90-120s MP4 video",
+      "Quarter-over-quarter comparisons",
+      "Highlights section rendered as cards",
+      "Delivery targets: email, internal portal, dashboard for insurance stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Insurance. Run quarterly business review (qbr) video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Insurance Quarterly business review (QBR) video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Performance reporting is complex and time-consuming."
+    ],
+    "title": "Why Insurance buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/insurance/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/saas/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use qbr-summary-v1 to keep output deterministic across Insurance workflows."
+    ],
+    "title": "Execution plan for quarterly business review (qbr) video (video api pricing)"
+  },
+  "title": "Quarterly business review (QBR) video video api pricing for Insurance",
+  "type": "buyer_intent",
+  "version": 1
+}

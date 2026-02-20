@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/travel-hospitality/compliance-review-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic compliance review video workflow for Travel / Hospitality.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch compliance review video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are deterministic and versioned.",
+      "q": "Is it audit-ready? (video api pricing)"
+    },
+    {
+      "a": "Yes. Include remediation text in the payload.",
+      "q": "Can I add remediation notes? (video api pricing)"
+    },
+    {
+      "a": "Travel / Hospitality teams use video api pricing to automate compliance review video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Travel / Hospitality teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Compliance review video video api pricing for Travel / Hospitality",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Travel / Hospitality teams running compliance review video.",
+    "supportLine": "Operational fit: Bookings and Occupancy with a compliance review is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map compliance review video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide control statuses and open findings.",
+        "title": "Collect status"
+      },
+      {
+        "body": "POST to /render with compliance-review-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.travel-hospitality.compliance-review-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "travel-hospitality",
+      "data": {
+        "highlight": "bookings",
+        "industry": "travel-hospitality",
+        "kpis": {
+          "adr": 124.5,
+          "bookings": 2140,
+          "occupancy": "81%",
+          "revpar": 101
+        },
+        "narrative": "Travel / Hospitality compliance review video execution update",
+        "trigger": "compliance-review",
+        "workflow": "compliance-review-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "compliance-review-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Control status breakdown",
+      "Open findings summary",
+      "Delivery targets: email, ops dashboard, Slack for travel / hospitality stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Travel / Hospitality. Run compliance review video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Travel / Hospitality Compliance review video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Performance updates are scattered across systems."
+    ],
+    "title": "Why Travel / Hospitality buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/travel-hospitality/compliance-review-video/video-api-software",
+      "label": "Compliance review video video api software for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/compliance-review-video/video-automation-service",
+      "label": "Compliance review video video automation service for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/saas/compliance-review-video/video-api-pricing",
+      "label": "Compliance review video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/compliance-review-video/video-api-pricing",
+      "label": "Compliance review video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/compliance-review-video/video-api-pricing",
+      "label": "Compliance review video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use compliance-review-v1 to keep output deterministic across Travel / Hospitality workflows."
+    ],
+    "title": "Execution plan for compliance review video (video api pricing)"
+  },
+  "title": "Compliance review video video api pricing for Travel / Hospitality",
+  "type": "buyer_intent",
+  "version": 1
+}

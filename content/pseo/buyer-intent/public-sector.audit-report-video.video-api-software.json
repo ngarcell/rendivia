@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deterministic render pipeline built for repeatable output",
+      "Template versioning for controlled production changes",
+      "API and webhook primitives designed for SaaS integration",
+      "Automate program and service updates.",
+      "Deliver consistent reporting to leadership."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/public-sector/audit-report-video/video-api-software",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic audit report video workflow for Public sector / GovTech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "title": "Launch audit report video with video api software"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links? (video api software)"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant? (video api software)"
+    },
+    {
+      "a": "Public sector / GovTech teams use video api software to automate audit report video without manual editing bottlenecks.",
+      "q": "Why is video api software relevant for Public sector / GovTech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Audit report video video api software for Public sector / GovTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Evaluate software that product and engineering teams can own directly. Built for Public sector / GovTech teams running audit report video.",
+    "supportLine": "Operational fit: Cases resolved and Backlog with an audit is complete."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map audit report video requirements to video api software buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.public-sector.audit-report-video.video-api-software",
+  "intentSlug": "video-api-software",
+  "io": {
+    "inputJsonExample": {
+      "brand": "public-sector",
+      "data": {
+        "highlight": "programs",
+        "industry": "public-sector",
+        "kpis": {
+          "backlog": 214,
+          "budgetUsed": "62%",
+          "casesResolved": 1842,
+          "slaCompliance": "93%"
+        },
+        "narrative": "Public sector / GovTech audit report video execution update",
+        "trigger": "audit-complete",
+        "workflow": "audit-report-video"
+      },
+      "intent": "video-api-software",
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Delivery targets: public portal, email, leadership dashboard for public sector / govtech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api software options for Public sector / GovTech. Run audit report video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Software for Public sector / GovTech Audit report video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Generic editors break when teams need deterministic output.",
+      "Manual clip production cannot keep up with recurring workflows.",
+      "Without API-native rendering, handoffs between teams become bottlenecks.",
+      "Program reporting is slow and manual."
+    ],
+    "title": "Why Public sector / GovTech buyers look for video api software"
+  },
+  "related": [
+    {
+      "href": "/use-cases/public-sector/audit-report-video/video-api-pricing",
+      "label": "Audit report video video api pricing for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/audit-report-video/video-automation-service",
+      "label": "Audit report video video automation service for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/weekly-metrics-video/video-api-software",
+      "label": "Weekly metrics video video api software for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/saas/audit-report-video/video-api-software",
+      "label": "Audit report video video api software for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/audit-report-video/video-api-software",
+      "label": "Audit report video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/audit-report-video/video-api-software",
+      "label": "Audit report video video api software for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Use a versioned template to lock output behavior.",
+      "Send structured data to a single render endpoint.",
+      "Automate delivery with webhooks and system events.",
+      "Use audit-report-v1 to keep output deterministic across Public sector / GovTech workflows."
+    ],
+    "title": "Execution plan for audit report video (video api software)"
+  },
+  "title": "Audit report video video api software for Public sector / GovTech",
+  "type": "buyer_intent",
+  "version": 1
+}

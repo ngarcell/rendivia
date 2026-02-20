@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate supplier and spend summaries.",
+      "Make savings and risk visibility clear."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/procurement/audit-report-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic audit report video workflow for Procurement.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch audit report video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links? (video api pricing)"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant? (video api pricing)"
+    },
+    {
+      "a": "Procurement teams use video api pricing to automate audit report video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Procurement teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Audit report video video api pricing for Procurement",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Procurement teams running audit report video.",
+    "supportLine": "Operational fit: Spend and Savings with an audit is complete."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map audit report video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.procurement.audit-report-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "procurement",
+      "data": {
+        "highlight": "suppliers",
+        "industry": "procurement",
+        "kpis": {
+          "onTimeDelivery": "91%",
+          "savings": 18200,
+          "spend": 214000,
+          "supplierRisk": "Low"
+        },
+        "narrative": "Procurement audit report video execution update",
+        "trigger": "audit-complete",
+        "workflow": "audit-report-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Delivery targets: email, procurement portal, leadership dashboard for procurement stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Procurement. Run audit report video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Procurement Audit report video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Spend reporting is manual and time-consuming."
+    ],
+    "title": "Why Procurement buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/procurement/audit-report-video/video-api-software",
+      "label": "Audit report video video api software for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/audit-report-video/video-automation-service",
+      "label": "Audit report video video automation service for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/saas/audit-report-video/video-api-pricing",
+      "label": "Audit report video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/audit-report-video/video-api-pricing",
+      "label": "Audit report video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/audit-report-video/video-api-pricing",
+      "label": "Audit report video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use audit-report-v1 to keep output deterministic across Procurement workflows."
+    ],
+    "title": "Execution plan for audit report video (video api pricing)"
+  },
+  "title": "Audit report video video api pricing for Procurement",
+  "type": "buyer_intent",
+  "version": 1
+}

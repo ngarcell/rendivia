@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate content and subscriber recaps.",
+      "Make performance trends easy to share."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/media-streaming/churn-risk-alert-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic churn risk alert video workflow for Media / Streaming.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch churn risk alert video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets (internal alerts or customer comms).",
+      "q": "Is this for customers or internal teams? (video api pricing)"
+    },
+    {
+      "a": "Yes. Provide a drivers array; template renders top drivers.",
+      "q": "Can I include driver metrics? (video api pricing)"
+    },
+    {
+      "a": "Media / Streaming teams use video api pricing to automate churn risk alert video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Media / Streaming teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Churn risk alert video video api pricing for Media / Streaming",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Media / Streaming teams running churn risk alert video.",
+    "supportLine": "Operational fit: Watch hours and Subscribers gained with churn risk spikes."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map churn risk alert video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Compute churn risk or health score in your system.",
+        "title": "Detect risk"
+      },
+      {
+        "body": "POST to /render with risk-alert-v1 and key drivers.",
+        "title": "Render alert"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.media-streaming.churn-risk-alert-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "media-streaming",
+      "data": {
+        "highlight": "subscribers",
+        "industry": "media-streaming",
+        "kpis": {
+          "avgSession": "32m",
+          "churn": "2.4%",
+          "subsGained": 8420,
+          "watchHours": 482100
+        },
+        "narrative": "Media / Streaming churn risk alert video execution update",
+        "trigger": "risk-spike",
+        "workflow": "churn-risk-alert-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "risk-alert-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "15-30s MP4 video",
+      "Risk score and key drivers",
+      "Suggested next action slot",
+      "Delivery targets: email, internal dashboard, Slack for media / streaming stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Media / Streaming. Run churn risk alert video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Media / Streaming Churn risk alert video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Content performance updates are manual and delayed."
+    ],
+    "title": "Why Media / Streaming buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/media-streaming/churn-risk-alert-video/video-api-software",
+      "label": "Churn risk alert video video api software for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/churn-risk-alert-video/video-automation-service",
+      "label": "Churn risk alert video video automation service for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/saas/churn-risk-alert-video/video-api-pricing",
+      "label": "Churn risk alert video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/churn-risk-alert-video/video-api-pricing",
+      "label": "Churn risk alert video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/churn-risk-alert-video/video-api-pricing",
+      "label": "Churn risk alert video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use risk-alert-v1 to keep output deterministic across Media / Streaming workflows."
+    ],
+    "title": "Execution plan for churn risk alert video (video api pricing)"
+  },
+  "title": "Churn risk alert video video api pricing for Media / Streaming",
+  "type": "buyer_intent",
+  "version": 1
+}

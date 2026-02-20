@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Improve customer trust with clear, consistent updates.",
+      "Automate recurring portfolio and account summaries."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/fintech/audit-report-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic audit report video workflow for Fintech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch audit report video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links? (video automation service)"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant? (video automation service)"
+    },
+    {
+      "a": "Fintech teams use video automation service to automate audit report video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Fintech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Audit report video video automation service for Fintech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Fintech teams running audit report video.",
+    "supportLine": "Operational fit: Assets under management and Deposits with an audit is complete."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map audit report video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.fintech.audit-report-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "fintech",
+      "data": {
+        "highlight": "accounts",
+        "industry": "fintech",
+        "kpis": {
+          "aum": 1250000,
+          "chargebacks": 12,
+          "deposits": 84200,
+          "withdrawals": 53100
+        },
+        "narrative": "Fintech audit report video execution update",
+        "trigger": "audit-complete",
+        "workflow": "audit-report-video"
+      },
+      "intent": "video-automation-service",
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Delivery targets: in-app, push notification, secure message center for fintech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Fintech. Run audit report video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Fintech Audit report video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Users don't open dashboards regularly to parse performance."
+    ],
+    "title": "Why Fintech buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/fintech/audit-report-video/video-api-software",
+      "label": "Audit report video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/audit-report-video/video-api-pricing",
+      "label": "Audit report video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/saas/audit-report-video/video-automation-service",
+      "label": "Audit report video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/ecommerce/audit-report-video/video-automation-service",
+      "label": "Audit report video video automation service for E-commerce"
+    },
+    {
+      "href": "/use-cases/marketing-agency/audit-report-video/video-automation-service",
+      "label": "Audit report video video automation service for Marketing agencies"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use audit-report-v1 to keep output deterministic across Fintech workflows."
+    ],
+    "title": "Execution plan for audit report video (video automation service)"
+  },
+  "title": "Audit report video video automation service for Fintech",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate program and service updates.",
+      "Deliver consistent reporting to leadership."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/public-sector/usage-insights-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic usage insights video workflow for Public sector / GovTech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch usage insights video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons? (video automation service)"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account? (video automation service)"
+    },
+    {
+      "a": "Public sector / GovTech teams use video automation service to automate usage insights video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Public sector / GovTech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Usage insights video video automation service for Public sector / GovTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Public sector / GovTech teams running usage insights video.",
+    "supportLine": "Operational fit: Cases resolved and Backlog with usage crosses a threshold."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map usage insights video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.public-sector.usage-insights-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "public-sector",
+      "data": {
+        "highlight": "programs",
+        "industry": "public-sector",
+        "kpis": {
+          "backlog": 214,
+          "budgetUsed": "62%",
+          "casesResolved": 1842,
+          "slaCompliance": "93%"
+        },
+        "narrative": "Public sector / GovTech usage insights video execution update",
+        "trigger": "usage-threshold",
+        "workflow": "usage-insights-video"
+      },
+      "intent": "video-automation-service",
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Delivery targets: public portal, email, leadership dashboard for public sector / govtech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Public sector / GovTech. Run usage insights video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Public sector / GovTech Usage insights video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Program reporting is slow and manual."
+    ],
+    "title": "Why Public sector / GovTech buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/public-sector/usage-insights-video/video-api-software",
+      "label": "Usage insights video video api software for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/usage-insights-video/video-api-pricing",
+      "label": "Usage insights video video api pricing for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/saas/usage-insights-video/video-automation-service",
+      "label": "Usage insights video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/usage-insights-video/video-automation-service",
+      "label": "Usage insights video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/usage-insights-video/video-automation-service",
+      "label": "Usage insights video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use usage-insights-v1 to keep output deterministic across Public sector / GovTech workflows."
+    ],
+    "title": "Execution plan for usage insights video (video automation service)"
+  },
+  "title": "Usage insights video video automation service for Public sector / GovTech",
+  "type": "buyer_intent",
+  "version": 1
+}

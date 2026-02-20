@@ -1,12 +1,13 @@
-import fs from "fs";
-import path from "path";
 import { notFound } from "next/navigation";
 import PseoPage from "@/components/pseo/PseoPage";
-import { getPseoPageByCanonicalUrl } from "@/lib/pseo";
-import { pseoPageSchema, type PseoPage as PseoPageType } from "@/lib/pseo-schema";
+import { getPseoPageByCanonicalUrl, getStaticParamsForType } from "@/lib/pseo";
+import { getRobotsForPath } from "@/lib/seo-index-policy";
 
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getStaticParamsForType("use_case");
+}
 
 export async function generateMetadata({
   params,
@@ -14,28 +15,15 @@ export async function generateMetadata({
   params: Promise<{ industry: string; slug: string }>;
 }) {
   const { industry, slug } = await params;
-  const page = getPseoPageByCanonicalUrl(`/use-cases/${industry}/${slug}`);
+  const canonicalPath = `/use-cases/${industry}/${slug}`;
+  const page = getPseoPageByCanonicalUrl(canonicalPath);
   if (!page) return {};
   return {
     title: page.metaTitle,
     description: page.metaDescription,
     alternates: { canonical: page.canonicalUrl },
+    robots: getRobotsForPath(canonicalPath),
   };
-}
-
-function loadDirectUseCase(industry: string, slug: string): PseoPageType | null {
-  const filePath = path.join(
-    process.cwd(),
-    "content",
-    "pseo",
-    "use-cases",
-    `${industry}.${slug}.json`
-  );
-  if (!fs.existsSync(filePath)) return null;
-  const raw = fs.readFileSync(filePath, "utf8");
-  const data = JSON.parse(raw);
-  const parsed = pseoPageSchema.safeParse(data);
-  return parsed.success ? parsed.data : null;
 }
 
 export default async function UseCasePage({
@@ -44,9 +32,7 @@ export default async function UseCasePage({
   params: Promise<{ industry: string; slug: string }>;
 }) {
   const { industry, slug } = await params;
-  const page =
-    loadDirectUseCase(industry, slug) ??
-    getPseoPageByCanonicalUrl(`/use-cases/${industry}/${slug}`);
+  const page = getPseoPageByCanonicalUrl(`/use-cases/${industry}/${slug}`);
   if (!page) return notFound();
   return <PseoPage page={page} />;
 }

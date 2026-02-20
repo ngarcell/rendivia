@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deterministic render pipeline built for repeatable output",
+      "Template versioning for controlled production changes",
+      "API and webhook primitives designed for SaaS integration",
+      "Deliver consistent people updates.",
+      "Automate recurring headcount and hiring recaps."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/hr-peopleops/onboarding-summary-video/video-api-software",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic onboarding summary video workflow for HR / People Ops.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "title": "Launch onboarding summary video with video api software"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user? (video api software)"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams? (video api software)"
+    },
+    {
+      "a": "HR / People Ops teams use video api software to automate onboarding summary video without manual editing bottlenecks.",
+      "q": "Why is video api software relevant for HR / People Ops teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Onboarding summary video video api software for HR / People Ops",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Evaluate software that product and engineering teams can own directly. Built for HR / People Ops teams running onboarding summary video.",
+    "supportLine": "Operational fit: Headcount and Open roles with onboarding is complete."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map onboarding summary video requirements to video api software buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.hr-peopleops.onboarding-summary-video.video-api-software",
+  "intentSlug": "video-api-software",
+  "io": {
+    "inputJsonExample": {
+      "brand": "hr-peopleops",
+      "data": {
+        "highlight": "employees",
+        "industry": "hr-peopleops",
+        "kpis": {
+          "attrition": "1.1%",
+          "headcount": 214,
+          "openRoles": 12,
+          "timeToHire": "24d"
+        },
+        "narrative": "HR / People Ops onboarding summary video execution update",
+        "trigger": "onboarding-complete",
+        "workflow": "onboarding-summary-video"
+      },
+      "intent": "video-api-software",
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Delivery targets: email, leadership portal, Slack for hr / people ops stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api software options for HR / People Ops. Run onboarding summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Software for HR / People Ops Onboarding summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Generic editors break when teams need deterministic output.",
+      "Manual clip production cannot keep up with recurring workflows.",
+      "Without API-native rendering, handoffs between teams become bottlenecks.",
+      "People metrics aren't communicated consistently."
+    ],
+    "title": "Why HR / People Ops buyers look for video api software"
+  },
+  "related": [
+    {
+      "href": "/use-cases/hr-peopleops/onboarding-summary-video/video-api-pricing",
+      "label": "Onboarding summary video video api pricing for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/onboarding-summary-video/video-automation-service",
+      "label": "Onboarding summary video video automation service for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/weekly-metrics-video/video-api-software",
+      "label": "Weekly metrics video video api software for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/saas/onboarding-summary-video/video-api-software",
+      "label": "Onboarding summary video video api software for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/onboarding-summary-video/video-api-software",
+      "label": "Onboarding summary video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/onboarding-summary-video/video-api-software",
+      "label": "Onboarding summary video video api software for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Use a versioned template to lock output behavior.",
+      "Send structured data to a single render endpoint.",
+      "Automate delivery with webhooks and system events.",
+      "Use onboarding-summary-v1 to keep output deterministic across HR / People Ops workflows."
+    ],
+    "title": "Execution plan for onboarding summary video (video api software)"
+  },
+  "title": "Onboarding summary video video api software for HR / People Ops",
+  "type": "buyer_intent",
+  "version": 1
+}

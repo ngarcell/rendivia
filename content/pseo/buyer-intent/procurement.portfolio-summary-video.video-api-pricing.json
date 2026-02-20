@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate supplier and spend summaries.",
+      "Make savings and risk visibility clear."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/procurement/portfolio-summary-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic portfolio summary video workflow for Procurement.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch portfolio summary video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide asset class labels and weights.",
+      "q": "Can I include asset classes? (video api pricing)"
+    },
+    {
+      "a": "Yes. Use brand profiles per client.",
+      "q": "Does it support per-client branding? (video api pricing)"
+    },
+    {
+      "a": "Procurement teams use video api pricing to automate portfolio summary video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Procurement teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Portfolio summary video video api pricing for Procurement",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Procurement teams running portfolio summary video.",
+    "supportLine": "Operational fit: Spend and Savings with a portfolio is rebalanced."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map portfolio summary video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide allocation and return data per holding.",
+        "title": "Collect holdings"
+      },
+      {
+        "body": "POST to /render with portfolio-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.procurement.portfolio-summary-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "procurement",
+      "data": {
+        "highlight": "suppliers",
+        "industry": "procurement",
+        "kpis": {
+          "onTimeDelivery": "91%",
+          "savings": 18200,
+          "spend": 214000,
+          "supplierRisk": "Low"
+        },
+        "narrative": "Procurement portfolio summary video execution update",
+        "trigger": "portfolio-rebalanced",
+        "workflow": "portfolio-summary-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "portfolio-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Allocation changes visualized",
+      "Performance vs benchmark",
+      "Delivery targets: email, procurement portal, leadership dashboard for procurement stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Procurement. Run portfolio summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Procurement Portfolio summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Spend reporting is manual and time-consuming."
+    ],
+    "title": "Why Procurement buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/procurement/portfolio-summary-video/video-api-software",
+      "label": "Portfolio summary video video api software for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/portfolio-summary-video/video-automation-service",
+      "label": "Portfolio summary video video automation service for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/saas/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use portfolio-summary-v1 to keep output deterministic across Procurement workflows."
+    ],
+    "title": "Execution plan for portfolio summary video (video api pricing)"
+  },
+  "title": "Portfolio summary video video api pricing for Procurement",
+  "type": "buyer_intent",
+  "version": 1
+}

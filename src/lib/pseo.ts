@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { pseoPageSchema, type PseoPage } from "@/lib/pseo-schema";
+import { pseoPageSchema, type PseoPage } from "./pseo-schema";
 
 const ROOT = process.cwd();
 const CONTENT_DIR = path.join(ROOT, "content", "pseo");
@@ -17,6 +17,11 @@ function loadPageFile(filePath: string): PseoPage | null {
 }
 
 function filePathForCanonicalUrl(url: string): string | null {
+  const buyerIntentMatch = url.match(/^\/use-cases\/([^/]+)\/([^/]+)\/([^/]+)$/);
+  if (buyerIntentMatch) {
+    const [, industry, slug, intent] = buyerIntentMatch;
+    return path.join(CONTENT_DIR, "buyer-intent", `${industry}.${slug}.${intent}.json`);
+  }
   const useCaseMatch = url.match(/^\/use-cases\/([^/]+)\/([^/]+)$/);
   if (useCaseMatch) {
     const [, industry, slug] = useCaseMatch;
@@ -90,6 +95,15 @@ export function getPseoPageByCanonicalUrl(url: string): PseoPage | null {
 
 export function getStaticParamsForType(type: PseoPage["type"]) {
   const pages = getPseoPagesByType(type);
+  if (type === "buyer_intent") {
+    return pages
+      .map((page) => {
+        const match = page.canonicalUrl.match(/^\/use-cases\/([^/]+)\/([^/]+)\/([^/]+)$/);
+        if (!match) return null;
+        return { industry: match[1], slug: match[2], intent: match[3] };
+      })
+      .filter(Boolean) as Array<{ industry: string; slug: string; intent: string }>;
+  }
   if (type === "use_case") {
     return pages
       .map((page) => {

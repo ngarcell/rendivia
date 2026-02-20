@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Create consistent incident and status updates.",
+      "Automate post-incident communication."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/cybersecurity/listing-summary-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic listing summary video workflow for Cybersecurity.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch listing summary video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Pass image URLs and the template renders them.",
+      "q": "Can I include images? (video api pricing)"
+    },
+    {
+      "a": "Yes. Render per listing with API automation.",
+      "q": "Does it scale to many listings? (video api pricing)"
+    },
+    {
+      "a": "Cybersecurity teams use video api pricing to automate listing summary video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Cybersecurity teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Listing summary video video api pricing for Cybersecurity",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Cybersecurity teams running listing summary video.",
+    "supportLine": "Operational fit: Alerts and Incidents with a listing is published."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map listing summary video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide price, location, and key features.",
+        "title": "Collect highlights"
+      },
+      {
+        "body": "POST to /render with listing-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.cybersecurity.listing-summary-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "cybersecurity",
+      "data": {
+        "highlight": "alerts",
+        "industry": "cybersecurity",
+        "kpis": {
+          "alerts": 1842,
+          "coverage": "92%",
+          "incidents": 3,
+          "mttr": "2h 14m"
+        },
+        "narrative": "Cybersecurity listing summary video execution update",
+        "trigger": "listing-published",
+        "workflow": "listing-summary-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "listing-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Key property highlights",
+      "Brand colors and logo",
+      "Delivery targets: Slack, email, status page for cybersecurity stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Cybersecurity. Run listing summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Cybersecurity Listing summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Security updates are noisy and hard to summarize."
+    ],
+    "title": "Why Cybersecurity buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/cybersecurity/listing-summary-video/video-api-software",
+      "label": "Listing summary video video api software for Cybersecurity"
+    },
+    {
+      "href": "/use-cases/cybersecurity/listing-summary-video/video-automation-service",
+      "label": "Listing summary video video automation service for Cybersecurity"
+    },
+    {
+      "href": "/use-cases/cybersecurity/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Cybersecurity"
+    },
+    {
+      "href": "/use-cases/cybersecurity/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Cybersecurity"
+    },
+    {
+      "href": "/use-cases/cybersecurity/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Cybersecurity"
+    },
+    {
+      "href": "/use-cases/saas/listing-summary-video/video-api-pricing",
+      "label": "Listing summary video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/listing-summary-video/video-api-pricing",
+      "label": "Listing summary video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/listing-summary-video/video-api-pricing",
+      "label": "Listing summary video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use listing-summary-v1 to keep output deterministic across Cybersecurity workflows."
+    ],
+    "title": "Execution plan for listing summary video (video api pricing)"
+  },
+  "title": "Listing summary video video api pricing for Cybersecurity",
+  "type": "buyer_intent",
+  "version": 1
+}

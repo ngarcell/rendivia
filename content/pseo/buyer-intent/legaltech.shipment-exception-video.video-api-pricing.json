@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate matter and contract updates.",
+      "Deliver consistent reporting to stakeholders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/legaltech/shipment-exception-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic shipment exception video workflow for LegalTech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch shipment exception video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide ETA fields and the template renders them.",
+      "q": "Can I include live ETAs? (video api pricing)"
+    },
+    {
+      "a": "Yes, typically for ops teams and internal dashboards.",
+      "q": "Is it for internal ops only? (video api pricing)"
+    },
+    {
+      "a": "LegalTech teams use video api pricing to automate shipment exception video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for LegalTech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Shipment exception video video api pricing for LegalTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for LegalTech teams running shipment exception video.",
+    "supportLine": "Operational fit: Contracts reviewed and Open matters with exceptions are detected."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map shipment exception video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide exception counts and impacted routes.",
+        "title": "Detect exceptions"
+      },
+      {
+        "body": "POST to /render with exception-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.legaltech.shipment-exception-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "legaltech",
+      "data": {
+        "highlight": "cases",
+        "industry": "legaltech",
+        "kpis": {
+          "complianceRate": "97%",
+          "contractsReviewed": 142,
+          "mattersOpen": 38,
+          "turnaround": "5d"
+        },
+        "narrative": "LegalTech shipment exception video execution update",
+        "trigger": "exception-detected",
+        "workflow": "shipment-exception-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "exception-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "20-40s MP4 video",
+      "Exception count and severity",
+      "Impacted routes summary",
+      "Delivery targets: client portal, email, executive dashboard for legaltech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for LegalTech. Run shipment exception video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for LegalTech Shipment exception video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Legal ops reporting is manual and time-consuming."
+    ],
+    "title": "Why LegalTech buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/legaltech/shipment-exception-video/video-api-software",
+      "label": "Shipment exception video video api software for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/shipment-exception-video/video-automation-service",
+      "label": "Shipment exception video video automation service for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for LegalTech"
+    },
+    {
+      "href": "/use-cases/saas/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use exception-summary-v1 to keep output deterministic across LegalTech workflows."
+    ],
+    "title": "Execution plan for shipment exception video (video api pricing)"
+  },
+  "title": "Shipment exception video video api pricing for LegalTech",
+  "type": "buyer_intent",
+  "version": 1
+}

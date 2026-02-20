@@ -1,0 +1,71 @@
+[
+  {
+    "key": "video-api-software",
+    "label": "Video API software",
+    "primaryKeyword": "video api software",
+    "intentWeight": 120,
+    "commercialAngle": "Evaluate software that product and engineering teams can own directly",
+    "painPoints": [
+      "Generic editors break when teams need deterministic output.",
+      "Manual clip production cannot keep up with recurring workflows.",
+      "Without API-native rendering, handoffs between teams become bottlenecks."
+    ],
+    "executionBullets": [
+      "Use a versioned template to lock output behavior.",
+      "Send structured data to a single render endpoint.",
+      "Automate delivery with webhooks and system events."
+    ],
+    "proofBullets": [
+      "Deterministic render pipeline built for repeatable output",
+      "Template versioning for controlled production changes",
+      "API and webhook primitives designed for SaaS integration"
+    ],
+    "ctaLabel": "Start paid trial"
+  },
+  {
+    "key": "video-api-pricing",
+    "label": "Video API pricing",
+    "primaryKeyword": "video api pricing",
+    "intentWeight": 100,
+    "commercialAngle": "Estimate spend and implementation scope before procurement",
+    "painPoints": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead."
+    ],
+    "executionBullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops."
+    ],
+    "proofBullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment"
+    ],
+    "ctaLabel": "Estimate paid plan"
+  },
+  {
+    "key": "video-automation-service",
+    "label": "Video automation service",
+    "primaryKeyword": "video automation service",
+    "intentWeight": 90,
+    "commercialAngle": "Ship a service workflow that eliminates manual reporting and clip assembly",
+    "painPoints": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues."
+    ],
+    "executionBullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook."
+    ],
+    "proofBullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams"
+    ],
+    "ctaLabel": "Launch automation pilot"
+  }
+]

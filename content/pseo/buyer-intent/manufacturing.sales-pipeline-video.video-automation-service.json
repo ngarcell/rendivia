@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/sales-pipeline-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic sales pipeline video workflow for Manufacturing.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch sales pipeline video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits? (video automation service)"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data? (video automation service)"
+    },
+    {
+      "a": "Manufacturing teams use video automation service to automate sales pipeline video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Manufacturing teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Sales pipeline video video automation service for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Manufacturing teams running sales pipeline video.",
+    "supportLine": "Operational fit: Units produced and Defect rate with pipeline is updated."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map sales pipeline video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.manufacturing.sales-pipeline-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "highlight": "lines",
+        "industry": "manufacturing",
+        "kpis": {
+          "defectRate": "1.2%",
+          "downtime": "3h",
+          "onTimeDelivery": "96%",
+          "unitsProduced": 28420
+        },
+        "narrative": "Manufacturing sales pipeline video execution update",
+        "trigger": "pipeline-updated",
+        "workflow": "sales-pipeline-video"
+      },
+      "intent": "video-automation-service",
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Delivery targets: email, operations dashboard, leadership portal for manufacturing stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Manufacturing. Run sales pipeline video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Manufacturing Sales pipeline video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Operational KPIs are buried in spreadsheets."
+    ],
+    "title": "Why Manufacturing buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/sales-pipeline-video/video-api-software",
+      "label": "Sales pipeline video video api software for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/sales-pipeline-video/video-api-pricing",
+      "label": "Sales pipeline video video api pricing for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Manufacturing"
+    },
+    {
+      "href": "/use-cases/saas/sales-pipeline-video/video-automation-service",
+      "label": "Sales pipeline video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/sales-pipeline-video/video-automation-service",
+      "label": "Sales pipeline video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/sales-pipeline-video/video-automation-service",
+      "label": "Sales pipeline video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use pipeline-summary-v1 to keep output deterministic across Manufacturing workflows."
+    ],
+    "title": "Execution plan for sales pipeline video (video automation service)"
+  },
+  "title": "Sales pipeline video video automation service for Manufacturing",
+  "type": "buyer_intent",
+  "version": 1
+}

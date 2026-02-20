@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate release and incident digests.",
+      "Make engineering health easy to communicate."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/devtools/portfolio-summary-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic portfolio summary video workflow for Developer tools.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch portfolio summary video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide asset class labels and weights.",
+      "q": "Can I include asset classes? (video api pricing)"
+    },
+    {
+      "a": "Yes. Use brand profiles per client.",
+      "q": "Does it support per-client branding? (video api pricing)"
+    },
+    {
+      "a": "Developer tools teams use video api pricing to automate portfolio summary video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Developer tools teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Portfolio summary video video api pricing for Developer tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Developer tools teams running portfolio summary video.",
+    "supportLine": "Operational fit: Deploys and Lead time with a portfolio is rebalanced."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map portfolio summary video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide allocation and return data per holding.",
+        "title": "Collect holdings"
+      },
+      {
+        "body": "POST to /render with portfolio-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.devtools.portfolio-summary-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "devtools",
+      "data": {
+        "highlight": "repositories",
+        "industry": "devtools",
+        "kpis": {
+          "changeFailureRate": "3.1%",
+          "deploys": 184,
+          "leadTime": "18h",
+          "mttr": "42m"
+        },
+        "narrative": "Developer tools portfolio summary video execution update",
+        "trigger": "portfolio-rebalanced",
+        "workflow": "portfolio-summary-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "portfolio-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Allocation changes visualized",
+      "Performance vs benchmark",
+      "Delivery targets: Slack, email, internal portal for developer tools stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Developer tools. Run portfolio summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Developer tools Portfolio summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Engineering metrics live in dashboards but stakeholders need summaries."
+    ],
+    "title": "Why Developer tools buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/devtools/portfolio-summary-video/video-api-software",
+      "label": "Portfolio summary video video api software for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/portfolio-summary-video/video-automation-service",
+      "label": "Portfolio summary video video automation service for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Developer tools"
+    },
+    {
+      "href": "/use-cases/saas/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use portfolio-summary-v1 to keep output deterministic across Developer tools workflows."
+    ],
+    "title": "Execution plan for portfolio summary video (video api pricing)"
+  },
+  "title": "Portfolio summary video video api pricing for Developer tools",
+  "type": "buyer_intent",
+  "version": 1
+}

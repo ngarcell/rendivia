@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Deliver consistent people updates.",
+      "Automate recurring headcount and hiring recaps."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/hr-peopleops/compliance-review-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic compliance review video workflow for HR / People Ops.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch compliance review video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are deterministic and versioned.",
+      "q": "Is it audit-ready? (video api pricing)"
+    },
+    {
+      "a": "Yes. Include remediation text in the payload.",
+      "q": "Can I add remediation notes? (video api pricing)"
+    },
+    {
+      "a": "HR / People Ops teams use video api pricing to automate compliance review video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for HR / People Ops teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Compliance review video video api pricing for HR / People Ops",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for HR / People Ops teams running compliance review video.",
+    "supportLine": "Operational fit: Headcount and Open roles with a compliance review is completed."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map compliance review video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide control statuses and open findings.",
+        "title": "Collect status"
+      },
+      {
+        "body": "POST to /render with compliance-review-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.hr-peopleops.compliance-review-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "hr-peopleops",
+      "data": {
+        "highlight": "employees",
+        "industry": "hr-peopleops",
+        "kpis": {
+          "attrition": "1.1%",
+          "headcount": 214,
+          "openRoles": 12,
+          "timeToHire": "24d"
+        },
+        "narrative": "HR / People Ops compliance review video execution update",
+        "trigger": "compliance-review",
+        "workflow": "compliance-review-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "compliance-review-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Control status breakdown",
+      "Open findings summary",
+      "Delivery targets: email, leadership portal, Slack for hr / people ops stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for HR / People Ops. Run compliance review video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for HR / People Ops Compliance review video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "People metrics aren't communicated consistently."
+    ],
+    "title": "Why HR / People Ops buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/hr-peopleops/compliance-review-video/video-api-software",
+      "label": "Compliance review video video api software for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/compliance-review-video/video-automation-service",
+      "label": "Compliance review video video automation service for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/saas/compliance-review-video/video-api-pricing",
+      "label": "Compliance review video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/compliance-review-video/video-api-pricing",
+      "label": "Compliance review video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/compliance-review-video/video-api-pricing",
+      "label": "Compliance review video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use compliance-review-v1 to keep output deterministic across HR / People Ops workflows."
+    ],
+    "title": "Execution plan for compliance review video (video api pricing)"
+  },
+  "title": "Compliance review video video api pricing for HR / People Ops",
+  "type": "buyer_intent",
+  "version": 1
+}

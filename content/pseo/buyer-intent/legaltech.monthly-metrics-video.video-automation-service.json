@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate matter and contract updates.",
+      "Deliver consistent reporting to stakeholders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/legaltech/monthly-metrics-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic monthly metrics video workflow for LegalTech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch monthly metrics video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous-period fields; the template renders comparisons.",
+      "q": "Can I compare vs last month? (video automation service)"
+    },
+    {
+      "a": "Templates are versioned; your chosen version stays stable.",
+      "q": "Do templates change? (video automation service)"
+    },
+    {
+      "a": "LegalTech teams use video automation service to automate monthly metrics video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for LegalTech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Monthly metrics video video automation service for LegalTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for LegalTech teams running monthly metrics video.",
+    "supportLine": "Operational fit: Contracts reviewed and Open matters with a monthly report is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map monthly metrics video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Use monthly-summary-v1 for consistent output.",
+        "title": "Choose template"
+      },
+      {
+        "body": "POST JSON to /render with monthly KPIs and highlights.",
+        "title": "Send KPIs"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.legaltech.monthly-metrics-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "legaltech",
+      "data": {
+        "highlight": "cases",
+        "industry": "legaltech",
+        "kpis": {
+          "complianceRate": "97%",
+          "contractsReviewed": 142,
+          "mattersOpen": 38,
+          "turnaround": "5d"
+        },
+        "narrative": "LegalTech monthly metrics video execution update",
+        "trigger": "monthly-report",
+        "workflow": "monthly-metrics-video"
+      },
+      "intent": "video-automation-service",
+      "template": "monthly-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Delivery targets: client portal, email, executive dashboard for legaltech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for LegalTech. Run monthly metrics video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for LegalTech Monthly metrics video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Legal ops reporting is manual and time-consuming."
+    ],
+    "title": "Why LegalTech buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/legaltech/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for LegalTech"
+    },
+    {
+      "href": "/use-cases/legaltech/investor-update-video/video-automation-service",
+      "label": "Investor update video video automation service for LegalTech"
+    },
+    {
+      "href": "/use-cases/saas/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use monthly-summary-v1 to keep output deterministic across LegalTech workflows."
+    ],
+    "title": "Execution plan for monthly metrics video (video automation service)"
+  },
+  "title": "Monthly metrics video video automation service for LegalTech",
+  "type": "buyer_intent",
+  "version": 1
+}

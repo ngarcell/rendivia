@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate supplier and spend summaries.",
+      "Make savings and risk visibility clear."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/procurement/trial-to-paid-recap-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic trial-to-paid conversion recap video workflow for Procurement.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch trial-to-paid conversion recap video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a CTA field in data and render it in the outro.",
+      "q": "Can I include a CTA at the end? (video api pricing)"
+    },
+    {
+      "a": "It complements them by adding a high-signal recap format.",
+      "q": "Does this replace emails? (video api pricing)"
+    },
+    {
+      "a": "Procurement teams use video api pricing to automate trial-to-paid conversion recap video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Procurement teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Trial-to-paid conversion recap video video api pricing for Procurement",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Procurement teams running trial-to-paid conversion recap video.",
+    "supportLine": "Operational fit: Spend and Savings with a trial is ending."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map trial-to-paid conversion recap video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Aggregate usage events and outcomes during the trial.",
+        "title": "Collect trial data"
+      },
+      {
+        "body": "POST to /render with trial-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.procurement.trial-to-paid-recap-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "procurement",
+      "data": {
+        "highlight": "suppliers",
+        "industry": "procurement",
+        "kpis": {
+          "onTimeDelivery": "91%",
+          "savings": 18200,
+          "spend": 214000,
+          "supplierRisk": "Low"
+        },
+        "narrative": "Procurement trial-to-paid conversion recap video execution update",
+        "trigger": "trial-end",
+        "workflow": "trial-to-paid-recap-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "trial-recap-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Usage highlights and outcomes",
+      "Clear next-step CTA slot",
+      "Delivery targets: email, procurement portal, leadership dashboard for procurement stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Procurement. Run trial-to-paid conversion recap video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Procurement Trial-to-paid conversion recap video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Spend reporting is manual and time-consuming."
+    ],
+    "title": "Why Procurement buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/procurement/trial-to-paid-recap-video/video-api-software",
+      "label": "Trial-to-paid conversion recap video video api software for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/trial-to-paid-recap-video/video-automation-service",
+      "label": "Trial-to-paid conversion recap video video automation service for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/saas/trial-to-paid-recap-video/video-api-pricing",
+      "label": "Trial-to-paid conversion recap video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/trial-to-paid-recap-video/video-api-pricing",
+      "label": "Trial-to-paid conversion recap video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/trial-to-paid-recap-video/video-api-pricing",
+      "label": "Trial-to-paid conversion recap video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use trial-recap-v1 to keep output deterministic across Procurement workflows."
+    ],
+    "title": "Execution plan for trial-to-paid conversion recap video (video api pricing)"
+  },
+  "title": "Trial-to-paid conversion recap video video api pricing for Procurement",
+  "type": "buyer_intent",
+  "version": 1
+}

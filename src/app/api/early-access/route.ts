@@ -13,6 +13,16 @@ type EarlyAccessPayload = {
   monthly_renders: number | null;
   cohort: string;
   source: string | null;
+  landing_path: string | null;
+  cluster: string | null;
+  intent_slug: string | null;
+  utm_source: string | null;
+  utm_medium: string | null;
+  utm_campaign: string | null;
+  utm_term: string | null;
+  utm_content: string | null;
+  gclid: string | null;
+  referrer: string | null;
 };
 
 export async function POST(request: Request) {
@@ -38,6 +48,16 @@ export async function POST(request: Request) {
       monthly_renders: Number.isFinite(body.monthlyRenders) ? body.monthlyRenders : null,
       cohort: typeof body.cohort === "string" ? body.cohort.trim() : "general",
       source: typeof body.source === "string" ? body.source.trim() : null,
+      landing_path: typeof body.landingPath === "string" ? body.landingPath.trim() : null,
+      cluster: typeof body.cluster === "string" ? body.cluster.trim() : null,
+      intent_slug: typeof body.intentSlug === "string" ? body.intentSlug.trim() : null,
+      utm_source: typeof body.utm_source === "string" ? body.utm_source.trim() : null,
+      utm_medium: typeof body.utm_medium === "string" ? body.utm_medium.trim() : null,
+      utm_campaign: typeof body.utm_campaign === "string" ? body.utm_campaign.trim() : null,
+      utm_term: typeof body.utm_term === "string" ? body.utm_term.trim() : null,
+      utm_content: typeof body.utm_content === "string" ? body.utm_content.trim() : null,
+      gclid: typeof body.gclid === "string" ? body.gclid.trim() : null,
+      referrer: typeof body.referrer === "string" ? body.referrer.trim() : null,
     };
 
     const { error } = await supabase.from("early_access_requests").insert(payload as never);

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate client-ready weekly recaps.",
+      "Deliver consistent brand-aligned updates across accounts."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/marketing-agency/customer-feedback-recap-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic customer feedback recap video workflow for Marketing agencies.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch customer feedback recap video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a quotes array for display.",
+      "q": "Can I include verbatim quotes? (video automation service)"
+    },
+    {
+      "a": "Yes. Summaries are designed for leadership review.",
+      "q": "Is it suitable for board updates? (video automation service)"
+    },
+    {
+      "a": "Marketing agencies teams use video automation service to automate customer feedback recap video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Marketing agencies teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Customer feedback recap video video automation service for Marketing agencies",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Marketing agencies teams running customer feedback recap video.",
+    "supportLine": "Operational fit: Spend and Leads with a feedback cycle completes."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map customer feedback recap video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide NPS score and top themes.",
+        "title": "Aggregate feedback"
+      },
+      {
+        "body": "POST to /render with feedback-recap-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.marketing-agency.customer-feedback-recap-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "marketing-agency",
+      "data": {
+        "highlight": "clients",
+        "industry": "marketing-agency",
+        "kpis": {
+          "cpl": 20.4,
+          "leads": 612,
+          "roas": 3.1,
+          "spend": 12450
+        },
+        "narrative": "Marketing agencies customer feedback recap video execution update",
+        "trigger": "feedback-cycle",
+        "workflow": "customer-feedback-recap-video"
+      },
+      "intent": "video-automation-service",
+      "template": "feedback-recap-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "NPS trend + benchmarks",
+      "Theme highlights",
+      "Delivery targets: email, client portal, Slack Connect for marketing agencies stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Marketing agencies. Run customer feedback recap video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Marketing agencies Customer feedback recap video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Client reporting is repetitive and time-consuming."
+    ],
+    "title": "Why Marketing agencies buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/marketing-agency/customer-feedback-recap-video/video-api-software",
+      "label": "Customer feedback recap video video api software for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/customer-feedback-recap-video/video-api-pricing",
+      "label": "Customer feedback recap video video api pricing for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/saas/customer-feedback-recap-video/video-automation-service",
+      "label": "Customer feedback recap video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/customer-feedback-recap-video/video-automation-service",
+      "label": "Customer feedback recap video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/customer-feedback-recap-video/video-automation-service",
+      "label": "Customer feedback recap video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use feedback-recap-v1 to keep output deterministic across Marketing agencies workflows."
+    ],
+    "title": "Execution plan for customer feedback recap video (video automation service)"
+  },
+  "title": "Customer feedback recap video video automation service for Marketing agencies",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/insurance/feature-adoption-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic feature adoption video workflow for Insurance.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch feature adoption video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide cohort arrays; the template compares them.",
+      "q": "Can I compare cohorts? (video api pricing)"
+    },
+    {
+      "a": "Yes. Render per feature for deterministic outputs.",
+      "q": "Does it work for multiple features? (video api pricing)"
+    },
+    {
+      "a": "Insurance teams use video api pricing to automate feature adoption video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Insurance teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Feature adoption video video api pricing for Insurance",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Insurance teams running feature adoption video.",
+    "supportLine": "Operational fit: Claims and Loss ratio with feature adoption crosses a threshold."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map feature adoption video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide adoption by cohort and growth delta.",
+        "title": "Collect adoption data"
+      },
+      {
+        "body": "POST to /render with feature-adoption-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.insurance.feature-adoption-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "insurance",
+      "data": {
+        "highlight": "policies",
+        "industry": "insurance",
+        "kpis": {
+          "claims": 214,
+          "lossRatio": "62%",
+          "premium": 184200,
+          "renewals": 842
+        },
+        "narrative": "Insurance feature adoption video execution update",
+        "trigger": "feature-adoption",
+        "workflow": "feature-adoption-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "feature-adoption-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Cohort adoption breakdown",
+      "Trend lines and deltas",
+      "Delivery targets: email, internal portal, dashboard for insurance stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Insurance. Run feature adoption video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Insurance Feature adoption video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Performance reporting is complex and time-consuming."
+    ],
+    "title": "Why Insurance buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/insurance/feature-adoption-video/video-api-software",
+      "label": "Feature adoption video video api software for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/feature-adoption-video/video-automation-service",
+      "label": "Feature adoption video video automation service for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/saas/feature-adoption-video/video-api-pricing",
+      "label": "Feature adoption video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/feature-adoption-video/video-api-pricing",
+      "label": "Feature adoption video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/feature-adoption-video/video-api-pricing",
+      "label": "Feature adoption video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use feature-adoption-v1 to keep output deterministic across Insurance workflows."
+    ],
+    "title": "Execution plan for feature adoption video (video api pricing)"
+  },
+  "title": "Feature adoption video video api pricing for Insurance",
+  "type": "buyer_intent",
+  "version": 1
+}

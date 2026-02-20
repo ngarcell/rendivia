@@ -22,6 +22,21 @@ Branded MP4 + webhook`;
 type ContextLink = { label: string; href: string };
 
 function buildBreadcrumbs(page: PseoPage) {
+  if (page.type === "buyer_intent") {
+    const match = page.canonicalUrl.match(/^\/use-cases\/([^/]+)\/([^/]+)\/([^/]+)$/);
+    const industry = match?.[1] ?? "use-cases";
+    const useCase = match?.[2] ?? "workflow";
+    return [
+      { name: "Home", url: "/" },
+      { name: "Use cases", url: "/use-cases" },
+      { name: industry.replace(/-/g, " "), url: `/use-cases/${industry}` },
+      {
+        name: useCase.replace(/-/g, " "),
+        url: `/use-cases/${industry}/${useCase}`,
+      },
+      { name: page.title, url: page.canonicalUrl },
+    ];
+  }
   if (page.type === "use_case") {
     const match = page.canonicalUrl.match(/^\/use-cases\/([^/]+)\/([^/]+)$/);
     const industry = match?.[1] ?? "use-cases";
@@ -58,6 +73,22 @@ function formatLabel(input?: string) {
 
 function buildContextLinks(page: PseoPage): ContextLink[] {
   const links: ContextLink[] = [];
+
+  if (page.type === "buyer_intent") {
+    const match = page.canonicalUrl.match(/^\/use-cases\/([^/]+)\/([^/]+)\/([^/]+)$/);
+    if (match?.[1]) {
+      links.push({
+        label: `${formatLabel(match[1])} use cases`,
+        href: `/use-cases/${match[1]}`,
+      });
+    }
+    if (match?.[1] && match?.[2]) {
+      links.push({
+        label: `${formatLabel(match[2])} workflow`,
+        href: `/use-cases/${match[1]}/${match[2]}`,
+      });
+    }
+  }
 
   if (page.type === "use_case") {
     const match = page.canonicalUrl.match(/^\/use-cases\/([^/]+)\//);

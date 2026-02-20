@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/logistics/onboarding-summary-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic onboarding summary video workflow for Logistics / Supply chain.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch onboarding summary video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user? (video automation service)"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams? (video automation service)"
+    },
+    {
+      "a": "Logistics / Supply chain teams use video automation service to automate onboarding summary video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Logistics / Supply chain teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Onboarding summary video video automation service for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Logistics / Supply chain teams running onboarding summary video.",
+    "supportLine": "Operational fit: Shipments and On-time rate with onboarding is complete."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map onboarding summary video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.logistics.onboarding-summary-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics",
+      "data": {
+        "highlight": "shipments",
+        "industry": "logistics",
+        "kpis": {
+          "avgDelay": "12m",
+          "costPerShipment": 4.2,
+          "onTimeRate": "94%",
+          "shipments": 9821
+        },
+        "narrative": "Logistics / Supply chain onboarding summary video execution update",
+        "trigger": "onboarding-complete",
+        "workflow": "onboarding-summary-video"
+      },
+      "intent": "video-automation-service",
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Delivery targets: email, operations dashboard, Slack for logistics / supply chain stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Logistics / Supply chain. Run onboarding summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Logistics / Supply chain Onboarding summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Operational KPIs are hard to communicate quickly."
+    ],
+    "title": "Why Logistics / Supply chain buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/onboarding-summary-video/video-api-software",
+      "label": "Onboarding summary video video api software for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/onboarding-summary-video/video-api-pricing",
+      "label": "Onboarding summary video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/saas/onboarding-summary-video/video-automation-service",
+      "label": "Onboarding summary video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/onboarding-summary-video/video-automation-service",
+      "label": "Onboarding summary video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/onboarding-summary-video/video-automation-service",
+      "label": "Onboarding summary video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use onboarding-summary-v1 to keep output deterministic across Logistics / Supply chain workflows."
+    ],
+    "title": "Execution plan for onboarding summary video (video automation service)"
+  },
+  "title": "Onboarding summary video video automation service for Logistics / Supply chain",
+  "type": "buyer_intent",
+  "version": 1
+}

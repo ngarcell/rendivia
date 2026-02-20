@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/compliance-grc/feature-adoption-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic feature adoption video workflow for Compliance / GRC.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch feature adoption video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide cohort arrays; the template compares them.",
+      "q": "Can I compare cohorts? (video automation service)"
+    },
+    {
+      "a": "Yes. Render per feature for deterministic outputs.",
+      "q": "Does it work for multiple features? (video automation service)"
+    },
+    {
+      "a": "Compliance / GRC teams use video automation service to automate feature adoption video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Compliance / GRC teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Feature adoption video video automation service for Compliance / GRC",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Compliance / GRC teams running feature adoption video.",
+    "supportLine": "Operational fit: Controls complete and Open findings with feature adoption crosses a threshold."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map feature adoption video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide adoption by cohort and growth delta.",
+        "title": "Collect adoption data"
+      },
+      {
+        "body": "POST to /render with feature-adoption-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.compliance-grc.feature-adoption-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "compliance-grc",
+      "data": {
+        "highlight": "controls",
+        "industry": "compliance-grc",
+        "kpis": {
+          "controlsComplete": 78,
+          "openFindings": 6,
+          "riskScore": 72,
+          "vendorsAssessed": 21
+        },
+        "narrative": "Compliance / GRC feature adoption video execution update",
+        "trigger": "feature-adoption",
+        "workflow": "feature-adoption-video"
+      },
+      "intent": "video-automation-service",
+      "template": "feature-adoption-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Cohort adoption breakdown",
+      "Trend lines and deltas",
+      "Delivery targets: in-app, email, leadership portal for compliance / grc stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Compliance / GRC. Run feature adoption video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Compliance / GRC Feature adoption video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Stakeholders struggle to track progress across audits."
+    ],
+    "title": "Why Compliance / GRC buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/compliance-grc/feature-adoption-video/video-api-software",
+      "label": "Feature adoption video video api software for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/feature-adoption-video/video-api-pricing",
+      "label": "Feature adoption video video api pricing for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/saas/feature-adoption-video/video-automation-service",
+      "label": "Feature adoption video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/feature-adoption-video/video-automation-service",
+      "label": "Feature adoption video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/feature-adoption-video/video-automation-service",
+      "label": "Feature adoption video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use feature-adoption-v1 to keep output deterministic across Compliance / GRC workflows."
+    ],
+    "title": "Execution plan for feature adoption video (video automation service)"
+  },
+  "title": "Feature adoption video video automation service for Compliance / GRC",
+  "type": "buyer_intent",
+  "version": 1
+}

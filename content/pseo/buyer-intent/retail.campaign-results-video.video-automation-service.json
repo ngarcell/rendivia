@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate store performance summaries.",
+      "Make trends easy to share across regions."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/retail/campaign-results-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic campaign results video workflow for Retail.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch campaign results video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include target values and we render comparisons.",
+      "q": "Can I include benchmarks? (video automation service)"
+    },
+    {
+      "a": "Call /render per campaign for deterministic outputs.",
+      "q": "Is it multi-campaign? (video automation service)"
+    },
+    {
+      "a": "Retail teams use video automation service to automate campaign results video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Retail teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Campaign results video video automation service for Retail",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Retail teams running campaign results video.",
+    "supportLine": "Operational fit: Same-store sales and Foot traffic with a campaign ends."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map campaign results video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Aggregate reach, conversion, and spend metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "POST to /render with campaign-results-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.retail.campaign-results-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "retail",
+      "data": {
+        "highlight": "stores",
+        "industry": "retail",
+        "kpis": {
+          "footTraffic": 48210,
+          "inventoryTurns": 5.2,
+          "sameStoreSales": "4.1%",
+          "stockouts": 32
+        },
+        "narrative": "Retail campaign results video execution update",
+        "trigger": "campaign-ends",
+        "workflow": "campaign-results-video"
+      },
+      "intent": "video-automation-service",
+      "template": "campaign-results-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Delivery targets: email, regional dashboard, Slack for retail stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Retail. Run campaign results video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Retail Campaign results video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Store performance updates are slow to compile."
+    ],
+    "title": "Why Retail buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/retail/campaign-results-video/video-api-software",
+      "label": "Campaign results video video api software for Retail"
+    },
+    {
+      "href": "/use-cases/retail/campaign-results-video/video-api-pricing",
+      "label": "Campaign results video video api pricing for Retail"
+    },
+    {
+      "href": "/use-cases/retail/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Retail"
+    },
+    {
+      "href": "/use-cases/retail/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Retail"
+    },
+    {
+      "href": "/use-cases/retail/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Retail"
+    },
+    {
+      "href": "/use-cases/saas/campaign-results-video/video-automation-service",
+      "label": "Campaign results video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/campaign-results-video/video-automation-service",
+      "label": "Campaign results video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/campaign-results-video/video-automation-service",
+      "label": "Campaign results video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use campaign-results-v1 to keep output deterministic across Retail workflows."
+    ],
+    "title": "Execution plan for campaign results video (video automation service)"
+  },
+  "title": "Campaign results video video automation service for Retail",
+  "type": "buyer_intent",
+  "version": 1
+}

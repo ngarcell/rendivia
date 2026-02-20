@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate KPI and claims summaries.",
+      "Improve clarity for stakeholders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/insurance/customer-success-recap-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic customer success recap video workflow for Insurance.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch customer success recap video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Call /render per customer and process asynchronously.",
+      "q": "Can I batch render for many customers? (video api pricing)"
+    },
+    {
+      "a": "Yes. Store webhook URLs in your database.",
+      "q": "Can I store outputs? (video api pricing)"
+    },
+    {
+      "a": "Insurance teams use video api pricing to automate customer success recap video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Insurance teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Customer success recap video video api pricing for Insurance",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Insurance teams running customer success recap video.",
+    "supportLine": "Operational fit: Claims and Loss ratio with a customer recap is generated."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map customer success recap video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Pull usage and outcome metrics per customer.",
+        "title": "Fetch customer KPIs"
+      },
+      {
+        "body": "POST to /render with customer-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.insurance.customer-success-recap-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "insurance",
+      "data": {
+        "highlight": "policies",
+        "industry": "insurance",
+        "kpis": {
+          "claims": 214,
+          "lossRatio": "62%",
+          "premium": 184200,
+          "renewals": 842
+        },
+        "narrative": "Insurance customer success recap video execution update",
+        "trigger": "customer-recap",
+        "workflow": "customer-success-recap-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "customer-recap-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Delivery targets: email, internal portal, dashboard for insurance stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Insurance. Run customer success recap video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Insurance Customer success recap video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Performance reporting is complex and time-consuming."
+    ],
+    "title": "Why Insurance buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/insurance/customer-success-recap-video/video-api-software",
+      "label": "Customer success recap video video api software for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/customer-success-recap-video/video-automation-service",
+      "label": "Customer success recap video video automation service for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/insurance/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Insurance"
+    },
+    {
+      "href": "/use-cases/saas/customer-success-recap-video/video-api-pricing",
+      "label": "Customer success recap video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/customer-success-recap-video/video-api-pricing",
+      "label": "Customer success recap video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/customer-success-recap-video/video-api-pricing",
+      "label": "Customer success recap video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use customer-recap-v1 to keep output deterministic across Insurance workflows."
+    ],
+    "title": "Execution plan for customer success recap video (video api pricing)"
+  },
+  "title": "Customer success recap video video api pricing for Insurance",
+  "type": "buyer_intent",
+  "version": 1
+}

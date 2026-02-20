@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Deliver consistent people updates.",
+      "Automate recurring headcount and hiring recaps."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/hr-peopleops/renewal-upcoming-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic renewal upcoming video workflow for HR / People Ops.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch renewal upcoming video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets.",
+      "q": "Is this internal or external? (video automation service)"
+    },
+    {
+      "a": "Yes. Include plan fields to render pricing and tier info.",
+      "q": "Can I include plan details? (video automation service)"
+    },
+    {
+      "a": "HR / People Ops teams use video automation service to automate renewal upcoming video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for HR / People Ops teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Renewal upcoming video video automation service for HR / People Ops",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for HR / People Ops teams running renewal upcoming video.",
+    "supportLine": "Operational fit: Headcount and Open roles with a renewal is upcoming."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map renewal upcoming video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide usage, outcomes, and renewal date.",
+        "title": "Prepare health data"
+      },
+      {
+        "body": "POST to /render with renewal-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.hr-peopleops.renewal-upcoming-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "hr-peopleops",
+      "data": {
+        "highlight": "employees",
+        "industry": "hr-peopleops",
+        "kpis": {
+          "attrition": "1.1%",
+          "headcount": 214,
+          "openRoles": 12,
+          "timeToHire": "24d"
+        },
+        "narrative": "HR / People Ops renewal upcoming video execution update",
+        "trigger": "renewal-upcoming",
+        "workflow": "renewal-upcoming-video"
+      },
+      "intent": "video-automation-service",
+      "template": "renewal-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Renewal timeline and health KPIs",
+      "Next-step CTA slot",
+      "Delivery targets: email, leadership portal, Slack for hr / people ops stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for HR / People Ops. Run renewal upcoming video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for HR / People Ops Renewal upcoming video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "People metrics aren't communicated consistently."
+    ],
+    "title": "Why HR / People Ops buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/hr-peopleops/renewal-upcoming-video/video-api-software",
+      "label": "Renewal upcoming video video api software for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/renewal-upcoming-video/video-api-pricing",
+      "label": "Renewal upcoming video video api pricing for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/saas/renewal-upcoming-video/video-automation-service",
+      "label": "Renewal upcoming video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/renewal-upcoming-video/video-automation-service",
+      "label": "Renewal upcoming video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/renewal-upcoming-video/video-automation-service",
+      "label": "Renewal upcoming video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use renewal-summary-v1 to keep output deterministic across HR / People Ops workflows."
+    ],
+    "title": "Execution plan for renewal upcoming video (video automation service)"
+  },
+  "title": "Renewal upcoming video video automation service for HR / People Ops",
+  "type": "buyer_intent",
+  "version": 1
+}

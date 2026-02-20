@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deterministic render pipeline built for repeatable output",
+      "Template versioning for controlled production changes",
+      "API and webhook primitives designed for SaaS integration",
+      "Automate reliability and outage updates.",
+      "Deliver clear status summaries to stakeholders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/energy-utilities/audit-report-video/video-api-software",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic audit report video workflow for Energy / Utilities.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "title": "Launch audit report video with video api software"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include evidence URLs in the payload for display.",
+      "q": "Can I include evidence links? (video api software)"
+    },
+    {
+      "a": "Templates are deterministic and versioned for consistency.",
+      "q": "Is the output compliant? (video api software)"
+    },
+    {
+      "a": "Energy / Utilities teams use video api software to automate audit report video without manual editing bottlenecks.",
+      "q": "Why is video api software relevant for Energy / Utilities teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Audit report video video api software for Energy / Utilities",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Evaluate software that product and engineering teams can own directly. Built for Energy / Utilities teams running audit report video.",
+    "supportLine": "Operational fit: Outages and Restoration time with an audit is complete."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map audit report video requirements to video api software buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Bundle key findings and remediation status.",
+        "title": "Collect findings"
+      },
+      {
+        "body": "POST to /render with audit-report-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.energy-utilities.audit-report-video.video-api-software",
+  "intentSlug": "video-api-software",
+  "io": {
+    "inputJsonExample": {
+      "brand": "energy-utilities",
+      "data": {
+        "highlight": "meters",
+        "industry": "energy-utilities",
+        "kpis": {
+          "outages": 3,
+          "peakLoad": 842,
+          "renewableShare": "38%",
+          "restorationTime": "1h 20m"
+        },
+        "narrative": "Energy / Utilities audit report video execution update",
+        "trigger": "audit-complete",
+        "workflow": "audit-report-video"
+      },
+      "intent": "video-api-software",
+      "template": "audit-report-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Finding severity breakdown",
+      "Remediation status summary",
+      "Delivery targets: status page, email, ops dashboard for energy / utilities stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api software options for Energy / Utilities. Run audit report video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Software for Energy / Utilities Audit report video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Generic editors break when teams need deterministic output.",
+      "Manual clip production cannot keep up with recurring workflows.",
+      "Without API-native rendering, handoffs between teams become bottlenecks.",
+      "Operational updates are hard to summarize quickly."
+    ],
+    "title": "Why Energy / Utilities buyers look for video api software"
+  },
+  "related": [
+    {
+      "href": "/use-cases/energy-utilities/audit-report-video/video-api-pricing",
+      "label": "Audit report video video api pricing for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/audit-report-video/video-automation-service",
+      "label": "Audit report video video automation service for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/weekly-metrics-video/video-api-software",
+      "label": "Weekly metrics video video api software for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/saas/audit-report-video/video-api-software",
+      "label": "Audit report video video api software for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/audit-report-video/video-api-software",
+      "label": "Audit report video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/audit-report-video/video-api-software",
+      "label": "Audit report video video api software for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Use a versioned template to lock output behavior.",
+      "Send structured data to a single render endpoint.",
+      "Automate delivery with webhooks and system events.",
+      "Use audit-report-v1 to keep output deterministic across Energy / Utilities workflows."
+    ],
+    "title": "Execution plan for audit report video (video api software)"
+  },
+  "title": "Audit report video video api software for Energy / Utilities",
+  "type": "buyer_intent",
+  "version": 1
+}

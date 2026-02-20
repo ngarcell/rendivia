@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deterministic render pipeline built for repeatable output",
+      "Template versioning for controlled production changes",
+      "API and webhook primitives designed for SaaS integration",
+      "Automate study progress recaps.",
+      "Deliver consistent updates across sites."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/biotech-pharma/customer-success-recap-video/video-api-software",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic customer success recap video workflow for Biotech / Pharma.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "title": "Launch customer success recap video with video api software"
+  },
+  "faq": [
+    {
+      "a": "Yes. Call /render per customer and process asynchronously.",
+      "q": "Can I batch render for many customers? (video api software)"
+    },
+    {
+      "a": "Yes. Store webhook URLs in your database.",
+      "q": "Can I store outputs? (video api software)"
+    },
+    {
+      "a": "Biotech / Pharma teams use video api software to automate customer success recap video without manual editing bottlenecks.",
+      "q": "Why is video api software relevant for Biotech / Pharma teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Customer success recap video video api software for Biotech / Pharma",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Evaluate software that product and engineering teams can own directly. Built for Biotech / Pharma teams running customer success recap video.",
+    "supportLine": "Operational fit: Active sites and Patients enrolled with a customer recap is generated."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map customer success recap video requirements to video api software buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Pull usage and outcome metrics per customer.",
+        "title": "Fetch customer KPIs"
+      },
+      {
+        "body": "POST to /render with customer-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.biotech-pharma.customer-success-recap-video.video-api-software",
+  "intentSlug": "video-api-software",
+  "io": {
+    "inputJsonExample": {
+      "brand": "biotech-pharma",
+      "data": {
+        "highlight": "trials",
+        "industry": "biotech-pharma",
+        "kpis": {
+          "adverseEvents": 6,
+          "cycleTime": "12d",
+          "patientsEnrolled": 412,
+          "sitesActive": 24
+        },
+        "narrative": "Biotech / Pharma customer success recap video execution update",
+        "trigger": "customer-recap",
+        "workflow": "customer-success-recap-video"
+      },
+      "intent": "video-api-software",
+      "template": "customer-recap-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Delivery targets: secure portal, email, internal dashboard for biotech / pharma stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api software options for Biotech / Pharma. Run customer success recap video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Software for Biotech / Pharma Customer success recap video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Generic editors break when teams need deterministic output.",
+      "Manual clip production cannot keep up with recurring workflows.",
+      "Without API-native rendering, handoffs between teams become bottlenecks.",
+      "Trial updates are slow to compile and distribute."
+    ],
+    "title": "Why Biotech / Pharma buyers look for video api software"
+  },
+  "related": [
+    {
+      "href": "/use-cases/biotech-pharma/customer-success-recap-video/video-api-pricing",
+      "label": "Customer success recap video video api pricing for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/customer-success-recap-video/video-automation-service",
+      "label": "Customer success recap video video automation service for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/weekly-metrics-video/video-api-software",
+      "label": "Weekly metrics video video api software for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/biotech-pharma/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for Biotech / Pharma"
+    },
+    {
+      "href": "/use-cases/saas/customer-success-recap-video/video-api-software",
+      "label": "Customer success recap video video api software for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/customer-success-recap-video/video-api-software",
+      "label": "Customer success recap video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/customer-success-recap-video/video-api-software",
+      "label": "Customer success recap video video api software for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Use a versioned template to lock output behavior.",
+      "Send structured data to a single render endpoint.",
+      "Automate delivery with webhooks and system events.",
+      "Use customer-recap-v1 to keep output deterministic across Biotech / Pharma workflows."
+    ],
+    "title": "Execution plan for customer success recap video (video api software)"
+  },
+  "title": "Customer success recap video video api software for Biotech / Pharma",
+  "type": "buyer_intent",
+  "version": 1
+}

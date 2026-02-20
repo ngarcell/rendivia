@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate store performance summaries.",
+      "Make trends easy to share across regions."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/retail/revenue-forecast-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic revenue forecast video workflow for Retail.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch revenue forecast video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide scenario arrays for best/base/worst.",
+      "q": "Can I include scenarios? (video api pricing)"
+    },
+    {
+      "a": "Yes. Same input always yields the same output.",
+      "q": "Is it deterministic? (video api pricing)"
+    },
+    {
+      "a": "Retail teams use video api pricing to automate revenue forecast video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Retail teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Revenue forecast video video api pricing for Retail",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Retail teams running revenue forecast video.",
+    "supportLine": "Operational fit: Same-store sales and Foot traffic with a forecast is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map revenue forecast video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Include ranges, targets, and assumptions.",
+        "title": "Provide forecast"
+      },
+      {
+        "body": "POST to /render with revenue-forecast-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.retail.revenue-forecast-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "retail",
+      "data": {
+        "highlight": "stores",
+        "industry": "retail",
+        "kpis": {
+          "footTraffic": 48210,
+          "inventoryTurns": 5.2,
+          "sameStoreSales": "4.1%",
+          "stockouts": 32
+        },
+        "narrative": "Retail revenue forecast video execution update",
+        "trigger": "forecast-ready",
+        "workflow": "revenue-forecast-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "revenue-forecast-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Forecast ranges and deltas",
+      "Assumptions summarized",
+      "Delivery targets: email, regional dashboard, Slack for retail stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Retail. Run revenue forecast video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Retail Revenue forecast video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Store performance updates are slow to compile."
+    ],
+    "title": "Why Retail buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/retail/revenue-forecast-video/video-api-software",
+      "label": "Revenue forecast video video api software for Retail"
+    },
+    {
+      "href": "/use-cases/retail/revenue-forecast-video/video-automation-service",
+      "label": "Revenue forecast video video automation service for Retail"
+    },
+    {
+      "href": "/use-cases/retail/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Retail"
+    },
+    {
+      "href": "/use-cases/retail/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Retail"
+    },
+    {
+      "href": "/use-cases/retail/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Retail"
+    },
+    {
+      "href": "/use-cases/saas/revenue-forecast-video/video-api-pricing",
+      "label": "Revenue forecast video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/revenue-forecast-video/video-api-pricing",
+      "label": "Revenue forecast video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/revenue-forecast-video/video-api-pricing",
+      "label": "Revenue forecast video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use revenue-forecast-v1 to keep output deterministic across Retail workflows."
+    ],
+    "title": "Execution plan for revenue forecast video (video api pricing)"
+  },
+  "title": "Revenue forecast video video api pricing for Retail",
+  "type": "buyer_intent",
+  "version": 1
+}

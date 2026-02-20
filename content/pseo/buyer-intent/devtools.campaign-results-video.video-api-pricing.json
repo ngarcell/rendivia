@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate release and incident digests.",
+      "Make engineering health easy to communicate."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/devtools/campaign-results-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic campaign results video workflow for Developer tools.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch campaign results video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include target values and we render comparisons.",
+      "q": "Can I include benchmarks? (video api pricing)"
+    },
+    {
+      "a": "Call /render per campaign for deterministic outputs.",
+      "q": "Is it multi-campaign? (video api pricing)"
+    },
+    {
+      "a": "Developer tools teams use video api pricing to automate campaign results video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Developer tools teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Campaign results video video api pricing for Developer tools",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Developer tools teams running campaign results video.",
+    "supportLine": "Operational fit: Deploys and Lead time with a campaign ends."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map campaign results video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Aggregate reach, conversion, and spend metrics.",
+        "title": "Collect KPIs"
+      },
+      {
+        "body": "POST to /render with campaign-results-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.devtools.campaign-results-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "devtools",
+      "data": {
+        "highlight": "repositories",
+        "industry": "devtools",
+        "kpis": {
+          "changeFailureRate": "3.1%",
+          "deploys": 184,
+          "leadTime": "18h",
+          "mttr": "42m"
+        },
+        "narrative": "Developer tools campaign results video execution update",
+        "trigger": "campaign-ends",
+        "workflow": "campaign-results-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "campaign-results-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Campaign KPI summary",
+      "Visual comparison vs benchmarks",
+      "Delivery targets: Slack, email, internal portal for developer tools stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Developer tools. Run campaign results video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Developer tools Campaign results video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Engineering metrics live in dashboards but stakeholders need summaries."
+    ],
+    "title": "Why Developer tools buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/devtools/campaign-results-video/video-api-software",
+      "label": "Campaign results video video api software for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/campaign-results-video/video-automation-service",
+      "label": "Campaign results video video automation service for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Developer tools"
+    },
+    {
+      "href": "/use-cases/devtools/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Developer tools"
+    },
+    {
+      "href": "/use-cases/saas/campaign-results-video/video-api-pricing",
+      "label": "Campaign results video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/campaign-results-video/video-api-pricing",
+      "label": "Campaign results video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/campaign-results-video/video-api-pricing",
+      "label": "Campaign results video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use campaign-results-v1 to keep output deterministic across Developer tools workflows."
+    ],
+    "title": "Execution plan for campaign results video (video api pricing)"
+  },
+  "title": "Campaign results video video api pricing for Developer tools",
+  "type": "buyer_intent",
+  "version": 1
+}

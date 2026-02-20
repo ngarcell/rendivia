@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate invoice and cashflow summaries.",
+      "Reduce reporting time each cycle."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/accounting/expense-summary-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic expense summary video workflow for Accounting / Invoicing.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch expense summary video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include department arrays in the payload.",
+      "q": "Can I include department splits? (video api pricing)"
+    },
+    {
+      "a": "Yes. Provide currency fields for display.",
+      "q": "Does it support multiple currencies? (video api pricing)"
+    },
+    {
+      "a": "Accounting / Invoicing teams use video api pricing to automate expense summary video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Accounting / Invoicing teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Expense summary video video api pricing for Accounting / Invoicing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Accounting / Invoicing teams running expense summary video.",
+    "supportLine": "Operational fit: Invoices sent and Paid with monthly close completes."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map expense summary video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide totals by category and variance.",
+        "title": "Collect spend data"
+      },
+      {
+        "body": "POST to /render with expense-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.accounting.expense-summary-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "accounting",
+      "data": {
+        "highlight": "invoices",
+        "industry": "accounting",
+        "kpis": {
+          "cashIn": 84200,
+          "invoicesSent": 482,
+          "overdue": 41,
+          "paid": 392
+        },
+        "narrative": "Accounting / Invoicing expense summary video execution update",
+        "trigger": "monthly-close",
+        "workflow": "expense-summary-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "expense-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Delivery targets: email, client portal, dashboard for accounting / invoicing stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Accounting / Invoicing. Run expense summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Accounting / Invoicing Expense summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Cashflow reporting is often delayed."
+    ],
+    "title": "Why Accounting / Invoicing buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/accounting/expense-summary-video/video-api-software",
+      "label": "Expense summary video video api software for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/expense-summary-video/video-automation-service",
+      "label": "Expense summary video video automation service for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/accounting/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Accounting / Invoicing"
+    },
+    {
+      "href": "/use-cases/saas/expense-summary-video/video-api-pricing",
+      "label": "Expense summary video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/expense-summary-video/video-api-pricing",
+      "label": "Expense summary video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/expense-summary-video/video-api-pricing",
+      "label": "Expense summary video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use expense-summary-v1 to keep output deterministic across Accounting / Invoicing workflows."
+    ],
+    "title": "Execution plan for expense summary video (video api pricing)"
+  },
+  "title": "Expense summary video video api pricing for Accounting / Invoicing",
+  "type": "buyer_intent",
+  "version": 1
+}

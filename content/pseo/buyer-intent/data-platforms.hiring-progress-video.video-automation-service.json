@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate data reliability and pipeline updates.",
+      "Make dataset health visible at a glance."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/data-platforms/hiring-progress-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic hiring progress video workflow for Data platforms.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch hiring progress video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include diversity fields for rendering.",
+      "q": "Can I include diversity metrics? (video automation service)"
+    },
+    {
+      "a": "Yes. Render per department or include groups.",
+      "q": "Does it support multiple departments? (video automation service)"
+    },
+    {
+      "a": "Data platforms teams use video automation service to automate hiring progress video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Data platforms teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Hiring progress video video automation service for Data platforms",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Data platforms teams running hiring progress video.",
+    "supportLine": "Operational fit: Pipelines succeeded and Data volume (TB) with a hiring update is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map hiring progress video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide stage counts and open roles.",
+        "title": "Collect pipeline"
+      },
+      {
+        "body": "POST to /render with hiring-progress-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.data-platforms.hiring-progress-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "data-platforms",
+      "data": {
+        "highlight": "pipelines",
+        "industry": "data-platforms",
+        "kpis": {
+          "dataVolume": 128,
+          "pipelinesSucceeded": 932,
+          "queryCount": 42000,
+          "slaBreaches": 3
+        },
+        "narrative": "Data platforms hiring progress video execution update",
+        "trigger": "hiring-update",
+        "workflow": "hiring-progress-video"
+      },
+      "intent": "video-automation-service",
+      "template": "hiring-progress-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Role-by-role pipeline summary",
+      "Time-to-fill indicators",
+      "Delivery targets: email, ops dashboard, Slack for data platforms stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Data platforms. Run hiring progress video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Data platforms Hiring progress video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Data reliability updates are buried in logs."
+    ],
+    "title": "Why Data platforms buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/data-platforms/hiring-progress-video/video-api-software",
+      "label": "Hiring progress video video api software for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/hiring-progress-video/video-api-pricing",
+      "label": "Hiring progress video video api pricing for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Data platforms"
+    },
+    {
+      "href": "/use-cases/data-platforms/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Data platforms"
+    },
+    {
+      "href": "/use-cases/saas/hiring-progress-video/video-automation-service",
+      "label": "Hiring progress video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/hiring-progress-video/video-automation-service",
+      "label": "Hiring progress video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/hiring-progress-video/video-automation-service",
+      "label": "Hiring progress video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use hiring-progress-v1 to keep output deterministic across Data platforms workflows."
+    ],
+    "title": "Execution plan for hiring progress video (video automation service)"
+  },
+  "title": "Hiring progress video video automation service for Data platforms",
+  "type": "buyer_intent",
+  "version": 1
+}

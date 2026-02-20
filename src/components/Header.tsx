@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 import {
   SignedIn,
   SignedOut,
@@ -45,6 +46,15 @@ function MenuIcon({ open }: { open: boolean }) {
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const menuPanelRef = useRef<HTMLDivElement | null>(null);
+  const menuButtonRef = useRef<HTMLButtonElement | null>(null);
+  const previousFocusRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
+
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = "hidden";
@@ -54,6 +64,83 @@ export function Header() {
     return () => {
       document.body.style.overflow = "";
     };
+  }, [menuOpen]);
+
+  useEffect(() => {
+    if (!menuOpen) return;
+
+    previousFocusRef.current = document.activeElement as HTMLElement | null;
+    const panel = menuPanelRef.current;
+    const menuButton = menuButtonRef.current;
+    if (!panel) return;
+
+    const getFocusable = () =>
+      Array.from(
+        panel.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter((el) => !el.hasAttribute("disabled"));
+
+    const focusable = getFocusable();
+    focusable[0]?.focus();
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setMenuOpen(false);
+        menuButton?.focus();
+        return;
+      }
+
+      if (event.key !== "Tab") return;
+      const nodes = getFocusable();
+      if (nodes.length === 0) {
+        event.preventDefault();
+        return;
+      }
+
+      const first = nodes[0];
+      const last = nodes[nodes.length - 1];
+      const active = document.activeElement as HTMLElement | null;
+
+      if (event.shiftKey) {
+        if (active === first || !active || !panel.contains(active)) {
+          event.preventDefault();
+          last.focus();
+        }
+      } else if (active === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+
+    const onPointerDown = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node | null;
+      if (!target) return;
+      if (panel.contains(target)) return;
+      if (menuButton?.contains(target)) return;
+      setMenuOpen(false);
+    };
+
+    document.addEventListener("keydown", onKeyDown);
+    document.addEventListener("mousedown", onPointerDown);
+    document.addEventListener("touchstart", onPointerDown);
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.removeEventListener("mousedown", onPointerDown);
+      document.removeEventListener("touchstart", onPointerDown);
+    };
+  }, [menuOpen]);
+
+  useEffect(() => {
+    if (menuOpen) return;
+    const previous = previousFocusRef.current;
+    if (!previous) return;
+    previousFocusRef.current = null;
+    if (typeof previous.focus === "function") {
+      previous.focus();
+    }
   }, [menuOpen]);
 
   return (
@@ -116,6 +203,7 @@ export function Header() {
 
           {/* Mobile menu button */}
           <button
+            ref={menuButtonRef}
             type="button"
             onClick={() => setMenuOpen((o) => !o)}
             className="touch-target -mr-1 flex min-h-[44px] min-w-[44px] items-center justify-center rounded-lg text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 sm:hidden"
@@ -130,6 +218,7 @@ export function Header() {
 
       {/* Mobile nav panel */}
       <div
+        ref={menuPanelRef}
         id="mobile-nav"
         className={`sm:hidden ${menuOpen ? "block" : "hidden"}`}
         aria-hidden={!menuOpen}

@@ -205,6 +205,16 @@ export interface Database {
           monthly_renders: number | null;
           cohort: string | null;
           source: string | null;
+          landing_path: string | null;
+          cluster: string | null;
+          intent_slug: string | null;
+          utm_source: string | null;
+          utm_medium: string | null;
+          utm_campaign: string | null;
+          utm_term: string | null;
+          utm_content: string | null;
+          gclid: string | null;
+          referrer: string | null;
           created_at: string;
         };
         Insert: {
@@ -220,6 +230,16 @@ export interface Database {
           monthly_renders?: number | null;
           cohort?: string | null;
           source?: string | null;
+          landing_path?: string | null;
+          cluster?: string | null;
+          intent_slug?: string | null;
+          utm_source?: string | null;
+          utm_medium?: string | null;
+          utm_campaign?: string | null;
+          utm_term?: string | null;
+          utm_content?: string | null;
+          gclid?: string | null;
+          referrer?: string | null;
           created_at?: string;
         };
         Update: Partial<Database["public"]["Tables"]["early_access_requests"]["Insert"]>;

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate recurring performance digests.",
+      "Improve stakeholder clarity on KPIs."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/telecom/onboarding-summary-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic onboarding summary video workflow for Telecom.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch onboarding summary video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user? (video automation service)"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams? (video automation service)"
+    },
+    {
+      "a": "Telecom teams use video automation service to automate onboarding summary video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Telecom teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Onboarding summary video video automation service for Telecom",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Telecom teams running onboarding summary video.",
+    "supportLine": "Operational fit: Subscribers and ARPU with onboarding is complete."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map onboarding summary video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.telecom.onboarding-summary-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "telecom",
+      "data": {
+        "highlight": "subscribers",
+        "industry": "telecom",
+        "kpis": {
+          "arpu": 7.4,
+          "churn": "1.9%",
+          "outages": 2,
+          "subscribers": 184200
+        },
+        "narrative": "Telecom onboarding summary video execution update",
+        "trigger": "onboarding-complete",
+        "workflow": "onboarding-summary-video"
+      },
+      "intent": "video-automation-service",
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Delivery targets: status page, email, internal dashboard for telecom stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Telecom. Run onboarding summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Telecom Onboarding summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Operational updates are noisy and difficult to summarize."
+    ],
+    "title": "Why Telecom buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/telecom/onboarding-summary-video/video-api-software",
+      "label": "Onboarding summary video video api software for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/onboarding-summary-video/video-api-pricing",
+      "label": "Onboarding summary video video api pricing for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Telecom"
+    },
+    {
+      "href": "/use-cases/telecom/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Telecom"
+    },
+    {
+      "href": "/use-cases/saas/onboarding-summary-video/video-automation-service",
+      "label": "Onboarding summary video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/onboarding-summary-video/video-automation-service",
+      "label": "Onboarding summary video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/onboarding-summary-video/video-automation-service",
+      "label": "Onboarding summary video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use onboarding-summary-v1 to keep output deterministic across Telecom workflows."
+    ],
+    "title": "Execution plan for onboarding summary video (video automation service)"
+  },
+  "title": "Onboarding summary video video automation service for Telecom",
+  "type": "buyer_intent",
+  "version": 1
+}

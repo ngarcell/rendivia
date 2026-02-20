@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Deliver consistent people updates.",
+      "Automate recurring headcount and hiring recaps."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/hr-peopleops/shipment-exception-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic shipment exception video workflow for HR / People Ops.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch shipment exception video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide ETA fields and the template renders them.",
+      "q": "Can I include live ETAs? (video api pricing)"
+    },
+    {
+      "a": "Yes, typically for ops teams and internal dashboards.",
+      "q": "Is it for internal ops only? (video api pricing)"
+    },
+    {
+      "a": "HR / People Ops teams use video api pricing to automate shipment exception video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for HR / People Ops teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Shipment exception video video api pricing for HR / People Ops",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for HR / People Ops teams running shipment exception video.",
+    "supportLine": "Operational fit: Headcount and Open roles with exceptions are detected."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map shipment exception video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide exception counts and impacted routes.",
+        "title": "Detect exceptions"
+      },
+      {
+        "body": "POST to /render with exception-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.hr-peopleops.shipment-exception-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "hr-peopleops",
+      "data": {
+        "highlight": "employees",
+        "industry": "hr-peopleops",
+        "kpis": {
+          "attrition": "1.1%",
+          "headcount": 214,
+          "openRoles": 12,
+          "timeToHire": "24d"
+        },
+        "narrative": "HR / People Ops shipment exception video execution update",
+        "trigger": "exception-detected",
+        "workflow": "shipment-exception-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "exception-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "20-40s MP4 video",
+      "Exception count and severity",
+      "Impacted routes summary",
+      "Delivery targets: email, leadership portal, Slack for hr / people ops stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for HR / People Ops. Run shipment exception video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for HR / People Ops Shipment exception video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "People metrics aren't communicated consistently."
+    ],
+    "title": "Why HR / People Ops buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/hr-peopleops/shipment-exception-video/video-api-software",
+      "label": "Shipment exception video video api software for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/shipment-exception-video/video-automation-service",
+      "label": "Shipment exception video video automation service for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/hr-peopleops/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for HR / People Ops"
+    },
+    {
+      "href": "/use-cases/saas/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use exception-summary-v1 to keep output deterministic across HR / People Ops workflows."
+    ],
+    "title": "Execution plan for shipment exception video (video api pricing)"
+  },
+  "title": "Shipment exception video video api pricing for HR / People Ops",
+  "type": "buyer_intent",
+  "version": 1
+}

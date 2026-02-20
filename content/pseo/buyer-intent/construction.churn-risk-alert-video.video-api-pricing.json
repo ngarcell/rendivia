@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate project progress summaries.",
+      "Deliver consistent updates to clients and leaders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/construction/churn-risk-alert-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic churn risk alert video workflow for Construction.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch churn risk alert video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets (internal alerts or customer comms).",
+      "q": "Is this for customers or internal teams? (video api pricing)"
+    },
+    {
+      "a": "Yes. Provide a drivers array; template renders top drivers.",
+      "q": "Can I include driver metrics? (video api pricing)"
+    },
+    {
+      "a": "Construction teams use video api pricing to automate churn risk alert video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Construction teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Churn risk alert video video api pricing for Construction",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Construction teams running churn risk alert video.",
+    "supportLine": "Operational fit: Projects on track and Change orders with churn risk spikes."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map churn risk alert video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Compute churn risk or health score in your system.",
+        "title": "Detect risk"
+      },
+      {
+        "body": "POST to /render with risk-alert-v1 and key drivers.",
+        "title": "Render alert"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.construction.churn-risk-alert-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "construction",
+      "data": {
+        "highlight": "projects",
+        "industry": "construction",
+        "kpis": {
+          "budgetVariance": "-2%",
+          "changeOrders": 12,
+          "projectsOnTrack": 18,
+          "safetyIncidents": 1
+        },
+        "narrative": "Construction churn risk alert video execution update",
+        "trigger": "risk-spike",
+        "workflow": "churn-risk-alert-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "risk-alert-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "15-30s MP4 video",
+      "Risk score and key drivers",
+      "Suggested next action slot",
+      "Delivery targets: email, client portal, project dashboard for construction stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Construction. Run churn risk alert video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Construction Churn risk alert video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Progress reporting is manual and inconsistent."
+    ],
+    "title": "Why Construction buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/construction/churn-risk-alert-video/video-api-software",
+      "label": "Churn risk alert video video api software for Construction"
+    },
+    {
+      "href": "/use-cases/construction/churn-risk-alert-video/video-automation-service",
+      "label": "Churn risk alert video video automation service for Construction"
+    },
+    {
+      "href": "/use-cases/construction/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Construction"
+    },
+    {
+      "href": "/use-cases/construction/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Construction"
+    },
+    {
+      "href": "/use-cases/construction/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Construction"
+    },
+    {
+      "href": "/use-cases/saas/churn-risk-alert-video/video-api-pricing",
+      "label": "Churn risk alert video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/churn-risk-alert-video/video-api-pricing",
+      "label": "Churn risk alert video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/churn-risk-alert-video/video-api-pricing",
+      "label": "Churn risk alert video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use risk-alert-v1 to keep output deterministic across Construction workflows."
+    ],
+    "title": "Execution plan for churn risk alert video (video api pricing)"
+  },
+  "title": "Churn risk alert video video api pricing for Construction",
+  "type": "buyer_intent",
+  "version": 1
+}

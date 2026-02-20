@@ -15,6 +15,19 @@ type FormState = {
   monthlyRenders: string;
 };
 
+type LandingContext = {
+  landingPath: string;
+  cluster: string | null;
+  intentSlug: string | null;
+  utm_source: string | null;
+  utm_medium: string | null;
+  utm_campaign: string | null;
+  utm_term: string | null;
+  utm_content: string | null;
+  gclid: string | null;
+  referrer: string | null;
+};
+
 interface EarlyAccessFormProps {
   cohort?: string;
   source?: string;
@@ -31,6 +44,51 @@ const DEFAULT_STATE: FormState = {
   timeline: "",
   monthlyRenders: "",
 };
+
+function parseLandingContext(): LandingContext {
+  if (typeof window === "undefined") {
+    return {
+      landingPath: "/",
+      cluster: null,
+      intentSlug: null,
+      utm_source: null,
+      utm_medium: null,
+      utm_campaign: null,
+      utm_term: null,
+      utm_content: null,
+      gclid: null,
+      referrer: null,
+    };
+  }
+
+  const pathname = window.location.pathname || "/";
+  const searchParams = new URLSearchParams(window.location.search || "");
+  const buyerIntentMatch = pathname.match(/^\/use-cases\/[^/]+\/[^/]+\/([^/]+)$/);
+
+  let cluster: string | null = null;
+  if (buyerIntentMatch) {
+    cluster = "buyer-intent";
+  } else if (pathname.startsWith("/use-cases/")) {
+    cluster = "use-case";
+  } else if (pathname.startsWith("/tools/")) {
+    cluster = "tools";
+  } else if (pathname.startsWith("/vs/")) {
+    cluster = "comparisons";
+  }
+
+  return {
+    landingPath: pathname,
+    cluster,
+    intentSlug: buyerIntentMatch?.[1] ?? null,
+    utm_source: searchParams.get("utm_source"),
+    utm_medium: searchParams.get("utm_medium"),
+    utm_campaign: searchParams.get("utm_campaign"),
+    utm_term: searchParams.get("utm_term"),
+    utm_content: searchParams.get("utm_content"),
+    gclid: searchParams.get("gclid"),
+    referrer: document.referrer || null,
+  };
+}
 
 export default function EarlyAccessForm({ cohort = "design-partner", source }: EarlyAccessFormProps) {
   const [form, setForm] = useState<FormState>(DEFAULT_STATE);
@@ -53,14 +111,27 @@ export default function EarlyAccessForm({ cohort = "design-partner", source }: E
     setMessage("");
 
     try {
+      const landingContext = parseLandingContext();
       const payload = {
         ...form,
         monthlyRenders: form.monthlyRenders ? Number(form.monthlyRenders) : null,
         cohort,
         source: effectiveSource,
+        ...landingContext,
       };
 
-      trackEvent("early_access_submit", { cohort, source: effectiveSource });
+      trackEvent("early_access_submit", {
+        cohort,
+        source: effectiveSource,
+        landingPath: landingContext.landingPath,
+        cluster: landingContext.cluster,
+        intentSlug: landingContext.intentSlug,
+        utm_source: landingContext.utm_source,
+        utm_medium: landingContext.utm_medium,
+        utm_campaign: landingContext.utm_campaign,
+        utm_term: landingContext.utm_term,
+        gclid: landingContext.gclid,
+      });
 
       const res = await fetch("/api/early-access", {
         method: "POST",

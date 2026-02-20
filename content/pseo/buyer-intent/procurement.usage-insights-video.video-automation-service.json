@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate supplier and spend summaries.",
+      "Make savings and risk visibility clear."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/procurement/usage-insights-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic usage insights video workflow for Procurement.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch usage insights video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons? (video automation service)"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account? (video automation service)"
+    },
+    {
+      "a": "Procurement teams use video automation service to automate usage insights video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Procurement teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Usage insights video video automation service for Procurement",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Procurement teams running usage insights video.",
+    "supportLine": "Operational fit: Spend and Savings with usage crosses a threshold."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map usage insights video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.procurement.usage-insights-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "procurement",
+      "data": {
+        "highlight": "suppliers",
+        "industry": "procurement",
+        "kpis": {
+          "onTimeDelivery": "91%",
+          "savings": 18200,
+          "spend": 214000,
+          "supplierRisk": "Low"
+        },
+        "narrative": "Procurement usage insights video execution update",
+        "trigger": "usage-threshold",
+        "workflow": "usage-insights-video"
+      },
+      "intent": "video-automation-service",
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Delivery targets: email, procurement portal, leadership dashboard for procurement stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Procurement. Run usage insights video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Procurement Usage insights video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Spend reporting is manual and time-consuming."
+    ],
+    "title": "Why Procurement buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/procurement/usage-insights-video/video-api-software",
+      "label": "Usage insights video video api software for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/usage-insights-video/video-api-pricing",
+      "label": "Usage insights video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Procurement"
+    },
+    {
+      "href": "/use-cases/saas/usage-insights-video/video-automation-service",
+      "label": "Usage insights video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/usage-insights-video/video-automation-service",
+      "label": "Usage insights video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/usage-insights-video/video-automation-service",
+      "label": "Usage insights video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use usage-insights-v1 to keep output deterministic across Procurement workflows."
+    ],
+    "title": "Execution plan for usage insights video (video automation service)"
+  },
+  "title": "Usage insights video video automation service for Procurement",
+  "type": "buyer_intent",
+  "version": 1
+}

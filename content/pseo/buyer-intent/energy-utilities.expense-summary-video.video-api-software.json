@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deterministic render pipeline built for repeatable output",
+      "Template versioning for controlled production changes",
+      "API and webhook primitives designed for SaaS integration",
+      "Automate reliability and outage updates.",
+      "Deliver clear status summaries to stakeholders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/energy-utilities/expense-summary-video/video-api-software",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic expense summary video workflow for Energy / Utilities.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "title": "Launch expense summary video with video api software"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include department arrays in the payload.",
+      "q": "Can I include department splits? (video api software)"
+    },
+    {
+      "a": "Yes. Provide currency fields for display.",
+      "q": "Does it support multiple currencies? (video api software)"
+    },
+    {
+      "a": "Energy / Utilities teams use video api software to automate expense summary video without manual editing bottlenecks.",
+      "q": "Why is video api software relevant for Energy / Utilities teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Expense summary video video api software for Energy / Utilities",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Evaluate software that product and engineering teams can own directly. Built for Energy / Utilities teams running expense summary video.",
+    "supportLine": "Operational fit: Outages and Restoration time with monthly close completes."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map expense summary video requirements to video api software buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide totals by category and variance.",
+        "title": "Collect spend data"
+      },
+      {
+        "body": "POST to /render with expense-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.energy-utilities.expense-summary-video.video-api-software",
+  "intentSlug": "video-api-software",
+  "io": {
+    "inputJsonExample": {
+      "brand": "energy-utilities",
+      "data": {
+        "highlight": "meters",
+        "industry": "energy-utilities",
+        "kpis": {
+          "outages": 3,
+          "peakLoad": 842,
+          "renewableShare": "38%",
+          "restorationTime": "1h 20m"
+        },
+        "narrative": "Energy / Utilities expense summary video execution update",
+        "trigger": "monthly-close",
+        "workflow": "expense-summary-video"
+      },
+      "intent": "video-api-software",
+      "template": "expense-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-75s MP4 video",
+      "Budget variance highlights",
+      "Category breakdowns",
+      "Delivery targets: status page, email, ops dashboard for energy / utilities stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api software options for Energy / Utilities. Run expense summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Software for Energy / Utilities Expense summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Generic editors break when teams need deterministic output.",
+      "Manual clip production cannot keep up with recurring workflows.",
+      "Without API-native rendering, handoffs between teams become bottlenecks.",
+      "Operational updates are hard to summarize quickly."
+    ],
+    "title": "Why Energy / Utilities buyers look for video api software"
+  },
+  "related": [
+    {
+      "href": "/use-cases/energy-utilities/expense-summary-video/video-api-pricing",
+      "label": "Expense summary video video api pricing for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/expense-summary-video/video-automation-service",
+      "label": "Expense summary video video automation service for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/weekly-metrics-video/video-api-software",
+      "label": "Weekly metrics video video api software for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/energy-utilities/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for Energy / Utilities"
+    },
+    {
+      "href": "/use-cases/saas/expense-summary-video/video-api-software",
+      "label": "Expense summary video video api software for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/expense-summary-video/video-api-software",
+      "label": "Expense summary video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/expense-summary-video/video-api-software",
+      "label": "Expense summary video video api software for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Use a versioned template to lock output behavior.",
+      "Send structured data to a single render endpoint.",
+      "Automate delivery with webhooks and system events.",
+      "Use expense-summary-v1 to keep output deterministic across Energy / Utilities workflows."
+    ],
+    "title": "Execution plan for expense summary video (video api software)"
+  },
+  "title": "Expense summary video video api software for Energy / Utilities",
+  "type": "buyer_intent",
+  "version": 1
+}

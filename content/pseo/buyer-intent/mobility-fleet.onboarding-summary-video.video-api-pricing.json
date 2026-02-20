@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate fleet performance summaries.",
+      "Make route and delivery KPIs easy to understand."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/mobility-fleet/onboarding-summary-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic onboarding summary video workflow for Mobility / Fleet.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch onboarding summary video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include the user or account name in the payload.",
+      "q": "Can I personalize by user? (video api pricing)"
+    },
+    {
+      "a": "Yes. Pass team milestones and the template adapts.",
+      "q": "Does it work for teams? (video api pricing)"
+    },
+    {
+      "a": "Mobility / Fleet teams use video api pricing to automate onboarding summary video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Mobility / Fleet teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Onboarding summary video video api pricing for Mobility / Fleet",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Mobility / Fleet teams running onboarding summary video.",
+    "supportLine": "Operational fit: On-time rate and Miles driven with onboarding is complete."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map onboarding summary video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Collect activation steps and completion timestamps.",
+        "title": "Track milestones"
+      },
+      {
+        "body": "POST to /render with onboarding-summary-v1.",
+        "title": "Render summary"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.mobility-fleet.onboarding-summary-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "mobility-fleet",
+      "data": {
+        "highlight": "vehicles",
+        "industry": "mobility-fleet",
+        "kpis": {
+          "fuelCost": 12450,
+          "milesDriven": 84210,
+          "onTimeRate": "96%",
+          "utilization": "78%"
+        },
+        "narrative": "Mobility / Fleet onboarding summary video execution update",
+        "trigger": "onboarding-complete",
+        "workflow": "onboarding-summary-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "onboarding-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Milestone checklist and completion times",
+      "Brand styling applied automatically",
+      "Delivery targets: ops dashboard, email, Slack for mobility / fleet stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Mobility / Fleet. Run onboarding summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Mobility / Fleet Onboarding summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Fleet performance updates are manual and delayed."
+    ],
+    "title": "Why Mobility / Fleet buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/mobility-fleet/onboarding-summary-video/video-api-software",
+      "label": "Onboarding summary video video api software for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/onboarding-summary-video/video-automation-service",
+      "label": "Onboarding summary video video automation service for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/mobility-fleet/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Mobility / Fleet"
+    },
+    {
+      "href": "/use-cases/saas/onboarding-summary-video/video-api-pricing",
+      "label": "Onboarding summary video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/onboarding-summary-video/video-api-pricing",
+      "label": "Onboarding summary video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/onboarding-summary-video/video-api-pricing",
+      "label": "Onboarding summary video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use onboarding-summary-v1 to keep output deterministic across Mobility / Fleet workflows."
+    ],
+    "title": "Execution plan for onboarding summary video (video api pricing)"
+  },
+  "title": "Onboarding summary video video api pricing for Mobility / Fleet",
+  "type": "buyer_intent",
+  "version": 1
+}

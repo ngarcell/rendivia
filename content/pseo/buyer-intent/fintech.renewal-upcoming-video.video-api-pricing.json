@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Improve customer trust with clear, consistent updates.",
+      "Automate recurring portfolio and account summaries."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/fintech/renewal-upcoming-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic renewal upcoming video workflow for Fintech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch renewal upcoming video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Either. You control delivery targets.",
+      "q": "Is this internal or external? (video api pricing)"
+    },
+    {
+      "a": "Yes. Include plan fields to render pricing and tier info.",
+      "q": "Can I include plan details? (video api pricing)"
+    },
+    {
+      "a": "Fintech teams use video api pricing to automate renewal upcoming video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Fintech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Renewal upcoming video video api pricing for Fintech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Fintech teams running renewal upcoming video.",
+    "supportLine": "Operational fit: Assets under management and Deposits with a renewal is upcoming."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map renewal upcoming video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide usage, outcomes, and renewal date.",
+        "title": "Prepare health data"
+      },
+      {
+        "body": "POST to /render with renewal-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.fintech.renewal-upcoming-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "fintech",
+      "data": {
+        "highlight": "accounts",
+        "industry": "fintech",
+        "kpis": {
+          "aum": 1250000,
+          "chargebacks": 12,
+          "deposits": 84200,
+          "withdrawals": 53100
+        },
+        "narrative": "Fintech renewal upcoming video execution update",
+        "trigger": "renewal-upcoming",
+        "workflow": "renewal-upcoming-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "renewal-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Renewal timeline and health KPIs",
+      "Next-step CTA slot",
+      "Delivery targets: in-app, push notification, secure message center for fintech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Fintech. Run renewal upcoming video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Fintech Renewal upcoming video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Users don't open dashboards regularly to parse performance."
+    ],
+    "title": "Why Fintech buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/fintech/renewal-upcoming-video/video-api-software",
+      "label": "Renewal upcoming video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/renewal-upcoming-video/video-automation-service",
+      "label": "Renewal upcoming video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/fintech/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/saas/renewal-upcoming-video/video-api-pricing",
+      "label": "Renewal upcoming video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/ecommerce/renewal-upcoming-video/video-api-pricing",
+      "label": "Renewal upcoming video video api pricing for E-commerce"
+    },
+    {
+      "href": "/use-cases/marketing-agency/renewal-upcoming-video/video-api-pricing",
+      "label": "Renewal upcoming video video api pricing for Marketing agencies"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use renewal-summary-v1 to keep output deterministic across Fintech workflows."
+    ],
+    "title": "Execution plan for renewal upcoming video (video api pricing)"
+  },
+  "title": "Renewal upcoming video video api pricing for Fintech",
+  "type": "buyer_intent",
+  "version": 1
+}

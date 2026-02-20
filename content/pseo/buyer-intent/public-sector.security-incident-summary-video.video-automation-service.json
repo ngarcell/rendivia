@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate program and service updates.",
+      "Deliver consistent reporting to leadership."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/public-sector/security-incident-summary-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic security incident summary video workflow for Public sector / GovTech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch security incident summary video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a rootCause field in the payload.",
+      "q": "Can I include root cause? (video automation service)"
+    },
+    {
+      "a": "Yes. You control delivery and messaging.",
+      "q": "Is it suitable for external comms? (video automation service)"
+    },
+    {
+      "a": "Public sector / GovTech teams use video automation service to automate security incident summary video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Public sector / GovTech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Security incident summary video video automation service for Public sector / GovTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Public sector / GovTech teams running security incident summary video.",
+    "supportLine": "Operational fit: Cases resolved and Backlog with an incident is resolved."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map security incident summary video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide timeline events and impact metrics.",
+        "title": "Collect timeline"
+      },
+      {
+        "body": "POST to /render with incident-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.public-sector.security-incident-summary-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "public-sector",
+      "data": {
+        "highlight": "programs",
+        "industry": "public-sector",
+        "kpis": {
+          "backlog": 214,
+          "budgetUsed": "62%",
+          "casesResolved": 1842,
+          "slaCompliance": "93%"
+        },
+        "narrative": "Public sector / GovTech security incident summary video execution update",
+        "trigger": "incident-resolved",
+        "workflow": "security-incident-summary-video"
+      },
+      "intent": "video-automation-service",
+      "template": "incident-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Delivery targets: public portal, email, leadership dashboard for public sector / govtech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Public sector / GovTech. Run security incident summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Public sector / GovTech Security incident summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Program reporting is slow and manual."
+    ],
+    "title": "Why Public sector / GovTech buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/public-sector/security-incident-summary-video/video-api-software",
+      "label": "Security incident summary video video api software for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/security-incident-summary-video/video-api-pricing",
+      "label": "Security incident summary video video api pricing for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/saas/security-incident-summary-video/video-automation-service",
+      "label": "Security incident summary video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/security-incident-summary-video/video-automation-service",
+      "label": "Security incident summary video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/security-incident-summary-video/video-automation-service",
+      "label": "Security incident summary video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use incident-summary-v1 to keep output deterministic across Public sector / GovTech workflows."
+    ],
+    "title": "Execution plan for security incident summary video (video automation service)"
+  },
+  "title": "Security incident summary video video automation service for Public sector / GovTech",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Deterministic render pipeline built for repeatable output",
+      "Template versioning for controlled production changes",
+      "API and webhook primitives designed for SaaS integration",
+      "Automate listing and occupancy summaries.",
+      "Deliver consistent updates to stakeholders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/proptech/usage-insights-video/video-api-software",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic usage insights video workflow for PropTech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "title": "Launch usage insights video with video api software"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous period fields for comparisons.",
+      "q": "Can I include comparisons? (video api software)"
+    },
+    {
+      "a": "Yes. Render per account for deterministic outputs.",
+      "q": "Is it per account? (video api software)"
+    },
+    {
+      "a": "PropTech teams use video api software to automate usage insights video without manual editing bottlenecks.",
+      "q": "Why is video api software relevant for PropTech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Usage insights video video api software for PropTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Start paid trial"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Evaluate software that product and engineering teams can own directly. Built for PropTech teams running usage insights video.",
+    "supportLine": "Operational fit: Listings and Occupancy with usage crosses a threshold."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map usage insights video requirements to video api software buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide daily or weekly usage metrics.",
+        "title": "Aggregate usage"
+      },
+      {
+        "body": "POST to /render with usage-insights-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.proptech.usage-insights-video.video-api-software",
+  "intentSlug": "video-api-software",
+  "io": {
+    "inputJsonExample": {
+      "brand": "proptech",
+      "data": {
+        "highlight": "properties",
+        "industry": "proptech",
+        "kpis": {
+          "avgRent": 2140,
+          "leaseRenewals": 48,
+          "listings": 214,
+          "occupancy": "93%"
+        },
+        "narrative": "PropTech usage insights video execution update",
+        "trigger": "usage-threshold",
+        "workflow": "usage-insights-video"
+      },
+      "intent": "video-api-software",
+      "template": "usage-insights-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-45s MP4 video",
+      "Usage charts and highlights",
+      "Threshold-based callouts",
+      "Delivery targets: email, investor portal, internal dashboard for proptech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api software options for PropTech. Run usage insights video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Software for PropTech Usage insights video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Generic editors break when teams need deterministic output.",
+      "Manual clip production cannot keep up with recurring workflows.",
+      "Without API-native rendering, handoffs between teams become bottlenecks.",
+      "Property updates are spread across tools."
+    ],
+    "title": "Why PropTech buyers look for video api software"
+  },
+  "related": [
+    {
+      "href": "/use-cases/proptech/usage-insights-video/video-api-pricing",
+      "label": "Usage insights video video api pricing for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/usage-insights-video/video-automation-service",
+      "label": "Usage insights video video automation service for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/weekly-metrics-video/video-api-software",
+      "label": "Weekly metrics video video api software for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for PropTech"
+    },
+    {
+      "href": "/use-cases/proptech/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for PropTech"
+    },
+    {
+      "href": "/use-cases/saas/usage-insights-video/video-api-software",
+      "label": "Usage insights video video api software for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/usage-insights-video/video-api-software",
+      "label": "Usage insights video video api software for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/usage-insights-video/video-api-software",
+      "label": "Usage insights video video api software for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Use a versioned template to lock output behavior.",
+      "Send structured data to a single render endpoint.",
+      "Automate delivery with webhooks and system events.",
+      "Use usage-insights-v1 to keep output deterministic across PropTech workflows."
+    ],
+    "title": "Execution plan for usage insights video (video api software)"
+  },
+  "title": "Usage insights video video api software for PropTech",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate program and service updates.",
+      "Deliver consistent reporting to leadership."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/public-sector/monthly-metrics-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic monthly metrics video workflow for Public sector / GovTech.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch monthly metrics video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include previous-period fields; the template renders comparisons.",
+      "q": "Can I compare vs last month? (video api pricing)"
+    },
+    {
+      "a": "Templates are versioned; your chosen version stays stable.",
+      "q": "Do templates change? (video api pricing)"
+    },
+    {
+      "a": "Public sector / GovTech teams use video api pricing to automate monthly metrics video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Public sector / GovTech teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Monthly metrics video video api pricing for Public sector / GovTech",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Public sector / GovTech teams running monthly metrics video.",
+    "supportLine": "Operational fit: Cases resolved and Backlog with a monthly report is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map monthly metrics video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Use monthly-summary-v1 for consistent output.",
+        "title": "Choose template"
+      },
+      {
+        "body": "POST JSON to /render with monthly KPIs and highlights.",
+        "title": "Send KPIs"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.public-sector.monthly-metrics-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "public-sector",
+      "data": {
+        "highlight": "programs",
+        "industry": "public-sector",
+        "kpis": {
+          "backlog": 214,
+          "budgetUsed": "62%",
+          "casesResolved": 1842,
+          "slaCompliance": "93%"
+        },
+        "narrative": "Public sector / GovTech monthly metrics video execution update",
+        "trigger": "monthly-report",
+        "workflow": "monthly-metrics-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "monthly-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "60-90s MP4 video",
+      "Branded intro/outro",
+      "KPI comparisons vs last month",
+      "Delivery targets: public portal, email, leadership dashboard for public sector / govtech stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Public sector / GovTech. Run monthly metrics video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Public sector / GovTech Monthly metrics video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Program reporting is slow and manual."
+    ],
+    "title": "Why Public sector / GovTech buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/public-sector/monthly-metrics-video/video-api-software",
+      "label": "Monthly metrics video video api software for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/public-sector/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for Public sector / GovTech"
+    },
+    {
+      "href": "/use-cases/saas/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use monthly-summary-v1 to keep output deterministic across Public sector / GovTech workflows."
+    ],
+    "title": "Execution plan for monthly metrics video (video api pricing)"
+  },
+  "title": "Monthly metrics video video api pricing for Public sector / GovTech",
+  "type": "buyer_intent",
+  "version": 1
+}

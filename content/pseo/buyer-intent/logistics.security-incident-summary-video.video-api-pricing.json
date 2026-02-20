@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/logistics/security-incident-summary-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic security incident summary video workflow for Logistics / Supply chain.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch security incident summary video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a rootCause field in the payload.",
+      "q": "Can I include root cause? (video api pricing)"
+    },
+    {
+      "a": "Yes. You control delivery and messaging.",
+      "q": "Is it suitable for external comms? (video api pricing)"
+    },
+    {
+      "a": "Logistics / Supply chain teams use video api pricing to automate security incident summary video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Logistics / Supply chain teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Security incident summary video video api pricing for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Logistics / Supply chain teams running security incident summary video.",
+    "supportLine": "Operational fit: Shipments and On-time rate with an incident is resolved."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map security incident summary video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide timeline events and impact metrics.",
+        "title": "Collect timeline"
+      },
+      {
+        "body": "POST to /render with incident-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.logistics.security-incident-summary-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics",
+      "data": {
+        "highlight": "shipments",
+        "industry": "logistics",
+        "kpis": {
+          "avgDelay": "12m",
+          "costPerShipment": 4.2,
+          "onTimeRate": "94%",
+          "shipments": 9821
+        },
+        "narrative": "Logistics / Supply chain security incident summary video execution update",
+        "trigger": "incident-resolved",
+        "workflow": "security-incident-summary-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "incident-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Incident timeline highlights",
+      "Impact metrics summarized",
+      "Delivery targets: email, operations dashboard, Slack for logistics / supply chain stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Logistics / Supply chain. Run security incident summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Logistics / Supply chain Security incident summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Operational KPIs are hard to communicate quickly."
+    ],
+    "title": "Why Logistics / Supply chain buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/security-incident-summary-video/video-api-software",
+      "label": "Security incident summary video video api software for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/security-incident-summary-video/video-automation-service",
+      "label": "Security incident summary video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/saas/security-incident-summary-video/video-api-pricing",
+      "label": "Security incident summary video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/security-incident-summary-video/video-api-pricing",
+      "label": "Security incident summary video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/security-incident-summary-video/video-api-pricing",
+      "label": "Security incident summary video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use incident-summary-v1 to keep output deterministic across Logistics / Supply chain workflows."
+    ],
+    "title": "Execution plan for security incident summary video (video api pricing)"
+  },
+  "title": "Security incident summary video video api pricing for Logistics / Supply chain",
+  "type": "buyer_intent",
+  "version": 1
+}

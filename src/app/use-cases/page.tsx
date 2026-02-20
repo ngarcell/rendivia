@@ -9,8 +9,37 @@ export const metadata = {
     "Explore programmatic video generation use cases across industries. Turn structured data into branded MP4 videos via API.",
 };
 
+function pickFeaturedUseCases(
+  pages: ReturnType<typeof getPseoPagesByType>,
+  limit: number
+) {
+  const featured: typeof pages = [];
+  const seenIndustries = new Set<string>();
+
+  const sorted = [...pages].sort((a, b) =>
+    a.canonicalUrl.localeCompare(b.canonicalUrl)
+  );
+
+  for (const page of sorted) {
+    const industry = page.canonicalUrl.match(/^\/use-cases\/([^/]+)\//)?.[1];
+    if (!industry || seenIndustries.has(industry)) continue;
+    featured.push(page);
+    seenIndustries.add(industry);
+    if (featured.length >= limit) return featured;
+  }
+
+  for (const page of sorted) {
+    if (featured.some((item) => item.canonicalUrl === page.canonicalUrl)) continue;
+    featured.push(page);
+    if (featured.length >= limit) break;
+  }
+
+  return featured;
+}
+
 export default function UseCasesHub() {
   const pages = getPseoPagesByType("use_case");
+  const featuredPages = pickFeaturedUseCases(pages, 24);
   const dataSources = getPseoPagesByType("data_source").slice(0, 3);
   const triggers = getPseoPagesByType("trigger").slice(0, 3);
   const industries = Array.from(
@@ -81,20 +110,31 @@ export default function UseCasesHub() {
           </Link>
         </div>
 
-        {pages.length === 0 ? (
+        {featuredPages.length === 0 ? (
           <div className="mt-10 rounded-2xl border border-dashed border-zinc-200 p-8 text-sm text-zinc-600">
             No use-case pages have been generated yet.
           </div>
         ) : (
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {pages.map((page) => (
-              <UseCaseCard
-                key={page.canonicalUrl}
-                title={page.title}
-                description={page.hero.subheadline}
-                href={page.canonicalUrl}
-              />
-            ))}
+          <>
+            <p className="mt-6 text-sm text-zinc-500">
+              Showing {featuredPages.length} featured workflows from {pages.length} use-case pages.
+            </p>
+            <div className="mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {featuredPages.map((page) => (
+                <UseCaseCard
+                  key={page.canonicalUrl}
+                  title={page.title}
+                  description={page.hero.subheadline}
+                  href={page.canonicalUrl}
+                />
+              ))}
+            </div>
+          </>
+        )}
+
+        {pages.length > featuredPages.length && (
+          <div className="mt-6 rounded-2xl border border-zinc-200 bg-[var(--muted-bg)] p-4 text-sm text-zinc-600">
+            Use industry hubs above to drill into the full index without loading every page in one view.
           </div>
         )}
 

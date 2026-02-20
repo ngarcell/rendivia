@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/trial-to-paid-recap-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic trial-to-paid conversion recap video workflow for Manufacturing.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch trial-to-paid conversion recap video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a CTA field in data and render it in the outro.",
+      "q": "Can I include a CTA at the end? (video automation service)"
+    },
+    {
+      "a": "It complements them by adding a high-signal recap format.",
+      "q": "Does this replace emails? (video automation service)"
+    },
+    {
+      "a": "Manufacturing teams use video automation service to automate trial-to-paid conversion recap video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Manufacturing teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Trial-to-paid conversion recap video video automation service for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Manufacturing teams running trial-to-paid conversion recap video.",
+    "supportLine": "Operational fit: Units produced and Defect rate with a trial is ending."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map trial-to-paid conversion recap video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Aggregate usage events and outcomes during the trial.",
+        "title": "Collect trial data"
+      },
+      {
+        "body": "POST to /render with trial-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.manufacturing.trial-to-paid-recap-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "highlight": "lines",
+        "industry": "manufacturing",
+        "kpis": {
+          "defectRate": "1.2%",
+          "downtime": "3h",
+          "onTimeDelivery": "96%",
+          "unitsProduced": 28420
+        },
+        "narrative": "Manufacturing trial-to-paid conversion recap video execution update",
+        "trigger": "trial-end",
+        "workflow": "trial-to-paid-recap-video"
+      },
+      "intent": "video-automation-service",
+      "template": "trial-recap-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Usage highlights and outcomes",
+      "Clear next-step CTA slot",
+      "Delivery targets: email, operations dashboard, leadership portal for manufacturing stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Manufacturing. Run trial-to-paid conversion recap video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Manufacturing Trial-to-paid conversion recap video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Operational KPIs are buried in spreadsheets."
+    ],
+    "title": "Why Manufacturing buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/trial-to-paid-recap-video/video-api-software",
+      "label": "Trial-to-paid conversion recap video video api software for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/trial-to-paid-recap-video/video-api-pricing",
+      "label": "Trial-to-paid conversion recap video video api pricing for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Manufacturing"
+    },
+    {
+      "href": "/use-cases/saas/trial-to-paid-recap-video/video-automation-service",
+      "label": "Trial-to-paid conversion recap video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/trial-to-paid-recap-video/video-automation-service",
+      "label": "Trial-to-paid conversion recap video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/trial-to-paid-recap-video/video-automation-service",
+      "label": "Trial-to-paid conversion recap video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use trial-recap-v1 to keep output deterministic across Manufacturing workflows."
+    ],
+    "title": "Execution plan for trial-to-paid conversion recap video (video automation service)"
+  },
+  "title": "Trial-to-paid conversion recap video video automation service for Manufacturing",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate content and subscriber recaps.",
+      "Make performance trends easy to share."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/media-streaming/shipment-exception-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic shipment exception video workflow for Media / Streaming.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch shipment exception video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide ETA fields and the template renders them.",
+      "q": "Can I include live ETAs? (video api pricing)"
+    },
+    {
+      "a": "Yes, typically for ops teams and internal dashboards.",
+      "q": "Is it for internal ops only? (video api pricing)"
+    },
+    {
+      "a": "Media / Streaming teams use video api pricing to automate shipment exception video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Media / Streaming teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Shipment exception video video api pricing for Media / Streaming",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Media / Streaming teams running shipment exception video.",
+    "supportLine": "Operational fit: Watch hours and Subscribers gained with exceptions are detected."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map shipment exception video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide exception counts and impacted routes.",
+        "title": "Detect exceptions"
+      },
+      {
+        "body": "POST to /render with exception-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.media-streaming.shipment-exception-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "media-streaming",
+      "data": {
+        "highlight": "subscribers",
+        "industry": "media-streaming",
+        "kpis": {
+          "avgSession": "32m",
+          "churn": "2.4%",
+          "subsGained": 8420,
+          "watchHours": 482100
+        },
+        "narrative": "Media / Streaming shipment exception video execution update",
+        "trigger": "exception-detected",
+        "workflow": "shipment-exception-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "exception-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "20-40s MP4 video",
+      "Exception count and severity",
+      "Impacted routes summary",
+      "Delivery targets: email, internal dashboard, Slack for media / streaming stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Media / Streaming. Run shipment exception video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Media / Streaming Shipment exception video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Content performance updates are manual and delayed."
+    ],
+    "title": "Why Media / Streaming buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/media-streaming/shipment-exception-video/video-api-software",
+      "label": "Shipment exception video video api software for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/shipment-exception-video/video-automation-service",
+      "label": "Shipment exception video video automation service for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/media-streaming/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Media / Streaming"
+    },
+    {
+      "href": "/use-cases/saas/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/shipment-exception-video/video-api-pricing",
+      "label": "Shipment exception video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use exception-summary-v1 to keep output deterministic across Media / Streaming workflows."
+    ],
+    "title": "Execution plan for shipment exception video (video api pricing)"
+  },
+  "title": "Shipment exception video video api pricing for Media / Streaming",
+  "type": "buyer_intent",
+  "version": 1
+}

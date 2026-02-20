@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/logistics/listing-summary-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic listing summary video workflow for Logistics / Supply chain.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch listing summary video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Pass image URLs and the template renders them.",
+      "q": "Can I include images? (video automation service)"
+    },
+    {
+      "a": "Yes. Render per listing with API automation.",
+      "q": "Does it scale to many listings? (video automation service)"
+    },
+    {
+      "a": "Logistics / Supply chain teams use video automation service to automate listing summary video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Logistics / Supply chain teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Listing summary video video automation service for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Logistics / Supply chain teams running listing summary video.",
+    "supportLine": "Operational fit: Shipments and On-time rate with a listing is published."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map listing summary video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide price, location, and key features.",
+        "title": "Collect highlights"
+      },
+      {
+        "body": "POST to /render with listing-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.logistics.listing-summary-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics",
+      "data": {
+        "highlight": "shipments",
+        "industry": "logistics",
+        "kpis": {
+          "avgDelay": "12m",
+          "costPerShipment": 4.2,
+          "onTimeRate": "94%",
+          "shipments": 9821
+        },
+        "narrative": "Logistics / Supply chain listing summary video execution update",
+        "trigger": "listing-published",
+        "workflow": "listing-summary-video"
+      },
+      "intent": "video-automation-service",
+      "template": "listing-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Key property highlights",
+      "Brand colors and logo",
+      "Delivery targets: email, operations dashboard, Slack for logistics / supply chain stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Logistics / Supply chain. Run listing summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Logistics / Supply chain Listing summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Operational KPIs are hard to communicate quickly."
+    ],
+    "title": "Why Logistics / Supply chain buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/listing-summary-video/video-api-software",
+      "label": "Listing summary video video api software for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/listing-summary-video/video-api-pricing",
+      "label": "Listing summary video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/saas/listing-summary-video/video-automation-service",
+      "label": "Listing summary video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/listing-summary-video/video-automation-service",
+      "label": "Listing summary video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/listing-summary-video/video-automation-service",
+      "label": "Listing summary video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use listing-summary-v1 to keep output deterministic across Logistics / Supply chain workflows."
+    ],
+    "title": "Execution plan for listing summary video (video automation service)"
+  },
+  "title": "Listing summary video video automation service for Logistics / Supply chain",
+  "type": "buyer_intent",
+  "version": 1
+}

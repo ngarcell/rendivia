@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/logistics/portfolio-summary-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic portfolio summary video workflow for Logistics / Supply chain.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch portfolio summary video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Provide asset class labels and weights.",
+      "q": "Can I include asset classes? (video automation service)"
+    },
+    {
+      "a": "Yes. Use brand profiles per client.",
+      "q": "Does it support per-client branding? (video automation service)"
+    },
+    {
+      "a": "Logistics / Supply chain teams use video automation service to automate portfolio summary video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Logistics / Supply chain teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Portfolio summary video video automation service for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Logistics / Supply chain teams running portfolio summary video.",
+    "supportLine": "Operational fit: Shipments and On-time rate with a portfolio is rebalanced."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map portfolio summary video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide allocation and return data per holding.",
+        "title": "Collect holdings"
+      },
+      {
+        "body": "POST to /render with portfolio-summary-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.logistics.portfolio-summary-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics",
+      "data": {
+        "highlight": "shipments",
+        "industry": "logistics",
+        "kpis": {
+          "avgDelay": "12m",
+          "costPerShipment": 4.2,
+          "onTimeRate": "94%",
+          "shipments": 9821
+        },
+        "narrative": "Logistics / Supply chain portfolio summary video execution update",
+        "trigger": "portfolio-rebalanced",
+        "workflow": "portfolio-summary-video"
+      },
+      "intent": "video-automation-service",
+      "template": "portfolio-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-90s MP4 video",
+      "Allocation changes visualized",
+      "Performance vs benchmark",
+      "Delivery targets: email, operations dashboard, Slack for logistics / supply chain stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Logistics / Supply chain. Run portfolio summary video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Logistics / Supply chain Portfolio summary video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Operational KPIs are hard to communicate quickly."
+    ],
+    "title": "Why Logistics / Supply chain buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/portfolio-summary-video/video-api-software",
+      "label": "Portfolio summary video video api software for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/portfolio-summary-video/video-api-pricing",
+      "label": "Portfolio summary video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/saas/portfolio-summary-video/video-automation-service",
+      "label": "Portfolio summary video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/portfolio-summary-video/video-automation-service",
+      "label": "Portfolio summary video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/portfolio-summary-video/video-automation-service",
+      "label": "Portfolio summary video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use portfolio-summary-v1 to keep output deterministic across Logistics / Supply chain workflows."
+    ],
+    "title": "Execution plan for portfolio summary video (video automation service)"
+  },
+  "title": "Portfolio summary video video automation service for Logistics / Supply chain",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate production and quality recaps.",
+      "Deliver consistent reporting across plants."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/manufacturing/customer-success-recap-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic customer success recap video workflow for Manufacturing.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch customer success recap video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Call /render per customer and process asynchronously.",
+      "q": "Can I batch render for many customers? (video api pricing)"
+    },
+    {
+      "a": "Yes. Store webhook URLs in your database.",
+      "q": "Can I store outputs? (video api pricing)"
+    },
+    {
+      "a": "Manufacturing teams use video api pricing to automate customer success recap video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Manufacturing teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Customer success recap video video api pricing for Manufacturing",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Manufacturing teams running customer success recap video.",
+    "supportLine": "Operational fit: Units produced and Defect rate with a customer recap is generated."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map customer success recap video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Pull usage and outcome metrics per customer.",
+        "title": "Fetch customer KPIs"
+      },
+      {
+        "body": "POST to /render with customer-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.manufacturing.customer-success-recap-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "manufacturing",
+      "data": {
+        "highlight": "lines",
+        "industry": "manufacturing",
+        "kpis": {
+          "defectRate": "1.2%",
+          "downtime": "3h",
+          "onTimeDelivery": "96%",
+          "unitsProduced": 28420
+        },
+        "narrative": "Manufacturing customer success recap video execution update",
+        "trigger": "customer-recap",
+        "workflow": "customer-success-recap-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "customer-recap-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 per customer",
+      "Customer name and key KPIs",
+      "Highlights section",
+      "Delivery targets: email, operations dashboard, leadership portal for manufacturing stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Manufacturing. Run customer success recap video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Manufacturing Customer success recap video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Operational KPIs are buried in spreadsheets."
+    ],
+    "title": "Why Manufacturing buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/manufacturing/customer-success-recap-video/video-api-software",
+      "label": "Customer success recap video video api software for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/customer-success-recap-video/video-automation-service",
+      "label": "Customer success recap video video automation service for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Manufacturing"
+    },
+    {
+      "href": "/use-cases/manufacturing/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Manufacturing"
+    },
+    {
+      "href": "/use-cases/saas/customer-success-recap-video/video-api-pricing",
+      "label": "Customer success recap video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/customer-success-recap-video/video-api-pricing",
+      "label": "Customer success recap video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/customer-success-recap-video/video-api-pricing",
+      "label": "Customer success recap video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use customer-recap-v1 to keep output deterministic across Manufacturing workflows."
+    ],
+    "title": "Execution plan for customer success recap video (video api pricing)"
+  },
+  "title": "Customer success recap video video api pricing for Manufacturing",
+  "type": "buyer_intent",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate occupancy and revenue recaps.",
+      "Make performance easy to share."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/travel-hospitality/quarterly-qbr-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic quarterly business review (qbr) video workflow for Travel / Hospitality.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch quarterly business review (qbr) video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. It's designed for leadership-friendly quarterly summaries.",
+      "q": "Can this be used for exec updates? (video automation service)"
+    },
+    {
+      "a": "Yes. Provide numeric series; the template renders charts.",
+      "q": "Can I include charts? (video automation service)"
+    },
+    {
+      "a": "Travel / Hospitality teams use video automation service to automate quarterly business review (qbr) video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Travel / Hospitality teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Quarterly business review (QBR) video video automation service for Travel / Hospitality",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Travel / Hospitality teams running quarterly business review (qbr) video.",
+    "supportLine": "Operational fit: Bookings and Occupancy with a quarterly review is prepared."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map quarterly business review (qbr) video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide quarterly KPIs and a short set of highlights.",
+        "title": "Prepare inputs"
+      },
+      {
+        "body": "POST to /render with qbr-summary-v1.",
+        "title": "Render via API"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.travel-hospitality.quarterly-qbr-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "travel-hospitality",
+      "data": {
+        "highlight": "bookings",
+        "industry": "travel-hospitality",
+        "kpis": {
+          "adr": 124.5,
+          "bookings": 2140,
+          "occupancy": "81%",
+          "revpar": 101
+        },
+        "narrative": "Travel / Hospitality quarterly business review (qbr) video execution update",
+        "trigger": "quarterly-review",
+        "workflow": "quarterly-qbr-video"
+      },
+      "intent": "video-automation-service",
+      "template": "qbr-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "90-120s MP4 video",
+      "Quarter-over-quarter comparisons",
+      "Highlights section rendered as cards",
+      "Delivery targets: email, ops dashboard, Slack for travel / hospitality stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Travel / Hospitality. Run quarterly business review (qbr) video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Travel / Hospitality Quarterly business review (QBR) video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Performance updates are scattered across systems."
+    ],
+    "title": "Why Travel / Hospitality buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/travel-hospitality/quarterly-qbr-video/video-api-software",
+      "label": "Quarterly business review (QBR) video video api software for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/travel-hospitality/investor-update-video/video-automation-service",
+      "label": "Investor update video video automation service for Travel / Hospitality"
+    },
+    {
+      "href": "/use-cases/saas/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use qbr-summary-v1 to keep output deterministic across Travel / Hospitality workflows."
+    ],
+    "title": "Execution plan for quarterly business review (qbr) video (video automation service)"
+  },
+  "title": "Quarterly business review (QBR) video video automation service for Travel / Hospitality",
+  "type": "buyer_intent",
+  "version": 1
+}

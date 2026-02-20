@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Share ops performance in a digestible format.",
+      "Automate exception and KPI summaries."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/logistics/trial-to-paid-recap-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic trial-to-paid conversion recap video workflow for Logistics / Supply chain.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch trial-to-paid conversion recap video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include a CTA field in data and render it in the outro.",
+      "q": "Can I include a CTA at the end? (video api pricing)"
+    },
+    {
+      "a": "It complements them by adding a high-signal recap format.",
+      "q": "Does this replace emails? (video api pricing)"
+    },
+    {
+      "a": "Logistics / Supply chain teams use video api pricing to automate trial-to-paid conversion recap video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Logistics / Supply chain teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Trial-to-paid conversion recap video video api pricing for Logistics / Supply chain",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Logistics / Supply chain teams running trial-to-paid conversion recap video.",
+    "supportLine": "Operational fit: Shipments and On-time rate with a trial is ending."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map trial-to-paid conversion recap video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Aggregate usage events and outcomes during the trial.",
+        "title": "Collect trial data"
+      },
+      {
+        "body": "POST to /render with trial-recap-v1.",
+        "title": "Render recap"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.logistics.trial-to-paid-recap-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "logistics",
+      "data": {
+        "highlight": "shipments",
+        "industry": "logistics",
+        "kpis": {
+          "avgDelay": "12m",
+          "costPerShipment": 4.2,
+          "onTimeRate": "94%",
+          "shipments": 9821
+        },
+        "narrative": "Logistics / Supply chain trial-to-paid conversion recap video execution update",
+        "trigger": "trial-end",
+        "workflow": "trial-to-paid-recap-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "trial-recap-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "Usage highlights and outcomes",
+      "Clear next-step CTA slot",
+      "Delivery targets: email, operations dashboard, Slack for logistics / supply chain stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Logistics / Supply chain. Run trial-to-paid conversion recap video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Logistics / Supply chain Trial-to-paid conversion recap video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Operational KPIs are hard to communicate quickly."
+    ],
+    "title": "Why Logistics / Supply chain buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/logistics/trial-to-paid-recap-video/video-api-software",
+      "label": "Trial-to-paid conversion recap video video api software for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/trial-to-paid-recap-video/video-automation-service",
+      "label": "Trial-to-paid conversion recap video video automation service for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/logistics/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Logistics / Supply chain"
+    },
+    {
+      "href": "/use-cases/saas/trial-to-paid-recap-video/video-api-pricing",
+      "label": "Trial-to-paid conversion recap video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/trial-to-paid-recap-video/video-api-pricing",
+      "label": "Trial-to-paid conversion recap video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/trial-to-paid-recap-video/video-api-pricing",
+      "label": "Trial-to-paid conversion recap video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use trial-recap-v1 to keep output deterministic across Logistics / Supply chain workflows."
+    ],
+    "title": "Execution plan for trial-to-paid conversion recap video (video api pricing)"
+  },
+  "title": "Trial-to-paid conversion recap video video api pricing for Logistics / Supply chain",
+  "type": "buyer_intent",
+  "version": 1
+}

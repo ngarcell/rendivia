@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Make audit progress clear and easy to consume.",
+      "Automate recurring status updates."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/compliance-grc/weekly-metrics-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic weekly metrics video workflow for Compliance / GRC.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch weekly metrics video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Templates are versioned and the same input produces the same output.",
+      "q": "Is the output deterministic? (video api pricing)"
+    },
+    {
+      "a": "Use the webhook URL to embed in-app or send via email/portal.",
+      "q": "How do I deliver the video? (video api pricing)"
+    },
+    {
+      "a": "Compliance / GRC teams use video api pricing to automate weekly metrics video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Compliance / GRC teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Weekly metrics video video api pricing for Compliance / GRC",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Compliance / GRC teams running weekly metrics video.",
+    "supportLine": "Operational fit: Controls complete and Open findings with a weekly report is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map weekly metrics video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Use a versioned template such as weekly-summary-v1.",
+        "title": "Pick a template"
+      },
+      {
+        "body": "POST metrics JSON to /render with your API key.",
+        "title": "Send data"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.compliance-grc.weekly-metrics-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "compliance-grc",
+      "data": {
+        "highlight": "controls",
+        "industry": "compliance-grc",
+        "kpis": {
+          "controlsComplete": 78,
+          "openFindings": 6,
+          "riskScore": 72,
+          "vendorsAssessed": 21
+        },
+        "narrative": "Compliance / GRC weekly metrics video execution update",
+        "trigger": "weekly-report",
+        "workflow": "weekly-metrics-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "weekly-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Brand colors, logo, and typography applied",
+      "Charts rendered from provided KPIs",
+      "Delivery targets: in-app, email, leadership portal for compliance / grc stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Compliance / GRC. Run weekly metrics video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Compliance / GRC Weekly metrics video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Stakeholders struggle to track progress across audits."
+    ],
+    "title": "Why Compliance / GRC buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/compliance-grc/weekly-metrics-video/video-api-software",
+      "label": "Weekly metrics video video api software for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/compliance-grc/investor-update-video/video-api-pricing",
+      "label": "Investor update video video api pricing for Compliance / GRC"
+    },
+    {
+      "href": "/use-cases/saas/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use weekly-summary-v1 to keep output deterministic across Compliance / GRC workflows."
+    ],
+    "title": "Execution plan for weekly metrics video (video api pricing)"
+  },
+  "title": "Weekly metrics video video api pricing for Compliance / GRC",
+  "type": "buyer_intent",
+  "version": 1
+}

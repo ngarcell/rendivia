@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate supplier and spend summaries.",
+      "Make savings and risk visibility clear."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/procurement/sales-pipeline-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic sales pipeline video workflow for Procurement.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch sales pipeline video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include region arrays in the payload.",
+      "q": "Can I include regional splits? (video api pricing)"
+    },
+    {
+      "a": "Yes. Map CRM fields into the JSON payload.",
+      "q": "Does it support CRM data? (video api pricing)"
+    },
+    {
+      "a": "Procurement teams use video api pricing to automate sales pipeline video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Procurement teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Sales pipeline video video api pricing for Procurement",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Procurement teams running sales pipeline video.",
+    "supportLine": "Operational fit: Spend and Savings with pipeline is updated."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map sales pipeline video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide stage totals and forecast metrics.",
+        "title": "Collect pipeline data"
+      },
+      {
+        "body": "POST to /render with pipeline-summary-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.procurement.sales-pipeline-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "procurement",
+      "data": {
+        "highlight": "suppliers",
+        "industry": "procurement",
+        "kpis": {
+          "onTimeDelivery": "91%",
+          "savings": 18200,
+          "spend": 214000,
+          "supplierRisk": "Low"
+        },
+        "narrative": "Procurement sales pipeline video execution update",
+        "trigger": "pipeline-updated",
+        "workflow": "sales-pipeline-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "pipeline-summary-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "45-60s MP4 video",
+      "Stage-by-stage breakdown",
+      "Forecast confidence summary",
+      "Delivery targets: email, procurement portal, leadership dashboard for procurement stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Procurement. Run sales pipeline video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Procurement Sales pipeline video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Spend reporting is manual and time-consuming."
+    ],
+    "title": "Why Procurement buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/procurement/sales-pipeline-video/video-api-software",
+      "label": "Sales pipeline video video api software for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/sales-pipeline-video/video-automation-service",
+      "label": "Sales pipeline video video automation service for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/procurement/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Procurement"
+    },
+    {
+      "href": "/use-cases/saas/sales-pipeline-video/video-api-pricing",
+      "label": "Sales pipeline video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/sales-pipeline-video/video-api-pricing",
+      "label": "Sales pipeline video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/sales-pipeline-video/video-api-pricing",
+      "label": "Sales pipeline video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use pipeline-summary-v1 to keep output deterministic across Procurement workflows."
+    ],
+    "title": "Execution plan for sales pipeline video (video api pricing)"
+  },
+  "title": "Sales pipeline video video api pricing for Procurement",
+  "type": "buyer_intent",
+  "version": 1
+}

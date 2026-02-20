@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Usage-based architecture aligned to production demand",
+      "Transparent plan limits and API-driven metering",
+      "Operational path from pilot volume to scaled deployment",
+      "Automate project progress summaries.",
+      "Deliver consistent updates to clients and leaders."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/construction/support-performance-video/video-api-pricing",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic support performance video workflow for Construction.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "title": "Launch support performance video with video api pricing"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include agent-level stats in the payload.",
+      "q": "Can I include agent metrics? (video api pricing)"
+    },
+    {
+      "a": "Yes. Provide queue arrays in the payload.",
+      "q": "Does it handle multiple queues? (video api pricing)"
+    },
+    {
+      "a": "Construction teams use video api pricing to automate support performance video without manual editing bottlenecks.",
+      "q": "Why is video api pricing relevant for Construction teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Support performance video video api pricing for Construction",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Estimate paid plan"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Estimate spend and implementation scope before procurement. Built for Construction teams running support performance video.",
+    "supportLine": "Operational fit: Projects on track and Change orders with a weekly support digest is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map support performance video requirements to video api pricing buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide ticket volume, response, and resolution metrics.",
+        "title": "Collect support KPIs"
+      },
+      {
+        "body": "POST to /render with support-performance-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.construction.support-performance-video.video-api-pricing",
+  "intentSlug": "video-api-pricing",
+  "io": {
+    "inputJsonExample": {
+      "brand": "construction",
+      "data": {
+        "highlight": "projects",
+        "industry": "construction",
+        "kpis": {
+          "budgetVariance": "-2%",
+          "changeOrders": 12,
+          "projectsOnTrack": 18,
+          "safetyIncidents": 1
+        },
+        "narrative": "Construction support performance video execution update",
+        "trigger": "support-weekly",
+        "workflow": "support-performance-video"
+      },
+      "intent": "video-api-pricing",
+      "template": "support-performance-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "SLA compliance summary",
+      "Volume and backlog trends",
+      "Delivery targets: email, client portal, project dashboard for construction stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video api pricing options for Construction. Run support performance video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Api Pricing for Construction Support performance video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams struggle to model cost when renders are variable.",
+      "Budget owners need predictable unit economics before rollout.",
+      "Manual workflows hide real operating cost and labor overhead.",
+      "Progress reporting is manual and inconsistent."
+    ],
+    "title": "Why Construction buyers look for video api pricing"
+  },
+  "related": [
+    {
+      "href": "/use-cases/construction/support-performance-video/video-api-software",
+      "label": "Support performance video video api software for Construction"
+    },
+    {
+      "href": "/use-cases/construction/support-performance-video/video-automation-service",
+      "label": "Support performance video video automation service for Construction"
+    },
+    {
+      "href": "/use-cases/construction/weekly-metrics-video/video-api-pricing",
+      "label": "Weekly metrics video video api pricing for Construction"
+    },
+    {
+      "href": "/use-cases/construction/monthly-metrics-video/video-api-pricing",
+      "label": "Monthly metrics video video api pricing for Construction"
+    },
+    {
+      "href": "/use-cases/construction/quarterly-qbr-video/video-api-pricing",
+      "label": "Quarterly business review (QBR) video video api pricing for Construction"
+    },
+    {
+      "href": "/use-cases/saas/support-performance-video/video-api-pricing",
+      "label": "Support performance video video api pricing for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/support-performance-video/video-api-pricing",
+      "label": "Support performance video video api pricing for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/support-performance-video/video-api-pricing",
+      "label": "Support performance video video api pricing for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Model projected render volume by workflow and account segment.",
+      "Map template complexity to throughput and output duration.",
+      "Track webhook completion to close usage and billing loops.",
+      "Use support-performance-v1 to keep output deterministic across Construction workflows."
+    ],
+    "title": "Execution plan for support performance video (video api pricing)"
+  },
+  "title": "Support performance video video api pricing for Construction",
+  "type": "buyer_intent",
+  "version": 1
+}

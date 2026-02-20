@@ -69,13 +69,16 @@ const ctaSectionSchema = z.object({
 });
 
 export const pseoPageSchema = z.object({
-  type: z.enum(["use_case", "data_source", "trigger"]),
+  type: z.enum(["use_case", "data_source", "trigger", "buyer_intent"]),
   version: z.literal(1),
   id: z.string().min(1),
   canonicalUrl: z.string().min(1),
   title: z.string().min(1),
   metaTitle: z.string().min(1),
   metaDescription: z.string().min(1),
+  lastUpdated: z.string().min(1).optional(),
+  cluster: z.string().min(1).optional(),
+  intentSlug: z.string().min(1).optional(),
   hero: heroSchema,
   problem: problemSchema,
   solution: solutionSchema,

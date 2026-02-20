@@ -11,6 +11,7 @@ export const metadata = {
 
 export default function DataSourceHub() {
   const pages = getPseoPagesByType("data_source");
+  const featuredPages = pages.slice(0, 24);
   const useCases = getPseoPagesByType("use_case").slice(0, 3);
   const triggers = getPseoPagesByType("trigger").slice(0, 3);
 
@@ -50,13 +51,13 @@ export default function DataSourceHub() {
             Docs
           </Link>
         </div>
-        {pages.length === 0 ? (
+        {featuredPages.length === 0 ? (
           <div className="mt-10 rounded-2xl border border-dashed border-zinc-200 p-8 text-sm text-zinc-600">
             No data-source pages have been generated yet.
           </div>
         ) : (
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {pages.map((page) => (
+            {featuredPages.map((page) => (
               <UseCaseCard
                 key={page.canonicalUrl}
                 title={page.title}
@@ -65,6 +66,11 @@ export default function DataSourceHub() {
               />
             ))}
           </div>
+        )}
+        {pages.length > featuredPages.length && (
+          <p className="mt-6 text-sm text-zinc-500">
+            Showing {featuredPages.length} featured data-source routes from {pages.length} pages.
+          </p>
         )}
 
         {(useCases.length > 0 || triggers.length > 0) && (

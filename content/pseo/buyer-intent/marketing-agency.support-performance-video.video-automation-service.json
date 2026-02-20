@@ -1,0 +1,159 @@
+{
+  "benefits": {
+    "bullets": [
+      "Asynchronous pipeline for recurring high-volume jobs",
+      "Brand-governed outputs without manual post-production",
+      "Operational fit for support, CS, revenue, and compliance teams",
+      "Automate client-ready weekly recaps.",
+      "Deliver consistent brand-aligned updates across accounts."
+    ],
+    "title": "Commercial outcomes"
+  },
+  "canonicalUrl": "/use-cases/marketing-agency/support-performance-video/video-automation-service",
+  "cluster": "buyer-intent",
+  "cta": {
+    "body": "Start a paid trial and ship a deterministic support performance video workflow for Marketing agencies.",
+    "primary": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "title": "Launch support performance video with video automation service"
+  },
+  "faq": [
+    {
+      "a": "Yes. Include agent-level stats in the payload.",
+      "q": "Can I include agent metrics? (video automation service)"
+    },
+    {
+      "a": "Yes. Provide queue arrays in the payload.",
+      "q": "Does it handle multiple queues? (video automation service)"
+    },
+    {
+      "a": "Marketing agencies teams use video automation service to automate support performance video without manual editing bottlenecks.",
+      "q": "Why is video automation service relevant for Marketing agencies teams?"
+    }
+  ],
+  "hero": {
+    "eyebrow": "High-intent workflow",
+    "headline": "Support performance video video automation service for Marketing agencies",
+    "primaryCta": {
+      "href": "/dashboard",
+      "label": "Launch automation pilot"
+    },
+    "secondaryCta": {
+      "href": "/pricing",
+      "label": "View pricing"
+    },
+    "subheadline": "Ship a service workflow that eliminates manual reporting and clip assembly. Built for Marketing agencies teams running support performance video.",
+    "supportLine": "Operational fit: Spend and Leads with a weekly support digest is ready."
+  },
+  "howItWorks": {
+    "steps": [
+      {
+        "body": "Map support performance video requirements to video automation service buying criteria.",
+        "title": "Qualify workflow"
+      },
+      {
+        "body": "Provide ticket volume, response, and resolution metrics.",
+        "title": "Collect support KPIs"
+      },
+      {
+        "body": "POST to /render with support-performance-v1.",
+        "title": "Render"
+      },
+      {
+        "body": "Launch a paid trial workflow, validate output quality, then expand to recurring automation.",
+        "title": "Pilot and scale"
+      }
+    ],
+    "title": "Implementation sequence"
+  },
+  "id": "buyer_intent.marketing-agency.support-performance-video.video-automation-service",
+  "intentSlug": "video-automation-service",
+  "io": {
+    "inputJsonExample": {
+      "brand": "marketing-agency",
+      "data": {
+        "highlight": "clients",
+        "industry": "marketing-agency",
+        "kpis": {
+          "cpl": 20.4,
+          "leads": 612,
+          "roas": 3.1,
+          "spend": 12450
+        },
+        "narrative": "Marketing agencies support performance video execution update",
+        "trigger": "support-weekly",
+        "workflow": "support-performance-video"
+      },
+      "intent": "video-automation-service",
+      "template": "support-performance-v1"
+    },
+    "inputTitle": "Input (commercially-ready JSON)",
+    "outputBullets": [
+      "30-60s MP4 video",
+      "SLA compliance summary",
+      "Volume and backlog trends",
+      "Delivery targets: email, client portal, Slack Connect for marketing agencies stakeholders."
+    ],
+    "outputTitle": "Output (production MP4 + webhook)"
+  },
+  "lastUpdated": "2026-02-20",
+  "metaDescription": "Compare video automation service options for Marketing agencies. Run support performance video with deterministic templates, webhooks, and paid-trial readiness.",
+  "metaTitle": "Video Automation Service for Marketing agencies Support performance video | Rendivia",
+  "problem": {
+    "bullets": [
+      "Teams spend hours assembling repetitive recaps.",
+      "Manual QA introduces drift across customer-facing videos.",
+      "Service delivery slows when output relies on human editing queues.",
+      "Client reporting is repetitive and time-consuming."
+    ],
+    "title": "Why Marketing agencies buyers look for video automation service"
+  },
+  "related": [
+    {
+      "href": "/use-cases/marketing-agency/support-performance-video/video-api-software",
+      "label": "Support performance video video api software for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/support-performance-video/video-api-pricing",
+      "label": "Support performance video video api pricing for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/weekly-metrics-video/video-automation-service",
+      "label": "Weekly metrics video video automation service for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/monthly-metrics-video/video-automation-service",
+      "label": "Monthly metrics video video automation service for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/marketing-agency/quarterly-qbr-video/video-automation-service",
+      "label": "Quarterly business review (QBR) video video automation service for Marketing agencies"
+    },
+    {
+      "href": "/use-cases/saas/support-performance-video/video-automation-service",
+      "label": "Support performance video video automation service for SaaS"
+    },
+    {
+      "href": "/use-cases/fintech/support-performance-video/video-automation-service",
+      "label": "Support performance video video automation service for Fintech"
+    },
+    {
+      "href": "/use-cases/ecommerce/support-performance-video/video-automation-service",
+      "label": "Support performance video video automation service for E-commerce"
+    }
+  ],
+  "solution": {
+    "bullets": [
+      "Trigger video generation directly from business events.",
+      "Route structured payloads through standardized templates.",
+      "Deliver completed MP4 outputs automatically via webhook.",
+      "Use support-performance-v1 to keep output deterministic across Marketing agencies workflows."
+    ],
+    "title": "Execution plan for support performance video (video automation service)"
+  },
+  "title": "Support performance video video automation service for Marketing agencies",
+  "type": "buyer_intent",
+  "version": 1
+}

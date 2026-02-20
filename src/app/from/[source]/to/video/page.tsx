@@ -1,9 +1,13 @@
 import { notFound } from "next/navigation";
 import PseoPage from "@/components/pseo/PseoPage";
-import { getPseoPageByCanonicalUrl } from "@/lib/pseo";
+import { getPseoPageByCanonicalUrl, getStaticParamsForType } from "@/lib/pseo";
+import { getRobotsForPath } from "@/lib/seo-index-policy";
 
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getStaticParamsForType("data_source");
+}
 
 export async function generateMetadata({
   params,
@@ -11,12 +15,14 @@ export async function generateMetadata({
   params: Promise<{ source: string }>;
 }) {
   const { source } = await params;
-  const page = getPseoPageByCanonicalUrl(`/from/${source}/to/video`);
+  const canonicalPath = `/from/${source}/to/video`;
+  const page = getPseoPageByCanonicalUrl(canonicalPath);
   if (!page) return {};
   return {
     title: page.metaTitle,
     description: page.metaDescription,
     alternates: { canonical: page.canonicalUrl },
+    robots: getRobotsForPath(canonicalPath),
   };
 }
 
