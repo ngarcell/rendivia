@@ -34,6 +34,7 @@ const CTA_VARIANTS: Record<VariantKey, string> = {
 };
 
 const SECONDARY_CTA_LABEL = "View API docs";
+const JAEGER_AI_HREF = "/jaeger-ai.html";
 
 const STORAGE_KEY = "rendivia_ab_hero_v1";
 
@@ -88,8 +89,16 @@ export default function HeroCopy() {
 
   return (
     <div className="hero-sequence">
+      <TrackedLink
+        href={JAEGER_AI_HREF}
+        eventName="cta_view_parent_company"
+        eventProps={{ location: "home_hero_context", heroVariant, ctaVariant }}
+        className="inline-flex w-fit items-center gap-2 rounded-full border border-[var(--accent-secondary)]/15 bg-[var(--accent-light)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--accent-secondary)]"
+      >
+        Jaeger AI owns Rendivia
+      </TrackedLink>
       <p
-        className="text-xs font-semibold uppercase tracking-wide text-[var(--accent)]"
+        className="mt-4 text-xs font-semibold uppercase tracking-wide text-[var(--accent)]"
         style={withDelay(0)}
       >
         {hero.eyebrow}
@@ -105,6 +114,10 @@ export default function HeroCopy() {
       </p>
       <p className="mt-2 text-sm text-zinc-500" style={withDelay(420)}>
         {hero.support}
+      </p>
+      <p className="mt-3 max-w-2xl text-sm text-zinc-600" style={withDelay(500)}>
+        Rendivia is a Jaeger AI company. Jaeger AI builds operational AI systems for complex organizations,
+        and Rendivia delivers that infrastructure as programmatic video generation for production workflows.
       </p>
       <div className="mt-6 flex flex-wrap items-center gap-3" style={withDelay(560)}>
         <TrackedLink

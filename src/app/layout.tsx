@@ -27,6 +27,9 @@ const siteName = "Rendivia";
 const title = "Rendivia - Programmatic video generation for SaaS products";
 const description =
   "Generate deterministic, branded videos from structured data using a simple API.";
+const organizationName = "Jaeger AI";
+const organizationDescription =
+  "Jaeger AI builds AI-powered operational systems for complex organizations and owns Rendivia.";
 const baseUrl =
   process.env.NEXT_PUBLIC_APP_URL ||
   process.env.VERCEL_URL ||
@@ -78,16 +81,16 @@ const jsonLd = {
     {
       "@type": "Organization",
       "@id": `${origin}/#organization`,
-      name: siteName,
+      name: organizationName,
       url: origin,
-      description,
+      description: organizationDescription,
     },
     {
       "@type": "WebSite",
       "@id": `${origin}/#website`,
       url: origin,
       name: siteName,
-      description,
+      description: `${description} Rendivia is a Jaeger AI company.`,
       publisher: { "@id": `${origin}/#organization` },
     },
   ],

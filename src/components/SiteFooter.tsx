@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { BrandLogo } from "@/components/BrandLogo";
 
+const JAEGER_AI_HREF = "/jaeger-ai.html";
+
 /**
  * Shared footer for all landing pages - matches homepage structure.
  * Light theme: clear hierarchy, smart placement of links.
@@ -21,6 +23,12 @@ export function SiteFooter() {
             />
           </Link>
           <div className="flex flex-wrap gap-x-4 gap-y-2 sm:gap-x-6">
+            <Link
+              href={JAEGER_AI_HREF}
+              className="touch-target inline-flex min-h-[44px] items-center text-sm text-zinc-600 hover:text-zinc-900"
+            >
+              About Jaeger AI
+            </Link>
             <Link
               href="/docs"
               className="touch-target inline-flex min-h-[44px] items-center text-sm text-zinc-600 hover:text-zinc-900"
@@ -65,8 +73,25 @@ export function SiteFooter() {
             </Link>
           </div>
         </div>
+        <div className="mt-6 rounded-2xl border border-zinc-200 bg-[var(--surface-muted)] p-5">
+          <p className="text-sm font-semibold text-zinc-900">Jaeger AI is the parent company behind Rendivia.</p>
+          <p className="mt-2 text-sm text-zinc-600">
+            Learn how Jaeger AI builds AI-powered operational systems for enterprise buyers and where Rendivia
+            fits in that platform portfolio.
+          </p>
+          <Link
+            href={JAEGER_AI_HREF}
+            className="touch-target mt-3 inline-flex min-h-[44px] items-center text-sm font-semibold text-[var(--accent-secondary)] hover:underline"
+          >
+            Read about Jaeger AI
+          </Link>
+        </div>
         <p className="mt-6 flex flex-wrap items-center gap-x-2 gap-y-2 text-sm text-zinc-500 sm:gap-x-3">
           <span className="shrink-0">Explore:</span>
+          <Link href={JAEGER_AI_HREF} className="touch-target inline-flex min-h-[44px] items-center hover:text-zinc-700">
+            Jaeger AI
+          </Link>
+          <span aria-hidden>|</span>
           <Link href="/use-cases" className="touch-target inline-flex min-h-[44px] items-center hover:text-zinc-700">
             Use cases
           </Link>
