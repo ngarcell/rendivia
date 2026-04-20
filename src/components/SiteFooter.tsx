@@ -74,10 +74,12 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-6 rounded-2xl border border-zinc-200 bg-[var(--surface-muted)] p-5">
-          <p className="text-sm font-semibold text-zinc-900">Jaeger AI is the parent company behind Rendivia.</p>
+          <p className="text-sm font-semibold text-zinc-900">
+            Rendivia is part of the Jaeger AI platform portfolio.
+          </p>
           <p className="mt-2 text-sm text-zinc-600">
-            Learn how Jaeger AI builds AI-powered operational systems for enterprise buyers and where Rendivia
-            fits in that platform portfolio.
+            Learn how Jaeger AI builds AI-powered operational systems for enterprise buyers and how Rendivia
+            fits into that broader platform strategy.
           </p>
           <Link
             href={JAEGER_AI_HREF}

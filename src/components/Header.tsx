@@ -151,7 +151,7 @@ export function Header() {
       <div className="border-b border-zinc-200/80 bg-[var(--accent-light)]">
         <div className="mx-auto flex min-h-[2.5rem] max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-2 sm:px-6">
           <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--accent-secondary)]">
-            Jaeger AI owns Rendivia
+            Rendivia is part of Jaeger AI
           </p>
           <Link
             href={JAEGER_AI_HREF}
@@ -166,7 +166,7 @@ export function Header() {
         <Link
           href="/"
           className="group inline-flex min-h-[44px] min-w-[44px] flex-shrink-0 items-center gap-3 rounded-xl px-1.5 py-1 transition hover:bg-[var(--surface-muted)]"
-          aria-label="Rendivia home, a Jaeger AI company"
+          aria-label="Rendivia home, part of Jaeger AI"
         >
           <BrandLogo showTagline variant="modern" />
         </Link>

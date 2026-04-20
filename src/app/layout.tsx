@@ -29,7 +29,7 @@ const description =
   "Generate deterministic, branded videos from structured data using a simple API.";
 const organizationName = "Jaeger AI";
 const organizationDescription =
-  "Jaeger AI builds AI-powered operational systems for complex organizations and owns Rendivia.";
+  "Jaeger AI builds AI-powered operational systems for complex organizations. Rendivia is part of its platform portfolio.";
 const baseUrl =
   process.env.NEXT_PUBLIC_APP_URL ||
   process.env.VERCEL_URL ||
@@ -90,7 +90,7 @@ const jsonLd = {
       "@id": `${origin}/#website`,
       url: origin,
       name: siteName,
-      description: `${description} Rendivia is a Jaeger AI company.`,
+      description: `${description} Rendivia is part of the Jaeger AI platform portfolio.`,
       publisher: { "@id": `${origin}/#organization` },
     },
   ],

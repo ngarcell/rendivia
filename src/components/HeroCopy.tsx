@@ -95,7 +95,7 @@ export default function HeroCopy() {
         eventProps={{ location: "home_hero_context", heroVariant, ctaVariant }}
         className="inline-flex w-fit items-center gap-2 rounded-full border border-[var(--accent-secondary)]/15 bg-[var(--accent-light)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--accent-secondary)]"
       >
-        Jaeger AI owns Rendivia
+        Rendivia by Jaeger AI
       </TrackedLink>
       <p
         className="mt-4 text-xs font-semibold uppercase tracking-wide text-[var(--accent)]"
@@ -116,8 +116,9 @@ export default function HeroCopy() {
         {hero.support}
       </p>
       <p className="mt-3 max-w-2xl text-sm text-zinc-600" style={withDelay(500)}>
-        Rendivia is a Jaeger AI company. Jaeger AI builds operational AI systems for complex organizations,
-        and Rendivia delivers that infrastructure as programmatic video generation for production workflows.
+        Rendivia is part of the Jaeger AI platform portfolio. Jaeger AI builds operational AI systems for
+        complex organizations, and Rendivia delivers that capability as programmatic video generation for
+        production workflows.
       </p>
       <div className="mt-6 flex flex-wrap items-center gap-3" style={withDelay(560)}>
         <TrackedLink
