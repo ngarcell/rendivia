@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jaeger AI builds AI-powered operational systems for complex organizations, turning fragmented enterprise data into automated workflows and real-time decision intelligence."
+    />
+    <meta name="theme-color" content="#0a0f1e" />
+    <title>Jaeger AI | Decision Intelligence for Complex Organizations</title>
+    <style>
+      :root {
+        --bg: #0a0f1e;
+        --bg-elevated: #0f1729;
+        --panel: rgba(17, 24, 39, 0.84);
+        --text: #ffffff;
+        --muted: #b8c4da;
+        --muted-strong: #d8e0ee;
+        --line: rgba(148, 163, 184, 0.16);
+        --accent: #2563eb;
+        --accent-hover: #1d4ed8;
+        --accent-soft: rgba(37, 99, 235, 0.16);
+        --radius-lg: 28px;
+        --radius-md: 20px;
+        --radius-sm: 14px;
+        --shadow-lg: 0 28px 80px rgba(2, 6, 23, 0.42);
+        --shadow-md: 0 18px 40px rgba(2, 6, 23, 0.28);
+        --container: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(37, 99, 235, 0.22), transparent 24%),
+          radial-gradient(circle at 90% 10%, rgba(37, 99, 235, 0.18), transparent 20%),
+          linear-gradient(180deg, #09101d 0%, #0a0f1e 30%, #0d1324 100%);
+        color: var(--text);
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+        background: rgba(10, 15, 30, 0.82);
+        backdrop-filter: blur(16px);
+      }
+
+      .container {
+        width: min(var(--container), calc(100% - 2rem));
+        margin: 0 auto;
+      }
+
+      .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        min-height: 78px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.9rem;
+        text-decoration: none;
+      }
+
+      .brand-mark {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.75rem;
+        height: 2.75rem;
+        border-radius: 0.95rem;
+        background: linear-gradient(135deg, rgba(37, 99, 235, 0.28), rgba(37, 99, 235, 0.1));
+        border: 1px solid rgba(96, 165, 250, 0.24);
+        color: var(--text);
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+      }
+
+      .brand-copy {
+        display: flex;
+        flex-direction: column;
+        gap: 0.05rem;
+      }
+
+      .brand-copy strong {
+        font-size: 0.98rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .brand-copy span {
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .header-nav {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+      }
+
+      .header-nav a {
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.95rem;
+      }
+
+      .header-nav a:hover,
+      .header-nav a:focus-visible {
+        color: var(--text);
+      }
+
+      .header-cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 1.2rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        color: var(--text);
+      }
+
+      .header-cta:hover,
+      .header-cta:focus-visible {
+        background: rgba(37, 99, 235, 0.18);
+        border-color: rgba(96, 165, 250, 0.34);
+      }
+
+      main {
+        overflow: clip;
+      }
+
+      section {
+        position: relative;
+        padding: 5.5rem 0;
+      }
+
+      .hero {
+        padding-top: 6rem;
+        padding-bottom: 4.5rem;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+        gap: 2.5rem;
+        align-items: center;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        padding: 0.45rem 0.9rem;
+        border-radius: 999px;
+        border: 1px solid rgba(96, 165, 250, 0.22);
+        background: rgba(37, 99, 235, 0.12);
+        color: #dbeafe;
+        font-size: 0.82rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow::before {
+        content: "";
+        width: 0.55rem;
+        height: 0.55rem;
+        border-radius: 999px;
+        background: #60a5fa;
+        box-shadow: 0 0 0 6px rgba(96, 165, 250, 0.12);
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        line-height: 1.05;
+        letter-spacing: -0.04em;
+      }
+
+      h1 {
+        margin-top: 1.4rem;
+        font-size: clamp(2.9rem, 7vw, 5.8rem);
+        max-width: 11ch;
+      }
+
+      .hero-copy p {
+        margin: 1.4rem 0 0;
+        max-width: 62ch;
+        color: var(--muted-strong);
+        font-size: 1.1rem;
+      }
+
+      .hero-note {
+        margin-top: 1rem;
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 54px;
+        padding: 0 1.35rem;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 0.98rem;
+        transition:
+          transform 180ms ease,
+          background-color 180ms ease,
+          border-color 180ms ease,
+          color 180ms ease;
+      }
+
+      .button:hover,
+      .button:focus-visible {
+        transform: translateY(-1px);
+      }
+
+      .button-primary {
+        background: var(--accent);
+        color: var(--text);
+        box-shadow: 0 18px 44px rgba(37, 99, 235, 0.34);
+      }
+
+      .button-primary:hover,
+      .button-primary:focus-visible {
+        background: var(--accent-hover);
+      }
+
+      .button-secondary {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        color: var(--text);
+      }
+
+      .hero-panel {
+        position: relative;
+        padding: 1.7rem;
+        border-radius: var(--radius-lg);
+        background:
+          linear-gradient(180deg, rgba(17, 24, 39, 0.92), rgba(12, 18, 34, 0.96)),
+          var(--panel);
+        border: 1px solid rgba(96, 165, 250, 0.16);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .hero-panel::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background:
+          radial-gradient(circle at top right, rgba(59, 130, 246, 0.16), transparent 26%),
+          radial-gradient(circle at bottom left, rgba(37, 99, 235, 0.1), transparent 30%);
+        pointer-events: none;
+      }
+
+      .panel-label {
+        position: relative;
+        display: inline-block;
+        color: #c7d8f8;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      .panel-title {
+        position: relative;
+        margin-top: 0.9rem;
+        font-size: 1.65rem;
+      }
+
+      .panel-copy {
+        position: relative;
+        margin: 0.9rem 0 0;
+        color: var(--muted);
+      }
+
+      .signal-grid,
+      .feature-grid,
+      .contact-grid,
+      .solution-grid {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .signal-grid {
+        position: relative;
+        margin-top: 1.6rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .signal-card {
+        padding: 1rem;
+        border-radius: var(--radius-sm);
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(148, 163, 184, 0.14);
+      }
+
+      .signal-value {
+        display: block;
+        font-size: 1.55rem;
+        font-weight: 800;
+        line-height: 1;
+      }
+
+      .signal-label {
+        display: block;
+        margin-top: 0.5rem;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .section-header {
+        display: grid;
+        grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+        gap: 2rem;
+        align-items: start;
+        margin-bottom: 2.2rem;
+      }
+
+      .section-tag {
+        color: #bfdbfe;
+        font-size: 0.86rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .section-header h2 {
+        margin-top: 0.8rem;
+        font-size: clamp(2rem, 4vw, 3.4rem);
+        max-width: 12ch;
+      }
+
+      .section-header p {
+        margin: 0;
+        color: var(--muted-strong);
+        font-size: 1.03rem;
+      }
+
+      .overview-panel {
+        padding: 1.7rem;
+        border-radius: var(--radius-lg);
+        background: linear-gradient(180deg, rgba(18, 27, 48, 0.96), rgba(10, 15, 30, 0.98));
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow-md);
+      }
+
+      .overview-panel h3 {
+        font-size: 1.15rem;
+        letter-spacing: -0.02em;
+      }
+
+      .overview-panel ul {
+        margin: 1rem 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .overview-panel li {
+        display: flex;
+        gap: 0.8rem;
+        align-items: flex-start;
+        color: var(--muted);
+      }
+
+      .overview-panel li + li {
+        margin-top: 0.95rem;
+      }
+
+      .overview-panel li::before {
+        content: "";
+        flex: 0 0 auto;
+        width: 0.65rem;
+        height: 0.65rem;
+        margin-top: 0.45rem;
+        border-radius: 999px;
+        background: var(--accent);
+        box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.12);
+      }
+
+      .section-shell {
+        display: grid;
+        gap: 2rem;
+      }
+
+      .platform-section,
+      .technology-section {
+        background: linear-gradient(180deg, rgba(10, 15, 30, 0.96), rgba(11, 18, 33, 0.98));
+      }
+
+      .platform-flow {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .layer-card {
+        position: relative;
+        padding: 1.45rem;
+        min-height: 220px;
+        border-radius: var(--radius-md);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow-md);
+      }
+
+      .layer-card:not(:last-child)::after {
+        content: ">";
+        position: absolute;
+        top: 50%;
+        right: -0.72rem;
+        transform: translateY(-50%);
+        width: 1.45rem;
+        height: 1.45rem;
+        border-radius: 999px;
+        background: #0e1830;
+        border: 1px solid rgba(96, 165, 250, 0.2);
+        color: #93c5fd;
+        display: grid;
+        place-items: center;
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .layer-index {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.55rem;
+        height: 2.55rem;
+        border-radius: 0.9rem;
+        background: var(--accent-soft);
+        border: 1px solid rgba(96, 165, 250, 0.18);
+        color: #bfdbfe;
+        font-size: 0.9rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+      }
+
+      .layer-card h3 {
+        margin-top: 1.1rem;
+        font-size: 1.18rem;
+      }
+
+      .layer-card p {
+        margin: 0.85rem 0 0;
+        color: var(--muted);
+        font-size: 0.96rem;
+      }
+
+      .solution-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .solution-card,
+      .feature-card,
+      .contact-card {
+        padding: 1.45rem;
+        border-radius: var(--radius-md);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow-md);
+      }
+
+      .solution-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 1rem;
+        background: linear-gradient(180deg, rgba(37, 99, 235, 0.22), rgba(37, 99, 235, 0.08));
+        border: 1px solid rgba(96, 165, 250, 0.2);
+        color: #dbeafe;
+        font-size: 0.92rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+      }
+
+      .solution-card h3,
+      .feature-card h3,
+      .contact-card h3 {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        letter-spacing: -0.02em;
+      }
+
+      .solution-card p,
+      .feature-card p,
+      .contact-card p {
+        margin: 0.8rem 0 0;
+        color: var(--muted);
+        font-size: 0.96rem;
+      }
+
+      .feature-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .feature-card {
+        background:
+          linear-gradient(180deg, rgba(18, 27, 48, 0.92), rgba(10, 15, 30, 0.98)),
+          var(--panel);
+      }
+
+      .feature-kicker {
+        display: inline-block;
+        color: #bfdbfe;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      .trust-strip {
+        padding: 1.75rem 0;
+        border-top: 1px solid rgba(148, 163, 184, 0.14);
+        border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+        background:
+          linear-gradient(180deg, rgba(15, 23, 42, 0.94), rgba(10, 15, 30, 0.98)),
+          var(--bg-elevated);
+      }
+
+      .trust-inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.9rem;
+      }
+
+      .trust-label {
+        margin-right: 0.65rem;
+        color: var(--muted-strong);
+        font-size: 0.92rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .trust-chip {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        padding: 0.55rem 0.95rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        color: #dbeafe;
+        font-size: 0.93rem;
+        font-weight: 600;
+      }
+
+      .cta-section {
+        padding-top: 5rem;
+        padding-bottom: 5.5rem;
+      }
+
+      .cta-panel {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+        gap: 1.5rem;
+        padding: 2rem;
+        border-radius: calc(var(--radius-lg) + 4px);
+        background:
+          radial-gradient(circle at top right, rgba(37, 99, 235, 0.18), transparent 26%),
+          linear-gradient(180deg, rgba(14, 25, 48, 0.98), rgba(10, 15, 30, 1));
+        border: 1px solid rgba(96, 165, 250, 0.16);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .cta-copy h2 {
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        max-width: 11ch;
+      }
+
+      .cta-copy p {
+        margin: 1rem 0 0;
+        color: var(--muted-strong);
+        max-width: 56ch;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1.1fr 1fr;
+      }
+
+      .contact-card address {
+        margin-top: 0.9rem;
+        color: var(--muted);
+        font-style: normal;
+      }
+
+      .contact-card a {
+        color: #dbeafe;
+        text-decoration: none;
+      }
+
+      .contact-card a:hover,
+      .contact-card a:focus-visible {
+        text-decoration: underline;
+      }
+
+      .contact-role {
+        display: inline-block;
+        margin-top: 0.15rem;
+        color: #bfdbfe;
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .site-footer {
+        padding: 1.4rem 0 2.2rem;
+      }
+
+      .site-footer p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .section-anchor {
+        scroll-margin-top: 5.8rem;
+      }
+
+      @media (max-width: 1080px) {
+        .hero-grid,
+        .section-header,
+        .cta-panel,
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .platform-flow {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .layer-card:not(:last-child)::after {
+          display: none;
+        }
+
+        .solution-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .feature-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 760px) {
+        .header-inner {
+          flex-wrap: wrap;
+          padding: 0.9rem 0;
+        }
+
+        .header-nav {
+          width: 100%;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          gap: 0.8rem 1rem;
+        }
+
+        section {
+          padding: 4.5rem 0;
+        }
+
+        .hero {
+          padding-top: 4.75rem;
+        }
+
+        .signal-grid,
+        .platform-flow,
+        .solution-grid,
+        .feature-grid,
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .cta-panel,
+        .hero-panel,
+        .overview-panel,
+        .solution-card,
+        .feature-card,
+        .contact-card,
+        .layer-card {
+          padding: 1.3rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        .button {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Jaeger AI home">
+          <span class="brand-mark" aria-hidden="true">JA</span>
+          <span class="brand-copy">
+            <strong>Jaeger AI</strong>
+            <span>Parent company of Rendivia</span>
+          </span>
+        </a>
+        <nav class="header-nav" aria-label="Primary">
+          <a href="#what-we-do">What We Do</a>
+          <a href="#platform">Platform</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#security">Security</a>
+          <a class="header-cta" href="#contact">Request a Demo</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-anchor" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Decision intelligence for complex organizations</span>
+            <h1 id="hero-title">Operational systems built for enterprise complexity.</h1>
+            <p>
+              Jaeger AI transforms fragmented enterprise data into automated workflows,
+              real-time decision intelligence, and operational dashboards teams can act on
+              immediately. The platform is designed for organizations that need governed AI
+              infrastructure across distributed operations, live signals, and high-stakes
+              decisions.
+            </p>
+            <p class="hero-note">
+              As the company behind Rendivia, Jaeger AI extends production-grade automation
+              into enterprise analytics, intelligence, and operational execution.
+            </p>
+            <div class="cta-row">
+              <a class="button button-primary" href="#contact">Request a Demo</a>
+              <a class="button button-secondary" href="#platform">Explore the Platform</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Platform summary">
+            <span class="panel-label">Platform at a glance</span>
+            <h2 class="panel-title">A five-layer operating stack for live enterprise decisions.</h2>
+            <p class="panel-copy">
+              Jaeger AI combines data ingestion, modeling, intelligence, agent-led execution,
+              and operational visibility in one architecture so enterprise teams can move from
+              signal to action without stitching together disconnected tools.
+            </p>
+            <div class="signal-grid">
+              <div class="signal-card">
+                <span class="signal-value">5</span>
+                <span class="signal-label">Core platform layers</span>
+              </div>
+              <div class="signal-card">
+                <span class="signal-value">&lt;50ms</span>
+                <span class="signal-label">Real-time analytics paths</span>
+              </div>
+              <div class="signal-card">
+                <span class="signal-value">SOC 2</span>
+                <span class="signal-label">Type II security posture</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="what-we-do" class="section-anchor" aria-labelledby="what-we-do-title">
+        <div class="container section-shell">
+          <div class="section-header">
+            <div>
+              <span class="section-tag">What We Do</span>
+              <h2 id="what-we-do-title">From fragmented signals to coordinated enterprise action.</h2>
+            </div>
+            <div>
+              <p>
+                Jaeger AI builds AI-powered operational systems for enterprises where data is
+                spread across business units, applications, streams, and geographies. Instead
+                of stopping at reports, the platform turns enterprise signals into structured
+                context, applied intelligence, automated workflows, and live operational
+                visibility. That makes it distinct from generic analytics or BI tools, which
+                often explain what happened but do not govern what should happen next. Jaeger
+                AI is built for buyers who need decision infrastructure, not just another
+                dashboard layer.
+              </p>
+            </div>
+          </div>
+
+          <aside class="overview-panel" aria-label="Why Jaeger AI is different">
+            <h3>Why it stands apart from standard BI stacks</h3>
+            <ul>
+              <li>It combines analytics, orchestration, and action in a single operational system.</li>
+              <li>It supports enterprise-grade governance across ML infrastructure, security, and auditability.</li>
+              <li>It is designed for live, multi-system operations where latency, scale, and control matter.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section
+        id="platform"
+        class="platform-section section-anchor"
+        aria-labelledby="platform-title"
+      >
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-tag">Platform Layers</span>
+              <h2 id="platform-title">A structured path from ingestion to operations.</h2>
+            </div>
+            <div>
+              <p>
+                The Jaeger AI platform is organized as a five-layer flow so data, logic,
+                intelligence, and user-facing execution stay connected. Each layer has a
+                specific job, and together they form the operating fabric for enterprise
+                decision systems.
+              </p>
+            </div>
+          </div>
+
+          <ol class="platform-flow">
+            <li class="layer-card">
+              <span class="layer-index">01</span>
+              <h3>Data Ingestion</h3>
+              <p>
+                Connect batch, streaming, and system-of-record inputs across enterprise
+                applications, data lakes, sensors, and third-party feeds.
+              </p>
+            </li>
+            <li class="layer-card">
+              <span class="layer-index">02</span>
+              <h3>Data Modeling</h3>
+              <p>
+                Normalize fragmented records into governed operating models that preserve
+                business context, relationships, and lineage.
+              </p>
+            </li>
+            <li class="layer-card">
+              <span class="layer-index">03</span>
+              <h3>Intelligence</h3>
+              <p>
+                Apply analytics, predictive models, graph reasoning, and drift-aware ML
+                services to generate decision-ready insight in real time.
+              </p>
+            </li>
+            <li class="layer-card">
+              <span class="layer-index">04</span>
+              <h3>Agent Layer</h3>
+              <p>
+                Orchestrate agentic workflows, escalations, approvals, and exception handling
+                across multi-step operational processes.
+              </p>
+            </li>
+            <li class="layer-card">
+              <span class="layer-index">05</span>
+              <h3>Operational Dashboards</h3>
+              <p>
+                Deliver live dashboards, alert surfaces, and decision views that keep teams,
+                operators, and leaders aligned on current conditions.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="solutions" class="section-anchor" aria-labelledby="solutions-title">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-tag">Solutions</span>
+              <h2 id="solutions-title">Built for the operating problems enterprise teams actually manage.</h2>
+            </div>
+            <div>
+              <p>
+                Jaeger AI supports decision-heavy workflows where organizations need speed,
+                precision, and clear operational control. The platform can be deployed across
+                analytics, automation, risk, intelligence, and data unification use cases.
+              </p>
+            </div>
+          </div>
+
+          <div class="solution-grid">
+            <article class="solution-card">
+              <span class="solution-icon" aria-hidden="true">OA</span>
+              <h3>Operational Analytics</h3>
+              <p>Monitor throughput, bottlenecks, utilization, and live KPIs across complex operating environments.</p>
+            </article>
+            <article class="solution-card">
+              <span class="solution-icon" aria-hidden="true">WA</span>
+              <h3>Workflow Automation</h3>
+              <p>Trigger governed task routing, approvals, interventions, and downstream actions from live business signals.</p>
+            </article>
+            <article class="solution-card">
+              <span class="solution-icon" aria-hidden="true">PI</span>
+              <h3>Predictive Intelligence</h3>
+              <p>Forecast demand, risk, failure patterns, and operational shifts before they impact service levels.</p>
+            </article>
+            <article class="solution-card">
+              <span class="solution-icon" aria-hidden="true">GI</span>
+              <h3>Geospatial Intelligence</h3>
+              <p>Combine location, route, and territory context with enterprise data to improve planning and response.</p>
+            </article>
+            <article class="solution-card">
+              <span class="solution-icon" aria-hidden="true">DI</span>
+              <h3>Enterprise Data Integration</h3>
+              <p>Connect ERP, CRM, operational systems, streams, and warehouses into a single decision layer.</p>
+            </article>
+            <article class="solution-card">
+              <span class="solution-icon" aria-hidden="true">FD</span>
+              <h3>Fraud Detection</h3>
+              <p>Detect anomalous patterns and suspicious behavior in near real time, with clear escalation paths.</p>
+            </article>
+            <article class="solution-card">
+              <span class="solution-icon" aria-hidden="true">RI</span>
+              <h3>Risk Intelligence</h3>
+              <p>Track exposure, control signals, and emerging risk indicators across processes, teams, and regions.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="technology"
+        class="technology-section section-anchor"
+        aria-labelledby="technology-title"
+      >
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-tag">Core Technology</span>
+              <h2 id="technology-title">Enterprise-grade infrastructure for intelligent operations.</h2>
+            </div>
+            <div>
+              <p>
+                Jaeger AI is engineered for organizations that need reliable execution under
+                scale, latency constraints, and governance requirements. Its architecture is
+                designed to support both continuous intelligence and auditable operational work.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-kicker">Distributed processing</span>
+              <h3>Spark and Flink pipelines</h3>
+              <p>
+                Handle large-scale batch and stream workloads without splitting intelligence
+                and execution into disconnected systems.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-kicker">Real-time analytics</span>
+              <h3>Sub-50ms decision paths</h3>
+              <p>
+                Keep dashboards, triggers, and intervention logic current while business
+                conditions are still changing.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-kicker">ML operations</span>
+              <h3>Model registries and drift detection</h3>
+              <p>
+                Govern predictive systems with version control, monitoring, and measurable
+                model performance in production.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-kicker">Agentic orchestration</span>
+              <h3>Multi-agent workflow execution</h3>
+              <p>
+                Coordinate specialized agents across approvals, exception handling, and
+                long-running operational tasks.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-kicker">Knowledge structure</span>
+              <h3>Graph databases and geospatial analysis</h3>
+              <p>
+                Surface relationships, dependencies, movement patterns, and regional anomalies
+                that flat tables miss.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-kicker">Workflow control</span>
+              <h3>DAG-based orchestration</h3>
+              <p>
+                Define multi-step processes with recoverable execution, visibility, and clear
+                operational accountability.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="security" class="trust-strip section-anchor" aria-labelledby="security-title">
+        <div class="container trust-inner">
+          <span class="trust-label" id="security-title">Security and compliance</span>
+          <span class="trust-chip">SOC 2 Type II</span>
+          <span class="trust-chip">Zero Trust networking</span>
+          <span class="trust-chip">AES-256 + TLS 1.3</span>
+          <span class="trust-chip">RBAC</span>
+          <span class="trust-chip">GDPR / CCPA tooling</span>
+          <span class="trust-chip">Immutable audit logs</span>
+        </div>
+      </section>
+
+      <section id="contact" class="cta-section section-anchor" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="cta-panel">
+            <div class="cta-copy">
+              <span class="section-tag">Enterprise contact</span>
+              <h2 id="contact-title">Built for the complexity your business already lives in.</h2>
+              <p>
+                Talk to Jaeger AI about operational analytics, workflow automation,
+                predictive intelligence, geospatial decisioning, and enterprise integration
+                requirements. The team can walk through platform fit, deployment scope, and
+                architecture considerations in a working session.
+              </p>
+              <div class="cta-row">
+                <a class="button button-primary" href="tel:0723942229">Schedule a Demo</a>
+              </div>
+            </div>
+
+            <div class="contact-grid">
+              <article class="contact-card">
+                <h3>Nairobi office</h3>
+                <address>
+                  The Mirage, 12th Floor - Tower 3<br />
+                  Chiromo Road, Westlands<br />
+                  Nairobi, Kenya<br />
+                  P.O. Box 18762-00100
+                </address>
+              </article>
+              <article class="contact-card">
+                <h3>Kevin Akama</h3>
+                <span class="contact-role">COO</span>
+                <p><a href="tel:0723942229">0723 942 229</a></p>
+              </article>
+              <article class="contact-card">
+                <h3>Yvonne Nyokabi</h3>
+                <span class="contact-role">CEO</span>
+                <p><a href="tel:0725084526">0725 084 526</a></p>
+              </article>
+              <article class="contact-card">
+                <h3>Raphael Ngare</h3>
+                <span class="contact-role">CTO</span>
+                <p><a href="tel:0725722273">0725 722 273</a></p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          Jaeger AI builds AI-powered operational systems for complex organizations and leads
+          the broader platform portfolio behind Rendivia.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
