@@ -16,6 +16,23 @@ const csp = [
 const nextConfig: NextConfig = {
   transpilePackages: ["remotion"],
   serverExternalPackages: ["@remotion/renderer"],
+  async redirects() {
+    return [
+      {
+        source: "/jaeger-ai.html",
+        destination: "/jaeger-ai",
+        permanent: true,
+      },
+    ];
+  },
+  async rewrites() {
+    return [
+      {
+        source: "/jaeger-ai",
+        destination: "/jaeger-ai.html",
+      },
+    ];
+  },
   async headers() {
     return [
       {

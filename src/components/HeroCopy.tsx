@@ -34,7 +34,6 @@ const CTA_VARIANTS: Record<VariantKey, string> = {
 };
 
 const SECONDARY_CTA_LABEL = "View API docs";
-const JAEGER_AI_HREF = "/jaeger-ai.html";
 
 const STORAGE_KEY = "rendivia_ab_hero_v1";
 
@@ -89,16 +88,8 @@ export default function HeroCopy() {
 
   return (
     <div className="hero-sequence">
-      <TrackedLink
-        href={JAEGER_AI_HREF}
-        eventName="cta_view_parent_company"
-        eventProps={{ location: "home_hero_context", heroVariant, ctaVariant }}
-        className="inline-flex w-fit items-center gap-2 rounded-full border border-[var(--accent-secondary)]/15 bg-[var(--accent-light)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--accent-secondary)]"
-      >
-        Rendivia by Jaeger AI
-      </TrackedLink>
       <p
-        className="mt-4 text-xs font-semibold uppercase tracking-wide text-[var(--accent)]"
+        className="text-xs font-semibold uppercase tracking-wide text-[var(--accent)]"
         style={withDelay(0)}
       >
         {hero.eyebrow}

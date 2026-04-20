@@ -13,11 +13,10 @@ import {
 import { trackEvent } from "@/lib/analytics";
 import { BrandLogo } from "@/components/BrandLogo";
 
-const JAEGER_AI_HREF = "/jaeger-ai.html";
+const JAEGER_AI_HREF = "/jaeger-ai";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: JAEGER_AI_HREF, label: "About Jaeger AI" },
   { href: "/use-cases", label: "Use cases" },
   { href: "/docs", label: "Docs" },
   { href: "/pricing", label: "Pricing" },
@@ -149,16 +148,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-200/90 bg-[var(--surface)]/95 shadow-[0_8px_28px_rgba(15,23,42,0.05)] backdrop-blur supports-[backdrop-filter]:bg-[var(--surface)]/90">
       <div className="border-b border-zinc-200/80 bg-[var(--accent-light)]">
-        <div className="mx-auto flex min-h-[2.5rem] max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-2 sm:px-6">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--accent-secondary)]">
-            Rendivia is part of Jaeger AI
-          </p>
+        <div className="mx-auto flex min-h-[2.5rem] max-w-6xl items-center justify-end px-4 py-2 sm:px-6">
           <Link
             href={JAEGER_AI_HREF}
             className="touch-target inline-flex min-h-[36px] items-center text-xs font-semibold text-zinc-700 hover:text-zinc-900"
             onClick={() => trackEvent("cta_view_parent_company", { location: "header_strip" })}
           >
-            Learn about the Jaeger AI platform
+            Learn about Jaeger AI
           </Link>
         </div>
       </div>
@@ -181,9 +177,6 @@ export function Header() {
               onClick={() => {
                 if (link.href === "/docs") {
                   trackEvent("cta_view_docs", { location: "header_nav" });
-                }
-                if (link.href === JAEGER_AI_HREF) {
-                  trackEvent("cta_view_parent_company", { location: "header_nav" });
                 }
               }}
             >
@@ -256,9 +249,6 @@ export function Header() {
                   onClick={() => {
                     if (link.href === "/docs") {
                       trackEvent("cta_view_docs", { location: "mobile_nav" });
-                    }
-                    if (link.href === JAEGER_AI_HREF) {
-                      trackEvent("cta_view_parent_company", { location: "mobile_nav" });
                     }
                     setMenuOpen(false);
                   }}

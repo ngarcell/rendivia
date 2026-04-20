@@ -34,7 +34,7 @@ const POLICY_PATH = path.join(INPUTS_DIR, "index-priority.json");
 
 const STATIC_PATHS = [
   "/",
-  "/jaeger-ai.html",
+  "/jaeger-ai",
   "/pricing",
   "/enterprise",
   "/docs",

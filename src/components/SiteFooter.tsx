@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { BrandLogo } from "@/components/BrandLogo";
 
-const JAEGER_AI_HREF = "/jaeger-ai.html";
+const JAEGER_AI_HREF = "/jaeger-ai";
 
 /**
  * Shared footer for all landing pages - matches homepage structure.
@@ -23,12 +23,6 @@ export function SiteFooter() {
             />
           </Link>
           <div className="flex flex-wrap gap-x-4 gap-y-2 sm:gap-x-6">
-            <Link
-              href={JAEGER_AI_HREF}
-              className="touch-target inline-flex min-h-[44px] items-center text-sm text-zinc-600 hover:text-zinc-900"
-            >
-              About Jaeger AI
-            </Link>
             <Link
               href="/docs"
               className="touch-target inline-flex min-h-[44px] items-center text-sm text-zinc-600 hover:text-zinc-900"
@@ -90,10 +84,6 @@ export function SiteFooter() {
         </div>
         <p className="mt-6 flex flex-wrap items-center gap-x-2 gap-y-2 text-sm text-zinc-500 sm:gap-x-3">
           <span className="shrink-0">Explore:</span>
-          <Link href={JAEGER_AI_HREF} className="touch-target inline-flex min-h-[44px] items-center hover:text-zinc-700">
-            Jaeger AI
-          </Link>
-          <span aria-hidden>|</span>
           <Link href="/use-cases" className="touch-target inline-flex min-h-[44px] items-center hover:text-zinc-700">
             Use cases
           </Link>
